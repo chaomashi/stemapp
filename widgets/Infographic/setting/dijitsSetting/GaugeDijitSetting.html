@@ -1,0 +1,101 @@
+<div>
+  <div data-dojo-attach-point="settingTitle" class="flex-lc text-label settingTitle">${nls.gaugeSettings}</div>
+  <div class="infohraphic-setting-tab-container" style="width:100%;">
+    <div data-dojo-attach-point="tabNode" class="infohraphic-setting-tab-container"></div>
+    <!-- data tab -->
+    <div style="margin-top: 10px;" class="settingTabs" data-dojo-attach-point="dataTab">
+      <div data-dojo-attach-point="singleNumberStatisticsDiv"></div>
+
+      <div class="flex flex-leave1">
+        <div style="width: 210px;" class="flex-leave2-left font-style textOverFlow" title="${nls.dataRange}">${nls.dataRange}</div>
+        <div class="flex flex-leave2-right">
+          <div class="flex-leave3-left font-style textOverFlow text-left-center" font-style title="${nls.min}">${nls.min}</div>
+          <div class="flex-leave3-right">
+            <input value=0 class="data-range-value" type="text"data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" required="true" data-dojo-attach-point="dataRangeMin" data-dojo-attach-event="change:_onSettingsChange"/>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex flex-leave1 margin-top-11">
+        <div style="width: 210px;" class="flex-leave2-left"></div>
+        <div class="flex flex-leave2-right">
+          <div class="flex-leave3-left font-style textOverFlow text-left-center" title="${nls.max}">${nls.max}</div>
+          <div class="flex-leave3-right">
+            <input value=0 class="data-range-value" type="text"data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" required="true" data-dojo-attach-point="dataRangeMax" data-dojo-attach-event="change:_onSettingsChange"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- display tab -->
+    <div style="margin-top: 20px;" data-dojo-attach-point="display" class="display-container paddingRight10">
+
+      <div class="flex flex-leave1 align-items-center">
+        <div class="flex-leave2-left textOverFlow font-style" title="${nls.backgroundColor}">${nls.backgroundColor}</div>
+         <div class="flex flex-leave2-right">
+           <div data-dojo-attach-point="backgroundColorPickerDiv"></div>
+         </div>
+      </div>
+      
+      <div class="flex flex-leave1 margin-top-11 align-items-center">
+        <div class="flex-leave2-left textOverFlow font-style" title="${nls.gaugeColor}">${nls.gaugeColor}</div>
+         <div class="flex flex-leave2-right">
+           <div data-dojo-attach-point="gaugeColorPickerDiv"></div>
+         </div>
+      </div>
+
+
+      <div data-dojo-attach-point="dataLabelsToggle" class="margin-top-11"></div>
+      <div data-dojo-attach-point="dataLabelsSettingNode" class="top-bottom-setting-div">
+
+        <div class="flex flex-leave1 margin-top-11 align-items-center">
+          <div class="flex-leave2-left textOverFlow font-style" title="${nls.textColor}">${nls.textColor}</div>
+           <div class="flex flex-leave2-right">
+             <div data-dojo-attach-point="dataLabelsColorPickerNode"></div>
+           </div>
+        </div>
+        
+        <div class="flex flex-leave1 margin-top-11 align-items-center">
+          <div class="flex-leave2-left textOverFlow font-style" title="${nls.dataRange}">${nls.dataRange}</div>
+           <div class="flex flex-leave2-right">
+             <div data-dojo-attach-point="dataRangeSwitch" class="toggle toggle-on"></div>
+           </div>
+        </div>
+        
+        <div class="flex flex-leave1 margin-top-11 align-items-center">
+          <div class="flex-leave2-left textOverFlow font-style" title="${nls.targetValue}"><div>${nls.targetValue}</div></div>
+           <div class="flex flex-leave2-right">
+             <div data-dojo-attach-point="targetValueSwitch" class="toggle toggle-off"></div>
+           </div>
+        </div>
+
+      </div>
+
+      <div data-dojo-attach-point="currentValueToggle"></div>
+      <div data-dojo-attach-point="currentValueSettingNode">
+        <!-- display in -->
+        <div style="margin-top: 15px" class="flex flex-leave1">
+          <div class="flex-leave2-left textOverFlow font-style" title="${nls.displayValueIn}">${nls.displayValueIn}</div>
+           <div class="flex-start flex-leave2-right">
+              <input type="radio" name="displayIn" data-dojo-attach-event="change:_onDiaplayInRatio" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="ratioBtn">
+              <label class="marginleft10">${nls.ratio}</label>
+           </div>
+        </div>
+
+        <div class="flex flex-leave1 margin-top-11">
+          <div class="flex-leave2-left font-style"></div>
+           <div class="flex-start flex-leave2-right">
+              <input type="radio" checked="true" name="displayIn" data-dojo-attach-event="change:_onDisplayInTrueValue" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="trueValueBtn">
+              <label class="marginleft10">${nls.trueValue}</label>
+           </div>
+        </div>
+
+        <div data-dojo-attach-point="dataFormatSettingNode" class="margin-top-11"></div>
+        <div data-dojo-attach-point="fontSettingNode"></div>
+
+      </div>
+
+    </div>
+    <!-- indicators tab -->
+  	<div style="margin-top: 20px;" class="indicatorsTitlePane paddingRight10" data-dojo-attach-point="indicatorsDiv"></div>
+  </div>
+</div>

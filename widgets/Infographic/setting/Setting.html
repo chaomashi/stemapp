@@ -1,0 +1,53 @@
+<div>
+
+  <div class="widget-setting-header">
+    <div class="tip flex-lc">${nls.dataSource}</div>  
+
+    <div class="data-source">
+      <div class="url marginRight10" data-dojo-attach-point="urlTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true,trim:true,disabled:true' style="width:100%;"></div>
+      <div style="cursor: pointer;" class="jimu-icon jimu-icon-setting" data-dojo-attach-event="click:_onBtnDataSourceClicked"></div>
+    </div>
+
+    <div  class="filter-extent-selection flex-lc" style="display: flex;">
+      <div class="flex-keep-auto" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="dataSourceUseSelection"></div>
+      <div class="marginleft10 flex-keep-auto" data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="dataSourceFilterByExtent"></div>
+    </div>
+  </div>
+  
+  <div class="widget-setting-body">
+
+    <div data-dojo-attach-point="bodySection" class="body-section">
+
+      <div class="preview-section">
+        <div class="preview-container">
+          <div class="visual-controller-container">
+            <div data-dojo-attach-point="visualContainer" class="visual-controller-component"></div>
+            <div class="layout-reset" data-dojo-attach-event="click:_onResetLayoutClicked"></div>
+          </div>
+          
+          <div class="card-container">
+            <div data-dojo-attach-point="cardContent" class="card-content"></div>
+          </div>
+          <div data-dojo-attach-point="chooseTemplateBtn" class="change-template-box change-template-style textOverFlow" data-dojo-attach-event="click:_onChooseTemplateClick" title="${nls.changeTemplate}">${nls.changeTemplate}</div>
+        </div>
+      </div>
+
+      <div class="mid-line"></div>
+
+      <div data-dojo-attach-point="settingSection" class="setting-section">
+        <div data-dojo-attach-point="settingContainer" class="settingContainer">
+          <div data-dojo-attach-point="settingContent" class="settingContent"></div>
+        </div>
+      </div>
+
+      <div class="settingTip" data-dojo-attach-point="settingTip">
+        <div class="settingTip-title">${nls.settings}</div>
+        <div class="settingTip-text textOverFlow marginTop15" title="${nls.noSettingWaring1}">${nls.noSettingWaring1}</div>
+        <div class="settingTip-text textOverFlow marginTop10" title="${nls.noSettingWaring2}">${nls.noSettingWaring2}</div>
+      </div>
+
+    </div>
+  </div>
+
+    <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

@@ -1,0 +1,25 @@
+.drs-widget-dashboard .sectionHeading,
+#filterContainer a{
+  color: #FFF;
+}
+
+.drs-widget-dashboard .chart-div > div > div { /* chart label*/
+  color: #FFF !important;
+}
+
+.drs-widget-dashboard .chart-div svg line { /* chart line*/
+  stroke: #FFF;
+}
+
+#filterContainer li a.current {
+  background-color: #666;
+}
+
+.drs-widget-dashboard .paging-section ul li a {
+  background-image: url(../images/dot2.png);
+}
+
+.drs-widget-dashboard .paging-section ul li a:hover,
+.drs-widget-dashboard .paging-section ul li.selected a {
+  background-image: url(../images/dot1.png);
+}

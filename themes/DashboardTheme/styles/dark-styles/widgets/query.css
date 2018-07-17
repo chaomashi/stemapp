@@ -1,0 +1,27 @@
+.jimu-widget-query .first-stress{
+  color: white;
+}
+
+.jimu-widget-query .query-tab-item{
+  color: #666666;
+}
+
+.jimu-widget-query .query-tab-item.selected{
+  color: white;
+}
+
+.jimu-widget-query .jimu-table-row.jimu-state-active {
+  background-color: #666;
+}
+
+.jimu-widget-query .query-result-item-table .esriViewPopup{
+  color: white;
+}
+
+.jimu-widget-query .query-result-item-table .esriViewPopup .mainSection .attrTable td.attrName{
+  color: white;
+}
+
+.jimu-widget-query .list-table tr.single-task:hover, .jimu-widget-query .list-table tr.single-task.selected{
+  background-color: #444;
+}

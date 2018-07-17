@@ -1,0 +1,197 @@
+<div style="width:100%;height:auto;">
+	<table style="width:100%;" cellspacing="0">
+		<colgroup>
+			<col width="187px" />
+			<col width="auto" />
+		</colgroup>
+		<tbody>
+			<tr>
+				<td>
+					<span class="jimu-ellipsis">${nls.routeUrl}</span>
+				</td>
+				<td class="route-td">
+					<select data-dojo-attach-point="routeUrl" data-dojo-type="jimu/dijit/ServiceURLComboBox"
+									data-dojo-attach-props="trim:true;hasDownArrow:false;autoComplete:true"
+									id="routeLayer" name="routeLayer" style="width:100%;height:30px;">
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="jimu-ellipsis">${nls.locatorUrl}</span>
+				</td>
+				<td class="locator-td">
+					<input data-dojo-attach-point="locatorUrl" data-dojo-type="jimu/dijit/ServiceURLComboBox"
+					data-dojo-attach-props="trim:true" type="text" style="width:100%;" placeHolder="${_locatorUrl}" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>${nls.travelModesUrl}</span>
+				</td>
+				<td class="travelmodes-td">
+					<input data-dojo-attach-point="travelModesUrl" data-dojo-type="jimu/dijit/ServiceURLInput"
+					data-dojo-attach-props="trim:true" type="text" style="width:100%;"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>${nls.trafficLayerUrl}</span>
+				</td>
+				<td class="trafficlayer-td">
+					<input data-dojo-attach-point="trafficLayerUrl" data-dojo-type="jimu/dijit/ServiceURLInput"
+					data-dojo-attach-props="trim:true" type="text" style="width:100%;"/>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<span class="title">${nls.geocoderOptions}</span>
+	<table style="width:100%;" cellspacing="0">
+		<tbody>
+			<tr>
+				<td style="width:50%;" class="auto-complete-td" data-dojo-attach-point="autoCompleteTd">
+					<span>${nls.autoComplete}</span>
+				</td>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="search-delay">${nls.searchDelay}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="searchDelay" data-dojo-type="dijit/form/NumberSpinner" data-dojo-props='required:true,value:350,smallDelta:1,largeDelta:10,constraints:{min:10},intermediateChanges:true' type="text" style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="jimu-ellipsis">${nls.maximumSuggestions}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="maximumSuggestions" data-dojo-type="dijit/form/NumberSpinner" data-dojo-props='required:true,value:6,smallDelta:1,largeDelta:1,constraints:{min:1},intermediateChanges:true' type="text" style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="min-characters jimu-ellipsis">${nls.minCharacters}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="minCharacters" data-dojo-type="dijit/form/NumberSpinner" data-dojo-props='required:true,value:3,smallDelta:1,largeDelta:1,constraints:{min:3},intermediateChanges:true' type="text" style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span>${nls.placeholder}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="placeholder" data-dojo-type="dijit/form/ValidationTextBox" type="text" style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<span class="title">${nls.routeOptions}</span>
+	<table style="width:100%;" cellspacing="0">
+		<tbody>
+			<tr>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="jimu-ellipsis">${nls.directionsLanguage}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="directionsLanguage" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true' style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td style="width:50%;">
+					<table  style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px">
+									<span class="length-units jimu-ellipsis">${nls.directionsLengthUnits}</span>
+								</td>
+								<td style="width:auto;">
+									<select data-dojo-attach-point="directionsLengthUnits" data-dojo-type="dijit/form/Select" style="width:220px;height:30px;">
+										<option value="esriFeet">${nls.feet}</option>
+										<option value="esriKilometers" selected>${nls.kilometers}</option>
+										<option value="esriMeters">${nls.meters}</option>
+										<option value="esriMiles">${nls.miles}</option>
+										<option value="esriNauticalMiles">${nls.nauticalMiles}</option>
+										<option value="esriYards">${nls.yards}</option>
+									</select>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="jimu-ellipsis">${nls.directionsOutputType}</span>
+								</td>
+								<td style="width:auto;">
+									<select data-dojo-attach-point="directionsOutputType" data-dojo-type="dijit/form/Select" style="width:220px;height:30px;">
+										<option value="standard" selected>${nls.standard}</option>
+										<option value="complete">${nls.complete}</option>
+										<option value="complete-no-events">${nls.completeNoEvents}</option>
+										<option value="instructions-only">${nls.instructionsOnly}</option>
+										<option value="summary-only">${nls.summaryOnly}</option>
+									</select>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td style="width:50%;">
+					<table style="width:100%;" cellspacing="0">
+						<tbody>
+							<tr>
+								<td style="width:200px;">
+									<span class="impedance-attribute jimu-ellipsis">${nls.impedanceAttribute}</span>
+								</td>
+								<td style="width:auto;">
+									<input data-dojo-attach-point="impedanceAttribute" data-dojo-type="dijit/form/ValidationTextBox"  style="width:220px;" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div data-dojo-attach-point="presetDestinations"></div>
+</div>

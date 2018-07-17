@@ -1,0 +1,110 @@
+{
+  "widgetOnScreen": {
+    "widgets": [{
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "height": 40,
+        "relativeTo": "browser"
+      }
+    },{
+      "position": {
+        "left": 7,
+        "bottom": 25
+      }
+    }, {
+      "position": {
+        "left": 55,
+        "top": 5
+      }
+    }, {
+      "position": {
+        "left": 7,
+        "bottom": 5
+      }
+    },{
+      "position": {
+        "left": 7,
+        "bottom": 70
+      }
+    }, {
+      "position": {
+        "left": 57,
+        "bottom": 70
+      }
+    }, {
+      "position": {
+        "left": 107,
+        "bottom": 70
+      }
+    },{
+      "position": {
+        "right": 0,
+        "bottom": 0
+      }
+    }, {
+      "position": {
+        "left": 7,
+        "top": 75
+      }
+    }, {
+      "position": {
+        "left": 7,
+        "top": 110
+      }
+    }],
+    "groups": [{
+      "visible": false,
+      "panel": {
+        "uri": "themes/JewelryBoxTheme/panels/LDockablePanel/Panel",
+        "position": {
+          "left": 0,
+          "top": 40,
+          "bottom": 0,
+          "width": 360,
+          "relativeTo": "browser"
+        }
+      }
+    }]
+  },
+
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        },
+        "ph_4": {
+          "position": {
+            "left": 7,
+            "bottom": 70
+          }
+        },
+        "ph_5": {
+          "position": {
+            "left": 57,
+            "bottom": 70
+          }
+        },
+        "ph_6": {
+          "position": {
+            "left": 107,
+            "bottom": 70
+          }
+        }
+      }
+    }
+  }
+}

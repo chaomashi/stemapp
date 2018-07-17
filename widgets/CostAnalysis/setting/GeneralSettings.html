@@ -1,0 +1,67 @@
+<div>
+  <div class="esriCTFieldContainer esriCTFullWidth">
+    <div class="esriCTGeneralSettingsLabel esriCTEllipsis esriCTVerticalCenterAlignLabel" title="${nls.generalSettings.measurementUnitLabel}">${nls.generalSettings.measurementUnitLabel}:</div>
+    <div class="esriCTDropDownContainer">
+      <select class="esriCTFullWidth" data-dojo-type="dijit/form/Select" data-dojo-attach-point="measurementUnitInputNode">
+        <option value="feet">${nls.units.feet.label}</option>
+        <option value="meters">${nls.units.meters.label}</option>
+        <option value="miles">${nls.units.miles.label}</option>
+        <option value="yards">${nls.units.yards.label}</option>
+        <option value="kilometers">${nls.units.kilometers.label}</option>
+      </select>
+    </div>
+  </div>
+  <div class="esriCTFieldContainer esriCTFullWidth">
+    <div class="esriCTGeneralSettingsLabel esriCTEllipsis esriCTVerticalCenterAlignLabel" title="${nls.generalSettings.currencyLabel}">${nls.generalSettings.currencyLabel}:</div>
+    <div class="esriCTDropDownContainer">
+      <div class="esriCTFullWidth" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="maxLength:'3'" data-dojo-attach-point="currencyInputNode" trim="true"
+        required="true">
+      </div>
+    </div>
+  </div>
+  <div class="esriCTFieldContainer esriCTFullWidth">
+    <div class="esriCTGeneralSettingsLabel esriCTEllipsis esriCTVerticalCenterAlignLabel" title="${nls.generalSettings.roundCostLabel}">${nls.generalSettings.roundCostLabel}:</div>
+    <div class="esriCTDropDownContainer">
+      <select class="esriCTFullWidth" data-dojo-type="dijit/form/Select" data-dojo-attach-point="roundCostInputNode">
+        <option value="twoDecimalPoint">${nls.generalSettings.roundCostValues.twoDecimalPoint}</option>
+        <option value="nearestWholeNumber">${nls.generalSettings.roundCostValues.nearestWholeNumber}</option>
+        <option value="nearestTen">${nls.generalSettings.roundCostValues.nearestTen}</option>
+        <option value="nearestHundred">${nls.generalSettings.roundCostValues.nearestHundred}</option>
+        <option value="nearestThousand">${nls.generalSettings.roundCostValues.nearestThousand}</option>
+        <option value="nearestTenThousands">${nls.generalSettings.roundCostValues.nearestTenThousands}</option>
+      </select>
+    </div>
+  </div>
+  <fieldset class="esriCTProjectOutputSettingsFieldset">
+    <legend class="esriCTProjectOutputSettingsLegend" title="${nls.generalSettings.projectOutputSettings}">
+      ${nls.generalSettings.projectOutputSettings} </legend>
+    <div class="esriCTFullWidth esriCTFullHeight esriCTProjectSettingsContainer">
+      <div class="esriCTProjectSettingsOutputLeftContainer">
+        <div class="esriCTProjectAreaTypeContainer esriCTVerticalCenterAlignLabel esriCTEllipsis" title="${nls.generalSettings.typeOfProjectAreaLabel}">${nls.generalSettings.typeOfProjectAreaLabel}:</div>
+        <div class="esriCTProjectAreaTypeInputContainer">
+          <div class="">
+            <select class="esriCTFullWidth" data-dojo-type="dijit/form/Select" data-dojo-attach-point="projectAreaTypeInputNode">
+              <option value="outline">${nls.generalSettings.projectAreaType.outline}</option>
+              <option value="buffer">${nls.generalSettings.projectAreaType.buffer}</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+      <div class="esriCTProjectSettingsOutputRightContainer esriCTHidden" data-dojo-attach-point="projectSettingsOutputRightContainerNode">
+        <div class="esriCTBufferDistanceLabelContainer">
+          <div class="esriCTBufferDistanceLabel esriCTVerticalCenterAlignLabel esriCTEllipsis" title="${nls.generalSettings.bufferDistanceLabel}">${nls.generalSettings.bufferDistanceLabel}:
+          </div>
+        </div>
+        <div class="esriCTBufferDistanceInputContainer">
+          <div class="esriCTFullWidth" data-dojo-type="dijit/form/NumberTextBox" disabled=true data-dojo-attach-point="bufferDistanceInputNode"
+            trim="true" required="true" data-dojo-props="">
+          </div>
+        </div>
+        <div class="esriCTProjectMeasurementUnitContainer">
+          <div class="esriCTVerticalCenterAlignLabel esriCTEllipsis esriCTBufferDistanceUnit" data-dojo-attach-point="bufferDistanceUnit">${nls.units.feet.label}</div>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</div>

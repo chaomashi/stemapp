@@ -1,0 +1,11 @@
+@import url('../common.css');
+
+.grid-overlay-widget {
+  position: relative;
+}
+
+.grid-overlay-widget .btnContainer {
+  text-align: center;
+  margin-top: 6px;
+  padding-right: 10px;
+}

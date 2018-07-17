@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>text-format</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NoChooseElement" transform="translate(-306.000000, -385.000000)" fill="#767676">
+            <g id="4Buttons" transform="translate(290.000000, 374.000000)">
+                <g id="Title+Icon">
+                    <g id="Button_ChangeTemplate">
+                        <g id="text-format" transform="translate(16.000000, 11.000000)">
+                            <path d="M0,16 L0,18 L18,18 L18,16 L0,16 L0,16 Z M5.81818182,10.4 L12.1818182,10.4 L13.3272727,13 L16,13 L10.0181818,0 L8.10909091,0 L2,13 L4.67272727,13 L5.81818182,10.4 L5.81818182,10.4 Z M11,8 L7,8 L8.95675676,2 L11,8 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

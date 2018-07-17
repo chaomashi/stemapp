@@ -1,0 +1,32 @@
+<div>
+  <div class="header">
+    <div class="model-colormap pull-right">
+      <span data-dojo-attach-point="colormapSelectorNode"></span>
+    </div>
+    <h4><span class="bullet-number">2</span>${i18n.wro.designModelCaption}</h4>
+    <div class="layer-visibility">
+      <label>${i18n.wro.visible}:
+        <input type="checkbox" disabled="disabled"
+          data-dojo-attach-point="visibleModelNode"  />
+      </label>
+      <label>${i18n.wro.transparency}:</label>
+      <span  class="modeler-transparency-slider" style="width:150px;"
+        data-dojo-attach-point="sliderNode"
+        data-dojo-type="dijit/form/HorizontalSlider"
+        data-dojo-props="minimum: 0, maximum:1, value: 0.0, intermediateChanges:true, showButtons:false" >
+      </span>
+    </div>
+  </div>
+  <div class="body">
+    <div class="weighted-overlay-layer-editors"
+      data-dojo-attach-point="containerNode" >
+    </div>
+    <div class="weight-pct weight-pct-total">
+      <div class="weight-pct-label">${i18n.wro.total}: </div>
+      <div class="weight-pct-total-wrapper"
+        data-dojo-attach-point="weightTotalWrapper" >
+        <span data-dojo-attach-point="weightTotalNode"></span> &#37;
+      </div>
+    </div>
+  </div>
+</div>

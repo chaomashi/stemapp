@@ -1,0 +1,63 @@
+{
+  "pointSymbol": {
+    "color": [
+      240,
+      18,
+      69,
+      255
+    ],
+    "size": 15,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0,
+    "type": "esriSMS",
+    "style": "esriSMSSquare",
+    "outline": {
+      "color": [
+        29,
+        29,
+        53,
+        255
+      ],
+      "width": 0.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    }
+  },
+  "lineTypes": [
+    {
+      "type": null,
+      "label": "Connection Line",
+      "symbol": {
+        "color": [
+          255,
+          0,
+          0,
+          255
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSDash"
+      }
+    },
+    {
+      "type": null,
+      "label": "Boundary Line",
+      "symbol": {
+        "color": [
+          29,
+          32,
+          23,
+          255
+        ],
+        "width": 2,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      }
+    }
+  ],
+  "snappingTolerance": 15,
+  "miscloseSnapDistance": 5,
+  "miscloseSnapDistanceUnit": "uSSurveyFeet",
+  "miscloseRatioSnap": 5000
+}

@@ -1,0 +1,212 @@
+<div style="width: 100%;height: 100%;">
+	<div class="esriCTMainContainer">
+		<div class=".esriCTTabDiv" data-dojo-attach-point="tabDiv">
+			<!--Parcel layer tab contents-->
+			<div data-dojo-attach-point="parcelLineLayerNode" class="esriCTFullHeight esriCTTabNode">
+				<!--1.Parcel layer chooser-->
+				<div class="esriCTLayerContainer row">
+					<div class="esriCTSelectLayerLabel esriCTEllipsis">
+						${nls.selectLayerLabel}
+					</div>
+					<div>
+						<div class="esriCTSelectedLayersDiv" data-dojo-attach-point="layersNode">
+						</div>
+						<div class="esriCTSetButton jimu-btn jimu-float-trailing" data-dojo-attach-point="selectLineLayerBtnNode">
+							${nls.setBtnLabel}</div>
+						<div class="esriCTHint esriCTLayerHint">
+							${nls.selectLayerHintText}
+						</div>
+					</div>
+				</div>
+				<!--2.Parcel point symbol selectors-->
+				<div class="esriCTLayerContainer row">
+					<div class="esriCTLabel esriCTPointSymbolLabel esriCTEllipsis">
+						${nls.parcelLineLayer.parcelPointSymbolLabel}
+					</div>
+					<div class="esriCTPreviewField" data-dojo-attach-point="pointSymbolNode">
+					</div>
+					<div class="esriCTHint esriCTPreviewHintField">
+						${nls.parcelLineLayer.parcelPointSymbolHintText}
+					</div>
+				</div>
+				<!--3.Line Layer field selectors-->
+				<div class="esriCTMainFieldsetContainer row">
+					<fieldset class="esriCTFieldSet">
+						<legend class="esriCTFieldSetLegend">${nls.parcelLineLayer.selectFieldLegendLabel}</legend>
+						<div class="esriCTFieldsContainer">
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.bearingFieldLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="bearingFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.chordLengthFieldLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="chordLengthFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.distanceFieldLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="distanceFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.sequenceIdFieldLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="sequenceIdFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.radiusFieldLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="radiusFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.foreignKeyFieldLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="foreignKeyFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.arcLengthFieldLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="arcLengthFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelLineLayer.lineTypeFieldLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="lineTypeFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTLineTypeTableContanier row">
+								<div data-dojo-attach-point="lineTypeNode">
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+				<!--4. Polygon Layer field selectors-->
+				<div class="esriCTMainFieldsetContainer row">
+					<fieldset class="esriCTFieldSet">
+						<legend class="esriCTFieldSetLegend">${nls.parcelPolygonLayer.selectFieldLegendLabel}</legend>
+						<div class="esriCTFieldsContainer">
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.parcelNameLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="parcelNameFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.rotationLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="rotationFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.planNameLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="planNameFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.scalingLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="scaleFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.documentTypeLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="documentTypeFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.miscloseRatioLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="miscloseRatioFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.statedAreaLabel}</div>
+								<div class="esriCTDropBoxContainerLeft"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="statedAreaFieldNode">
+         	   		</select>
+								</div>
+							</div>
+							<div class="esriCTField">
+								<div class="esriCTLabel esriCTEllipsis">${nls.parcelPolygonLayer.miscloseDistanceLabel}</div>
+								<div class="esriCTDropBoxContainerRight"><select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="miscloseDistanceFieldNode">
+         	   		</select>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+			<!-- Parcel layer tab contents ends -->
+			<!-- Advance settings tab content -->
+			<div data-dojo-attach-point="closureSettingsNode" class="esriCTFullHeight esriCTTabNode">
+				<!--1.Snapping layer chooser-->
+				<div class="esriCTLayerContainer row">
+					<div class="esriCTSelectLayerLabel esriCTEllipsis" data-dojo-attach-point="addLayersLabelNode">
+						${nls.closureSetting.snappingLayerLabel}
+					</div>
+					<div>
+						<div class="esriCTSelectedSnappingLayersDiv" data-dojo-attach-point="snappingLayerNode">
+						</div>
+						<div class="esriCTAddLayerButton jimu-btn jimu-float-trailing" data-dojo-attach-point="snappingLayerBtnNode">
+							${nls.setBtnLabel}</div>
+					</div>
+					<div class="esriCTHint esriCTLayerHint">
+						${nls.closureSetting.snappingLayerHintText}
+					</div>
+				</div>
+				<!--2. Closure settings field selectors-->
+				<div class="esriCTClosureFieldsContainer">
+					<div class="esriCTClosureField">
+						<div class="esriCTLabel esriCTClosureLabel esriCTEllipsis">${nls.closureSetting.miscloseDistanceLabel}</div>
+						<div class="esriCTClosureBoxContainer">
+							<div class="esriCTClosureTextBox" data-dojo-type="dijit/form/NumberTextBox" trim="true" required="true" data-dojo-attach-point="miscloseDistanceNode">
+							</div>
+							<div class="esriCTUnitsDropBox">
+								<select class="esriCTClosureTextBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="miscloseDistanceUnitNode">
+         	   		</select>
+							</div>
+						</div>
+						<div class="esriCTHint esriCTClosureTabHint">
+							${nls.closureSetting.miscloseDistanceHintText}
+						</div>
+					</div>
+					<div class="esriCTClosureField">
+						<div class="esriCTLabel esriCTClosureLabel esriCTEllipsis">${nls.closureSetting.miscloseRatioLabel}</div>
+						<div class="esriCTClosureBoxContainer">
+							<div class="esriCTClosureTextBox" data-dojo-type="dijit/form/NumberTextBox" trim="true" required="true" data-dojo-attach-point="miscloseRatioNode">
+							</div>
+						</div>
+						<div class="esriCTHint esriCTClosureTabHint">
+							${nls.closureSetting.miscloseRatioHintText}
+						</div>
+					</div>
+					<div class="esriCTClosureFieldsContainer">
+						<div class="esriCTClosureField">
+							<div class="esriCTLabel esriCTClosureLabel esriCTEllipsis">${nls.closureSetting.snappingToleranceLabel}</div>
+							<div class="esriCTClosureBoxContainer">
+								<div data-dojo-type="dijit/form/NumberSpinner" class="esriCTClosureTextBox" value="15" data-dojo-attach-point="toleranceNode">
+								</div>
+								<div class="esriCTPixelsDiv">${nls.closureSetting.pixelLabel}</div>
+							</div>
+							<div class="esriCTHint esriCTClosureTabHint">
+								${nls.closureSetting.snappingToleranceHintText}
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Closure settings field selectors end -->
+			</div>
+			<!-- Advance settings tab content end -->
+		</div>
+	</div>
+</div>

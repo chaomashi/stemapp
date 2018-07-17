@@ -1,0 +1,69 @@
+<div>
+	<fieldset class="esriCTFieldSet">
+		<legend class="esriCTFieldSetLegend">
+			${nls.projectSettings.costingGeometrySectionTitle}
+		</legend>
+		<div class="esriCTNote esriCTFullWidth">${nls.projectSettings.costingGeometrySectionNote}</div>
+		<div class="esriCTRowContainer esriCTFullWidth">
+			<!--Costing Geometry Layer Label-->
+			<div title="${nls.projectSettings.costingGeometryLayerLabel}" class="esriCTLabelContainer esriCTEllipsis">
+				${nls.projectSettings.costingGeometryLayerLabel}:
+			</div>
+			<!--Costing Geometry Later Dropdown-->
+			<select class="esriCTDropDownContainer" data-dojo-attach-point="costingGeometryLayerDropDown" data-dojo-type="dijit/form/Select">
+		</select>
+		<div class="esriCTHelpIcon" data-dojo-attach-point="costingGeometryHelp"></div>
+		</div>
+		<div class="esriCTRowContainer esriCTFullWidth">
+			<!--Field to Label Geography Label-->
+			<div title="${nls.projectSettings.fieldLabelGeography}" class="esriCTLabelContainer esriCTEllipsis">
+				${nls.projectSettings.fieldLabelGeography}:
+			</div>
+			<!--Field to Label Geography Dropdown-->
+			<select class="esriCTDropDownContainer" data-dojo-attach-point="fieldToLabelGeography" data-dojo-type="dijit/form/Select">
+		</select>
+		<div class="esriCTHelpIcon" data-dojo-attach-point="fieldToLabelGeographyHelp"></div>
+		</div>
+	</fieldset>
+	<fieldset class="esriCTFieldSet">
+		<legend class="esriCTFieldSetLegend">
+			${nls.projectSettings.projectTableSectionTitle}
+		</legend>
+		<div class="esriCTNote esriCTFullWidth">${nls.projectSettings.projectTableSectionNote}</div>
+		<div class="esriCTRowContainer esriCTFullWidth">
+			<!--Project Assets Table Label-->
+			<div title="${nls.projectSettings.projectAssetsTableLabel}" class="esriCTLabelContainer esriCTEllipsis">
+				${nls.projectSettings.projectAssetsTableLabel}:
+			</div>
+			<!--Project Assets Table Dropdown-->
+			<select class="esriCTDropDownContainer" data-dojo-attach-point="projectAssetsTable" data-dojo-type="dijit/form/Select">
+		</select>
+			<div class="esriCTHelpIcon" data-dojo-attach-point="projectAssetsTableHelp"></div>
+		</div>
+		<div class="esriCTRowContainer esriCTFullWidth">
+			<!--Project Multiplier Additional Cost Table Label-->
+			<div title="${nls.projectSettings.projectMultiplierTableLabel}" class="esriCTLabelContainer esriCTEllipsis">
+				${nls.projectSettings.projectMultiplierTableLabel}:
+			</div>
+			<!--Project Multiplier Additional Cost Table Dropdown-->
+			<select class="esriCTDropDownContainer" data-dojo-attach-point="projectMultiplierTable" data-dojo-type="dijit/form/Select">
+		</select>
+			<div class="esriCTHelpIcon" data-dojo-attach-point="projectMultiplierTableHelp"></div>
+		</div>
+		<div class="esriCTRowContainer esriCTFullWidth">
+			<!--Project Layer Label-->
+			<div title="${nls.projectSettings.projectLayerLabel}" class="esriCTLabelContainer esriCTEllipsis">
+				${nls.projectSettings.projectLayerLabel}:
+			</div>
+			<!--Project Layer Dropdown-->
+			<select class="esriCTDropDownContainer esriCTProjectLayerDropdown" data-dojo-attach-point="projectLayerDropDown" data-dojo-type="dijit/form/Select">
+		</select>
+			<div class="esriCTHelpIcon" data-dojo-attach-point="projectLayerHelp"></div>
+			<!--Configure Fields Settings-->
+			<div class="esriCTConfigureFieldsContainer">
+			</div>
+		</div>
+		<!--Configured Fields Table-->
+		<div class="esriCTConfiguredFieldsTable esriCTHidden" data-dojo-attach-point="configuredFieldsTable"></div>
+	</fieldset>
+</div>

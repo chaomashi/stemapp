@@ -1,0 +1,123 @@
+<div>
+	<div data-dojo-attach-point="filterDiv" style="height:1px;visibility:hidden;overflow:hidden;"></div>
+	
+	<table data-dojo-attach-point="generalTable" class="general" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td class="first-td">${nls.querySource}</td>
+				<td class="second-td">
+					<table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+						<tbody>
+							<tr>
+								<td style="width:auto;">
+									<div data-dojo-attach-point="urlTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true,trim:true,disabled:true' style="width:100%;"></div>
+								</td>
+								<td style="width:40px;">
+									<div class="setting-btn jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnSetSourceClicked" title="${nls.setSource}">
+										<div class="jimu-icon jimu-icon-setting"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div data-dojo-attach-point="detailSection" class="detail">
+		<div data-dojo-attach-point="infoTabNode">
+			<table class="general" cellpadding="0" cellspacing="0">
+				<tbody>
+					<tr>
+						<td class="first-td">${jimuNls.common.title}</td>
+						<td class="second-td">
+							<div data-dojo-attach-point="queryNameTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true,trim:true' style="width:100%;" data-dojo-attach-event="change:_onQueryNameChanged"></div>
+						</td>
+					</tr>
+					<tr>
+						<td class="first-td">${nls.icon}</td>
+						<td class="second-td">
+							<div class="click-picker" data-dojo-attach-event="click:_onImageChooserDivClicked">
+								<div data-dojo-type="jimu/dijit/ImageChooser" data-dojo-attach-point="imageChooser" data-dojo-props="cropImage:true,showSelfImg:true,goldenWidth:16,goldenHeight:16,format:['image/gif','image/png','image/jpeg']" class="jimu-float-leading" style="width:16px;height:16px;"></div>
+								<div class="separator jimu-float-leading"></div>
+								<div class="jimu-icon jimu-icon-down-arrow-8 jimu-float-leading"></div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div data-dojo-attach-point="definitionTabNode">
+			<div class="attribute-filter-section">
+				<div class="stress">${nls.queryCriteira}</div>
+				<div class="attribute-filter-content">
+					<div class="jimu-widget-note" style="margin-top:5px;">${nls.defineWhereClause}</div>
+					<table style="width:100%;margin-top:4px;">
+						<colgroup>
+							<col width="auto"></col>
+							<col width="40"></col>
+						</colgroup>
+						<tbody>
+							<tr>
+								<td>
+									<div class="attribute-sql jimu-widget-note" data-dojo-attach-point="sqlDiv" style="border:1px solid #ccc;padding:7px 8px;"></div>
+								</td>
+								<td>
+									<div class="setting-btn jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnFilterClicked" title="${nls.setSource}">
+										<div class="jimu-icon jimu-icon-setting"></div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div style="margin-top:13px;" data-dojo-attach-point="showSQLSection"></div>
+				</div>
+			</div>
+			<div class="spatial-filter-section" data-dojo-attach-point="spatialFilterDiv"></div>
+		</div>
+
+		<div data-dojo-attach-point="resultsTabNode">
+			<div class="popup-section">
+				<div class="stress">${nls.content}</div>
+				<div data-dojo-attach-point="popupContainer"></div>
+			</div>
+			<div data-dojo-attach-point="symbolSection" class="symbol-section" style="margin-top:14px;">
+				<div class="stress" style="margin-bottom:15px;">${nls.symbol}</div>
+				<div style="margin-top:5px;">
+					<div class="radio-label-container">
+						<input type="radio" data-dojo-attach-point="radioServiceSymbol" class="jimu-radio-btn"/>
+						<label data-dojo-attach-point="labelServiceSymbol">${nls.serviceSymbolTip}</label>
+					</div>
+					<div class="radio-label-container" style="margin-top:8px;">
+						<input type="radio" data-dojo-attach-point="radioCustomSymbol" checked class="jimu-radio-btn"/>
+						<label data-dojo-attach-point="labelCustomSymbol">${nls.setSymbol}</label>
+						<div data-dojo-attach-point="layerSymbolPicker" data-dojo-type="jimu/dijit/SymbolPicker"></div>
+					</div>
+					<div data-dojo-type="jimu/dijit/CheckBox" class="small-font-size" data-dojo-attach-point="cbxModifySymbol" style="margin-top:8px;"></div>
+				</div>
+			</div>
+		</div>
+
+		<div data-dojo-attach-point="optionsTabNode">
+			<div data-dojo-attach-point="cbxKeepResultsDiv" style="display:none;"></div>
+			<div class="export-section" data-dojo-attach-point="exportSection"></div>
+			<div class="create-layer-section">
+				<div class="stress">${nls.createLayerForTaskTip}</div>
+				<div style="margin-top:15px;">
+					<div class="radio-label-container">
+						<input data-dojo-attach-point="radioOneLayerPerTask" type="radio" checked class="jimu-radio-btn"/>
+						<label data-dojo-attach-point="labelOneLayerPerTask">${nls.oneLayerForTaskTip}</label>
+					</div>
+					<div class="radio-label-container" style="margin-top:15px;">
+						<input data-dojo-attach-point="radioMultipleLayerPerTask" type="radio" class="jimu-radio-btn"/>
+						<label data-dojo-attach-point="labelMultipleLayerPerTask">${nls.multipleLayerForTaskTip}</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

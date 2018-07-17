@@ -1,0 +1,41 @@
+<div class="analysis-tab">
+    <label style="font-size: 14px">${nls.titleLabel}</label>
+    <div class="about-container" data-dojo-attach-point="splashContainerNode">
+        <!--data-dojo-attach-event="click:_drawPolygon 和 nls._drawPolygon _drawPolygon名称要保持一致 event才能生效-->
+        <span class="btn32"
+              data-dojo-attach-event="click:_drawPolygon">
+                <img class="btn-img"
+                     src="./widgets/IntersectAnalysis/images/btn2.png"/>
+                 <span class="btn-font">${nls._drawPolygon}</span>
+            </span>
+        <span class="btn32" data-dojo-attach-event="click:_GPSDrawPolygon">
+                <img class="btn-img"
+                     src="./widgets/IntersectAnalysis/images/btn0.png"/>
+            <span class="btn-font">${nls._GPSDrawPolygon}</span>
+        </span>
+        <span class="btn-ana" data-dojo-attach-event="click:_clear">
+            <span class="btn-ana-clear">${nls._clear}</span>
+        </span>
+    </div>
+    <div data-dojo-type="dijit/layout/TabContainer"
+         id="containerTab"
+         data-dojo-attach-point="containerTab"
+         doLayout="false">
+        <div data-dojo-type="dijit/layout/ContentPane"
+             data-dojo-props="title:'饼状图'" id="tabEchart">
+            <!--<div class="echart-container" id="resEchart">-->
+                <!--<div data-dojo-attach-point="loadingNode" class="loading"></div>-->
+            <!--</div>-->
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane"
+             data-dojo-props="title:'结果列表'">
+            <div id="gridDiv" class="result-table">
+            </div>
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" title="坐标展示"
+             data-dojo-props="selected:false">
+            <!--<button id='removebtn' class="remove-btn" title="选中一行进行删除">删除坐标</button>-->
+            <div id="gridCoords" class="result-table"></div>
+        </div>
+    </div>
+</div>

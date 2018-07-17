@@ -1,0 +1,65 @@
+<div>
+    <!-- Traverse grid container-->
+    <div class="esriCTNewTraverseContainer">
+        <!-- Traverse grid title-->
+        <div class="esriCTNewTraverseLabelDiv">
+            <div class="esriCTGridEmptyLabel">
+                &nbsp
+            </div>
+            <div class="esriCTGridLabels esriCTEllipsis esriCTGridBearingLabel" title="${nls.traverseSettings.bearingLabel}">
+                ${nls.traverseSettings.bearingLabel}
+            </div>
+            <div class="esriCTGridLabels esriCTEllipsis" title="${nls.traverseSettings.lengthLabel}">
+                ${nls.traverseSettings.lengthLabel}
+            </div>
+            <div class="esriCTGridLabels esriCTEllipsis" title="${nls.traverseSettings.radiusLabel}">
+                ${nls.traverseSettings.radiusLabel}
+            </div>
+        </div>
+        <!-- Traverse grid items-->
+        <div data-dojo-attach-point="traverseGrid" class="esriCTTraverseGrid">
+        </div>
+        <!-- Traverse grid initial entry row-->
+        <div data-dojo-attach-point="traverseEntryNode" class="esriCTEntrtyNodeContent esriCTRow">
+            <div data-dojo-attach-point="lineSymbolNode" class="esriCTSymbolContainer">
+            </div>
+            <div data-dojo-attach-point="bearingNode" class="esriCTBearingRow" data-dojo-type="dijit/form/ValidationTextBox">
+            </div>
+            <div data-dojo-attach-point="lengthNode" data-dojo-type="dijit/form/ValidationTextBox">
+            </div>
+            <div data-dojo-attach-point="radiusNode" data-dojo-type="dijit/form/ValidationTextBox">
+            </div>
+            <div class="esriCTAddRow">
+                <div data-dojo-attach-point="addButton" class="esriCTAddIcon"
+                title="${nls.traverseSettings.addButtonTitle}">
+                </div>
+            </div>
+        </div>
+        <!-- Traverse grid tools container-->
+        <div class="esriCTTraverseTool">
+            <div class="esriCTTraverseToolContainer">
+                <!-- Screen digitization tool-->
+                <div class="esriCTTraverseToolIcons ecriCTLocationIcon esriCTCursorPointer" title="${nls.planSettings.onScreenDigitizationTooltipText}"
+                    data-dojo-attach-point="screenDigitizationNode">
+                </div>
+                <!-- Zoom tool-->
+                <div class="esriCTHidden esriCTTraverseToolIcons ecriCTZoomToIcon esriCTCursorPointer" title="${nls.planSettings.zoomToLocationTooltipText}"
+                    data-dojo-attach-point="zoomToNode">
+                </div>
+                <!-- Expand/Collapse grid tool-->
+                <div class="esriCTHidden  esriCTTraverseToolIcons esriCTCollapse esriCTCursorPointer" title="${nls.planSettings.collapseGridTooltipText}"
+                    data-dojo-attach-point="expandCollapseNode">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Misclose details container-->
+    <div data-dojo-attach-point="misCloseDetailsNode">
+    </div>
+    <!-- Parcel tools (rotation/scale) container-->
+    <div data-dojo-attach-point="parcelToolsNode">
+    </div>
+    <!-- Parcel info (polygon layer fields) & save/cancle button container-->
+    <div class="esriCTPlanInfoNode" data-dojo-attach-point="planInfoNode">
+    </div>
+</div>

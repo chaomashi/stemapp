@@ -1,0 +1,42 @@
+.jimu-widget-bookmark .jimu-img-node:hover{
+  color: #fff;
+}
+
+.jimu-widget-bookmark .btn-add {
+  background-color: #666;
+}
+
+.jimu-widget-bookmark .jimu-img-node {
+  color: #999;
+}
+
+.jimu-widget-bookmark .jimu-img-node .node-label {
+  margin: 5px auto 0 auto;
+}
+
+.jimu-widget-bookmark .jimu-img-node .dijitTextBox .dijitInputInner {
+  color: #FFF !important;
+}
+.jimu-widget-bookmark .header .add:hover{
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+.jimu-widget-bookmark .header .add{
+  border: 1px solid #666;
+  color: #FFF;
+}
+.jimu-widget-bookmark .header .add:hover{
+  border: 1px solid #FFF;
+}
+
+.jimu-widget-bookmark .drawer-handle .separate-line{
+  border-top: 1px solid #666;
+}
+
+.jimu-widget-bookmark .list .jimu-img-node:hover{
+  background-color: #444;
+}
+
+.mobile.jimu-widget-bookmark .jimu-img-node{
+  border-top: 1px solid #333333
+}

@@ -1,0 +1,1024 @@
+
+
+/*------------------------- Styles for widget panel -----------------------*/
+.GRGDrafterMainContainer
+{
+    min-width: 222px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterFullHeight
+{
+    height: 100%;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterFullWidth
+{
+    width: 100%;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterFullWidthAndPadding
+{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterHalfWidthLeft
+{
+    width: 50%;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterHalfWidthRight
+{
+    padding-left: 10px;
+    width: 50%;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterHalfWidthContainer
+{
+    display: flex;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterEllipsis
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterPointer
+{
+    cursor: pointer;
+}
+
+/*------------------------- Styles for Main Page starts-----------------------*/
+.jimu-widget-GRGDrafter .GRGDrafterMainPageRowBlock 
+{
+    display: block;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterMainPageRow 
+{
+    margin: 10px 10px 10px 10px;
+    display: inline-flex;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterMainButtonIcon 
+{
+    margin-top: 6px;
+    height: 16px;
+    width: 16px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterButtonIcon
+{
+    height: 24px;
+    width: 24px;
+    float: left;
+}
+
+.jimu-widget-GRGDrafter .GRGFloatRight
+{
+  float: right;
+}
+
+
+.jimu-widget-GRGDrafter .GRGDrafterMainPageRowItem 
+{
+    width: calc(100% - 40px);
+    margin: 5px 25px 5px 25px;
+    display: inline-block;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterButtonLabel
+{
+    float: left;
+    width: calc(100% - 30px);
+    padding: 5px 5px 0px 0;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterDoubleButtonLabel
+{
+    float: left;
+    width: calc(100% - 65px);
+    padding: 5px 5px 0px 0;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterToggleLabel
+{
+    float: left;
+    width: calc(100% - 35px);
+    padding: 5px 5px 0px 0;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterInputLabel
+{
+    float: left;
+    padding: 5px 5px 0px 0;
+}
+
+.jimu-widget-GRGDrafter .GRGNewRightButton
+{
+    background: url("./images/arrow-right_black.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGNewRightButton:hover
+{
+    background: url("./images/arrow-right_black_hover.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGNewDownButton
+{
+    background: url("./images/arrow-down_black.png") no-repeat;
+    margin-top: 9px;
+}
+
+.jimu-widget-GRGDrafter .GRGNewDownButton:hover
+{
+    background: url("./images/arrow-down_black_hover.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterNewGRGByDimension
+{
+    background: url("./images/byDimension.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterNewGRGByRefSystemButton
+{
+    background: url("./images/byReferenceSystem.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterNewGRGByTimeButton
+{
+    background: url("./images/byTime.png") no-repeat;
+}
+
+.esriRtl .jimu-widget-GRGDrafter .GRGDrafterButtonIcon
+{
+    float: left;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterPublishMessage {
+    float: left;
+    line-height: 16px;
+    padding: 18px 0px 0px 0;
+    font-weight: bold;    
+    display: inline-block;
+    word-break: break-all;
+}
+
+/*------------------------- Styles for Main Page End-----------------------*/
+
+/*------------------------- Styles for GRG Pages-----------------------*/
+.jimu-widget-GRGDrafter .GRGDrafterPanelRow {
+    margin: 10px 10px 10px 10px;
+    display: block;
+}
+ /*
+.jimu-widget-GRGDrafter .claro .dijitSelect, .claro .dijitSelect .dijitButtonContents, .claro .dijitTextBox, {
+    width: calc(100% - 60px);
+}
+*/
+
+.jimu-widget-GRGDrafter .GRGDrafterNewGRGHeader
+{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsIcon
+{
+    background-image: url('./images/settings_black.png');
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsIcon:Hover
+{
+    background-image: url('./images/settings_black_hover.png');
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .settingsLocked
+{
+    background-image: url('./images/settings_locked.png');
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBox .dijitInputInner
+{
+    height: 18px !important;
+    text-align: right;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBoxFocused .dijitInputContainer
+{
+    background: transparent;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterHidden
+{
+    display: none;
+}
+
+/*------------------------- Styles for GRG Pages End-----------------------*/
+
+/*------------------------- Styles for GRG Settings-----------------------*/
+.jimu-widget-GRGDrafter .GRGDrafterSettingsRow {
+    width: 100%;
+    display: inline-block;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsButtonIcon {
+    margin-top: 10px;
+    height: 20px;
+    width: 25px;
+    float: right;
+    background-size: 45px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterLabelSettingsDownButton
+{
+    background: url("../images/down-arrow.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterLabelSettingsUpButton
+{
+    background: url("../images/up-arrow.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsNode
+{
+    width: 100%;
+    height: calc(100% - 30px);
+    display: inline-block;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsContainer
+{
+    margin: 10px;
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingRow
+{
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingRowPaddingTop20
+{
+    padding-top: 20px;
+}
+
+
+.jimu-widget-GRGDrafter .GRGDrafterDropdownLabel
+{
+    padding-bottom: 5px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingHeader
+{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterBackButton
+{
+    width: 25%;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterTitleDiv
+{
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: calc(100% - 50px);
+    padding: 5px;
+    display: inline-block;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterItemLeftArrow
+{
+    background-image: url('./images/left-arrow_black.png');
+    float: left;
+    margin: 0px 5px 0px 0px;
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterItemLeftArrow:hover
+{
+    background-image: url('./images/left-arrow_black_hover.png');
+}
+
+/* overriding CSS for the dijitSelect box starts */
+.jimu-widget-GRGDrafter .dijitSelect .dijitButtonContents
+{
+    border-style: none none none none;
+    background-color: #fafafc;
+}
+
+.jimu-widget-GRGDrafter .dijitSelect .dijitButtonContentsDartTheme {
+    background-color: inherit;
+}
+
+.jimu-widget-GRGDrafter .dijitSelect .dijitArrowButton
+{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-GRGDrafter .dijitSelect .dijitArrowButtonDartTheme {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.jimu-widget-GRGDrafter .dijitMenuItem
+{
+    color: #7989a0;
+}
+
+.jimu-widget-GRGDrafter .dijitSelect .dijitInputField
+{
+    margin-right: 8px;
+}
+
+
+.jimu-widget-GRGDrafter .switch-toggle-group {
+  padding: 5px;
+}
+.jimu-widget-GRGDrafter .switch-toggle-group .checkbox-inline {
+  padding-left: 36px;
+  vertical-align: top;
+}
+.jimu-widget-GRGDrafter .switch-toggle-group .switch-toggle.dijitCheckBox {
+  margin-left: -36px;
+}
+
+.jimu-widget-GRGDrafter .switch-toggle.dijitCheckBox {
+  height: 16px;
+  width: 28px;
+  border: 0 none;
+  background: #adadad;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.jimu-widget-GRGDrafter .switch-toggle.dijitCheckBox:before {
+  content: "";
+  background: #f8f8f8;
+  position: absolute;
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  left: auto;
+  right: 14px;
+  top: 2px;
+  z-index: 1;
+  -webkit-transition: right 0.3s;
+  -moz-transition: right 0.3s;
+  -o-transition: right 0.3s;
+  transition: right 0.3s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.jimu-widget-GRGDrafter .switch-toggle.dijitCheckBox input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+.jimu-widget-GRGDrafter .switch-toggle.dijitCheckBox.dijitCheckBoxChecked {
+  background: #50ad4e;
+}
+.jimu-widget-GRGDrafter .switch-toggle.dijitCheckBox.dijitCheckBoxChecked:before {
+  right: 2px;
+}
+
+/* overriding CSS for the dijitSelect box starts */
+
+/*------------------------- Styles for Settings Panel-----------------------*/
+
+.jimu-widget-GRGDrafter .jimu-tab>.control>.tab{
+	background-color: #fff;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #dedede;
+	color:#898989;
+	font-family: "Avenir Medium";
+	font-size: 12px;
+  line-height: 26px !important;;
+}
+
+.jimu-widget-GRGDrafter .jimu-tab>.control>.tab.jimu-state-selected {
+	border-bottom: 3px solid #000;
+	font-family: "Avenir Heavy";
+	color: #000000;
+}
+
+.jimu-widget-GRGDrafter .tabs .titles {
+	font-weight: bold;
+	font-family: "Avenir Medium";
+	font-size: 12px;
+	margin: 20px 0 10px 0;
+}
+
+.jimu-widget-GRGDrafter .tabs .unit-item{
+	margin: 15px 5px 5px 5px;
+	line-height: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBox .dijitPlaceHolder{
+    font-size: 12px;
+}
+
+.jimu-widget-GRGDrafter  .dijitTextBoxError {
+    border-color: #d9dde0 !important;
+    box-shadow: inset 0 0 0 2px #d46464;
+}
+
+/* CSS for RTL Mode Starts */
+
+.esriRtl .jimu-widget-GRGDrafter .GRGDrafterInputLabel
+{
+    float: right;
+    padding: 5px 5px 0px 0px;
+}
+
+.esriRtl .jimu-widget-GRGDrafter .GRGDrafterItemLeftArrow
+{
+    float: right;
+    margin: 0px 0px 00px 10px;
+}
+
+.esriRtl .jimu-widget-GRGDrafter .GRGDrafterSettingsIcon
+{
+    float: left;
+}
+
+.esriRtl .jimu-widget-GRGDrafter .GRGDrafterItemLeftArrow
+{
+    background-image: url('./images/left-arrow_black.png');
+}
+
+.esriRtl .jimu-widget-GRGDrafter .dijitSelect .dijitInputField
+{
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.SubTitle {
+  font-weight: bold;
+}
+
+/* CSS for RTL Mode Ends */
+
+/*------------------------- Styles for widget panel -----------------------*/
+
+.jimu-widget-GRGDrafter .settingBtn {
+    display: inline-block;
+    background: url(./images/settings_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+
+.jimu-widget-GRGDrafter .settingBtn:hover {
+    background: url('./images/settings_black_hover.png');
+}
+
+.jimu-widget-GRGDrafter .editBtn {
+    float: right;
+    background: url(./images/draw_default.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .editBtn:hover {
+    background: url('./images/draw_gray_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-edit-active {
+    background: url('./images/draw_gray_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .helpBtn {
+    float: right;
+    background: url(./images/help_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.jimu-widget-GRGDrafter .helpBtn:hover {
+    float: right;
+    background: url(./images/help_black_hover.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.jimu-widget-GRGDrafter .polygonBtn {
+    display: inline-block;
+    background: url(./images/polygon_default.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .polygonBtn:hover {
+    background: url('./images/polygon_gray_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-polygon-active {
+    background: url('./images/polygon_gray_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .extentBtn {
+    display: inline-block;
+    background: url(./images/extent_default.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .extentBtn:hover {
+    background: url('./images/extent_gray_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-extent-active {
+    background: url('./images/extent_gray_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .add-with-icon {
+  vertical-align: text-top !important;
+}
+
+.btnContainer {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterBtnContainer {
+    text-align: right;
+    margin-top: 15px;
+    display: grid;
+}
+
+.jimu-widget-GRGDrafter .controlGroupHidden {
+    display: none;
+}
+
+.jimu-widget-GRGDrafter .controlItem {
+    display: flex;
+}
+
+.jimu-widget-GRGDrafter .jimu-btn {
+    margin-bottom: 6px;
+}
+
+/*------------------------- Styles for colorPickerEditor  -----------------------*/
+
+.jimu-widget-GRGDrafter .dijitSlider {
+    width: calc(100% - 212px);
+}
+
+.jimu-widget-GRGDrafter .dijitSlider {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 14px;
+}
+
+.jimu-rtl .jimu-widget-GRGDrafter .dijitSlider {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderImageHandleH {
+  top: -10px;
+  width: 20px;
+  height: 20px;
+}
+
+.jimu-widget-GRGDrafter  .colorPickerEditor .jimu-color-picker{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.jimu-widget-GRGDrafter  .colorPickerEditor .dijitSpinner.dijitNumberTextBox.dijitValidationTextBox{
+	width:65px;
+	height:30px;
+}
+
+.jimu-widget-GRGDrafter .dijitSliderImageHandleH{
+  top: -7px;
+}
+
+.jimu-widget-GRGDrafter  .dijitSliderThumbHover{
+  background-image: url("./images/sliderball.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH {
+  background-image: url("./images/sliderball.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  background-image: url("./images/sliderball.svg");
+  background-position: 0 0;
+}
+
+/*left*/
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderProgressBarH,
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderLeftBumper{
+  border-color: #000;
+  background-color: #000;
+  background-image: -webkit-linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: -o-linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+}
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderRemainingBarH,
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderRightBumper{
+  border-color: #d7d7d7;
+  background-color: #d7d7d7;
+}
+
+.jimu-widget-GRGDrafter  .colorPickerEditor .trans{
+	font-family: "Avenir Light";
+	font-size: 12px;
+  padding: 0 5px 0 5px;
+  letter-spacing: 0.33px;
+}
+
+.jimu-widget-GRGDrafter  .sliderbar {
+	width: 60px;
+}
+
+/*------------------------- Styles for Settings Font Styles  -----------------------*/
+
+.jimu-widget-GRGDrafter .style-selector .clearFix {
+  *overflow: hidden;
+  *zoom: 1
+}
+
+.jimu-widget-GRGDrafter .style-selector .clearFix:after {
+  display: table;
+  content: "";
+  width: 0;
+  clear: both
+}
+
+.jimu-widget-GRGDrafter .style-selector .hide {
+  display: none
+}
+
+.jimu-widget-GRGDrafter .settings-container {
+}
+
+.jimu-widget-GRGDrafter .settings-container .title {
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.39px;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-GRGDrafter .settings-container .label {
+  font-size: 12px;
+  color: #282828;
+  letter-spacing: 0.33px;
+  line-height: 30px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .label {
+  margin: 0 0;
+  max-width: 160px;
+  line-height: 30px;
+  font-size: 12px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitTextBox,
+.jimu-widget-GRGDrafter .style-selector .dijitSelect {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #D7D7D7;
+}
+
+.jimu-widget-GRGDrafter .style-selector .jimu-color-picker {
+  width: 40px !important;
+  height: 30px !important;
+  border: 1px solid #D7D7D7 !important;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitSelect .dijitArrowButtonContainer {
+  border: none;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitDownArrowButton .dijitButtonContents,
+.jimu-widget-GRGDrafter .style-selector .dijitComboBox .dijitDownArrowButton {
+  border: none;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitTextBox .dijitInputInner {
+  padding: 1px 0 0 0 !important;
+  font-size: 12px;
+  font-style: normal !important;
+  height: 28px;
+  line-height: 28px !important;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitSelectLabel {
+  font-size: 12px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitSelect,
+.jimu-widget-GRGDrafter .style-selector .dijitSelect .dijitButtonContents,
+.jimu-widget-GRGDrafter .style-selector .dijitTextBox,
+.jimu-widget-GRGDrafter .style-selector .dijitTextBox .dijitButtonNode {
+  background-color: transparent;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitSelect .dijitArrowButton {
+  background-color: transparent;
+}
+
+.jimu-widget-GRGDrafter .style-selector .dijitSelect .dijitInputField {
+  padding: 0px 10px;
+}
+
+.jimu-widget-GRGDrafter .jimu-image-chooser .display-text {
+  width: 100%;
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0.33px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.jimu-image-chooser:hover .hint .display-text {
+  color: #FFF;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBoxFocused {
+  border: 1px solid #D7D7D7 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBox .dijitInputField {
+  padding: 2px 7px;
+}
+
+.jimu-widget-GRGDrafter .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner {
+  background-position: -35px 53%;
+}
+
+.jimu-widget-GRGDrafter .text-size .text-size-group>.dijitComboBox.dijitValidationTextBox {
+  width: 80px;
+}
+
+.jimu-widget-GRGDrafter .text-size .text-size-group>table {
+  width: 140px;
+}
+
+.jimu-widget-GRGDrafter .halo-size .halo-size-group>.dijitComboBox.dijitValidationTextBox {
+  width: 80px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .setting-items {
+  height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.jimu-widget-GRGDrafter .style-selector .setting-wapper {
+  width: 230px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .background-btn,
+.jimu-widget-GRGDrafter .style-selector .text-color-btn {
+  width: 40px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.jimu-widget-GRGDrafter .style-selector .halo-color-btn {
+  width: 50px;
+  height: 30px;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .align-group {
+  margin-right: 8px;
+  margin-left: -3px;
+}
+
+.jimu-rtl .jimu-widget-GRGDrafter .style-selector .align-group {
+  margin-right: -3px;
+  margin-left: 8px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .font-group-btns {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .align-btn,
+.jimu-widget-GRGDrafter .style-selector .font-btn {
+  height: 30px;
+  margin: 0 3px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .font-btn {
+  width: 30px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .align-btn {
+  width: 30px;
+}
+
+.jimu-widget-GRGDrafter .style-selector .image-btn {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #D7D7D7;
+}
+
+.jimu-widget-GRGDrafter .style-selector .bold {
+  background: url("./images/font_B.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .bold.selected {
+  background: url("./images/font_B_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .italic {
+  background: url("./images/font_I.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .italic.selected {
+  background: url("./images/font_I_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .underline {
+  background: url("./images/font_U.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .underline.selected {
+  background: url("./images/font_U_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .halo-toggle-group {
+  padding: 5px;
+}
+.jimu-widget-GRGDrafter .halo-toggle-group .checkbox-inline {
+  padding-left: 36px;
+  vertical-align: top;
+}
+.jimu-widget-GRGDrafter .halo-toggle-group .halo-toggle.dijitCheckBox {
+  margin-left: -36px;
+}
+
+.jimu-widget-GRGDrafter .halo-toggle.dijitCheckBox {
+  height: 16px;
+  width: 28px;
+  border: 0 none;
+  background: #adadad;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.jimu-widget-GRGDrafter .halo-toggle.dijitCheckBox:before {
+  content: "";
+  background: #f8f8f8;
+  position: absolute;
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  left: auto;
+  right: 14px;
+  top: 2px;
+  z-index: 1;
+  -webkit-transition: right 0.3s;
+  -moz-transition: right 0.3s;
+  -o-transition: right 0.3s;
+  transition: right 0.3s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.jimu-widget-GRGDrafter .halo-toggle.dijitCheckBox input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+.jimu-widget-GRGDrafter .halo-toggle.dijitCheckBox.dijitCheckBoxChecked {
+  background: #50ad4e;
+}
+.jimu-widget-GRGDrafter .halo-toggle.dijitCheckBox.dijitCheckBoxChecked:before {
+  right: 2px;
+}
+
+/****** Dart Theme Overrides ******/
+
+.DartTheme .jimu-widget-GRGDrafter  .dijitSelectDisabled,
+.DartTheme .jimu-widget-GRGDrafter .dijitTextBoxDisabled,
+.DartTheme .jimu-widget-GRGDrafter .dijitTextBoxDisabled .dijitInputContainer ,
+.DartTheme .jimu-widget-GRGDrafter .dijitTextBoxDisabled {
+     background-color: #4c4c4c; 
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .dijitTooltipContainer {
+    background-color: #4c4c4c;
+    background-image: -webkit-linear-gradient(bottom, rgb(76, 76, 76) 0px, #4c4c4c 10px);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .jimu-widget-subtitle {
+    color: #ffffff;
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .dijitTooltipConnector {    
+    background-image: url(images/tooltip.png);    
+}
+
+/**********Start Set Coordinate Format String Popup*************/
+.claro .dijitPopup.dijitTooltipDialogPopup .jimu-input {
+    vertical-align: bottom;
+}
+
+.claro .dijitPopup.dijitTooltipDialogPopup .settingsContainer {
+    margin-top: 6px;
+}
+
+.claro .dijitPopup.dijitTooltipDialogPopup .checkbox.jimu-float-leading.jimu-icon.jimu-icon-checkbox {
+    margin-right: 6px;
+}
+
+.claro .dijitPopup.dijitTooltipDialogPopup span.jimu-widget-subtitle {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+/**********End Set Coordinate Format String Popup*************/

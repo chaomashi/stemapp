@@ -1,0 +1,569 @@
+
+.jimu-widget-ParcelDrafter-setting .esriCTMainContainer
+{
+    width: 100%;
+    height: 100%;
+    color: #596679;
+    font-size: 14px;
+}
+
+.jimu-widget-ParcelDrafter-setting .jimu-tab3
+{
+    height: 100%;
+    overflow: hidden;
+}
+.jimu-widget-ParcelDrafter-setting .jimu-viewstack
+{
+    height: calc(100% - 45px);
+    overflow: auto;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTTabNode
+{
+    padding: 20px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerContainer
+ {
+    width: 100%;
+    float: left;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTSelectLayerLabel
+ {
+    width: 25%;
+    word-break: break-all;
+    line-height: 30px;
+    float: left;
+    min-width: 230px;
+    margin-right: 10px;
+ }
+
+.jimu-widget-ParcelDrafter-setting .row
+ {
+    clear: both;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTHint
+ {
+    margin: 5px 5px 10px 0px;
+    float: left;
+    font-size: 12px;
+    color: #a0acbf;
+    font-style: oblique;
+ }
+
+ .jimu-widget-ParcelDrafter-setting .esriCTLayerHint
+{
+	margin-left: 240px; /*min-width of esriCTSelectLayerLabel + margin*/
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTEllipsis
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTHidden
+{
+    display: none;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTSelectedLayersDiv
+ {
+    max-height: 200px;
+    min-height: 60px;
+    overflow: auto;
+    width: 58%;
+    float: left;
+    border: 1px solid #d2dae2;
+    background: #e3ecf2;
+    margin-right: 10px;
+    line-height: 30px;
+    padding-left: 10px;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTActionsContent
+{
+    padding: 15px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTFieldSet
+{
+    height: auto;
+    width: 100%;
+    border: 1px solid #a0acbf! important;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #596679;
+    margin-bottom: 10px;
+    min-width: 0px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTFieldSetLegend
+{
+    margin-left: 15px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTFieldsContainer
+{
+    clear: both;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTClosureFieldsContainer
+{
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTField
+{
+   width: 50%;
+   float:left;
+   margin-bottom:10px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTClosureField
+{
+   width: 100%;
+   float:left;
+   margin-bottom:10px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLabel
+{
+    float:left;
+    padding: 10px 0;
+    width: 48%;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTClosureLabel
+{
+    min-width: 240px;
+    width: 25%;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTPointSymbolLabel
+{
+    min-width: 240px;
+    width: 25%;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTDropBox
+{
+    width: 100%;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTUnitsDropBox
+{
+    margin-left: 10px;
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTClosureBoxContainer
+{
+    width: 70%;
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTDropBoxContainerLeft
+{
+    width: 45%;
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTDropBoxContainerRight
+{
+    width: 45%;
+    float: right;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTFieldsetHint
+ {
+    margin: 5px 5px 10px 20px;
+    float: left;
+    font-size: 12px;
+    color: #a0acbf;
+    font-style: oblique;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTadditionalFieldTable
+ {
+    height: 100%;
+    width: 68%;
+    float: left;
+    margin-left: 15%;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTLineTypeTableContanier
+ {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+
+.jimu-widget-ParcelDrafter-setting .esriCTLineTypeTableContanier .dijitTextBox .dijitInputInner
+{
+    height: 20px;
+    line-height: 20px !important;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerListItem
+{
+    line-height: 30px;
+    width: 90%
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTGeometryTypeIcon
+{
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    margin: 8px 2px 0px 0px;
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTPointGeometryIcon
+{
+   background-image: url('../../images/point_layer.png');
+}
+.jimu-widget-ParcelDrafter-setting .esriCTPolygonGeometryIcon
+{
+   background-image: url('../../images/polygon_layer.png');
+}
+.jimu-widget-ParcelDrafter-setting .esriCTPolylineGeometryIcon
+{
+   background-image: url('../../images/line_layer.png');
+}
+
+/*-------------------Styles for Layer chooser------------------------*/
+.jimu-widget-ParcelDrafter-setting .esriCTLayerSelectorDiv
+{
+    height: 140px;
+    overflow-y: auto;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerChooserFieldLabel
+{
+    width: 35%;
+    float: left;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerChooserField
+{
+    width: 65%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerSelectorNode .jimu-basic-layer-chooser-from-map .jimu-tree
+{
+    position: relative !important;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTLayerSelectorNode
+{
+    max-height: 200px;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*----------------styles for symbol chooser node-----------------------*/
+
+.jimu-widget-ParcelDrafter-setting .esriCTSymbolChooserNode
+{
+    text-align: center;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTColorChooserNode
+{
+    text-align: center;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTColorChooserNode .jimu-color-picker
+{
+    display:inline-block;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTSymbolPreviewText
+{
+    padding-right: 5px;
+    color: #596679;
+    font-size: 14px;
+    max-width: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTPreviewField
+{
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTPreviewHintField
+{
+  float: left;
+  padding: 5px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTSymbolPreviewField
+{
+    width: 35%;
+    min-width: 250px;
+    float: left;
+    margin-left: 10px;
+}
+
+table
+{
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTSymbolPreviewHintField
+{
+    width: 50%;
+    line-height: 20px;
+    margin-left: 5px;
+    float: right;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTSymbolChooserContainer
+{
+     height: calc(100% - 50px);
+     overflow: auto;
+ }
+ .jimu-widget-ParcelDrafter-setting .esriCTTableCell
+ {
+     position: relative;
+ }
+  .jimu-widget-ParcelDrafter-setting .esriCTTableControl
+ {
+     position: absolute;
+     top: 2px;
+
+ }
+/*----------------End of styles for symbol chooser node-----------------------*/
+
+/*closure settings starts*/
+
+ .jimu-widget-ParcelDrafter-setting .esriCTSelectedSnappingLayersDiv
+{
+    height: 90px;
+    overflow: auto;
+    width: 60%;
+    float: left;
+    border: 1px solid #d2dae2;
+    background: #e3ecf2;
+    margin: 0 10px 0 0px;
+    padding-left: 10px;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTClosureTextBox
+{
+    width: 150px;
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter-setting .esriCTPixelsDiv
+{
+    line-height: 30px;
+    font-style: italic;
+    float: left;
+    margin-left: 10px;
+}
+
+ /*closure settings ends*/
+
+/*Start override layerchooser style to fix text overflow if layer name is to large*/
+
+.jimu-widget-ParcelDrafter-setting .dijitValidationTextBoxLabel
+{
+    max-width: 445px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+ .jimu-widget-ParcelDrafter-setting .jimu-layer-chooser-from-map-withdropbox .layer-name
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 18px 0px 9px;
+}
+
+/*End override layerchooser style to fix text overflow if layer name is to large*/
+
+ /* Overridden DOJO style*/
+
+.claro .dijitTextBox, .claro .dijitSelect
+{
+    color: #7989a0;
+    background-color: #fafafc;
+    border: 1px solid #d2dae2;
+}
+
+.dj_webkit .claro .dijitTextBox .dijitInputInner
+{
+    color: #7989a0;
+}
+
+.claro .dijitSelectDisabled, .claro .dijitTextBoxDisabled, .claro .dijitTextBoxDisabled .dijitInputContainer
+{
+    background-color: #e3ecf2;
+}
+
+.claro .dijitSelect .dijitArrowButton
+{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-ParcelDrafter-setting  .dijitSelect .dijitButtonContents
+{
+    border-style: none none none none;
+    background-color: transparent;
+}
+
+/* Remove close button from textbox in IE */
+input[type=text]::-ms-clear
+{
+    display: none;
+}
+/*RTL Starts*/
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTSelectLayerLabel
+{
+    float: right;
+    margin-left: 10px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTSelectedLayersDiv
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTGeometryTypeIcon
+{
+    float: right;
+    margin: 8px 5px 0px 10px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTLabel
+{
+    float: right;
+}
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTPreviewField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTPreviewHintField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTSymbolPreviewHintField
+{
+    float: right;
+}
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTFieldSetLegend
+{
+    margin-right: 15px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTLabel
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTDropBoxContainerLeft
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTSelectedSnappingLayersDiv
+{
+    float: right;
+    padding-right: 10px;
+}
+
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTClosureTextBox
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTUnitsDropBox
+{
+    margin-right: 10px;
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTPixelsDiv
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTClosureBoxContainer
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTSelectLayerLabel
+{
+    float: right;
+    margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTHint
+{
+    float: right;
+    margin: 5px 0px 10px 0px
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTLayerHint
+{
+    margin-right: 250px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTClosureTabHint
+ {
+    float: right;
+    margin: 5px 10px 10px 0;
+ }
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTLayerChooserFieldLabel
+{
+    float: right;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter-setting .esriCTDropBoxContainerRight
+{
+    float: left;
+}
+/*RTL Ends*/

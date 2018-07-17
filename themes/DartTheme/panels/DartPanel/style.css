@@ -1,0 +1,120 @@
+.dart-panel {
+  position: relative;
+  overflow: hidden;
+  z-index:;
+}
+
+.dart-panel .title {
+  position: absolute;
+  height: 60px;
+  width: 100%;
+}
+
+.dart-panel .handle {
+  position: absolute;
+  height: 60px;
+  left: 0px;
+  right: 64px;
+  cursor: move;
+}
+
+.jimu-rtl .dart-panel .handle {
+  right: 0px;
+  left: 64px;
+}
+
+.dart-panel .handle.minimized {
+  left: 0px;
+  right: 0px;
+  height: 30px;
+}
+
+.dart-panel .title .widget-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.dart-panel .title .widget-icon .icon {
+  margin: 15px;
+  width: 30px;
+  height: 30px;
+}
+
+.jimu-rtl .dart-panel .title .widget-icon {
+  right: 0px;
+}
+
+.dart-panel .title-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 60px;
+  position: absolute;
+  left: 60px;
+  right: 70px;
+}
+
+.jimu-rtl .dart-panel .title-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 60px;
+  position: absolute;
+  left: 70px;
+  right: 60px;
+}
+
+.dart-panel .title .min-icon {
+  margin: 0;
+  width: 32px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+  background: transparent url(images/fold_up.png) center no-repeat;
+}
+
+.dart-panel .title .min-icon.minimized {
+  margin: 50px 0;
+  width: 60px;
+  height: 10px;
+}
+
+.dart-panel .title .close-icon {
+  margin: 0;
+  width: 32px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  background: transparent url(images/x.png) center no-repeat;
+}
+
+.dart-panel .title .close-icon.minimized {
+  display: none;
+}
+
+.dart-panel .panel-bg {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #4c4c4c;
+  background-image: url('images/shadow.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.dart-panel .panel-content {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}

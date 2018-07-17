@@ -1,0 +1,30 @@
+<div class="style-selector">
+  <div class="setting-items align clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.alignment}">${nls.alignment}</div>
+    <div class="setting-wapper jimu-float-trailing clearFix">
+      <div class="align-group jimu-float-leading">
+        <div class="align-btn jimu-float-leading left" data-dojo-attach-point="alignLeft"></div>
+        <div class="align-btn jimu-float-leading center" data-dojo-attach-point="alignCenter"></div>
+        <div class="align-btn jimu-float-leading right" data-dojo-attach-point="alignRight"></div>
+      </div>
+      <div class="align-group jimu-float-leading">
+        <div class="align-btn jimu-float-leading top" data-dojo-attach-point="alignTop"></div>
+        <div class="align-btn jimu-float-leading middle" data-dojo-attach-point="alignMiddle"></div>
+        <div class="align-btn jimu-float-leading bottom" data-dojo-attach-point="alignBottom"></div>
+      </div>
+    </div>
+  </div>
+  <div class="setting-items background clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.backgroundColor}">${nls.backgroundColor}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <div class="background-btn" data-dojo-attach-point="backgroundBtn"></div>
+    </div>
+  </div>
+  <div class="setting-items link clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.link}">${nls.link}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <input type="text" data-dojo-type="jimu/dijit/URLInput" data-dojo-props="required:false,rest:false"
+        placeHolder="" data-dojo-attach-point="linkText"/>
+    </div>
+  </div>
+</div>

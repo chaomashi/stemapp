@@ -1,0 +1,173 @@
+<div class="ERGMainContainer ERGFullHeight" data-dojo-attach-point="mainNode">
+    <div class="ERGFullHeight ERGFullWidth" data-dojo-attach-point="widgetMainNode">       
+        
+        <!---------------------
+          ERG Main Page Node
+        ---------------------->
+        
+        <div class="ERGFullHeight" data-dojo-attach-point="ergMainPageNode">
+            <div class="ERGFullWidth ERGNewERGHeader">
+                <!-- Panel Title -->
+                <div class="ERGMainTitleDiv ERGEllipsis" title="${nls.ergMainPageTitle}">
+                  ${nls.ergMainPageTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="ERGSettingsIcon ERGPointer" title="${nls.settingsTitle}" data-dojo-attach-point="ERGSettingsButton"></div>
+                <!-- ERG Point Form -->
+                <div class="ERGMainPageRow">                  
+                  <!-- Draw ERG Point Coordinate Input -->
+                  <div class="ERGFullWidth ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis" style="width: 100%" title="${nls.coordInputLabelStart}" data-dojo-attach-point="ERGCoordInputLabel">${nls.coordInputLabelStart}</div>                      
+                        <div>
+                          <input class="jimu-input textInput" data-dojo-attach-point="newERGPointOriginCoords" />                        
+                          <div  title="${nls.formatIconTooltip}" class="jimu-icon settingBtn" data-dojo-attach-point="ERGFormatButton"></div>
+                          <div title="${nls.addPointToolTip}" class="jimu-icon editBtn" data-dojo-attach-point="ERGAddPointBtn"></div>
+                        </div>  
+                  </div>                        
+                  <!-- Material Input -->
+                  <div class="ERGFullWidth ERGSettingRow">
+                    <div class="ERGInputLabel ERGEllipsis" style="width: 100%" title="${nls.material}">${nls.material}</div>
+                    <input style="width: 100%" class="ERGEllipsis" data-dojo-attach-point="materialType"></input>
+                  </div>                  
+                  <!-- Spill Size & Fire Risk -->
+                  <div class="ERGHalfWidthContainer">
+                    <div class="ERGHalfWidthLeft ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis"  title="${nls.spillSize}">${nls.spillSize}</div>
+                      <select style="width: calc(100% - 20px)" data-dojo-type="dijit/form/Select" data-dojo-attach-point="spillSize">
+                        <option value="SM">${nls.small}</option>
+                        <option value="LG">${nls.large}</option>
+                      </select>
+                      <div  title="${nls.helpIconTooltip}" class="jimu-icon helpBtn"></div>
+                    </div>
+                    <div class="ERGHalfWidthRight ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis" title="${nls.fireLabel}">${nls.fireLabel}</div>
+                        <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="fire" checked="false" />                      
+                      </div>
+                  </div>
+                  <!-- Current Weather -->
+                  <div class="ERGFullWidth ERGSettingRow ERGHidden" data-dojo-attach-point="weatherContainer">                  
+                    <div class="ERGInputLabel ERGEllipsis" style="width: 100%" title="${nls.weatherLabel}">${nls.weatherLabel}</div>
+                      <div>
+                        <div class="weatherPanel" data-dojo-attach-point="weather"></div>                        
+                      </div>
+                  </div>
+                  <!-- Wind Direction & Time of Day-->
+                  <div class="ERGHalfWidthContainer">
+                    <div class="ERGHalfWidthLeft ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis"  title="${nls.windDirection}">${nls.windDirection}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0,max: 359, places:1},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="windDirection" value="0"></input>
+                    </div>
+                    <div class="ERGHalfWidthRight ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis"  title="${nls.timeOfSpill}">${nls.timeOfSpill}</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" data-dojo-attach-point="spillTime">
+                        <option value="DY">${nls.day}</option>
+                        <option value="NTE">${nls.night}</option>                        
+                      </select>                      
+                    </div>
+                  </div>
+                  <!-- Wind Speed & Conatiner -->
+                  <div class="ERGHalfWidthContainer ERGHidden" data-dojo-attach-point="table3Container">
+                    <div class="ERGHalfWidthLeft ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis"  title="${nls.windSpeed}">${nls.windSpeed}</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" disabled='true' data-dojo-attach-point="windSpeed">
+                        <option value="LOW">${nls.low}</option>
+                        <option value="MOD">${nls.moderate}</option>
+                        <option value="HI">${nls.high}</option>
+                      </select>
+                    </div>
+                    <div class="ERGHalfWidthRight ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis" title="${nls.transportContainer}">${nls.transportContainer}</div>
+                      <select class="noResize" style="width: 100%" data-dojo-type="dijit/form/Select" disabled='true' data-dojo-attach-point="transportContainer">
+                        <option value="RAIL">${nls.rail}</option>
+                        <option value="SEMI">${nls.semi}</option>
+                        <option value="MTON">${nls.mton}</option>
+                        <option value="STON">${nls.ston}</option>
+                        <option value="AG">${nls.ag}</option>
+                        <option value="MSM">${nls.msm}</option>
+                      </select>                     
+                    </div>
+                  </div>
+                  <!-- BLEVE-->
+                  <div class="ERGHalfWidthContainer ERGHidden" data-dojo-attach-point="bleveContainer">
+                    <div class="ERGHalfWidthLeft ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis" title="${nls.bleveLabel}">${nls.bleveLabel}</div>
+                      <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="useBleve" checked="false" disabled='true' />                     
+                    </div>                      
+                    <div class="ERGHalfWidthRight ERGSettingRow">
+                      <div class="ERGInputLabel ERGEllipsis" title="${nls.capacity}">${nls.capacity}</div>
+                      <select class="noResize" style="width: 100%" data-dojo-type="dijit/form/Select" disabled='true' data-dojo-attach-point="tankCapacity">
+                        <option value="BLV100L">100</option>
+                        <option value="BLV400L">400</option>
+                        <option value="BLV2000L">2000</option>
+                        <option value="BLV4000L">4000</option>
+                        <option value="BLV8000L">8000</option>
+                        <option value="BLV22000L">22000</option>
+                        <option value="BLV42000L">42000</option>
+                        <option value="BLV82000L">82000</option>
+                        <option value="BLV140000L">140000</option>
+                      </select>                     
+                    </div>
+                  </div>
+                  <!-- Create & Clear ERG Buttons -->
+                  <div class="ERGHalfWidthContainer">
+                    <div class="ERGBtnContainer ERGHalfWidthLeft">
+                      <div class='jimu-btn jimu-state-disabled' data-dojo-attach-point='CreateERGButton'>${nls.createERGBtn}</div>
+                    </div>
+                    <div class="ERGBtnContainer ERGHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='ClearERGButton'>${nls.clearERGBtn}</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+                
+        <!---------------------
+          Settings
+        ---------------------->
+        
+        <div class="ERGHidden ERGFullHeight" data-dojo-attach-point="settingsPageNode">
+            <div class="ERGFullWidth ERGSettingHeader">
+                <div class="ERGBackButton ERGPointer" title="${nls.common.back}" data-dojo-attach-point="SettingsPanelBackButton">
+                    <div class="ERGItemLeftArrow">
+                    </div>
+                </div>
+                <div class="ERGTitleDiv ERGEllipsis" title="${nls.settingsTitle}">
+                    ${nls.settingsTitle}
+                </div>
+            </div>
+            <div class="ERGSettingsNode" data-dojo-attach-point="SettingsNode"></div>            
+        </div>
+        
+        <!---------------------
+          Publish
+        ---------------------->
+        
+        <div class="ERGHidden ERGFullHeight" data-dojo-attach-point="resultsPageNode">
+            <div class="ERGFullWidth ERGSettingHeader">
+                <div class="ERGBackButton ERGPointer" title="${nls.common.back}" data-dojo-attach-point="resultsPanelBackButton">
+                    <div class="ERGItemLeftArrow">
+                    </div>
+                </div>
+                <div class="ERGTitleDiv ERGEllipsis" title="${nls.resultsTitle}">${nls.resultsTitle}</div>
+                <div class="ERGMainPageRow">                
+                  <!-- ERG Layer Name -->
+                  <div class="ERGFullWidth ERGSettingRow">
+                    <div class="ERGInputLabel ERGEllipsis" title="${nls.ERGLayerName}">${nls.ERGLayerName}</div>
+                      <input class="jimu-input textInput" style="width: 100%;" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="addERGNameArea"
+                        data-dojo-props="regExp:'[a-zA-Z0-9_]*', invalidMessage:'${nls.invalidERGLayerName}', missingMessage:'${nls.missingERGLayerName}'" required="true"></input>
+                  </div>
+                  <!-- Publish ERG Button -->                  
+                  <div class="ERGBtnContainer">
+                      <div class='jimu-btn' data-dojo-attach-point='ERGAreaBySizePublishERGButton'>${nls.publishERGBtn}</div>                    
+                  </div>
+                          
+                  <!-- Publishing Message -->
+                  <div class="ERGPublishMessage" data-dojo-attach-point="publishMessage"></div>
+                </div>  
+            </div>             
+        </div>
+        
+    </div>    
+</div>

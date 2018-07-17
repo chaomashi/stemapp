@@ -1,0 +1,625 @@
+.jimu-widget-query{
+  position: relative;
+  width: 99%;
+  height: 100%;
+  min-width: 222px;
+  min-height: 237px;
+  overflow-x: hidden;
+}
+
+.jimu-widget-query .first-stress{
+  font-family: "Avenir Light";
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.jimu-widget-query .second-stress{
+  font-size: 12px;
+  color: #353535;
+  margin-bottom: 5px;
+}
+
+.jimu-widget-query .jimu-table-row{
+  color: #000;
+}
+
+.jimu-widget-query .jimu-table-row.jimu-state-active{
+  font-weight: normal;
+  background-color: #eee;
+}
+
+.jimu-widget-query .query-result-item.jimu-table-row:first-child{
+  border-top: 1px solid #cbcbcb;
+}
+
+
+.jimu-widget-query .not-visible{
+  display: none !important;
+}
+
+.jimu-widget-query .jimu-checkbox .label{
+  font-size: 12px;
+  position: relative;
+  top: 2px;
+}
+
+.jimu-widget-query .query-widget-content{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: auto;
+  top: 0;
+  bottom: 0;
+}
+
+/* css for tab */
+.jimu-widget-query .query-tab-header{
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-size: 14px;
+}
+
+.jimu-widget-query .query-tab-item{
+  width: 50%;
+  height: 100%;
+  line-height: 30px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0 5px;
+}
+
+.jimu-widget-query .query-tab-item.selected{
+  border-bottom: 2px solid #898989;
+  font-weight: bold;
+  color: #000;
+}
+
+.jimu-widget-query .query-tabs-container{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 30px;
+  bottom: 0;
+}
+
+.jimu-widget-query .query-tab-view{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-query .query-tab-view.selected{
+  display: block;
+}
+
+/* css for list-table */
+.jimu-widget-query .list-table{
+  width: 99%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jimu-widget-query .list-table tr.single-task{
+  border-top: 1px solid #D7D7D7;
+  border-bottom: 1px solid #D7D7D7;
+}
+
+.jimu-widget-query .list-table tr.single-task:first-child{
+  border-top: 0;
+}
+
+.jimu-widget-query .list-table tr.single-task:hover, .jimu-widget-query .list-table tr.single-task.selected{
+  background-color: #eee;
+}
+
+
+.jimu-widget-query .list-table tr.single-task > td{
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.jimu-widget-query .list-table tr.single-task .list-item-name{
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  line-height: 16px;
+}
+
+.jimu-widget-query .list-table tr.single-task .first-td{
+  text-align: center;
+}
+
+.jimu-widget-query .list-table tr.single-task .task-icon{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+/* css for task-list */
+.jimu-widget-query .task-list{
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.jimu-widget-query .task-list .tasks{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.jimu-widget-query .task-list .tasks .execute-tip{
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.jimu-widget-query .task-list .tasks .tasks-table-container{
+  width: 100%;
+}
+
+.jimu-widget-query .task-list .invalid-config{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.jimu-widget-query .task-list .no-query-tip{
+  display: none;
+  line-height: 20px;
+}
+
+/* css for query-task-setting */
+.jimu-widget-query .task-setting-container{
+  height: 100%;
+  display: none;
+}
+
+.jimu-widget-query .query-task-setting{
+  position: relative;
+  height: 100%;
+}
+
+.jimu-widget-query .query-task-setting table.top{
+  width: 100%;
+  table-layout: fixed;
+  padding-top: 12px;
+}
+
+.jimu-widget-query .query-task-setting table.top .first-td{
+  width: 30px;
+}
+
+.jimu-widget-query .query-task-setting table.top .second-td{
+  width: auto;
+}
+
+.jimu-widget-query .query-task-setting table.top .third-td{
+  width: 30px;
+}
+
+.jimu-widget-query.only-one-task .query-task-setting table.top .first-td,
+.jimu-widget-query.only-one-task .query-task-setting table.top .third-td{
+  width: 0;
+}
+
+.jimu-widget-query.only-one-task .query-task-setting table.top .first-td,
+.jimu-widget-query.only-one-task .query-task-setting table.top .third-td{
+  display: none;
+  overflow: hidden;
+}
+
+.jimu-widget-query .back-arrow{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(images/arrow_left_normal.png);
+  vertical-align: middle;
+}
+
+.jimu-widget-query .back-arrow:hover{
+  background-image: url(images/arrow_left_hover.png);
+}
+
+.jimu-rtl .jimu-widget-query .back-arrow{
+  background-image: url(images/arrow_right_normal.png);
+}
+
+.jimu-rtl .jimu-widget-query .back-arrow:hover{
+  background-image: url(images/arrow_right_hover.png);
+}
+
+.jimu-widget-query .query-task-setting .task-name{
+  text-align: center;
+}
+
+.jimu-widget-query .query-task-setting .params-container{
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  bottom: 50px;
+  overflow: auto;
+}
+
+.jimu-widget-query .query-task-setting .spatial-section .spearator{
+  height: 1px;
+  margin-bottom: 12px;
+  border-top: 1px solid #D7D7D7;
+  display: none;
+}
+
+.jimu-widget-query .query-task-setting .spatial-section .relationship-section{
+  margin-top: 10px;
+}
+
+.jimu-widget-query .query-task-setting .spatial-section .jimu-dijit-spatial-filter-features{
+  margin-top: 10px;
+}
+
+.jimu-widget-query .query-task-setting .attributes-section{
+  margin-bottom: 12px;
+}
+
+.jimu-widget-query .query-task-setting .attributes-section .attribute-filter-label{
+  margin-bottom: 5px;
+}
+
+.jimu-widget-query .query-task-setting .btn-execute.jimu-btn{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: #59A700;
+  border-radius: 0;
+}
+
+.jimu-widget-query .query-task-setting .btn-execute.jimu-btn.disabled{
+  background-color: #ccc !important;
+  cursor: default;
+}
+
+.jimu-widget-query .query-task-setting .btn-execute:hover{
+  background-color: #417505;
+}
+
+.jimu-widget-query .query-task-setting .btn-execute:active{
+  background-color: #59A700;
+}
+
+/* css for jimu-query-spatial-filter-drawing */
+.jimu-query-spatial-filter-drawing .search-distance-div{
+  margin-top: 15px;
+}
+
+.jimu-query-spatial-filter-drawing .jimu-draw-box .drawings-clear{
+  margin-left: 18px;
+}
+
+.jimu-rtl .jimu-query-spatial-filter-drawing .jimu-draw-box .drawings-clear{
+  margin-left: 0;
+  margin-right: 18px;
+}
+
+/* css for result-list */
+.jimu-widget-query .result-list{
+  padding-top: 10px;
+}
+
+/* css for result-tab-view */
+.jimu-widget-query .result-tab-view .result-section{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.jimu-widget-query .result-tab-view .no-result-section{
+  padding-top: 20px;
+}
+
+.jimu-widget-query .resultlayers-select-div{
+  position: absolute;
+  left: 0;
+  right: 37px;
+  top: 15px;
+  text-align: center;
+  overflow: visible;
+}
+
+.jimu-rtl .jimu-widget-query .resultlayers-select-div{
+  left: 37px;
+  right: 0;
+}
+
+.jimu-widget-query .single-result-details{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* css for single-query-result */
+.jimu-widget-query .single-query-result,
+.jimu-widget-query .single-query-result .features-result,
+.jimu-widget-query .single-query-result .single-related-records-section{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-query .single-query-result .query-result-action-button{
+  position: absolute;
+  top: 12px;
+  right: -8px;
+}
+
+.jimu-rtl .jimu-widget-query .single-query-result .query-result-action-button{
+  right: auto;
+  left: -8px;
+}
+
+.jimu-widget-query .single-query-result .results-number{
+  position: relative;
+  top: 58px;
+  /*padding: 0 15px;*/
+}
+
+.jimu-widget-query .single-query-result .results-container{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 85px;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jimu-widget-query .single-query-result .results-table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.jimu-widget-query .single-query-result .query-result-item.jimu-table-row{
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.jimu-widget-query .single-query-result .query-result-item > td{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.jimu-rtl .jimu-widget-query .single-query-result .query-result-item > td{
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.jimu-widget-query .single-query-result .query-result-item .esriViewPopup .header{
+  margin-bottom: 8px;
+}
+
+.jimu-widget-query .single-query-result .query-result-item .esriViewPopup .hzLine{
+  display: none;
+}
+
+.jimu-widget-query .single-query-result .query-result-item .esriViewPopup .mainSection .break{
+  display: none;
+}
+
+.jimu-widget-query .single-query-result .query-result-item-table{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.jimu-widget-query .single-query-result .query-result-item-table .symbol-td{
+  width: 36px;
+}
+
+.jimu-widget-query .single-query-result .query-result-item-table .popup-td{
+  width: auto;
+}
+
+.jimu-widget-query .single-query-result .query-result-item .related-table-btn{
+  height: 30px;
+  line-height: 30px;
+  margin: 5px 0;
+  padding: 0 5px;
+  background: url(images/arrow_right1.png) right center no-repeat content-box;
+  overflow: hidden;
+  text-overflow: hidden;
+  white-space: nowrap;
+  font-family: "Avenir Medium";
+  color: #000;
+}
+
+.jimu-widget-query .single-query-result .query-result-item .related-table-btn:hover{
+  font-weight: bold;
+  background: url(images/arrow_right2.png) right center no-repeat content-box;
+}
+
+.jimu-rtl .jimu-widget-query .single-query-result .query-result-item .related-table-btn{
+  background: url(images/arrow_left1.png) left center no-repeat content-box;
+}
+
+.jimu-rtl .jimu-widget-query .single-query-result .query-result-item .related-table-btn:hover{
+  background: url(images/arrow_left2.png) left center no-repeat content-box;
+}
+
+.jimu-widget-query table.related-records-header{
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  min-height: 36px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.jimu-widget-query table.related-records-header>tbody>tr>td{
+  height: 36px;
+}
+
+.jimu-widget-query table.related-records-header>tbody>tr>.first-td{
+  width: 30px;
+}
+
+.jimu-widget-query table.related-records-header>tbody>tr>.middle-td{
+  width: auto;
+}
+
+.jimu-widget-query table.related-records-header>tbody>tr>.last-td{
+  width: 40px;
+}
+
+.jimu-widget-query table.related-records-header .related-records-title{
+  text-align: center;
+}
+
+.jimu-widget-query .related-records-result{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-query .related-records-result .related-records-action-button{
+  position: absolute;
+  right: -8px;
+  top: 6px;
+  z-index: 1;
+}
+
+.jimu-rtl .jimu-widget-query .related-records-result .related-records-action-button{
+  position: absolute;
+  right: auto;
+  left: -8px;
+  top: 0;
+}
+
+.jimu-widget-query .related-records-result .noresult-tip{
+  margin-top: 50px;
+}
+
+.jimu-widget-query .related-records-result .content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  overflow: auto;
+}
+
+.jimu-widget-query .related-records-result .content .item{
+  border-top: 1px solid #E2E2E2;
+}
+
+.jimu-widget-query .related-records-result .content .item:last-child{
+  border-bottom: 1px solid #E2E2E2;
+}
+
+.jimu-widget-query .related-records-result .content .item-title{
+  position: relative;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+  background: url(images/arrow_right1.png) right center no-repeat content-box;
+}
+
+.jimu-rtl .jimu-widget-query .related-records-result .content .item-title{
+  background: url(images/arrow_left1.png) left center no-repeat content-box;
+}
+
+.jimu-widget-query .related-records-result .content .item.selected .item-title{
+  background: url(images/arrow_down.png) right center no-repeat content-box;
+}
+
+.jimu-rtl .jimu-widget-query .related-records-result .content .item.selected .item-title{
+  background: url(images/arrow_down.png) left center no-repeat content-box;
+}
+
+.jimu-widget-query .related-records-result .content .item-title .esriNumericValue{
+  position: absolute;
+  left: 4px;
+  right: 18px;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-rtl .jimu-widget-query .related-records-result .content .item-title .esriNumericValue{
+  left: 18px;
+  right: 4px;
+}
+
+.jimu-widget-query .related-records-result .content .item-content{
+  border-top: 1px solid #E2E2E2;
+  display: none;
+}
+
+.jimu-widget-query .related-records-result .content .item.selected .item-content{
+  display: block;
+}
+
+.jimu-widget-query .related-records-result .esriViewPopup .header{
+  display: none;
+}
+
+.jimu-widget-query .related-records-result .esriViewPopup .hzLine{
+  display: none;
+}
+
+/* css for query-resultlayer-tooltipdialog-content */
+.query-resultlayer-tooltipdialog-content{
+  cursor: default;
+}
+
+.query-resultlayer-tooltipdialog-content .result-item{
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.query-operations-tooltipdialog-content{
+  cursor: default;
+}
+
+.query-operations-tooltipdialog-content .operation-item{
+  height: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}

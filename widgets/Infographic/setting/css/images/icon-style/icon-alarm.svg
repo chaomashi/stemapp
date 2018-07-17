@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>alarm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Number5-Indicators" transform="translate(-1004.000000, -562.000000)" fill="#282828">
+            <g id="Pop-up" transform="translate(719.000000, 458.000000)">
+                <g id="Group-6" transform="translate(110.000000, 53.000000)">
+                    <g id="Group-12" transform="translate(164.000000, 41.000000)">
+                        <g id="alarm" transform="translate(11.000000, 10.000000)">
+                            <path d="M6.8,16 C7.68,16 8.4,15.28 8.4,14.4 L5.2,14.4 C5.2,15.28 5.92,16 6.8,16 L6.8,16 Z M12,11.2 L12,6.8 C12,4.32 10.32,2.32 8,1.76 L8,1.2 C8,0.56 7.44,0 6.8,0 C6.16,0 5.6,0.56 5.6,1.2 L5.6,1.76 C3.28,2.32 1.6,4.32 1.6,6.8 L1.6,11.2 L0,12.8 L0,13.6 L13.6,13.6 L13.6,12.8 L12,11.2 L12,11.2 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

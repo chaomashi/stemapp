@@ -1,0 +1,17 @@
+/* Fonts */
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("helveticaneue.eot?#iefix");
+  src: url("helveticaneue.eot?#iefix") format("eot"), url("helveticaneue.woff2") format("woff2"), url("helveticaneue.woff") format("woff"), url("helveticaneue.ttf") format("truetype"), url("helveticaneue.svg#bHelveticaNeue") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueUltraLight';
+  src: url('helveticaneueultralight.eot?#iefix');
+  src: url('helveticaneueultralight.eot?#iefix') format('eot'), url('helveticaneueultralight.woff2') format('woff2'), url('helveticaneueultralight.woff') format('woff'), url('helveticaneueultralight.ttf') format('truetype'), url('helveticaneueultralight.svg#HelveticaNeueUltraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

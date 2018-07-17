@@ -1,0 +1,14 @@
+{
+  "name": "SuitabilityModeler",
+  "platform": "HTML",
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": true,
+    "keepConfigAfterMapSwitched": false
+  }
+}

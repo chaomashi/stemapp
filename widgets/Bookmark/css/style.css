@@ -1,0 +1,792 @@
+@import url("../common.css");
+
+.jimu-widget-bookmark{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.jimu-widget-bookmark .add-section{
+  position: relative;
+  height: 30px;
+  margin-top: 7px;
+  overflow: visible;
+}
+.jimu-widget-bookmark .input-bookmark-name{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/*.jimu-widget-bookmark .btn-add{
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  width: 30px;
+  z-index: 2;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #d9dde0;
+  cursor: pointer;
+}
+.jimu-widget-bookmark .btn-add .jimu-center-img{
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background-image: url(images/add.png);
+}*/
+.jimu-widget-bookmark .jimu-state-error{
+  margin-top: 4px;
+  visibility: hidden;
+}
+.jimu-widget-bookmark .bookmark-list{
+  margin-bottom: 35px;
+  width: 100%;
+}
+.jimu-widget-bookmark .play-section{
+  overflow: hidden;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.jimu-widget-bookmark .jimu-btn{
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+
+.jimu-widget-bookmark .jimu-img-node{
+  margin-bottom: 8px;
+}
+
+.jimu-widget-bookmark .jimu-img-node .node-label{
+  height: 2.7em;
+  line-height: 16px;
+  vertical-align: middle;
+  padding: 0 5px;
+  margin: 0 auto;
+  width: 100px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.jimu-widget-bookmark .jimu-img-node .node-box{
+  /* margin: 0 auto;
+  width: 100px;
+  height: 60px; */
+  border-radius: 0;
+  position: relative;
+}
+.jimu-widget-bookmark .jimu-img-node img{
+  display: flex;
+  /*margin: 0 2px;*/
+  width: 100%;
+  height: 60px;
+  opacity: 1;
+  min-width: 80px;
+}
+
+.jimu-widget-bookmark .jimu-img-node.selected img{
+  opacity: 0.4;
+  transition: opacity .5s;
+}
+
+/*
+.jimu-widget-bookmark .hide {
+  display: none !important;
+}
+.jimu-widget-bookmark .clearFix {
+	*overflow: hidden;
+	*zoom: 1;
+}
+.jimu-widget-bookmark .clearFix:after {
+	display: table;
+	content: "";
+	width: 0;
+	clear: both;
+}*/
+/**********************    jimu-img-node   **************************/
+/*
+.jimu-widget-bookmark .jimu-img-node .oper-btns{
+  display: none;
+}
+.jimu-widget-bookmark .editing .jimu-img-node .oper-btns{
+  display: block;
+  width:15px;
+  height:15px;
+}
+
+.jimu-widget-bookmark .cards.editing .oper-btns{
+  top:0;
+}
+
+.jimu-widget-bookmark .cards.editing .jimu-img-node .selected-btn{
+  position: absolute;
+  background-color: blue;
+  left:0;
+}
+.jimu-widget-bookmark .cards.editing .jimu-img-node.selected .selected-btn{
+  background-color: red;
+}
+
+.jimu-widget-bookmark .cards.editing .jimu-img-node .close-btn{
+  position: absolute;
+  background-color: green;
+  right:0;
+}
+*/
+.jimu-widget-bookmark .cards .jimu-img-node:hover .dijitTextBox .dijitInputInner{
+  color: #51B1FE !important;
+}
+.jimu-widget-bookmark .cards .jimu-img-node .drag-masker{
+/*  width: 100px;
+  height: 60px;*/
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.jimu-widget-bookmark .cards .jimu-img-node .delete-btn{
+  display: none;
+  right:calc((100% - 100px)/2);
+  justify-content: center;
+  align-items: center;
+}
+.jimu-rtl .jimu-widget-bookmark .cards .jimu-img-node .delete-btn{
+  right: auto;
+  left: calc((100% - 100px)/2);
+}
+.jimu-widget-bookmark .cards .jimu-img-node:hover .delete-btn{
+  display: flex;
+}
+.jimu-widget-bookmark .cards .jimu-img-node .change-img-btn{
+  display: none;
+}
+.jimu-widget-bookmark .cards .jimu-img-node:hover .change-img-btn{
+  display: block;
+}
+.jimu-widget-bookmark .cards .jimu-img-node .dijitTextBox{
+  max-width: 104px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.jimu-widget-bookmark .list{
+
+}
+.jimu-widget-bookmark .list .jimu-img-node{
+  width: 100% !important;
+  display: flex;
+  height: 36px;
+  margin-bottom: 8px;
+}
+
+.jimu-widget-bookmark .list .jimu-img-node:hover{
+  background-color: #E2E2E2;
+}
+.DartTheme .jimu-widget-bookmark .list .jimu-img-node:hover{
+  background-color: #444;
+}
+/*.jimu-widget-bookmark .list.editing .jimu-img-node{
+  display: flex;
+}*/
+.jimu-widget-bookmark .list .node-box{
+  /*position: absolute;*/
+  height: 36px;
+  width: 20px;
+  margin: 0;
+  /*z-index: 1;*/
+}
+/*.jimu-widget-bookmark .list .jimu-img-node .drag-masker{
+  height: 60px;
+}
+.jimu-widget-bookmark .list .jimu-img-node .dijitValidationTextBox{
+  margin: 0 10px;
+}*/
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBoxFocused.dijitValidationTextBoxFocused{
+  z-index: 99;
+}
+.jimu-widget-bookmark .list .node-box img{
+  display: none;
+}
+.jimu-widget-bookmark .node-box:after{
+  display: none;
+}
+.jimu-widget-bookmark .list .node-box:after{
+  position: absolute;
+  content: url(../images/btns/place.svg);
+  display: block;
+  height: 16px;
+  top: 9px;
+  left: 4px;
+}
+.jimu-widget-bookmark .list .with-layer-visibility.node-box:after{
+  position: absolute;
+  content: url(../images/btns/place_with_layer_visibility.svg);
+  display: block;
+  height: 16px;
+  top: 9px;
+  left: 4px;
+}
+.jimu-widget-bookmark .list .editing .node-box:after{
+  top: 10px;
+}
+.jimu-rtl .jimu-widget-bookmark .list .node-box:after{
+  left: auto;
+  right: 3px;
+}
+.jimu-widget-bookmark .list.editing .node-box{
+  display: none;
+}
+.jimu-widget-bookmark .list.editing .node-box:after{
+  display: none;
+}
+
+.jimu-widget-bookmark .list.editing .jimu-img-node .node-box{
+  margin: 0;
+}
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox{
+  height: 36px;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBoxDisabled,
+.mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBox .dijitInputField,
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBoxDisabled,
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputField{
+  width: calc(100% - 70px);
+  height: 100%;
+}
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputInner{
+  height: 100%;
+}
+
+/*.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputContainer.dijitInputField {
+  width: 300px;
+}*/
+.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputInner{
+  text-align: left;
+}
+.jimu-rtl .jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputInner{
+  text-align: right;
+}
+.jimu-widget-bookmark .list.editing .head-btns{
+  
+}
+.jimu-widget-bookmark .list .jimu-img-node .oper-btns{
+  top: 8px;
+}
+/*.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .oper-btns{
+  top: 8px;
+  background-color: transparent;
+}*/
+
+.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .oper-btns{
+  top: 8px;
+}
+
+.mobile .jimu-img-node .oper-btns{
+  display: none;
+}
+
+.mobile .editing .jimu-img-node .oper-btns,
+.mobile .editing .jimu-img-node .oper-btns:hover,
+.jimu-widget-bookmark .list .editing .jimu-img-node .oper-btns,
+.jimu-widget-bookmark .list .editing .jimu-img-node .oper-btns:hover{
+  background-color: transparent;
+}
+
+
+/* .jimu-widget-bookmark .list .editing .jimu-img-node .rename-btn{
+
+} */
+
+.mobile .editing .jimu-img-node .rename-btn:before,
+.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .rename-btn:before{
+  position: absolute;
+  display: block;
+  background-image: url(images/pencil.svg);
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.mobile .editing .jimu-img-node .rename-btn:hover:before,
+.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .rename-btn:hover:before{
+  background-image: url(images/pencil_hover.svg);
+}
+
+/* .mobile .editing .jimu-img-node .oper-btns:hover{
+  background-color: transparent;
+} */
+
+
+.mobile .editing .jimu-img-node .delete-btn:before,
+.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .delete-btn:before{
+  position: absolute;
+  display: block;
+  background-image: url(images/clear.svg);
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.mobile .editing .jimu-img-node .delete-btn:hover:before,
+.jimu-widget-bookmark:not(.mobile) .list .editing .jimu-img-node .delete-btn:hover:before{
+  background-image: url(images/clear_hover.svg);
+}
+
+.mobile .editing .jimu-img-node .change-img-btn:before{
+  position: absolute;
+  display: block;
+  background-image: url(images/change_img.svg);
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.mobile .editing .jimu-img-node .change-img-btn:hover:before{
+  background-image: url(images/change_img_hover.svg);
+}
+
+.jimu-widget-bookmark .list.editing .jimu-img-node .selected-btn{
+  position: relative;
+  align-self: center;
+}
+.jimu-widget-bookmark .list.editing .jimu-img-node .close-btn{
+  position: relative;
+  background-color: green;
+}
+.jimu-widget-bookmark .list .jimu-img-node .delete-btn{
+  left: auto;
+  right: 15px;
+  display: block;
+}
+.jimu-rtl .list .jimu-img-node .delete-btn{
+  left: 15px;
+  right: auto;
+}
+.jimu-widget-bookmark .list .jimu-img-node .change-img-btn{
+  display: none;
+}
+.jimu-widget-bookmark .list .editing .jimu-img-node .rename-btn{
+  display: block;
+  left: auto;
+  right: 50px;
+}
+.jimu-rtl .jimu-widget-bookmark .list .editing .jimu-img-node .rename-btn{
+  left: 50px;
+  right: auto;
+}
+.jimu-rtl .jimu-widget-bookmark .list .editing .jimu-img-node .change-img-btn{
+  left: 85px;
+  right: auto;
+}
+/**********************    jimu-img-node   **************************/
+
+
+.jimu-widget-bookmark {
+  position: relative;
+  /*margin-bottom: 10px;*/
+  overflow: hidden;
+}
+.jimu-widget-bookmark .drawer-handle{
+  width: 100%;
+  /* height: 10px; */
+  display: flex;
+  align-items: center;
+  /*margin-bottom:10px;
+  justify-content: flex-end;*/
+  font-family: "Avenir Medium";
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.39px;
+}
+.jimu-widget-bookmark .drawer-handle .separate-line{
+  margin: 10px 0 25px 0;
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+.DartTheme .jimu-widget-bookmark .drawer-handle .separate-line{
+  border-top: 1px solid #666;
+}
+.jimu-widget-bookmark .drop-down{
+  display: flex;
+  align-items: center;
+  background: url(images/dropDown.svg) no-repeat;
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  cursor: pointer;
+}
+.jimu-widget-bookmark .drop-down.open{
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+.jimu-widget-bookmark .drop-down{
+  margin: 0 10px;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.jimu-widget-bookmark .bookmarks-container{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.jimu-widget-bookmark .bookmarker-nodes{
+  overflow: auto;
+  /*min-height: 200px;
+  border: 1px solid #666;*/
+}
+
+.jimu-widget-bookmark .dojoDndItemAnchor{
+  padding: 0;
+  border: none;
+}
+/*.jimu-widget-bookmark .dojoDndItem{
+  padding: 0;
+  border: none;
+}*/
+
+.jimu-widget-bookmark .header .oper-btns{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.jimu-widget-bookmark .header .head-btns{
+  width:16px;
+  height:16px;
+  margin: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.jimu-widget-bookmark .header .add{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width:65px; */
+  height:30px;
+  min-width: 65px;
+  padding: 0 10px;
+  /* border: 1px solid #24B5CC;
+  color: #24B5CC; */
+  border: 1px solid #c7c7c7;
+  color: #000;
+  font-family: Avenir-Medium;
+  font-size: 12px;
+  cursor: pointer;
+}
+.jimu-widget-bookmark .header .add:hover{
+  border: 1px solid #000;
+}
+.DartTheme .jimu-widget-bookmark .header .add{
+  border: 1px solid #666;
+  color: #FFF;
+}
+.DartTheme .jimu-widget-bookmark .header .add:hover{
+  border: 1px solid #FFF;
+}
+.jimu-widget-bookmark .editable .header .filter-container{
+  margin-left:20px;
+}
+.jimu-rtl .jimu-widget-bookmark .editable .header .filter-container{
+  margin-left: auto;
+  margin-right: 20px;
+}
+.jimu-widget-bookmark .header .filter-container{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*width: calc(100% - 80px);*/
+  overflow: hidden;
+  /*margin-right: 20px;*/
+}
+.jimu-widget-bookmark .header .filter-container .filter-input{
+  position: absolute;
+  height: 30px;
+  /*margin: 0 20px;*/
+  width: 100%;
+}
+.jimu-widget-bookmark .header .filter-container .dijitTextBox {
+  width: 100%;
+}
+.jimu-widget-bookmark .header .filter-container .search{
+  position: absolute;
+  background: url(images/search.svg) no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin: 7px;
+  right: 0;
+  top: 0;
+  /* cursor: pointer; */
+}
+.jimu-rtl .jimu-widget-bookmark .header .filter-container .search{
+  right: auto;
+  left: 0;
+}
+/*.jimu-widget-bookmark .header .filter-container .search:hover{
+  background: url(images/search_hover.svg) no-repeat;
+  background-size: contain;
+}*/
+.jimu-widget-bookmark .header .display-mode{
+  margin: 0 10px;
+}
+/*.jimu-rtl .jimu-widget-bookmark .header .display-mode{
+  margin-left: auto;
+  margin-right: 20px;
+}*/
+.jimu-widget-bookmark:not(.mobile) .cards .header{
+  margin-bottom: 25px;
+}
+
+
+/**********************    edit-menu footer   **************************/
+/*.jimu-widget-bookmark .edit-menu{
+  display: none;
+}
+.jimu-widget-bookmark .editing.edit-menu{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 10px;
+  background-color: #80dbc5;
+  width: 100%;
+}
+
+.jimu-widget-bookmark .edit-menu-btns{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  text-align: center;
+}*/
+/**********************    edit-menu footer   **************************/
+
+/*********************  mobile  **********************/
+.mobile.jimu-widget-bookmark {
+
+}
+.mobile.jimu-widget-bookmark .dojoDndSource:not(.editable) .header{
+  height: 20px;
+  margin-bottom: 5px;
+}
+/*.mobile.jimu-widget-bookmark .header .editable-btns{
+  width: 100%;
+}
+.mobile.jimu-widget-bookmark .list .header {
+  margin-bottom: 10px;
+}
+.mobile.jimu-widget-bookmark .header .add{
+  width: 100%;
+  background: #24B5CC;
+  color: #fff;
+}
+.mobile.jimu-widget-bookmark .header .oper-btns{
+  width: 44px;
+}*/
+.mobile.jimu-widget-bookmark .jimu-img-node{
+  width:100% !important;
+  /*height:64px;*/
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(230,230,230,0.5);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 4px 0;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .layer-info-icon {
+  left: 0px;
+  bottom: 9px;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .layer-info-icon {
+  left: auto;
+  right: 0;
+}
+.DartTheme .mobile.jimu-widget-bookmark .jimu-img-node{
+  border-top: 1px solid #333333
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .drag-masker{
+  width: 100%;
+}
+.mobile.jimu-widget-bookmark .cards .jimu-img-node .dijitTextBox{
+  margin: 0;
+  max-width: 100%;
+}
+/*.jimu-widget-bookmark .list.editing .jimu-img-node{
+  display: flex;
+}
+.mobile.jimu-widget-bookmark .drag-masker{
+  
+}*/
+.mobile.jimu-widget-bookmark .node-box{
+  /* height: 50px; 
+  width: 80px;
+  margin: 0 10px;
+  overflow: visible; */
+}
+.mobile.jimu-widget-bookmark .list.editing .node-box{
+  display: flex;
+}
+.mobile.jimu-widget-bookmark .node-box img{
+  max-height: 50px;
+  max-width: 75px;
+  /* display: flex; */
+}
+/*.mobile.jimu-widget-bookmark .node-box img{
+  display: none;
+}*/
+/* .mobile.jimu-widget-bookmark .node-box:after{
+  display: none;
+} */
+/*.mobile.jimu-widget-bookmark .node-box:after{
+  position: absolute;
+  content: url(../images/btns/place.svg);
+  display: block;
+  height:16px;
+}*/
+.mobile.jimu-widget-bookmark .editing .node-box{
+  /*display: none;*/
+}
+/* .mobile.jimu-widget-bookmark .editing .node-box:after{
+  display: none;
+} */
+
+.mobile.jimu-widget-bookmark .jimu-img-node .node-box{
+  margin-left: 0;
+  margin-right:10px;
+}
+.mobile.jimu-widget-bookmark .cards .jimu-img-node .node-box{
+  min-width: 80px;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .node-box{
+  margin-left: 10px;
+  margin-right:0;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBoxDisabled,
+.mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBox .dijitInputField{
+  max-width: 300px;
+}
+/*.mobile.jimu-widget-bookmark .jimu-img-node .dijitValidationTextBox{
+  margin-left: 90px;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .dijitValidationTextBox{
+  margin-left: auto;
+  margin-right: 90px;
+}*/
+/*.jimu-widget-bookmark .list .jimu-img-node .dijitTextBox .dijitInputContainer.dijitInputField {
+  width: 300px;
+}*/
+.mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBox .dijitInputInner{
+  text-align: left;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .dijitTextBox .dijitInputInner{
+  text-align: right;
+}
+.mobile.jimu-widget-bookmark .drawer-handle .separate-line{
+  margin-bottom: 0;
+  border-top: 4px solid #F2F2F2;
+}
+/*
+.mobile.jimu-widget-bookmark .editing .head-btns{
+  
+}
+.mobile.jimu-widget-bookmark .editing .jimu-img-node .selected-btn{
+  position: relative;
+  align-self: center;
+}
+
+.mobile.jimu-widget-bookmark .editing .jimu-img-node .close-btn{
+  position: relative;
+  background-color: green;
+}
+
+.mobile.jimu-widget-bookmark .editing .jimu-img-node .delete-btn{
+  top: 20px;
+}*/
+.mobile.jimu-widget-bookmark {
+  -webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .node-label{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+/*.mobile.jimu-widget-bookmark .editing .jimu-img-node .oper-btns{
+  top: 20px;
+}*/
+.mobile.jimu-widget-bookmark .editing .jimu-img-node .selected-btn{
+  position: relative;
+  align-self: center;
+}
+.mobile.jimu-widget-bookmark .editing .jimu-img-node .close-btn{
+  position: relative;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .change-img-btn {
+  display: block;
+  left: auto;
+  right: 85px;
+  bottom: auto;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .change-img-btn {
+  left: 85px;
+  right: auto;
+}
+.mobile.jimu-widget-bookmark .list .jimu-img-node .change-img-btn {
+  display: none;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .rename-btn {
+  display: block;
+  left: auto;
+  right: 50px;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .rename-btn {
+  left: 50px;
+  right: auto;
+}
+.mobile.jimu-widget-bookmark .jimu-img-node .delete-btn {
+  display: block;
+  right: 15px;
+}
+.jimu-rtl .mobile.jimu-widget-bookmark .jimu-img-node .delete-btn {
+  left: 15px;
+  right: auto;
+}
+/*********************  mobile  **********************/
+
+/*
+.jimu-rtl .jimu-widget-bookmark .btn-add{
+  left: 1px;
+  right: auto;
+}
+
+
+
+.FoldableTheme.green .jimu-widget-bookmark .btn-add{
+  background-color: #80dbc5;
+}
+
+.FoldableTheme.cyan .jimu-widget-bookmark .btn-add{
+  background-color: #d5d5d4;
+}*/

@@ -1,0 +1,32 @@
+<div class="style-selector">
+  <div class="setting-items font clearFix" data-dojo-attach-point="fontSetting">
+    <div class="label-position jimu-float-leading" title="${nls.font}">${nls.font}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <select data-dojo-attach-point="fontSelect" data-dojo-props='style:{width:"100%"}' data-dojo-type="dijit/form/Select"></select>
+    </div>
+  </div>
+  <div class="setting-items text-size clearFix" data-dojo-attach-point="textSizeSetting">
+    <div class="label-position jimu-float-leading" title="${nls.textSize}">${nls.textSize}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <div class="text-size-group jimu-float-leading">
+        <select data-dojo-type="dijit/form/ComboBox" data-dojo-attach-point="textSizeSelect"></select>
+      </div>
+      <div class="text-size-group jimu-float-leading">
+        <div class="sliderbar" data-dojo-attach-point="sliderBar"></div>
+      </div>
+    </div>
+  </div>
+  <div class="setting-items text-color clearFix" data-dojo-attach-point="textColorSetting">
+    <div class="label-position jimu-float-leading" title="${nls.textColor}">${nls.textColor}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <div class="font-group jimu-float-leading">
+        <div class="text-color-btn" data-dojo-attach-point="textColorBtn"></div>
+      </div>
+      <div class="font-group font-group-btns jimu-float-leading">
+        <div class="font-btn jimu-float-leading bold" data-dojo-attach-point="bold"></div>
+        <div class="font-btn jimu-float-leading italic" data-dojo-attach-point="italic"></div>
+        <div class="font-btn jimu-float-leading underline" data-dojo-attach-point="underline"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+/* For dashboard theme*/
+
+.jimu-widget-screening .esriCTAnalysisUnitSettingContainer {
+  background: url(../images/analysis-unit-setting-disable.png) no-repeat;
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTLayerFieldCheckbox {
+  color: #ffffff;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsIcon {
+  background: url(../images/setting-disable.png);
+  background-size: 20px 20px;
+}
+
+
+/* Report panel starts */
+
+.jimu-widget-screening .esriCTRefreshContainer {
+  background-image: url('../images/refresh-grey.png');
+}
+
+.jimu-widget-screening .esriCTAttrTableHighlighted td {
+  background-color: #808080;
+}
+
+.jimu-widget-screening .esriCTAttrTable td.esriCTAttrName {
+  color: #ffffff;
+}
+
+
+/* Report panel ends */
+
+
+/* Select tool starts */
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #ffffff;
+  cursor: default;
+}
+
+/* Select tool ends */
+
+/* co-ordintes tab starts */
+
+.jimu-widget-screening .esriCTNewTraverseLabelDiv {
+  display: block;
+}
+
+.jimu-widget-screening .esriCTBearingDistanceParentDiv {
+  float: left;
+}
+/* co-ordinates tab ends */

@@ -1,0 +1,115 @@
+{
+  "widgetOnScreen": {
+    "widgets": {
+      "widgets/Search/Widget": {
+        "position": {
+          "left": 15,
+          "top": 10
+        }
+      },
+      "widgets/ZoomSlider/Widget": {
+        "position": {
+          "left":15,
+          "bottom": 125
+        }
+      },
+      "widgets/HomeButton/Widget": {
+        "position": {
+          "left": 15,
+          "bottom": 85
+        }
+      },
+      "widgets/MyLocation/Widget": {
+        "position": {
+          "left": 15,
+          "bottom": 45
+        }
+      },
+      "widgets/ExtentNavigate/Widget": {
+        "position": {
+          "left": 15,
+          "bottom": 195
+        }
+      },
+      "ph_8": {
+        "position": {
+          "left": 15,
+          "top": 53
+        }
+      },
+      "ph_9": {
+        "position": {
+          "left": 15,
+          "top": 98
+        }
+      },
+      "ph_10": {
+        "position": {
+          "left": 15,
+          "top": 143
+        }
+      },
+      "ph_11": {
+        "position": {
+          "left": 15,
+          "top": 188
+        }
+      },
+      "ph_12": {
+        "position": {
+          "left": 15,
+          "top": 233
+        }
+      }
+    }
+  },
+
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 15,
+            "bottom": 25
+          }
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 15,
+            "bottom": 5
+          }
+        },
+        "ph_8": {
+          "position": {
+            "left": 15,
+            "top": 53
+          }
+        },
+        "ph_9": {
+          "position": {
+            "left": 15,
+            "top": 98
+          }
+        },
+        "ph_10": {
+          "position": {
+            "left": 15,
+            "top": 143
+          }
+        },
+        "ph_11": {
+          "position": {
+            "left": 15,
+            "top": 188
+          }
+        },
+        "ph_12": {
+          "position": {
+            "left": 15,
+            "top": 233
+          }
+        }
+      }
+    }
+  }
+}

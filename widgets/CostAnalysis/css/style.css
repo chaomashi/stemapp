@@ -1,0 +1,1205 @@
+/* Main widget container starts */
+
+.esriCTOverridePanelStyle {
+  height: calc(100% - 20px) !important;
+}
+
+
+/* Main widget container ends */
+
+/* Common classes */
+
+.jimu-widget-cost-analysis-widget .esriCTHidden, .jimu-widget-cost-analysis-statistics-settings .esriCTHidden, .jimu-widget-cost-analysis-scenario-selection .esriCTHidden {
+  display: none;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTFloatLeft {
+  float: left;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTFullHeightWidth {
+  height: 100%;
+  width: 100%;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTFullwidth {
+  width: 100%;
+}
+
+.esriCTPageFooter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.jimu-widget-cost-analysis-widget .jimu-btn {
+  max-width: 150px;
+}
+
+.esriCTPageFooter .jimu-btn {
+  margin: 0 5px;
+}
+
+.esriCTContentSection {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+
+/* Common classes Ends*/
+
+
+/*Common classes used for add new statistics & cost escalation */
+
+.jimu-widget-cost-analysis-widget .esriCTStatisticsButtons {
+  height: 24px;
+  width: 24px;
+  background-size: 20px;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+  margin: 0px 5px 0px 0px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-widget .esriCTStatisticsButtons {
+  float: right;
+  margin: 0px 0px 0px 5px;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTAddStatisticsIcon {
+  background-image: url(../images/add.png);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTAddStatisticsIconDisable {
+  background-image: url(../images/add-disabled.png);
+  border: 1px solid gray;
+  cursor: default;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTDeleteStatisticsIcon {
+  background-image: url(../images/delete.png);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTDeleteStatisticsIconDisable {
+  background-image: url(../images/delete-disabled.png);
+  border: 1px solid gray;
+  cursor: default;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTStatisticsUpIcon {
+  background-image: url(../images/up.png);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTStatisticsUpIconDisable {
+  background-image: url(../images/up-disabled.png);
+  border: 1px solid gray;
+  cursor: default;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTStatisticsDownIcon {
+  background-image: url(../images/down.png);
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-widget .esriCTStatisticsDownIconDisable {
+  background-image: url(../images/down-disabled.png);
+  border: 1px solid gray;
+  cursor: default;
+}
+
+.esriRtl .jimu-widget-cost-analysis-widget .esriCTStatisticsButtonParentDiv {
+  float: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-widget .esriCTAdd {
+  float: right;
+  margin: 5px 0px 5px 2px;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTCostEscalationTitle {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTCostEscalatioParent {
+  margin-bottom: 10px;
+}
+
+
+/*End of Common classes used for add new statistics & cost escalation */
+
+
+/* End of common classes*/
+
+
+/* Styles for Item list widget */
+
+.jimu-widget-cost-analysis-item-list .esriCTItemListContainer {
+  border: 1px solid #d9d9d9;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer {
+  background-color: #f5f5f5;
+  color: #444;
+  cursor: pointer;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemHighlighter, .jimu-widget-cost-analysis-advance-item-list .esriCTItemHighlighter {
+  height: 45px;
+  width: 5px;
+  float: left;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemTitle {
+  padding: 15px;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer .esriCTItemTitleActive, .jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer:hover {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemContent {
+  padding: 0 15px;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: all .3s ease .15s;
+}
+
+.jimu-widget-cost-analysis-item-list .esriCTItemContentActive {
+  padding: 15px;
+  opacity: 1;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+
+/* RTL mode */
+
+.esriRtl .jimu-widget-cost-analysis-item-list .esriCTItemTitle {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-item-list .esriCTItemHighlighter, .esriRtl .jimu-widget-cost-analysis-advance-item-list .esriCTItemHighlighter {
+  float: right;
+}
+
+
+/* End of RTL mode */
+
+
+/* End of styles for Item list widget */
+
+
+/* Styles for Advance Item List Widget */
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemListContainer {
+  float: left;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemTitleContainer {
+  background-color: #f5f5f5;
+  color: #444;
+  cursor: pointer;
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemTitle {
+  padding: 15px 5px 15px 5px;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.esriRtl .jimu-widget-cost-analysis-advance-item-list .esriCTItemTitle {
+  float: right;
+  text-align: right;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemContent {
+  padding: 0 15px;
+  overflow: hidden;
+  height: 0;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemAnimation {
+  transition: all .3s ease .15s;
+  opacity: 0;
+  height: 0;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemContentActive {
+  padding: 5px;
+  opacity: 1;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTItemListImageLogo {
+  height: 24px;
+  width: 24px;
+  margin-top: 10px;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  margin-left: 5px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-advance-item-list .esriCTItemListImageLogo {
+  float: right;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTBorder {
+  border: 1px solid grey;
+}
+
+
+/* In LTR show arrow headed to right for e.g. -> */
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTArrow {
+  background-image: url("../images/arrow-right.png");
+}
+
+
+/* In RTL show arrow headed to left for e.g. <- */
+
+.esriRtl .jimu-widget-cost-analysis-advance-item-list .esriCTArrow {
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+
+/* Arrow down for e.g. v */
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTArrowDown {
+  -moz-transform: rotate(90deg) !important;
+  -o-transform: rotate(90deg) !important;
+  -webkit-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
+  -moz-transition: -webkit-transform 00.2s linear;
+  -o-transition: -webkit-transform 00.2s linear;
+  -webkit-transition: -webkit-transform 00.2s linear;
+  transition: transform 00.2s linear;
+  background-size: 16px;
+}
+
+
+/* Arrow down for e.g. ^ */
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTArrowUp {
+  -moz-transform: rotate(-90deg) !important;
+  -o-transform: rotate(-90deg) !important;
+  -webkit-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+  -moz-transition: -webkit-transform 00.2s linear;
+  -o-transition: -webkit-transform 00.2s linear;
+  -webkit-transition: -webkit-transform 00.2s linear;
+  transition: transform 00.2s linear;
+  background-size: 16px;
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTAssetActionIcon {
+  background-image: url("../images/rightImg.png");
+}
+
+.jimu-widget-cost-analysis-advance-item-list .esriCTAssetActionSettingIcon {
+  background-image: url("../images/setting.png");
+  border: 1px solid grey;
+}
+
+
+/* End of styles for Advance Item List Widget */
+
+
+/* Styles for create or load project widget */
+
+.jimu-widget-cost-analysis-create-load-project .esriCTCreateProjectWrapper, .jimu-widget-cost-analysis-create-load-project .esriCTLoadProjectWrapper {
+  height: 100%;
+}
+
+.jimu-widget-cost-analysis-create-load-project .esriCTCreateProjectContent {
+  margin-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-create-load-project .esriCTCreateLoadButtonWrap {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.jimu-widget-cost-analysis-create-load-project .esriCTLoadProjectWrapper .jimu-btn {
+  max-width: 33%;
+  margin: 5px;
+}
+
+
+/* RTL mode */
+
+
+/* End of RTL mode */
+
+
+/* End of styles for create or load project widget */
+
+
+/*Add New Statistics starts*/
+
+
+/*Add New Statistics - LTR mode starts*/
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTBtnStatisticsAddSection {
+  display: inline-block;
+  overflow: hidden;
+  height: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #538ec8;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTNoEditableLayersAvailable {
+  color: red;
+  font-style: italic;
+  margin: 0 10px;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTBtnAddStatisticsIcon {
+  height: 100%;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(images/add.png);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTBtnStatisticsAddLabel {
+  line-height: 20px;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTTabContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px;
+  border: 1px solid #D2DAE2;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTLayerLabelTextBox {
+  width: 100%;
+  height: 29px;
+  float: left;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsContainer {
+  float: left;
+  width: 40%;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTDropDownContainer {
+  width: 75%;
+  float: right;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTLayerNameDropdown .dijitSelectLabel, .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsTypeDropdown .dijitSelectLabel, .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsFieldDropdown .dijitSelectLabel {
+  text-align: left;
+  overflow: hidden;
+}
+
+.claro .jimu-widget-cost-analysis-statistics-settings .esriCTAddLayerTableNode .dijitSelect {
+  height: 28px;
+  min-width: 100%;
+  float: left;
+}
+
+.jimu-widget-cost-analysis-add-new-statistics .esriCTAddNewStatisticsLabel {
+  padding: 0px 0px 10px 0px;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTCursorPointer {
+  cursor: pointer;
+}
+
+
+/*Add New Statistics - LTR mode ends*/
+
+
+/*Add New Statistics - RTL mode starts*/
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsContainer {
+  float: right;
+}
+
+.esriRtl .claro .jimu-widget-cost-analysis-statistics-settings .esriCTAddLayerTableNode .dijitSelect {
+  height: 28px;
+  min-width: 100%;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTLayerNameDropdown .dijitSelectLabel {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsTypeDropdown .dijitSelectLabel {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsFieldDropdown .dijitSelectLabel {
+  text-align: right;
+}
+
+
+/* Override classes for add new statistics widget starts */
+
+.jimu-widget-cost-analysis-statistics-settings .jimu-simple-table .simple-table-title {
+  color: #7989a0;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .jimu-simple-table .head-section {
+  background-color: #D2DAE2;
+  border-bottom: 1px solid #D2DAE2;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell {
+  padding: 0px 0px 0px 1px !important;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .jimu-simple-table {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .jimu-simple-table .simple-table-row:hover {
+  background-color: transparent !important;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .dijitReset.dijitInputField.dijitButtonText {
+  padding: 0px 1px 0px 1px;
+  width: 100%;
+  text-align: left;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .dijitReset.dijitInputField.dijitButtonText {
+  text-align: right;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .dijitReset.dijitInputField.dijitInputContainer {
+  padding: 0px 1px 0px 1px;
+}
+
+.claro .jimu-widget-cost-analysis-add-new-statistics .dijitTextBox .dijitInputInner {
+  color: #7989a0;
+  font-size: 11px;
+}
+
+.jimu-widget-cost-analysis-project-summary .jimu-simple-table .simple-table-title {
+  color: #7989a0;
+}
+
+.jimu-widget-cost-analysis-project-summary .jimu-simple-table .head-section {
+  background-color: #D2DAE2;
+  border-bottom: 1px solid #D2DAE2;
+}
+
+.jimu-widget-cost-analysis-project-summary .body-section {
+  overflow: hidden;
+}
+
+.jimu-widget-cost-analysis-project-summary .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell {
+  padding: 0px 0px 0px 1px;
+}
+
+.jimu-widget-cost-analysis-project-summary .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell {
+  padding: 0px 0px 0px 1px;
+}
+
+
+/*Override height to resolve the bottom cutting issue in edge*/
+
+.claro .jimu-widget-cost-analysis-project-summary .esriCTCostEscalatioParent .dijitSelect {
+  height: 26px;
+  margin-top: -4px;
+}
+
+.claro .jimu-widget-cost-analysis-project-summary .esriCTCostEscalatioParent .dijitTextBox {
+  height: 26px;
+  margin-top: -4px;
+}
+
+
+/* Override classes for add new statistics widget ends */
+
+
+/*Add New Statistics - RTL mode ends*/
+
+
+/* Add New Statistics - Button UI starts*/
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTAddStatisticsIcon {
+  background-image: url(../images/add.png);
+  border: 1px solid gray;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsButtons {
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  float: left;
+  background-repeat: no-repeat;
+  margin: 0px 5px 0px 0px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsButtons {
+  float: right;
+  margin: 0px 0px 0px 5px;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTDeleteStatisticsIcon {
+  background-image: url(../images/delete.png);
+  border: 1px solid gray;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsUpIcon {
+  background-image: url(../images/up.png);
+  border: 1px solid gray;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsDownIcon {
+  background-image: url(../images/down.png);
+  border: 1px solid gray;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsUpIconDisable {
+  background-image: url(../images/up-disabled.png);
+  border: 1px solid gray;
+}
+
+.jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsDownIconDisable {
+  background-image: url(../images/down-disabled.png);
+  border: 1px solid gray;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTStatisticsButtonParentDiv {
+  float: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-statistics-settings .esriCTAdd {
+  float: right;
+  margin: 5px 0px 5px 2px;
+}
+
+
+/*Add New Statistics - Button UI ends*/
+
+
+/*Add New Statistics ends*/
+
+
+/* Section for Work benck panel */
+
+
+/* Section for template picker */
+
+.jimu-widget-cost-analysis-work-bench .esriCTAddEditFeatureContainer {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-cost-analysis-work-bench .esriCTEditorToolBar {
+  max-height: 30px;
+}
+
+
+/* Override template picker classes */
+
+.jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker {
+  border: none;
+  padding: 1px;
+}
+
+.jimu-widget-cost-analysis-work-bench .esriCTEditorToolBar .esriEditor .progressBar {
+  display: none !important;
+}
+
+
+/* End of section for template picker */
+
+
+/* Section for project summary */
+
+.jimu-widget-cost-analysis-work-bench .esriCTProjectOverview {
+  overflow: hidden;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTSummaryLayerTitle {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTTotalCostTable {
+  margin-top: 5px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTBoldFont, .jimu-widget-cost-analysis-project-overview .esriCTBoldFont, .jimu-widget-cost-analysis-project-summary .esriCTBoldFont {
+  font-weight: bold;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTTable, .jimu-widget-cost-analysis-project-summary .esriCTProjectCostTable, .jimu-widget-cost-analysis-asset-details .esriCTTable {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  page-break-inside: avoid;
+  table-layout: fixed;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTTable, .esriRtl .jimu-widget-cost-analysis-project-overview .esriCTTable, .esriRtl .jimu-widget-cost-analysis-project-summary .esriCTProjectCostTable {
+  direction: rtl;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTTable td, .jimu-widget-cost-analysis-project-overview .esriCTTable td, .jimu-widget-cost-analysis-project-summary .esriCTProjectCostTable td {
+  border: 1px solid #d9d9d9;
+  word-wrap: break-word;
+  padding: 4px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTTable .esriCTSelectableRow:hover td, .jimu-widget-cost-analysis-asset-details .esriCTRowSelected {
+  background-color: #eeeeee;
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTProjectCostTable {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.claro .jimu-widget-cost-analysis-project-summary .dijitSelect {
+  height: 28px;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTCostLabelTextbox {
+  width: 75%;
+  height: 28px;
+  margin-left: 5px;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTCostTypeDropDownContainer {
+  width: 35%;
+  float: right;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTCostTypeDropdown .dijitSelectLabel {
+  text-align: left;
+  overflow: hidden;
+  width: 30px;
+}
+
+.claro .jimu-widget-cost-analysis-project-summary .esriCTAddLayerTableNode .dijitSelect {
+  height: 28px;
+  min-width: 100%;
+  float: left;
+}
+
+.jimu-simple-table .simple-table-field, .esriCTCostEscalatioParent .jimu-simple-table .simple-table-cell {
+  padding-left: 2px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTTotalCostTitle {
+  font-weight: bold;
+  width: calc(100% - 25px);
+  float: left;
+  line-height: 30px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTTotalCostTitle {
+  float: right;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsTitle {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTGroupTitle {
+  font-weight: bold;
+  padding-top: 1px;
+  width: calc(100% - 40px);
+  float: left;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTGroupTitle {
+  float: right;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTToggleIcon {
+  height: 15px;
+  width: 15px;
+  background-size: 15px;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTToggleIcon {
+  float: right;
+  margin: 0 0 0 5px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTExpandIcon {
+  background-image: url(../images/expand.png);
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTCollapseIcon {
+  background-image: url(../images/collapse.png);
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTEditEquationIcon {
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+  background-image: url(../images/edit-equation.png);
+  cursor: pointer;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTGroupTitleParent {
+  padding: 10px 0 5px 0;
+  float: left;
+  width: 100%;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTGroupTitleParent {
+  float: right;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTGroupSummaryTotalTitle {
+  font-weight: bold;
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTGroupSummaryTotalTitle {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTDialogIcon {
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  background-position: center;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTZoom {
+  background-image: url(../images/zoom-in.png);
+  margin-right: 10px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTZoom, .esriRtl .jimu-widget-cost-analysis-asset-details .esriCTDelete {
+  float: right;
+  margin: 0;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTDelete {
+  background-image: url(../images/delete-asset.png);
+  margin-right: 10px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTClose {
+  background-image: url(../images/delete.png);
+  float: right;
+  cursor: pointer;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTClose {
+  float: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTRowContainer {
+  height: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTRowContainer:hover {
+  background-color: #eeeeee;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTTooltipDialogLabel {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: calc(100% - 30px);
+  line-height: 20px;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTTooltipDialogLabel {
+  text-align: left;
+}
+
+.esriRtl .jimu-widget-cost-analysis-advance-item-list .esriCTItemListContainer {
+  float: none;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTAssetItemsCost {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-project-overview .esriCTAssetItemsCost {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTAssetItemsTotalCostLabel, .jimu-widget-cost-analysis-project-overview .esriCTAssetItemsGrossCostLabel {
+  width: 66.66%;
+}
+
+.jimu-widget-cost-analysis-project-overview .esriCTAssetItemsTotalCost, .jimu-widget-cost-analysis-project-overview .esriCTAssetItemsGrossCost {
+  text-align: right;
+  width: 33.34%;
+}
+
+.esriRtl .jimu-widget-cost-analysis-project-overview .esriCTAssetItemsTotalCost, .esriRtl .jimu-widget-cost-analysis-project-overview .esriCTAssetItemsGrossCost {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTGroupSummaryTotalCost {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTGroupSummaryTotalCost {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsTotalCostLabel, .jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsGrossCostLabel {
+  width: 66%;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsTotalCost, .jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsGrossCost {
+  text-align: right;
+  width: 34%;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsTotalCost, .esriRtl .jimu-widget-cost-analysis-asset-details .esriCTAssetDetailsGrossCost {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalCost {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalCost {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalCostLabel, .jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalGrossLabel {
+  width: 66%;
+}
+
+.jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalCost, .jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalGross {
+  text-align: right;
+  width: 34%;
+}
+
+.esriRtl .jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalCost, .esriRtl .jimu-widget-cost-analysis-project-summary .esriCTProjectSummaryTotalGross {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTAssetItemDetailsNetValue {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTAssetItemDetailsNetValue {
+  text-align: left;
+}
+
+.jimu-widget-cost-analysis-asset-details .esriCTAssetItemDetailsCostingValue {
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-cost-analysis-asset-details .esriCTAssetItemDetailsCostingValue {
+  text-align: left;
+}
+
+
+/* End of section for project summary */
+
+
+/* End of section for Work benck panel */
+
+
+/* Cost equation editor*/
+
+.jimu-widget-cost-analysis-equation-editor .esriCTCostEquationTitle {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTEditCostEquationLabel {
+  padding: 5px 0;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTEditCostEquationInput {
+  margin-bottom: 5px;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTFullWidth {
+  width: 99%;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTHint {
+  margin: 5px 5px 10px 0px;
+  float: right;
+  font-size: 12px;
+  color: #a0acbf;
+  font-style: oblique;
+}
+
+.jimu-widget-cost-analysis-equation-editor .esriCTInvalidEquation {
+  border: 1px solid red;
+}
+
+
+/* End of section cost equation editor*/
+
+
+/* Section for project attrbute */
+
+.jimu-widget-cost-analysis-project-attribute .esriCTProjectAttributeTitle {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+
+/* End of section for project attrbute */
+
+
+/* Statistics Detail - arrow UI starts*/
+
+.jimu-widget-cost-analysis-asset-statistics .esriCTStatisticLabel {
+  padding-bottom: 5px;
+}
+
+.jimu-widget-cost-analysis-asset-statistics .esriCTStatisticWrapper {
+  margin-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-asset-statistics .esriCTDetailStatisticsTitle {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.jimu-widget-cost-analysis-asset-statistics .esriCTNoDetailStatisticMessage {
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold
+}
+
+
+/* Statistics Detail- Button UI ends*/
+
+
+/* Start dart theme*/
+
+.dart-panel .jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer .esriCTItemTitleActive, .dart-panel .jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer:hover, .dart-panel .jimu-widget-cost-analysis-advance-item-list .esriCTItemTitleContainer .esriCTItemTitleActive, .dart-panel .jimu-widget-cost-analysis-advance-item-list .esriCTItemTitleContainer:hover {
+  background-color: #808080;
+}
+
+.dart-panel .jimu-widget-cost-analysis-item-list .esriCTItemListContainer, .dart-panel .jimu-widget-cost-analysis-advance-item-list .esriCTItemListContainer {
+  border: 1px solid #808080;
+}
+
+.dart-panel .jimu-widget-cost-analysis-item-list .esriCTItemTitleContainer, .dart-panel .jimu-widget-cost-analysis-advance-item-list .esriCTItemTitleContainer {
+  background-color: #646464;
+  border-bottom: 1px solid #808080;
+}
+
+.dart-panel .jimu-widget-cost-analysis-asset-details .esriCTTable .esriCTSelectableRow:hover td, .dart-panel .jimu-widget-cost-analysis-asset-details .esriCTRowSelected {
+  background-color: #808080;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .dojoxGrid {
+  background-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .dojoxGridScrollbox {
+  background-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .dojoxGridRow, .dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .dojoxGridRow dojoxGridRowOdd {
+  background-color: #4C4C4C;
+  border-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .grid .dojoxGridRowOver {
+  background-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .grid .dojoxGridCell, .dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .grid .dojoxGridCell:hover {
+  border: 1px solid #4C4C4C;
+  background-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .grid .dojoxGridCellFocus {
+  border: 1px solid #4C4C4C !important;
+  background-color: #4C4C4C;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .grid .item:hover {
+  background-color: #808080;
+}
+
+.dart-panel .jimu-widget-cost-analysis-work-bench .esriCTAssetTemplatePicker .templatePicker .esriMapTooltip {
+  color: #000 !important;
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTAddStatisticsIcon {
+  background-image: url(../images/add-disabled.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTAddStatisticsIconDisable {
+  background-image: url(../images/add.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTDeleteStatisticsIcon {
+  background-image: url(../images/delete-disabled.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTDeleteStatisticsIconDisable {
+  background-image: url(../images/delete.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTStatisticsUpIcon {
+  background-image: url(../images/up-disabled.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTStatisticsUpIconDisable {
+  background-image: url(../images/up.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTStatisticsDownIcon {
+  background-image: url(../images/down-disabled.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-widget .esriCTStatisticsDownIconDisable {
+  background-image: url(../images/down.png);
+}
+
+.dart-panel .jimu-widget-cost-analysis-statistics-settings .jimu-simple-table .head-section, .dart-panel .jimu-widget-cost-analysis-project-summary .jimu-simple-table .head-section {
+  background-color: #808080;
+}
+
+
+/*In dart theme disable textbox content is not readable */
+
+.claro .dart-panel .jimu-widget-cost-analysis-equation-editor .dijitTextBoxDisabled .dijitInputContainer, .claro .dart-panel .jimu-widget-cost-analysis-project-attribute .dijitTextBoxDisabled .dijitInputContainer, .claro .dart-panel .jimu-widget-cost-analysis-asset-statistics .dijitTextBoxDisabled .dijitInputContainer, .claro .dart-panel .jimu-widget-cost-analysis-equation-editor .dijitTextBoxDisabled, .claro .dart-panel .jimu-widget-cost-analysis-project-attribute .dijitTextBoxDisabled, .claro .dart-panel .jimu-widget-cost-analysis-asset-statistics .dijitTextBoxDisabled {
+  background-color: #888888;
+}
+
+.claro .dart-panel .jimu-widget-cost-template-picker .dijitToolbar {
+  background: transparent !important;
+  background-image: none !important;
+  background-color: #c1c1c1 !important;
+  border: none !important;
+}
+
+
+/* End of dart theme */
+
+
+/* Launchpad  theme */
+
+.jimu-launchpad-panel .jimu-widget-cost-analysis-add-new-statistics .jimu-simple-table .simple-table-cell {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+/*In launchpad theme disable textbox content is not readable */
+
+.claro .jimu-launchpad-panel .jimu-widget-cost-analysis-equation-editor .dijitTextBoxDisabled .dijitInputContainer, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-project-attribute .dijitTextBoxDisabled .dijitInputContainer, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-asset-statistics .dijitTextBoxDisabled .dijitInputContainer, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-equation-editor .dijitDisabled input, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-project-attribute .dijitDisabled input, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-asset-statistics .dijitDisabled input, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-equation-editor textarea.dijitTextAreaDisabled, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-project-attribute textarea.dijitTextAreaDisabled, .claro .jimu-launchpad-panel .jimu-widget-cost-analysis-asset-statistics textarea.dijitTextAreaDisabled {
+  color: #000;
+  background-color: #888888;
+}
+
+.claro .jimu-launchpad-panel .jimu-widget-cost-analysis-project-attribute .dijitComboBox .dijitButtonNode {
+  height: 30px !important;
+}
+
+
+/* End of Launchpad */
+
+
+/*Scenario selection starts - It is shown in popup so no need of base class*/
+
+.esriCTRegionDetailsParentDiv {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.esriCTScenarioDetailsParentDiv {
+  overflow: hidden;
+}
+
+.esriCTRegionLabel {
+  float: left;
+  width: 29%;
+  line-height: 30px;
+}
+
+.esriCTScenarioLabel {
+  float: left;
+  width: 29%;
+  line-height: 30px;
+}
+
+.esriCTRegionTextBox {
+  width: 70%;
+  float: right;
+}
+
+.esriCTScenarioDropdown {
+  float: right;
+  width: 70%;
+}
+
+.claro .jimu-widget-cost-analysis-scenario-selection .esriCTRegionDetailsParentDiv .dijitTextBox {
+  background-color: #C0C0C0 !important;
+}
+
+.claro .jimu-widget-cost-analysis-scenario-selection .esriCTRegionDetailsParentDiv .dijitTextBoxFocused .dijitTextBoxReadOnlyFocused .dijitReadOnlyFocused {
+  background-color: #C0C0C0 !important;
+}
+
+
+/*Scenario selection ends*/

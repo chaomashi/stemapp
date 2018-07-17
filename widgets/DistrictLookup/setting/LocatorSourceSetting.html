@@ -1,0 +1,114 @@
+<div>
+  <!--Select Locator URL -->
+  <div class="esriCTSourceUrlSection">
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTURLWidthLabel esriCTlabel" title="${nls.locatorUrl}">
+        ${nls.locatorUrl}</div>
+      <div class="esriCTSearchSourceURLField">
+        <div class="esriCTSearchSourceLayer" data-dojo-attach-point="locatorUrl" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="required:true,trim:true,disabled:true,style:{width:'100%'}"></div>
+        <div title="${nls.set}" class="esriCTURLSetButton jimu-btn jimu-float-trailing jimu-leading-margin1" data-dojo-attach-point="setButtonNode"  >${nls.set}</div>
+        <div data-dojo-attach-point="messageTr">
+          <div data-dojo-attach-point="messageNode" class="esriCTHint">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Locator Details section -->
+  <div class="esriCTSourceDetailsSection" ata-dojo-attach-point="detailsSection">
+    <!--Details section: locatorName -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.locatorName}">
+        ${nls.locatorName}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="locatorName"
+         placeHolder="${nls.locatorName}"
+        required="true" data-dojo-props='style:{width:"100%"}'></div>
+      </div>
+    </div>
+    <!--Details section: placeholder -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.placeholder}">
+        ${nls.placeholder}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="placeholder"
+         placeHolder="${nls.placeholder}" data-dojo-props='style:{width:"100%"}'></div>
+      </div>
+    </div>
+    <!--Details section: country -->
+    <div class="esriCTLayerContainer row">
+      <div data-dojo-attach-point="countryCodeRow">
+        <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.countryCode}">
+          ${nls.countryCode}</div>
+        <div class="esriCTSearchSourceLayerField esriCTLayerField">
+          <div type="text" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="countryCode"
+          placeHolder="${nls.countryCodeEg} USA,CHN" data-dojo-props='style:{width:"97%"}'></div>
+          <a class="jimu-float-trailing" target="_blank" href="https://developers.arcgis.com/rest/geocode/api-reference/geocode-coverage.htm"
+            style="line-height:30px;">${nls.questionMark}</a>
+          <div class="esriCTHint">${nls.countryCodeHint}</div>
+        </div>
+      </div>
+    </div>
+    <!--Details section: max suggestion -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.maxSuggestions}">
+        ${nls.maxSuggestions}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="esriCTHint" title="${nls.locatorTips}" data-dojo-attach-point="tipsNode">
+          ${nls.locatorTips}
+        </div>
+        <div data-dojo-attach-point="maxSuggestions" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1,places:0},style:{width:'100%'},value:6"></div>
+      </div>
+    </div>
+    <!--Details section: max result -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.maxResults}">
+        ${nls.maxResults}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-attach-point="maxResults" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1,places:0},style:{width:'100%'},value:6"></div>
+      </div>
+    </div>
+    <!--Details section: zoom Scale -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.zoomScale}">
+        ${nls.zoomScale}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="jimu-float-leading esriCTSearchSourceLabelFont" style="line-height:30px;">1: </div>
+        <div class="jimu-float-trailing" data-dojo-attach-point="zoomScale" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1},style:{width:'96%'},value:50000">
+        </div>
+      </div>
+    </div>
+    <!--Details section: local search -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabelFont" data-dojo-attach-point="enableLocalSearch"></div>
+    </div>
+    <!--Details section: local search - minimum scale -->
+    <div class="esriCTLayerContainer row" data-dojo-attach-point="minScaleNode">
+      <div class="esriCTLocalSearchLabel esriCTlabel" title="${nls.minScale}">
+        ${nls.minScale}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="jimu-float-leading esriCTSearchSourceLabelFont" style="line-height:30px;">1: </div>
+        <div class="jimu-float-trailing" data-dojo-attach-point="localSearchMinScale" data-dojo-type="dijit/form/NumberTextBox"
+        data-dojo-props="constraints:{min:1},style:{width:'96%'},value:300000"></div>
+        <div class="esriCTHint" title="${nls.minScaleHint}">${nls.minScaleHint}</div>
+      </div>
+    </div>
+    <!--Details section: local search - radius -->
+    <div class="esriCTLayerContainer row" data-dojo-attach-point="radiusNode">
+      <div class="esriCTLocalSearchLabel esriCTlabel" title="${nls.radius}">
+        ${nls.radius}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="jimu-float-leading" data-dojo-attach-point="localSearchDistance"
+        data-dojo-type="dijit/form/NumberTextBox"
+        data-dojo-props="constraints:{min:1},style:{width:'75%'},value:50000"></div>
+        <div class="esriCTHint esriCTLocalSearchRadiusUnit">${nls.meters}</div>
+        <div class="esriCTHint" data-dojo-attach-point="radiusHintNode" title="${nls.radiusHint}">${nls.radiusHint}</div>
+      </div>
+    </div>
+    <!--Details section: Search in current map extent -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabelFont" data-dojo-attach-point="searchInCurrentMapExtent"></div>
+    </div>
+    <!--Details section: loading shelter -->
+    <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props="hidden:true"></div>
+  </div>

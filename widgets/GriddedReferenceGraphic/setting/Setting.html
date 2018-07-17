@@ -1,0 +1,100 @@
+<div style="width:100%;height: 95%;">
+  <div class="instruction" data-dojo-attach-point="instructionNode">
+    <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="lockSettings" checked="false" />
+    <span class="instruction-inner">${nls.lockSettings}</span>
+  </div>
+  <!-- tabs -->
+  <div class="tabs" data-dojo-attach-point="tabsContainer">
+    <div class="content-tab" data-dojo-attach-point="gridTab">
+        <div class="tab-description">${nls.gridTabDescription}</div>      
+        <!-- Cell Outline Color -->
+        <div>
+          <div class="titles">${nls.cellOutlineColor}</div>
+          <div class="colorPicker" data-dojo-attach-point="cellOutlineColorPickerEditor"></div>
+        </div>
+        <!-- Cell Fill Color -->
+        <div>
+          <div class="titles">${nls.cellFillColor}</div>
+          <div class="colorPicker" data-dojo-attach-point="cellFillColorPickerEditor"></div>
+        </div>
+        <!-- Cell Shape -->
+        <div>
+            <div class="titles">${nls.cellShapeDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="cellShapeDropDown">
+              <option value="default" selected="selected">${nls.default}</option>
+              <option value="hexagon">${nls.hexagon}</option>
+            </select>
+        </div>
+        <!-- Cell Units -->
+        <div>
+            <div class="titles">${nls.cellUnitsDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="cellUnitsDropDown">
+              <option value="meters" selected="selected">${nls.meters}</option>
+              <option value="kilometers">${nls.kilometers}</option>
+              <option value="miles">${nls.miles}</option>
+              <option value="nautical-miles">${nls.nautical-miles}</option>
+              <option value="yards">${nls.yards}</option>
+              <option value="feet">${nls.feet}</option>
+            </select>
+        </div>
+        <!-- Grid Origin -->
+        <div>
+            <div class="titles">${nls.gridOriginDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="gridOriginDropDown">
+              <option value="center" selected="selected">${nls.center}</option>
+              <option value="lowerLeft">${nls.lowerLeft}</option>
+              <option value="lowerRight">${nls.lowerRight}</option>
+              <option value="upperLeft">${nls.upperLeft}</option>
+              <option value="upperRight">${nls.upperRight}</option>            
+            </select>
+        </div>
+    </div>
+
+    <div class="appearance-tab" data-dojo-attach-point="labelTab">
+        <div class="tab-description">${nls.labelTabDescription}</div>
+        <!-- Label Style -->
+        <div style="width: 400px">
+          <div class="titles">${nls.labelSettings}</div>
+          <div data-dojo-attach-point="fontSettingNode"></div>
+        </div>
+        <!-- Label Type -->
+        <div>
+            <div class="titles">${nls.labelTypeDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="labelTypeDropDown">
+              <option value="alphaNumeric" selected="selected">${nls.alphaNumeric}</option>
+              <option value="alphaAlpha">${nls.alphaAlpha}</option>
+              <option value="numeric">${nls.numeric}</option>           
+            </select>
+        </div>
+        <!-- Label Direction -->
+        <div>
+            <div class="titles">${nls.labelDirectionDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="labelDirectionDropDown">
+              <option value="horizontal" selected="selected">${nls.horizontal}</option>
+              <option value="vertical">${nls.vertical}</option>          
+            </select>
+        </div>
+        <!-- Label Origin -->
+        <div>
+            <div class="titles">${nls.labelOriginDropDown}</div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="labelOriginDropDown">
+              <option value="lowerLeft" selected="selected">${nls.lowerLeft}</option>
+              <option value="lowerRight">${nls.lowerRight}</option>
+              <option value="upperLeft">${nls.upperLeft}</option>
+              <option value="upperRight">${nls.upperRight}</option>            
+            </select>
+        </div>
+    </div>
+
+    <div class="options-tab" data-dojo-attach-point="referenceSystemTab">
+        <div class="tab-description">${nls.referenceSystemlTabDescription}</div>
+        <!-- Reference System -->
+        <div>
+            <select style="width: 200px" data-dojo-type="dijit/form/Select" data-dojo-attach-point="referenceSystemDropDown">
+              <option value="MGRS" selected="selected">${nls.MGRS}</option>
+              <option value="USNG">${nls.USNG}</option>          
+            </select>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,624 @@
+.ERGMainContainer {
+    min-width: 222px;
+    height: 100%;
+}
+
+.jimu-widget-ERG .ERGFullHeight {
+    height: 100%;
+}
+
+.jimu-widget-ERG .ERGFullWidth {
+    width: 100%;
+}
+
+.jimu-widget-ERG .ERGHalfWidthContainer {
+    display: flex;
+}
+
+.jimu-widget-ERG .ERGHalfWidthLeft {
+    width: 50%;
+}
+
+.jimu-widget-ERG .ERGHalfWidthRight {
+    padding-left: 10px;
+    width: 50%;
+}
+
+.jimu-widget-ERG .ERGEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-ERG .ERGPointer {
+    cursor: pointer;
+}
+
+.jimu-widget-ERG .ERGMainPageRow {
+    width: calc(100% - 20px);
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.jimu-widget-ERG .ERGInputLabel {
+    float: left;
+    line-height: 28px;
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+.jimu-widget-ERG .ERGInputLabelSettings {
+    float: left;
+    line-height: 28px;
+    padding: 5px 0px 0px 0px;
+}
+
+.jimu-widget-ERG .ERGPublishMessage {
+    float: left;
+    line-height: 16px;
+    padding: 18px 0px 0px 0;
+    font-weight: bold;
+    display: inline-block;
+    word-break: break-all;
+}
+
+.jimu-widget-ERG .claro .dijitSelect, .claro .dijitSelect .dijitButtonContents, .claro .dijitTextBox {
+  width: calc(100% - 60px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-ERG  .noResize .dijitSelectLabel, .jimu-widget-ERG .noResize .dijitTextBox .dijitInputInner, .jimu-widget-ERG  .noResize .dijitValidationTextBox .dijitValidationContainer {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 80px;
+    text-align: left;
+}
+
+.jimu-widget-ERG .ERGNewERGHeader{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-ERG .ERGSettingsIcon{
+    background-image: url('./images/settings_black.png');
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ERG .ERGSettingsIcon:hover{
+    background-image: url('./images/settings_black_hover_black.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ERG .dijitTextBox .dijitInputInner{
+    height: 18px !important;
+    text-align: right;
+}
+
+.jimu-widget-ERG .dijitTextBoxFocused .dijitInputContainer{
+    background: transparent;
+}
+
+.jimu-widget-ERG .ERGHidden{
+    display: none;
+}
+
+.claro .dijitTextBox  {
+    width: calc(100% - 45px);
+}
+
+
+.jimu-widget-ERG .ERGSettingsRow {
+    width: 100%;
+    display: inline-flex;
+}
+
+.jimu-widget-ERG .ERGSettingsButtonIcon {
+    margin-top: 13px;
+    height: 16px;
+    width: 16px;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsDownButton{
+    background: url("./images/arrow-down_black.png") no-repeat;
+    margin-top: 15px;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsDownButton:hover{
+    background: url("./images/arrow-down_black_hover.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsRightButton{
+    background: url("./images/arrow-right_black.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsRightButton:hover{
+    background: url("./images/arrow-right_black_hover.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGSettingsNode{
+    width: 100%;
+    height: calc(100% - 30px);
+    display: inline-block;
+    overflow-y: auto;
+}
+
+.jimu-widget-ERG .ERGSettingsContainer{
+    margin: 10px;
+    display: inline-block;
+    width: calc(100% - 20px);
+}
+
+.jimu-widget-ERG .ERGSettingRow{
+    padding-bottom: 6px;
+}
+
+.jimu-widget-ERG .ERGSettingRowPaddingTop20{
+    padding-top: 20px;
+}
+
+.jimu-widget-ERG .ERGSettingHeader{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-ERG .ERGBackButton{
+    width: 25%;
+}
+
+.jimu-widget-ERG .ERGMainTitleDiv{
+    line-height: 10px;
+    font-weight: bold;
+    text-align: left;
+    width: calc(100% - 50px);
+    padding: 5px;
+    display: inline-block;
+}
+
+.jimu-widget-ERG .ERGTitleDiv{
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: calc(100% - 50px);
+    padding: 5px;
+    display: inline-block;
+}
+
+.jimu-widget-ERG .ERGItemLeftArrow{
+    background-image: url('./images/left-arrow_black.png');
+    float: left;
+    margin: 0px 5px 0px 0px;
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jimu-widget-ERG .ERGItemLeftArrow:hover{
+    background-image: url('./images/left-arrow_black_hover.png');
+}
+
+.jimu-widget-ERG .dijitSelect .dijitButtonContents{
+    border-style: none none none none;
+    background-color: #ffffff;
+}
+
+.jimu-widget-ERG .dijitSelect .dijitButtonContentsDartTheme {
+    background-color: inherit;
+}
+
+.jimu-widget-ERG .dijitSelect .dijitArrowButton{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-ERG .dijitSelect .dijitArrowButtonDartTheme {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.jimu-widget-ERG .dijitMenuItem{
+    color: #7989a0;
+}
+
+.jimu-widget-ERG .dijitSelect .dijitInputField{
+    margin-right: 8px;
+}
+
+.jimu-widget-ERG .switch-toggle-group {
+  padding: 5px;
+}
+.jimu-widget-ERG .switch-toggle-group .checkbox-inline {
+  padding-left: 36px;
+  vertical-align: top;
+}
+.jimu-widget-ERG .switch-toggle-group .switch-toggle.dijitCheckBox {
+  margin-left: -36px;
+}
+
+.jimu-widget-ERG .switch-toggle.dijitCheckBox {
+  height: 16px;
+  width: 28px;
+  border: 0 none;
+  background: #adadad;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+
+.jimu-widget-ERG .switch-toggle.dijitCheckBox:before {
+  content: "";
+  background: #f8f8f8;
+  position: absolute;
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  left: auto;
+  right: 14px;
+  top: 2px;
+  z-index: 1;
+  -webkit-transition: right 0.3s;
+  -moz-transition: right 0.3s;
+  -o-transition: right 0.3s;
+  transition: right 0.3s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.jimu-widget-ERG .switch-toggle.dijitCheckBox input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.jimu-widget-ERG .switch-toggle.dijitCheckBox.dijitCheckBoxChecked {
+  background: #50ad4e;
+}
+
+.jimu-widget-ERG .switch-toggle.dijitCheckBox.dijitCheckBoxChecked:before {
+  right: 2px;
+}
+
+.jimu-widget-ERG .dijitTextBox .dijitPlaceHolder{
+    font-size: 12px;
+}
+
+.jimu-widget-ERG  .dijitTextBoxError {
+    border-color: #d9dde0 !important;
+    box-shadow: inset 0 0 0 2px #d46464;
+}
+
+.SubTitle {
+  font-weight: bold;
+}
+
+.jimu-widget-ERG .settingBtn {
+    background: url(./images/settings_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: -4px;
+}
+
+.jimu-widget-ERG .settingBtn:hover {
+    background: url('./images/settings_black_hover_black.png');
+}
+
+.jimu-widget-ERG .editBtn {
+    float: right;
+    background: url(./images/draw_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+}
+
+.jimu-widget-ERG .editBtn:hover {
+    background: url('./images/draw_black_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ERG .jimu-edit-active {
+    background: url('./images/draw_black_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-ERG .helpBtn {
+    float: right;
+    background: url(./images/help_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.jimu-widget-ERG .helpBtn:hover{
+    background: url(./images/help_black_hover.png);
+}
+
+.jimu-widget-ERG .add-with-icon {
+  vertical-align: text-top !important;
+}
+
+.btnContainer {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.jimu-widget-ERG .ERGBtnContainer {
+    text-align: right;
+    margin-top: 15px;
+    display: grid;
+}
+
+.jimu-widget-ERG .controlGroupHidden {
+    display: none;
+}
+
+.jimu-widget-ERG .controlItem {
+    display: flex;
+}
+
+.jimu-widget-ERG .jimu-btn {
+    margin-bottom: 6px;
+}
+
+/*------------------------- Styles for colorPickerEditor  -----------------------*/
+
+.jimu-widget-ERG .dijitSlider {
+  width: calc(100% - 268px);
+  margin-left: 5px;
+  margin-right: auto;
+  margin-top: 4px;
+}
+
+.jimu-rtl .jimu-widget-ERG .dijitSlider {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.jimu-widget-ERG .dijitSlider .dijitSliderImageHandleH {
+  top: -10px;
+  width: 20px;
+  height: 20px;
+}
+
+.jimu-widget-ERG  .colorPickerEditor {
+	padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.jimu-widget-ERG  .colorPickerEditor .jimu-color-picker{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.jimu-widget-ERG  .colorPickerEditor .dijitSpinner.dijitNumberTextBox.dijitValidationTextBox{
+	width:65px;
+	height:30px;
+}
+
+.jimu-widget-ERG .dijitSliderImageHandleH{
+  top: -7px;
+}
+
+.jimu-widget-ERG  .dijitSliderThumbHover{
+  background-image: url("../images/sliderball.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH {
+  background-image: url("../images/sliderball.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  background-image: url("../images/sliderball.svg");
+  background-position: 0 0;
+}
+
+/*left*/
+.jimu-widget-ERG .dijitSlider .dijitSliderProgressBarH,
+.jimu-widget-ERG .dijitSlider .dijitSliderLeftBumper{
+  border-color: #000;
+  background-color: #000;
+  background-image: -webkit-linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: -o-linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: linear-gradient(top, #000 0px, #000 1px, rgba(255, 255, 255, 0) 2px);
+}
+.jimu-widget-ERG .dijitSlider .dijitSliderRemainingBarH,
+.jimu-widget-ERG .dijitSlider .dijitSliderRightBumper{
+  border-color: #d7d7d7;
+  background-color: #d7d7d7;
+}
+
+.jimu-widget-ERG  .colorPickerEditor .trans{
+	font-family: "Avenir Light";
+	font-size: 12px;
+  padding: 0 5px 0 5px;
+  letter-spacing: 0.33px;
+}
+
+.jimu-widget-ERG  .sliderbar {
+	width: 60px;
+}
+
+.dijitRuleLabelH {
+    left: -12%;
+}
+
+/*
+ * easy-autocomplete
+ * jQuery plugin for autocompletion
+ * 
+ * @author Łukasz Pawełczak (http://github.com/pawelczak)
+ * @version 1.3.5
+ * Copyright  License: 
+ **/
+
+.easy-autocomplete {
+  position: relative;
+}
+.easy-autocomplete input {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px;
+  color: #555;
+  float: none;
+  padding: 6px 12px;
+}
+.easy-autocomplete input:hover, .easy-autocomplete input:focus {
+  box-shadow: none;
+}
+.easy-autocomplete a {
+  display: inline-flex;
+}
+.easy-autocomplete a:hover {
+  cursor: help;
+}
+
+.easy-autocomplete-container ul {
+  background: none repeat scroll 0 0 #ffffff;
+  border-top: 1px dotted #ccc;
+  display: none;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  position: relative;
+  top: -1px;
+}
+.easy-autocomplete-container ul li, .easy-autocomplete-container ul .eac-category {
+  background: inherit;
+  border-color: #ccc;
+  border-image: none;
+  border-style: solid;
+  border-width: 0 1px;
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 4px 12px;
+}
+.easy-autocomplete-container ul li:last-child {
+  border-radius: 0 0 2px 2px;
+  border-width: 0 1px 1px;
+}
+.easy-autocomplete-container ul li.selected {
+  background: none repeat scroll 0 0 #ebebeb;
+  cursor: pointer;
+}
+
+/* Weather */
+
+.jimu-widget-ERG .weatherPanel {  
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  display: inline-flex;
+  width: 100%;
+  border: 1px solid #d9dde0;
+  padding: 10px;
+  height: 100px;
+}
+
+.jimu-widget-ERG .ERGcol {
+  float: left;
+  height: 80px;
+  width: 220px;
+  border-left: none;
+  border-right: 1px solid #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 0;
+  padding: 0 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-rtl .jimu-widget-ERG .ERGcol {
+  float: right;
+  border-left: 1px solid #ffffff;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: none;
+}
+
+.jimu-widget-ERG .ERGcolSmall, .jimu-widget-ERG .ERGcolSmallUnknown {
+  float: left;
+  height: 100%;
+  width: calc(100% / 3);
+  border-left: none;
+  border-right: 1px solid #afaeae;
+  margin-left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.jimu-widget-ERG .ERGcolSmallUnknown {  
+  padding: 0; 
+}
+
+.jimu-rtl .jimu-widget-ERG .ERGcolSmall {
+  float: right;
+  border-left: 1px solid #ffffff;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: none;
+}
+
+.jimu-widget-ERG .ERGcolLast {
+  border-left: none;
+  border-right: none;
+}
+
+.jimu-widget-ERG .ERGcol .label,
+.jimu-widget-ERG .ERGcolSmall .label {
+  font-size: 13px;
+  padding: 2px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.jimu-widget-ERG .loading {
+  background-image: url('images/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center 10px;  
+}
+
+
+/**********Start Set Coordinate Format String Popup*************/
+.claro .dijitTooltipDialogPopup .jimu-input {
+    vertical-align: bottom;
+}
+
+.claro .dijitTooltipDialogPopup .settingsContainer {
+    margin-top: 6px;
+}
+
+.claro .dijitTooltipDialogPopup .checkbox.jimu-float-leading.jimu-icon.jimu-icon-checkbox {
+    margin-right: 6px;
+}
+
+.claro .dijitTooltipDialogPopup span.jimu-widget-subtitle {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+/**********End Set Coordinate Format String Popup*************/

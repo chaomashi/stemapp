@@ -1,0 +1,13 @@
+{
+    "editor": {
+        "layerInfos": [ ],
+        "displayPromptOnSave": false,
+        "displayPromptOnDelete": false,
+        "removeOnSave": false,
+        "useFilterEditor": false,
+        "listenToGF": false,
+        "keepTemplateSelected": false,
+        "editGeometryDefault": false,
+        "autoSaveEdits": false
+    }
+}

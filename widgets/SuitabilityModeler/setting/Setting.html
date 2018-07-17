@@ -1,0 +1,63 @@
+<div>
+  <div class="section">
+    <p class="description" data-dojo-attach-point="descriptionNode1">${nls.description1}</p>
+    <p class="description" data-dojo-attach-point="descriptionNode2">${nls.description2}</p>
+    <p class="description" data-dojo-attach-point="descriptionNode3"></p>
+  </div>
+  <form class="section" data-dojo-attach-point="settingsForm" data-dojo-type="dijit/form/Form">
+    <div class="row starting-state">
+      <h3>${nls.startingState}</h3>
+      <label class="option"><input type="radio" name="${id}_radios"
+        data-dojo-attach-point="byUrlRadio"
+        data-dojo-type="dijit/form/RadioButton"
+        />${nls.byUrl}</label>
+      <br>
+      <label class="option"><input type="radio" name="${id}_radios"
+        data-dojo-attach-point="byItemRadio"
+        data-dojo-type="dijit/form/RadioButton"
+        />${nls.byItem}</label>
+    </div>
+
+    <div class="row" data-dojo-attach-point="byUrlSection">
+      <h3 for="${id}_serviceUrl">${nls.imageServiceUrl}</h3>
+      <input id="${id}_serviceUrl" type="text" class="url-box"
+        data-dojo-attach-point="serviceUrlBox"
+        data-dojo-type="dijit/form/ValidationTextBox"
+        data-dojo-props="required:true,trim:true,maxLength:1024" />
+      <span class="jimu-btn" href="#"
+        data-dojo-attach-point="validateNode"
+        data-dojo-attach-event="onclick:validateClicked"
+        >${nls.validate}</span>
+      <div class="example">
+        https://example.com/arcgis/rest/services/Example/ImageServer
+        <br>
+        https://utility.arcgis.com/usrsvcs/servers/24b7c7752170431a95719323a9e71a5e/rest/services/WRO_World_Ecophysiographic_Data/ImageServer
+        <br>
+        https://landscape3.arcgis.com/arcgis/rest/services/Landscape_Modeler/USA_Weighted_Overlay/ImageServer
+        <br>
+        https://greeninfrastructuremapsdev.arcgis.com/arcgis/rest/services/GreenInfrastructure/WeightedOverlay_Geoplanner/ImageServer
+      </div>
+    </div>
+
+    <div class="row" data-dojo-attach-point="byItemSection">
+        <h3 for="${id}_modelName">${nls.modelName}</h3>
+        <input id="${id}_modelName" type="text" class="url-box"
+          data-dojo-attach-point="modelNameBox"
+          data-dojo-type="dijit/form/ValidationTextBox"
+          data-dojo-props="required:false,trim:true" />
+        <span class="jimu-btn" href="#"
+          data-dojo-attach-point="selectModelNode"
+          data-dojo-attach-event="onclick:selectModelClicked"
+          >${nls.selectModel}</span>
+    </div>
+
+    <div class="row">
+	    <h3>
+		    <input id="${id}_saveAs" type="checkbox"
+		      data-dojo-attach-point="allowSaveAsCheckBox"
+		      data-dojo-type="dijit/form/CheckBox"/>
+		    <label for="${id}_saveAs">${nls.allowSaveAs}</label>
+	    </h3>
+	  </div>
+  </form>
+</div>

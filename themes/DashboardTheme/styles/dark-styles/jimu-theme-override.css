@@ -1,0 +1,465 @@
+/* custom webkit scrollbar for dart color theme */
+::-webkit-scrollbar {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EEEEEE;
+}
+
+.feature-action {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.feature-action:hover {
+  color: #FFF;
+}
+
+.jimu-panel{
+  background-color: #222;
+  border: none;
+}
+
+.jimu-widget-frame.jimu-container{
+  background-color: #222;
+  padding-bottom: 0;
+}
+
+.jimu-widget{
+  color: white;
+}
+
+.jimu-widget-subtitle  {
+    color: #fff;
+}
+
+.jimu-input{
+  background: #222;
+  border: 1px solid #999;
+  color: #ccc;
+}
+
+.jimu-search .jimu-input {
+  background: #222 !important;
+  color: #fff
+}
+
+.jimu-input:focus{
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.jimu-btn{
+  background-color: #666;
+  color: #ffffff;
+}
+
+.jimu-btn-vacation{
+}
+
+.jimu-btn:hover{
+  background-color: #333;
+  color: #ffffff;
+}
+
+.jimu-btn-vacation:hover{
+}
+
+.jimu-btn:active{
+  background-color: #333;
+  color: #ffffff;
+}
+
+.jimu-btn.jimu-state-disabled{
+  background-color: #666;
+  color: #999;
+}
+
+.jimu-btn.jimu-priority-secondary{
+}
+
+.jimu-btn.jimu-priority-secondary:hover{
+}
+
+.jimu-btn.jimu-priority-secondary:active{
+}
+
+.jimu-btn.jimu-priority-secondary.jimu-state-disabled{
+}
+
+.jimu-tab3 .tab-item-td{
+  color: #999;
+  border-bottom: 1px solid #666;
+}
+
+.jimu-tab3 .tab-item-td.jimu-state-active{
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  font-weight: bold;
+}
+
+.jimu-tab>.control>.tab{
+  background-color: #222;
+  border-top: 1px solid #222;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #666;
+}
+.jimu-tab>.control>.tab.jimu-state-selected{
+  background-color: #222;
+  border-top: 1px solid #666;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #222;
+  color: #fff;
+}
+.jimu-tab>.jimu-viewstack{
+  background-color: #222;
+}
+.jimu-tab.nested>.control>.tab{
+  background-color: #222;
+}
+.jimu-tab.nested>.control>.tab.jimu-state-selected{
+  background-color: #222;
+}
+
+
+.jimu-simple-table .simple-table-row:hover{
+  background-color: #666;
+  color: white;
+}
+.jimu-simple-table .simple-table-row.jimu-state-active{
+  background-color: #999;
+  color: white;
+}
+
+/**popup menu*/
+.popup-menu .menu-content {
+  background: #222;
+}
+.popup-menu .menu-title .label {
+  color: #FFF;
+}
+.popup-menu .popup-menu-item:hover,
+.popup-menu .popup-menu-item.selected {
+  background: #666;
+}
+.popup-menu .popup-menu-item .icon {
+  width: 40px;
+  height: 40px;
+}
+.popup-menu .popup-menu-item .icon div {
+  color: #FFF;
+}
+.popup-menu .popup-menu-item .label {
+  color: #FFF;
+}
+
+.jimu-draw-box .draw-item {
+  color: white;
+}
+.jimu-draw-box .draw-items .draw-item{
+  border: 1px solid #666;
+}
+
+.jimu-draw-box .draw-item.jimu-state-active {
+  background-color: #666;
+}
+
+/***********about jimu-dropmenu**********************/
+
+.jimu-dropmenu .drop-menu{
+  background-color: #333333 !important;
+  color: #ffffff;
+  border: 1px solid #999999 !important;
+  box-shadow: none !important;
+}
+
+.jimu-dropmenu .menu-item:hover{
+  background-color: #666666 !important;
+  color: #ffffff !important;
+}
+
+.jimu-dropmenu .menu-item-line {
+  border: 1px solid #999999 !important;
+}
+
+.jimu-dijit-dropdownmenu {
+  background: url(images/dropdown.svg) center center no-repeat;
+}
+
+.jimu-dijit-dropdownmenu:hover, .jimu-dijit-dropdownmenu.showing {
+  background-image: url(images/dropdown_hover.svg);
+}
+
+.jimu-dijit-dropdownmenu-items-container {
+  background: #666;
+  color: #fff;
+}
+/***********jimu-dropmenu end************************/
+
+
+/************about popup**********************/
+.esriPopup .related-records-popup-projector .content-box .item, .esriMobileInfoView.esriMobilePopupInfoView .content-box .item  {
+  background-color: #333;
+  color: #fff;
+  padding-left: 4px;
+}
+
+.esriPopup .related-records-popup-projector .content-box .item.oddLine, .esriMobileInfoView.esriMobilePopupInfoView .content-box .item.oddLine {
+  background-color: transparent;
+}
+
+/************popup end**********************/
+
+.jimu-input.flDropDown{
+  background-color: #4c4c4c !important;
+  border: 1px solid #999;
+  color: #ccc;
+}
+
+.jimu-input.searchtextbox {
+  background-color: #4c4c4c !important;
+  border: 1px solid #999;
+  color: #ccc;
+}
+
+/* share widget start */
+.jimu-widget-share{
+  color: white;
+}
+.jimu-widget-share .subTitle{
+  color: white;
+}
+.jimu-widget-share .shareLink .inputsText {
+  color: #ccc;
+}
+.jimu-widget-share .shareLink .optionsRow .labels{
+  color: #ccc;
+}
+/* share widget end */
+
+.jimu-widget-onscreen-icon,
+.jimu-widget-placeholder {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 36px !important;
+  height: 36px !important;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  opacity: 1;
+}
+
+.jimu-widget-onscreen-icon img {
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+}
+
+.jimu-widget-placeholder .inner {
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  line-height: 40px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: transparent;
+}
+
+/*jimu tree*/
+.jimu-tree .jimu-tree-selected-leaf-node > .dijitTreeRow{
+  background-color: #222;
+  color: white;
+}
+.jimu-tree .jimu-tree-not-leaf-node > .dijitTreeRowSelected{
+  background-color: #222;
+}
+.jimu-tree .jimu-tree-not-leaf-node > .dijitTreeRowSelected.dijitTreeRowHover {
+  background-color:#666;
+}
+
+/*jimu-popup*/
+.jimu-popup{
+  background-color: #333;
+  color: white;
+}
+
+.jimu-popup > .title{
+  color: white;
+  border-bottom: 1px solid #666;
+}
+
+/*jimu-transparency*/
+.jimu-transparency .dijitRuleLabelContainer .dijitRuleLabel.dijitRuleLabelH{
+  color: #fff;
+}
+
+/*.jimu-multiple-layers-featureset-chooser*/
+.jimu-multiple-layers-featureset-chooser .btn-select{
+  background-color: #222;
+  color: #fff;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-select.selected{
+  background-color: #666;
+  border: 3px solid #CCCCCC;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .btn-select{
+  background-color: #222 !important;
+  border: 1px solid #666 !important;
+  color: #666 !important;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-select,
+.jimu-multiple-layers-featureset-chooser .current-draw-item .arrow {
+  background-color: transparent !important;
+}
+
+.jimu-multiple-layers-featureset-chooser .current-draw-item .arrow{
+  opacity: 0.5;
+}
+
+.jimu-multiple-layers-featureset-chooser .current-draw-item .arrow:hover{
+  opacity: 1;
+}
+
+.jimu-multiple-layers-featureset-chooser .current-draw-item{
+  background-color: #222;
+  border: 1px solid #999;
+  color: #ccc;
+}
+
+.jimu-multiple-layers-featureset-chooser .current-draw-item.pressed{
+  background-color: #000;
+  color: white;
+  border: none;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .current-draw-item{
+  background-color: #222 !important;
+  border: 1px solid #666 !important;
+  color: #666 !important;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .current-draw-item .arrow{
+  opacity: 0.5 !important;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .current-draw-item .select-icon{
+  opacity: 0.5;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear .clear-icon{
+  background: url(./images/icon-clear.png) center center no-repeat;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear{
+  background-color: #222;
+  border: 1px solid #999;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear .clear-text{
+  color: #ccc;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear:hover {
+  background-color: #FF0000;
+  border: none;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear:hover .clear-text{
+  color: white;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .btn-clear{
+  background-color: #222 !important;
+  border: 1px solid #666666 !important;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .btn-clear .clear-icon{
+  opacity: 0.5 !important;
+}
+
+.jimu-multiple-layers-featureset-chooser.disabled .btn-clear .clear-text{
+  color: #666 !important;
+}
+
+/*.jimu-filter*/
+.jimu-single-filter,.jimu-filter-set{
+  background: #333;
+}
+
+.jimu-filter-set .jimu-single-filter{
+  background: transparent;
+}
+
+.jimu-single-filter-parameter .prompt{
+  color: white;
+}
+
+.jimu-filter .desktop-add-section .add-menu{
+  background-color: #333;
+  box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.50);
+}
+
+.jimu-filter .content-section > .back-arrow{
+  background: url(images/arrow-back-white_normal.svg) no-repeat center;
+}
+
+.jimu-filter.mobile-mode .mobile-add-section .add-menu{
+  background: #444;
+}
+
+.jimu-filter.mobile-mode .mobile-add-section .add-menu .add-menu-item{
+  background: #333;
+}
+
+.jimu-filter .desktop-add-section .add-menu .add-menu-item:hover{
+  background: #000;
+}
+
+.jimu-mobile-filter-popup{
+  background: #333;
+}
+
+.jimu-mobile-filter-popup .jimu-filter{
+  color: white;
+}
+
+.jimu-filter .allExpsBox{
+  background: black;
+}
+.jimu-filter .value-type-popup{
+  background-color: #444;
+  color: white;
+}
+.jimu-filter .value-type-popup li:hover {
+  background: #666;
+}
+.jimu-icon{
+  background-image: url(sprite.png);
+}
+
+/*PopupMenuButton*/
+.popup-menu-button {
+  background-color: #333;
+  background: url(images/more_normal.svg) no-repeat center;
+}
+.popup-menu-button:hover {
+  background-color: #666;
+  background: url(images/more_hover.svg) no-repeat center;
+}
+.popup-menu-button.disabled {
+  background: url(images/more_disabled.svg) no-repeat center;
+}
+/* jimu-dijit-statistics-chart */
+.jimu-dijit-statistics-chart .settings {
+   background: no-repeat center center url(images/chart-setting-dart.svg);
+}

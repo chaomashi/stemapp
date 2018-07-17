@@ -1,0 +1,39 @@
+<div class="esriCTMainContainer" style="width: 100%; height: 100%;">
+    <div data-dojo-attach-point="tabDiv" class="esriCTFullHeight">
+        <!-- Chart Settings tab -->
+        <div class="esriCTChartTabNode" data-dojo-attach-point="chartTabNode" class="esriCTFullHeight">
+            <div style="height: 98%;">
+                <div class="esriCTListContainer" data-dojo-attach-point="chartListContainer">
+                    <div class="esriCTListHeader" style="overflow: hidden;">
+                        <div class="jimu-float-leading">
+                        </div>
+                        <div class="jimu-float-trailing">
+                            <div class="add-with-icon" data-dojo-attach-event="onclick:_onAddNewClicked">
+                                <span class="jimu-icon jimu-icon-add"></span>
+                                <span class="add-label">${nls.addNewLabel}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="esriCTListContent">
+                        <div class="esriCTListTable" data-dojo-attach-point="chartListPanel">
+                        </div>
+                    </div>
+                </div>
+                <div class="esriCTChartSettingsContainer" data-dojo-attach-point="chartSettingsContainer">
+                    <div class="esriCTFullHeight" data-dojo-attach-point="chartSettingsContainer">
+                    </div>
+                </div>
+                <div data-dojo-attach-point="loadingIndicator" data-dojo-type="jimu/dijit/LoadingShelter" hidden="true">
+                </div>
+            </div>
+        </div>
+        <!-- Search Source Settings tab -->
+        <div class="esriCTChartTabNode" data-dojo-attach-point="searchSourceTabNode" class="esriCTFullHeight">
+        </div>
+        <!-- General Settings tab -->
+        <div class="esriCTChartTabNode" data-dojo-attach-point="generalTabNode" class="esriCTFullHeight">
+            <div class="esriCTFullHeight esriCTGeneralSettingsContainer" data-dojo-attach-point="generalSettingsContainer">
+            </div>
+        </div>
+    </div>
+</div>

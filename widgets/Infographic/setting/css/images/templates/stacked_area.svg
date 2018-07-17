@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="100px" viewBox="0 0 120 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>StackedArea</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ChooseATemplate-UI" transform="translate(-585.000000, -629.000000)">
+            <g id="StackedArea" transform="translate(585.000000, 629.000000)">
+                <rect id="Rectangle-Copy-13" fill="#FFFFFF" x="0" y="0" width="120" height="100"></rect>
+                <g id="Group-28" transform="translate(25.000000, 13.000000)">
+                    <path d="M0,65 L70,65 L70,67 L0,67 L0,65 Z M15,72 L55,72 L55,74 L15,74 L15,72 Z" id="Combined-Shape" fill="#DEDEDE"></path>
+                    <path d="M17,0 L23,0 L23,6 L17,6 L17,0 Z M27,0 L33,0 L33,6 L27,6 L27,0 Z M37,0 L43,0 L43,6 L37,6 L37,0 Z M47,0 L53,0 L53,6 L47,6 L47,0 Z" id="Combined-Shape" fill="#DEDEDE"></path>
+                    <g id="Group-13" transform="translate(2.000000, 17.000000)">
+                        <rect id="Rectangle-14" fill="#B3B3B3" x="0" y="35" width="66" height="1"></rect>
+                        <rect id="Rectangle-15" fill="#B3B3B3" x="0" y="0" width="1" height="36"></rect>
+                        <polygon id="Path-6" fill="#91DAE5" points="4 11 12 17 28 5 42 13 63 4 63 33 4 33"></polygon>
+                        <polygon id="Path-7" fill="#FAD291" points="4 26 21 17 47 23 63 15 63 33 4 33"></polygon>
+                        <g id="Group-11" transform="translate(2.000000, 13.000000)">
+                            <polyline id="Path-7" stroke="#F6A623" stroke-linecap="round" stroke-linejoin="round" points="2 13 19 4 45 10 61 2"></polyline>
+                            <circle id="Oval-2" fill="#F6A623" cx="2" cy="13" r="2"></circle>
+                            <circle id="Oval-2" fill="#F6A623" cx="19" cy="4" r="2"></circle>
+                            <circle id="Oval-2" fill="#F6A623" cx="45" cy="10" r="2"></circle>
+                            <circle id="Oval-2" fill="#F6A623" cx="61" cy="2" r="2"></circle>
+                        </g>
+                        <g id="Group-12" transform="translate(2.000000, 2.000000)">
+                            <polyline id="Path-6" stroke="#24B5CC" stroke-linecap="round" stroke-linejoin="round" points="2 9 10 15 26 3 40 11 61 2"></polyline>
+                            <circle id="Oval-2" fill="#24B5CC" cx="26" cy="3" r="2"></circle>
+                            <circle id="Oval-2" fill="#24B5CC" cx="40" cy="11" r="2"></circle>
+                            <circle id="Oval-2" fill="#24B5CC" cx="10" cy="15" r="2"></circle>
+                            <circle id="Oval-2" fill="#24B5CC" cx="2" cy="9" r="2"></circle>
+                            <circle id="Oval-2" fill="#24B5CC" cx="61" cy="2" r="2"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

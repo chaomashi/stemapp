@@ -1,0 +1,40 @@
+.jimu-widget-select .selectable-layer-item:hover {
+  background-color: #666;
+}
+
+.jimu-widget-select .selectable-layer-item.no-action:hover {
+  background-color: #222;
+}
+
+.jimu-widget-select .selectable-layer-item .layer-row .layer-name,
+.jimu-widget-select .selectable-layer-item .layer-row .selected-num,
+.jimu-widget-select .jimu-multiple-layers-featureset-chooser .btn-clear,
+.jimu-widget-select .details-node .header .layer-name,
+.jimu-widget-select .normal-label,
+.jimu-widget-select .light-label,
+.jimu-widget-select .medium-label {
+  color: #FFF;
+}
+
+.jimu-widget-select .selectable-layer-item.no-action .layer-row .feature-action:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.jimu-widget-select .tool-section .menus {
+  background-color: #333;
+  border: 1px solid #666666;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.30);
+  background: #222222;
+}
+
+.jimu-widget-select .details-node .content .graphic-item:hover {
+  background-color: #666;
+}
+
+.jimu-widget-select .tool-section .menus .menu-item {
+  color: #FFF;
+}
+.jimu-widget-select .tool-section .menus .menu-item:hover {
+  background-color: #666;
+  color: #FFF;
+}

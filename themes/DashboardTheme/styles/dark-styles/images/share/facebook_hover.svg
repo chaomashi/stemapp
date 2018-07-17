@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Widget" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spec_widget_dark" transform="translate(-427.000000, -6247.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="facebook_hover" transform="translate(427.000000, 6247.000000)">
+                <path d="M18,0 L2,0 C0.9,0 0,0.9 0,2 L0,18 C0,19.1 0.9,20 2,20 L18,20 C19.1,20 20,19.1 20,18 L20,2 C20,0.9 19.1,0 18,0 L18,0 Z M17,2 L17,5 L15,5 C14.4,5 14,5.4 14,6 L14,8 L17,8 L17,11 L14,11 L14,18 L11,18 L11,11 L9,11 L9,8 L11,8 L11,5.5 C11,3.6 12.6,2 14.5,2 L17,2 L17,2 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

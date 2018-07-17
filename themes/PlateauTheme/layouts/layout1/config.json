@@ -1,0 +1,130 @@
+{
+    "widgetOnScreen": {
+        "widgets": {
+            "widgets/Search/Widget": {
+                "visible": false,
+                "position": {
+                    "left": 14,
+                    "top": 12
+                }
+            },
+            "widgets/MyLocation/Widget": {
+                "visible": true,
+                "inPanel": false,
+                "position": {
+                    "left": 12,
+                    "bottom": 164
+                }
+            },
+            "widgets/HomeButton/Widget": {
+                "visible": true,
+                "inPanel": false,
+                "position": {
+                    "left": 12,
+                    "bottom": 126
+                }
+            },
+            "widgets/ZoomSlider/Widget": {
+                "visible": true,
+                "position": {
+                    "left": 12,
+                    "bottom": 58
+                }
+            },
+            "widgets/Scalebar/Widget": {
+                "visible": true,
+                "position": {
+                    "left": 56,
+                    "bottom": 25
+                }
+            },
+            "widgets/Coordinate/Widget": {
+                "visible": false,
+                "position": {
+                    "left": 231,
+                    "bottom": 20
+                }
+            },
+            "widgets/ExtentNavigate/Widget": {
+                "position": {
+                    "left": 12,
+                    "bottom": 201
+                }
+            }
+        }
+    },
+    "mobileLayout": {
+        "widgetOnScreen": {
+            "widgets": {
+                "widgets/Search/Widget": {
+                    "position": {
+                        "left": 14,
+                        "top": 12
+                    }
+                },
+                "widgets/MyLocation/Widget": {
+                    "inPanel": false,
+                    "position": {
+                        "left": 12,
+                        "bottom": 164
+                    }
+                },
+                "widgets/HomeButton/Widget": {
+                    "inPanel": false,
+                    "position": {
+                        "left": 12,
+                        "bottom": 126
+                    }
+                },
+                "widgets/ZoomSlider/Widget": {
+                    "position": {
+                        "left": 12,
+                        "bottom": 58
+                    }
+                },
+                "widgets/Scalebar/Widget": {
+                    "position": {
+                        "left": 56,
+                        "bottom": 25
+                    }
+                },
+                "widgets/Coordinate/Widget": {
+                    "position": {
+                        "left": 231,
+                        "bottom": 20
+                    }
+                },
+                "ph_4": {
+                    "position": {
+                        "left": 12,
+                        "top": 62
+                    }
+                },
+                "ph_5": {
+                    "position": {
+                        "left": 12,
+                        "top": 112
+                    }
+                },
+                "ph_6": {
+                    "position": {
+                        "left": 12,
+                        "top": 162
+                    }
+                },
+                "ph_7": {
+                    "position": {
+                        "left": 12,
+                        "top": 212
+                    }
+                },
+                "ph_8": {
+                    "position": {
+                        "left": 12,
+                        "top": 262
+                    }
+                }
+            }
+        }
+    }
+}

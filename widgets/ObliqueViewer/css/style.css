@@ -1,0 +1,435 @@
+.obliqueViewerWidgetDiv {
+  height: 100%;
+  width:100%;
+}
+
+.obliqueViewerWidget, .obliqueViewerWidgetDiv
+{
+  height: 100%;
+  width: 100%;
+}
+
+.ovMap
+{
+  height: 100%;
+  width: 100%;
+}
+
+/* added to have overlay to show error message */
+.info {
+  position: absolute;
+  height: 15%;
+  width: 80%;
+  left: 10%;
+  top: 30%;
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#infoText {
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  padding: 2%;
+  font-size: 12px;
+  color: white;
+}
+
+.obliqueViewerWidgetDiv .dijitReset.dijitInline.dijitArrowButtonInner
+{
+  background-image: url(../images/arrow-drop-down.png) !important;
+  background-position: center;
+}
+
+.esriMensurationHeightFromBaseAndTop
+{
+  background-image: url(../images/measure_base_top.png) !important;
+  background-position: center;
+  background-size: 17px;
+}
+
+.esriMensurationHeightFromTopAndTopShadow 
+{
+  background-image: url(../images/measure_top_top_shadow.png) !important;
+  background-position: center;
+  background-size: 17px;
+}
+
+.esriMensurationHeightFromBaseAndTopShadow
+{
+  background-image: url(../images/measure_base_top_shadow.png) !important;
+  background-position: center;
+  background-size: 17px;
+}
+
+.obliqueViewerWidgetDiv .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitDropDownButton.dijitButtonNode
+{
+  background-color: rgba(0,0,0,0)!important;
+  background-image: none!important;
+}
+
+.obliqueViewerWidgetDiv .obliqueRotationDivPassive {
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 15px;
+  right: 10px;
+  border-radius: 10px;
+  height:90px;
+  width:90px;
+  z-index: 10; 
+  /* added to have the rotation widget on top of overlay */
+  /* border: 2px solid rgba(0,0,0,0); */
+}
+
+.obliqueViewerWidgetDiv .toolbar {   
+  position: absolute;
+  display: block;
+  top: 5px;
+  left: 5px;
+  height: 40px;
+  overflow: visible;
+  background-color: rgba(255,255,255, 0.8);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
+  -webkit-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.69);
+  -moz-box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.69);
+  box-shadow: 3px 2px 3px 0px rgba(50, 50, 50, 0.69);
+  z-index: 10; 
+  /* added to have the rotation widget on top of overlay */
+}
+
+.obliqueViewerWidgetDiv .listDivTitlePane {
+  display: inline;
+}
+
+.obliqueViewerWidgetDiv .esriSimpleSliderTL {
+  display: none;
+}
+
+.obliqueViewerWidgetDiv .zoomButtonContainer {
+  display: inline;
+  padding-left: 3px;
+}
+
+.obliqueViewerWidgetDiv .zoomIcon {
+  height: 16px;
+  width: 16px;
+  background: url(../images/zoom.png);
+  -webkit-background-size: 16px;
+  -moz-background-size: 16px;
+  background-size: 16px;
+  background-position: center;
+}
+
+.obliqueViewerWidgetDiv .measureWidget {
+  display: inline;
+}
+
+.obliqueViewerWidgetDiv .measureWidget .dijitButtonText{
+  display: none;
+}
+
+.obliqueViewerWidgetDiv .rastersListIcon {
+  background-image: url("../images/rasters_list.png");
+  width: 16px;
+  height: 16px;
+  -webkit-background-size: 16px;
+  -moz-background-size: 16px;
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dgrid-row-odd {
+  background: #E6EBFA;
+}
+
+.dgrid-scroller {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  height: 100% !important;
+  overflow: auto!important;
+}
+
+.esriRasterListThumbnail {
+  height:70px;
+  width:70px;
+}
+
+.dgrid-header {
+  z-index: 1;
+}
+
+.dgrid-header-scroll {
+  display: none;
+}
+
+.dgrid-header-row th {
+  height: 25px;
+}
+
+th.dgrid-cell {
+  text-align: center;
+}
+
+.dgrid-content {
+  margin-top: 27px;
+  height: auto;
+}
+
+.dgrid-content .dgrid-cell {
+  border-collapse: collapse !important;
+}
+
+td.dgrid-cell {
+  padding-left: 5px;
+}
+
+.dgrid-row {
+  font-size:10px;
+}
+
+.field-id {
+  width: 30px;
+}
+
+.obliqueRasterList .dgrid-content {
+  margin-top: 0!important;
+}
+
+.obliqueRasterList .dgrid-row {
+  padding: 3px;
+  border-bottom: 1px solid slategray;
+}
+
+.esriRasterListThumbnailRow.dgrid-row {
+  height:80px;
+}
+
+.obliqueViewerWidgetDiv .dijitDialogUnderlay {
+  background: #000000;
+  opacity: 0.4;
+}
+
+.obliqueViewerWidgetDiv .dijitIcon
+{
+  display: inline-block!important;
+}
+
+.obliqueViewerWidgetDiv .dijitButton .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitToggleButton .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitButtonHover .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitToggleButtonHover .dijitButtonNode
+{
+  padding-left: 6px!important;
+  padding-right: 6px!important;
+  border-width: 1px!important;
+  border-radius: 0px!important;
+  margin-top: -7px;
+  padding-top: 11px!important;
+  height: 100%;
+  border-color: rgba(0,0,0,0)!important;
+  border-width: 1px!important;
+  box-shadow: none!important;
+  min-width: 0!important;
+}
+
+.obliqueViewerWidgetDiv .dijitDropDownButton .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitComboButton .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitDropDownButtonHover .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitComboButtonHover .dijitButtonNode
+{
+  padding-left: 6px!important;
+  padding-right: 6px!important;
+  border-radius: 0px!important;
+  z-index: 1;
+  border-color: rgba(0,0,0,0)!important;
+  border-width: 1px!important;
+  margin-top: -2px;
+  padding-top: 11px!important;
+  height: 100%;
+  box-shadow: none!important;
+  min-width: 0!important;
+}
+
+.obliqueViewerWidgetDiv .dijitButtonHover .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitToggleButtonHover .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitDropDownButtonHover .dijitButtonNode,
+.obliqueViewerWidgetDiv .dijitComboButtonHover .dijitButtonNode
+{
+  background-color: rgba(255,255,255,0.9)!important;
+  background-image: none!important;
+}
+
+
+.obliqueViewerWidgetDiv .dijit.dijitReset.dijitInline.dijitDropDownButton
+{
+  height: 100%;
+}
+
+.obliqueViewerWidgetDiv .dijitToggleButtonChecked .dijitButtonNode,
+.obliqueViewerWidgetDiv .esriCheckedMeasureButton
+{ 
+  border-width: 1px;
+  background-color: rgba(255,255,255,0.9)!important;
+  box-shadow: none!important;
+  border-color: rgba(0,0,0,0)!important;
+  border-radius: 0px!important;
+  min-width: 0;
+}
+
+.obliqueViewerWidgetDiv .locateIcon {
+  background-image: url("../images/locate.png");
+  width: 16px;
+  height: 16px;
+  -webkit-background-size: 16px;
+  -moz-background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(50%);
+}
+
+.obliqueViewerWidgetDiv .syncIcon {
+  background-image: url("../images/sync.png");
+  width: 16px;
+  height: 16px;
+  -webkit-background-size: 16px;
+  -moz-background-size: 16px;
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(50%);
+}
+
+.obliqueViewerWidgetDiv .clearIcon {
+  background-image: url("../images/clear.png");
+  width: 16px;
+  height: 16px;
+  -webkit-background-size: 16px;
+  -moz-background-size: 16px;
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.obliqueViewerWidgetDiv .clearButtonContainer {
+  display: inline;
+}
+
+.obliqueViewerWidgetDiv .locateButtonContainer {
+  display: inline;
+}
+
+.obliqueViewerWidgetDiv .syncButtonContainer {
+  display: inline;
+}
+
+.obliqueViewerWidgetDiv .esriImageServiceMeasureToggleButton
+{
+  margin-right: 4px!important;
+  padding-left: 2px!important;
+}
+
+.obliqueViewerWidgetDiv .dijitMenuItem td
+{
+  background-color: transparent!important;
+  border-color: transparent!important;
+  border-width: 1px 0 1px 0!important;
+  padding: 2px!important;
+  color: #000000!important;
+}
+
+.obliqueViewerWidgetDiv.dijitMenuTable
+{
+  background-color: rgba(255,255,255,0.8)!important;
+  border: none!important;
+  color: #000000!important;
+}
+
+.obliqueViewerWidgetDiv .dijitMenuItemHover,
+.obliqueViewerWidgetDiv .dijitMenuItemChecked,
+.obliqueViewerWidgetDiv .dijitMenuItemFocused,
+.obliqueViewerWidgetDiv .dijitMenuItemSelected
+{
+  background-color: rgba(255,255,255,0.8)!important;
+  background-image: none!important;
+  border-color:  rgba(255,255,255,0.8)!important;
+  border-width: 1px 0 1px 0!important;
+  padding: 2px!important;
+  color: #000000!important;
+}
+
+.obliqueViewerWidgetDiv.dijitTooltipDialog
+{
+  padding:0!important;
+}
+
+.obliqueViewerWidgetDiv .dijitTooltipConnector
+{
+  display: none;
+}
+
+.obliqueViewerWidgetDiv .dijitTooltipContainer
+{
+  padding: 0px!important;
+  background-color: transparent!important;
+  background-image: none!important;
+  border: none!important;
+  box-shadow: none!important;
+}
+
+#rasterListDiv
+{
+  background-color: rgba(255,255,255,0.8)!important;
+  border: none;
+}
+
+.obliqueRasterList .dgrid-row
+{
+  border-bottom: 1px solid slategray;
+  background: transparent!important;
+}
+
+.obliqueViewerWidgetDiv .dgrid-selected
+{
+  background: #C7E4FF!important;
+}
+
+.azimuthChangeNotification
+{
+  background: rgba(255,255,255,0.8);
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s ease-out;
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50%;
+  color: #000000;
+  padding: 5px;
+}
+/* added to show the error message at the bottom */
+.noImageNotification
+{
+  background: rgba(255,255,255,0.8);
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50%;
+  color: #000000;
+  padding: 5px;
+}
+
+.jimu-rtl .obliqueViewerWidgetDiv .toolbar {
+  right: 5px;
+  left: auto;
+}
+
+.jimu-rtl .obliqueViewerWidgetDiv .obliqueRotationDivPassive {
+  left: 5px;
+  right: auto;
+}

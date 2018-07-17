@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Gauge Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gauge+Icon" transform="translate(-13.000000, -10.000000)">
+            <g id="Button_ChangeTemplate">
+                <g id="Gauge-Icon" transform="translate(13.000000, 10.000000)">
+                    <path d="M20.7769836,14 L23.8340831,14 C23.9432024,13.3495831 24,12.6814244 24,12 C24,5.372583 18.627417,0 12,0 C5.372583,0 0,5.372583 0,12 C0,12.6814244 0.0567975924,13.3495831 0.16591688,14 L3.22301642,14 C3.07706144,13.3567773 3,12.687388 3,12 C3,7.02943725 7.02943725,3 12,3 C16.9705627,3 21,7.02943725 21,12 C21,12.687388 20.9229386,13.3567773 20.7769836,14 Z" id="Combined-Shape" fill="#767676"></path>
+                    <circle id="Oval-3" fill="#767676" cx="12" cy="14" r="3"></circle>
+                    <path d="M11.5,13.5 L3.5,8.5" id="Line" stroke="#767676" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

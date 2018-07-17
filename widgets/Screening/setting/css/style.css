@@ -1,0 +1,1069 @@
+/*Tabs common css starts*/
+
+.jimu-widget-screening-setting .esriCTMainConfigurationContainer {
+  width: 100%;
+  height: 100%;
+  color: #596679;
+  font-size: 14px;
+}
+
+.jimu-widget-screening-setting .jimu-tab3 {
+  height: 100%;
+  overflow: hidden;
+}
+
+.jimu-widget-screening-setting .esriCTFieldError {
+  float: right;
+  line-height: 0;
+}
+
+.jimu-widget-screening-setting .jimu-viewstack {
+  height: calc(100% - 45px);
+  overflow: auto;
+}
+
+.jimu-widget-screening-setting .esriCTHidden {
+  display: none;
+}
+
+.jimu-widget-screening-setting .esriCTTabNode {
+  padding-right: 20px;
+  margin-top: 20px;
+  height: calc(100% - 20px);
+}
+
+.jimu-widget-screening-setting .esriCTTabContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-screening-setting .row {
+  clear: both;
+}
+
+.jimu-widget-screening-setting .esriCTEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-widget-screening-setting .esriCTHint {
+  margin: 5px 5px 10px 0px;
+  float: left;
+  font-size: 12px;
+  color: #a0acbf;
+  font-style: oblique;
+}
+
+.jimu-widget-screening-setting::-ms-clear {
+  display: none;
+}
+
+
+/*Analysis Tab and General Tab Common css starts */
+
+.jimu-widget-screening-setting .esriCTFieldSet {
+  height: auto;
+  width: 100%;
+  border: 1px solid #a0acbf;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #596679;
+  margin-bottom: 10px;
+  min-width: 0px;
+}
+
+.jimu-widget-screening-setting .esriCTFieldSetLegend {
+  margin-left: 20px;
+}
+
+.jimu-widget-screening-setting .esriCTFieldSetOptionsContainer {
+  width: 100%;
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTFieldSetOptionsContainer {
+  float: right;
+}
+
+.jimu-widget-screening-setting .esriCTTextBox {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTFieldsetMainContainer {
+  clear: both;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.jimu-widget-screening-setting .esriCTFieldsetContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-screening-setting .esriCTInputsSection {
+  height: auto;
+  width: 100%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTFieldsLabel {
+  float: left;
+  padding-left: 10px;
+  width: 80%;
+}
+
+.jimu-widget-screening-setting .esriCTCheckBox {
+  float: left;
+  margin-right: 0px;
+}
+
+
+/*Analysis Tab and General Tab Common css ends */
+
+
+/*Tabs common css ends*/
+
+
+/*Analysis Tab section css starts */
+
+.jimu-widget-screening-setting .esriCTAnalysisAOIToolsDescriptionLabel {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTAOIToolsOptions {
+  width: 33%;
+  float: left;
+  padding-top: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTTraverseUnits {
+  width: 31%;
+  float: left;
+  padding-right: 10px;
+  padding-top: 36px;
+}
+
+.jimu-widget-screening-setting .esriCTTraverseDirectionUnits {
+  margin-left: 16px;
+}
+
+.jimu-widget-screening-setting .esriCTDropBox {
+  width: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTDropDownContainer {
+  width: 100%;
+  float: left;
+  padding-bottom: 5px;
+}
+
+.jimu-widget-screening-setting .esriCTFieldChooserDropdown, .jimu-widget-screening-setting .esriCTFieldValidationTextBox {
+  height: 26px;
+  width: 100%;
+  float: left;
+}
+
+
+/*Add Layers section css starts */
+
+.jimu-widget-screening-setting .esriCTAddLayerTableNode {
+  margin-top: 30px;
+}
+
+.jimu-widget-screening-setting .esriCTBtnAddSection, .jimu-widget-screening-setting .esriCTCustomOptionBtnAddSection {
+  display: inline-block;
+  overflow: hidden;
+  height: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #538ec8;
+}
+
+.jimu-widget-screening-setting .esriCTLayerFieldSelector .jimu-simple-table {
+  max-height: 350px !important;
+}
+
+.jimu-widget-screening-setting .esriCTBtnAddIcon {
+  height: 100%;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(images/add.png);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.jimu-widget-screening-setting .esriCTCustomOptionBtnAddIcon {
+  height: 100%;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(images/custom-button-enable.png);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.jimu-widget-screening-setting .esriCTCustomOptionBtnAddIconDisable {
+  background-image: url(images/custom-button-disable.png) !important;
+}
+
+.jimu-widget-screening-setting .esriCTBtnAddLabel, .jimu-widget-screening-setting .esriCTCustomOptionBtnAddLabel {
+  height: 100%;
+  line-height: 20px;
+  margin-left: 7px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.jimu-widget-screening-setting .esriCTDisabled {
+  cursor: default;
+  color: #a0acbf;
+  opacity: 0.6;
+}
+
+.jimu-widget-screening-setting .esriCTSelectAnalysisLayerLabel {
+  padding-left: 0px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTNoLayersOrFieldsForAnalysisLabel {
+  color: red;
+  font-style: italic;
+  margin: 0 10px;
+}
+
+.jimu-widget-screening-setting .esriCTTRPreviewText {
+  height: 26px;
+}
+
+.jimu-widget-screening-setting .esriCTLayerLabelTextBox {
+  width: 100%;
+  height: 29px;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTLayerInputCell {
+  padding-left: 0;
+}
+
+
+/*Add Layers section css ends */
+
+
+/*Allow Shapefile and Area units section css starts */
+
+.jimu-widget-screening-setting .esriCTAllowShapeFileOption {
+  padding-bottom: 5px;
+}
+
+.jimu-widget-screening-setting .esriCTAreaUnitsLabel {
+  float: left;
+  padding-left: 0px;
+  width: 40%;
+}
+
+.jimu-widget-screening-setting .esriCTAreaUnitsDropDownContainer {
+  width: 60%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureForAnalysisMainDiv {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureForAnalysisLabel {
+  float: left;
+  padding-left: 0px;
+  width: 40%;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureInputDiv, .jimu-widget-screening-setting .esriCTMaxFeatureHint {
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureInputParentContainer {
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureTextBox {
+  width: 200px;
+  float: left;
+  margin: 0px 5px 0px 0px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureForAnalysisMainDiv {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureForAnalysisLabel {
+  float: right;
+}
+
+.jimu-widget-screening-setting .esriCTMaxFeatureInputDiv {
+  width: 60%;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureInputDiv, .esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureHint {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureInputDiv {
+  width: 60%;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTMaxFeatureTextBox {
+  float: right;
+  margin: 0px 0px 0px 0px;
+}
+
+
+/*Allow Shapefile and area units section css ends */
+
+
+/*Analysis Tab section css ends */
+
+
+/*Download Tab section css starts */
+
+.jimu-widget-screening-setting .esriCTDownloadRadioButton {
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadLabelDiv {
+  float: left;
+  width: 97%;
+  margin-left: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTLayerDownloadOptionTable {
+  margin-bottom: 15px;
+}
+
+.jimu-widget-screening-setting .esriCTTableHeader {
+  text-align: center;
+}
+
+.jimu-widget-screening-setting .esriCTAvailableDownloadOption {
+  background: url(../css/images/check.png) center no-repeat;
+}
+
+.jimu-widget-screening-setting .esriCTHidden {
+  display: none;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabInputContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabReportTitleContainer {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabLabel {
+  width: 35%;
+  line-height: 30px;
+  float: left;
+  clear: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabTextbox {
+  width: 55%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabReportInputNode {
+  width: 65%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabSetButton {
+  width: 8%;
+  float: left;
+  margin-left: 17px;
+  line-height: 28px;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadTabFieldSet {
+  padding: 15px 0px;
+}
+
+.jimu-widget-screening-setting .esriCTDownloadOptionForm, .jimu-widget-screening-setting .esriCTReportSettingsContainer {
+  margin: 0px auto;
+  width: 96%;
+}
+
+.jimu-widget-screening-setting .esriCTFootnoteTextArea {
+  width: 65% !important;
+  padding: 5px !important;
+  float: right;
+  color: #596679;
+}
+
+.jimu-widget-screening-setting .esriCTLogoChooserDiv {
+  width: 65%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTImageChooserPreviewContainer {
+  position: relative;
+}
+
+.jimu-widget-screening-setting .esriCTImageChooserPreview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTImageChooserContent {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+
+/*----------------styles for color picker node-----------------------*/
+
+.jimu-widget-screening-setting .esriCTColorChooserNode {
+  text-align: center;
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.jimu-widget-screening-setting .esriCTColorPickerPreviewField {
+  float: left;
+  margin-bottom: 5px;
+}
+
+
+/*----------------styles for color picker node-----------------------*/
+
+
+/*RTL of Download Tab section starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTDownloadLabelDiv {
+  float: right;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDownloadRadioButton {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDownloadTabSetButton {
+  float: left;
+  margin-left: 0px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDownloadTabTextbox {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDownloadTabLabel {
+  float: right;
+}
+
+
+/*----------------styles for color picker node-----------------------*/
+
+.esriRtl .jimu-widget-screening-setting .esriCTColorPickerPreviewField {
+  float: right;
+}
+
+
+/*----------------styles for color picker node-----------------------*/
+
+
+/*RTL of Download Tab section ends */
+
+
+/*Download Tab section css ends */
+
+
+/*General Tab section css starts */
+
+.jimu-widget-screening-setting .esriCTGeneralFieldSetOptions {
+  width: 45%;
+  float: left;
+  padding-top: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTGeneralDropDownContainer {
+  width: 90%;
+  float: left;
+  margin-top: 10px;
+}
+
+.jimu-widget-screening-setting .esriCTGeneralSymbologyLabel {
+  max-width: 50%;
+  width: auto;
+  min-width: 15px;
+  float: left;
+  color: rgb(89, 102, 121);
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.jimu-widget-screening-setting .esriCTGeneralBufferSymbologyContainer {
+  width: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTGeneraBufferSymbologylHint {
+  clear: both;
+}
+
+.jimu-widget-screening-setting .esriCTBufferSettingsFieldsLabel {
+  float: left;
+  padding-left: 0px;
+  width: 80%;
+}
+
+
+/*General Tab section css ends */
+
+
+/*----------------styles for symbol chooser node-----------------------*/
+
+.jimu-widget-screening-setting .esriCTSymbolChooserNode {
+  /*text-align: center;*/
+  cursor: pointer;
+  min-width: 80px;
+}
+
+.jimu-widget-screening-setting .esriCTSymbolPreviewText {
+  padding-right: 5px;
+  color: #596679;
+  font-size: 14px;
+  max-width: 130px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.jimu-widget-screening-setting .esriCTPreviewField {
+  float: left;
+  margin-bottom: 5px;
+  padding: 5px 0px 0px 45px;
+}
+
+.jimu-widget-screening-setting .esriCTSymbolChooserContainer {
+  height: calc(100% - 50px);
+  overflow: auto;
+}
+
+.jimu-widget-screening-setting .esriCTPolygonPreview {
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px 0px 0px 0px;
+}
+
+
+/*----------------End of styles for symbol chooser node-----------------------*/
+
+
+/* claro CSS overridden for font style of input fields */
+
+.claro .dijitTextBox, .claro .dijitSelect {
+  color: #7989a0;
+  background-color: #fafafc;
+  border: 1px solid #d2dae2;
+}
+
+.dj_webkit .claro .dijitTextBox .dijitInputInner {
+  color: #7989a0;
+}
+
+.claro .dijitSelectDisabled, .claro .dijitTextBoxDisabled, .claro .dijitTextBoxDisabled .dijitInputContainer {
+  background-color: #e3ecf2;
+}
+
+.claro .dijitSelect .dijitInputField {
+  background-color: #fafafc !important;
+  color: #7989a0;
+  font-size: 14px;
+}
+
+.claro .dijitTextBox, .claro .dijitSelect {
+  border-color: #d2dae2;
+}
+
+.claro .dijitSelect .dijitArrowButton {
+  background-color: #fafafc;
+  background-image: none;
+  border-color: #fafafc;
+}
+
+.jimu-widget-screening-setting .dijitSelect .dijitButtonContents {
+  border-style: none none none none;
+  background-color: #fafafc;
+}
+
+
+/*------------------------Search Source-----------------------------------------*/
+
+.jimu-widget-screening-setting .esriCTURLSetButton {
+  height: 30px;
+  line-height: 30px;
+  margin: 0 0 0 10px;
+  float: right;
+  max-width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-widget-screening-setting .esriCTlabel {
+  width: 25%;
+  padding: 5px 10px 5px 0px;
+  word-break: break-all;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 250px;
+  color: #596679;
+  font-size: 14px;
+}
+
+.jimu-widget-screening-setting .esriCTDropdownButton {
+  margin: 8px 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  padding-left: 16px;
+  color: #518dca;
+  background-image: url(images/add.png);
+  cursor: pointer;
+}
+
+.jimu-widget-screening-setting .esriCTDropdownButton .esriCTDropdownMenu {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 18px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #7989a0;
+  z-index: 999;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDropdownButton .esriCTDropdownMenu {
+  right: 0;
+  left: auto;
+}
+
+.jimu-widget-screening-setting .esriCTDropdownButton:hover .esriCTDropdownMenu {
+  display: inline-block;
+}
+
+.jimu-widget-screening-setting .esriCTDropdownMenu .esriCTDropdownItem {
+  white-space: nowrap;
+  height: 30px;
+  padding: 0 25px;
+  line-height: 30px;
+}
+
+.jimu-widget-screening-setting .esriCTDropdownMenu .esriCTDropdownItem:hover {
+  background: #edf2f5;
+  color: #15a4fa;
+}
+
+.jimu-widget-screening-setting .esriCTSources {
+  height: 366px;
+}
+
+.jimu-widget-screening-setting .esriCTSourcesExtraHeight {
+  height: 516px !important;
+}
+
+.jimu-widget-screening-setting .esriCTSourceList {
+  width: 270px;
+  height: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTSourceSetting {
+  width: 650px;
+  position: relative;
+}
+
+.jimu-widget-screening-setting .source-table, .jimu-widget-screening-setting .general-setting-table {
+  width: 100%;
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceLayerField {
+  width: 70%;
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceLabel {
+  width: 25%;
+  min-width: 182px;
+}
+
+.jimu-widget-screening-setting .esriCTLocalSearchLabel {
+  margin-left: 22px;
+  width: 24%;
+  min-width: 146px;
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceLabelFont {
+  font-size: 14px;
+  color: #596679;
+}
+
+.jimu-widget-screening-setting .esriCTLayerSource {
+  width: 80% !important;
+}
+
+.jimu-widget-screening-setting .esriCTsearchFieldsSelector {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 6px 0;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background-image: url(images/selector.png);
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceURLField {
+  width: 82%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceLayer {
+  width: 84% !important;
+}
+
+.jimu-widget-screening-setting .esriCTURLWidthLabel {
+  width: 105px;
+  min-width: 105px;
+}
+
+.jimu-widget-screening-setting .esriCTSearchDetailsSection {
+  width: 175px;
+}
+
+.jimu-widget-screening-setting .esriCTGeneralSettingLabelStyle {
+  font-weight: bold;
+}
+
+.jimu-widget-screening-query-source-setting .esriCTSearchSourceFieldCheckbox {
+  width: 167px;
+  margin-bottom: 20px;
+  color: #596679;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.jimu-widget-screening-query-source-setting .esriCTSearchSourceFieldCheckbox .label {
+  width: 140px;
+}
+
+.jimu-widget-screening-setting .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell {
+  cursor: pointer;
+}
+
+.jimu-widget-screening-setting .esriCTLayerContainer {
+  width: 100%;
+  float: left;
+  margin: 0px;
+}
+
+.jimu-widget-screening-setting .esriCTLayerField {
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTSearchSourceURLField {
+  width: 82%;
+  float: left;
+}
+
+.jimu-widget-screening-setting .esriCTLocalSearchRadiusUnit {
+  line-height: 30px;
+  float: right;
+}
+
+.jimu-widget-screening-setting .esriCTErrorMessage {
+  color: #e84b4b;
+}
+
+
+/*------------------------Search Source-----------------------------------------*/
+
+
+/*RTL Starts*/
+
+
+/*Analysis Tab and General Tab Common RTL section css starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTInputsSection {
+  height: auto;
+  width: 100%;
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTTabNode {
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTHint {
+  float: right;
+  margin: 5px 0px 10px 5px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDropDownContainer {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTCheckBox {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTFieldSetLegend {
+  margin-right: 20px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTFieldsetContainer {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTFieldsLabel {
+  padding-left: 0px;
+  padding-right: 10px;
+  float: right;
+}
+
+
+/*Analysis Tab and General Tab Common RTL section css ends */
+
+
+/*Analysis Tab RTL section css starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTAOIToolsOptions {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTAnalysisAOIToolsDescriptionLabel {
+  float: right;
+}
+
+
+/*Add Layers RTL section css starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTBtnAddLabel {
+  margin-right: 7px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTSelectAnalysisLayerLabel {
+  padding-right: 0px;
+  float: right;
+  padding-left: 10px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTLayerInputCell {
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+
+/*Add Layers RTL section section css ends */
+
+
+/*Allow Shapefile and Area units section RTL css ends */
+
+.esriRtl .jimu-widget-screening-setting .esriCTAreaUnitsLabel {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTAreaUnitsDropDownContainer {
+  float: right;
+}
+
+
+/*Allow Shapefile and Area units section RTL css ends */
+
+
+/*Analysis Tab RTL section css ends */
+
+
+/*General Tab RTL section css starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTGeneralFieldSetOptions {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTGeneralDropDownContainer {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTBufferSettingsFieldsLabel {
+  float: right;
+  padding-left: 0px;
+  width: 80%;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTGeneralDropDownContainer {
+  float: right;
+}
+
+
+/*General Tab RTL section css starts */
+
+
+/*Symbology RTL section css starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTPreviewField {
+  float: right;
+  padding: 5px 45px 0px 0px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTInputsSection {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTGeneralSymbologyLabel {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTPolygonPreview {
+  padding-right: 0px;
+  float: right;
+}
+
+
+/*Symbology RTL section css ends
+
+/*search source setting RTL section starts */
+
+.esriRtl .jimu-widget-screening-setting .esriCTlabel {
+  padding: 5px 0px 5px 10px;
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTDropdownButton {
+  padding-right: 16px;
+  background-position: right;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTSearchSourceURLField {
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTLocalSearchRadiusUnit {
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTTraverseUnits {
+  float: right;
+  width: 30%;
+  padding-right: 0;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTTraverseDirectionUnits {
+  margin-left: 0px;
+  margin-right: 25px;
+}
+
+.esriRtl .jimu-widget-screening-setting .esriCTURLSetButton {
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+
+
+/*search source setting RTL section ends*/
+
+
+/*RTL ends*/
+
+/*RTL text box disabled*/
+.jimu-widget-screening-setting .esriRTLTabContainerNode{
+  overflow: overlay;
+}
+
+.jimu-widget-screening-download-settings .esriCTDefaultLayoutTable {
+  padding-bottom: 15px;
+}
+
+.jimu-widget-screening-download-settings .esriCTCustomLayoutTable {
+  padding-bottom: 15px;
+}
+
+.jimu-widget-screening-download-settings .esriCTAddCustomLayoutParentContainer {
+  clear: both;
+  float: left;
+}
+
+.jimu-widget-screening-download-settings .esriCTAddLayoutText {
+  float: left;
+  padding-left: 10px;
+}
+
+.jimu-widget-screening-download-settings .esriCTCustomLayoutHintText {
+  clear: both  
+}
+
+.jimu-widget-screening-download-settings .esriCTDefaultPrintTemplateContainer {
+  clear: both;
+  width: 100%;
+  padding-bottom: 15px;
+  overflow: auto;
+}
+
+.jimu-widget-screening-download-settings .esriCTDefaultPrintTemplateText {
+  float: left;
+  width: 35%;
+}
+
+.jimu-widget-screening-download-settings .esriCTDefaultPrintTemplateDropdown {
+  float: left;
+  width: 33%;
+}
+
+.jimu-widget-screening-download-settings .esriCTCustomOptionButtonDisable {
+  color: #808080 !important;
+  cursor: default;
+}
+
+/* Custom layout Download Tab RTL starts */
+.esriRtl .jimu-widget-screening-download-settings .esriCTDefaultPrintTemplateText {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-download-settings .esriCTAddCustomLayoutParentContainer {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening-download-settings .esriCTDefaultPrintTemplateDropdown {
+  float: right;
+}
+/* Custom layout Download Tab RTL ends */

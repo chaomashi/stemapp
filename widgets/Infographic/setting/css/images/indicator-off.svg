@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>radiobutton_default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI_SVG" transform="translate(-151.000000, -163.000000)">
+            <g id="radiobutton_default" transform="translate(151.000000, 163.000000)">
+                <path d="M6,11.25 C8.88578644,11.25 11.25,8.88578644 11.25,6 C11.25,3.11421356 8.88578644,0.75 6,0.75 C3.11421356,0.75 0.75,3.11421356 0.75,6 C0.75,8.88578644 3.11421356,11.25 6,11.25 Z" id="Shape-Copy-3" stroke="#999999" stroke-width="1.5"></path>
+                <rect id="Rectangle-11" fill="#999999" transform="translate(6.096194, 6.069405) rotate(-315.000000) translate(-6.096194, -6.069405) " x="5.34619408" y="0.469405175" width="1.5" height="11.1999998"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="16px" viewBox="0 0 32 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>togglebutton_closed copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Builder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-332.000000, -1921.000000)" id="Group-23">
+            <g transform="translate(66.000000, 1832.000000)">
+                <g id="togglebutton_closed-copy" transform="translate(266.000000, 89.000000)">
+                    <rect id="Rectangle-3-Copy" fill="#CCCCCC" x="0" y="0" width="32" height="16" rx="8"></rect>
+                    <circle id="knob" fill="#FFFFFF" cx="8" cy="8" r="6"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<div class="style-selector">
+  <div class="setting-items clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.dataFormat}">${nls.dataFormat}</div>
+    <div class="setting-wapper jimu-float-trailing clearFix data-formats">
+      <input type="radio" value="Features" id="Features" name="dataType" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="featuresRadion">
+      <label for="count" title="${nls.featureCount}">${nls.featureCount}</label>
+    </div>
+  </div>
+  <div class="setting-items clearFix field-statistics-wapper">
+    <div class="setting-wapper jimu-float-trailing clearFix data-formats">
+      <input type="radio" value="FeatureStatistics" id="FeatureStatistics" name="dataType" data-dojo-type="dijit/form/RadioButton"
+        data-dojo-attach-point="featureStatisticsRadion">
+      <label for="statistics" title="${nls.fieldStatistics}">${nls.fieldStatistics}</label>
+    </div>
+  </div>
+
+  <div data-dojo-attach-point="countRadioBtn">
+    <div class="setting-items clearFix">
+      <div class="label-position jimu-float-leading" title="${nls.field}">${nls.field}</div>
+      <div class="setting-wapper jimu-float-trailing clearFix">
+        <select data-dojo-type="dijit/form/Select" data-dojo-props='style:{width:"100%"}' data-dojo-attach-point="fieldSelect"></select>
+      </div>
+    </div>
+    <div class="setting-items clearFix" data-dojo-attach-point="operationNode">
+      <div class="label-position jimu-float-leading" title="${nls.operation}">${nls.operation}</div>
+      <div class="setting-wapper jimu-float-trailing clearFix">
+        <select data-dojo-type="dijit/form/Select" data-dojo-props='style:{width:"100%"}' data-dojo-attach-point="operationSelect"></select>
+      </div>
+    </div>
+  </div>
+</div>

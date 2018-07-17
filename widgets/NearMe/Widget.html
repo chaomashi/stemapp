@@ -1,0 +1,47 @@
+<div>
+    <div data-dojo-attach-point="widgetMainNode" class="esriCTWidgetMainNode esriCTHidden">
+        <div class="esriCTSearchOuterContainer">
+            <div class="esriCTSearchHeader">
+                ${nls.searchHeaderText}</div>
+            <div class="esriCTSearchContainer">
+                <div class="esriCTSearchDiv">
+                    <div data-dojo-attach-point="search">
+                    </div>
+                </div>
+                <div class="esriCTSelectLocationDiv esriCTImgButtons esriCTSelectLocation esriCTHidden" data-dojo-attach-point="selectLocation">
+                </div>
+            </div>
+            <div style="clear: both"></div>
+            <div class="esriCTSliderDiv esriCTHidden">
+                <div data-dojo-attach-point="silderText" class="esriCTSliderText">
+                </div>
+                <div data-dojo-attach-point="horizantalSliderContainer">
+                </div>
+                <div class="esriCTSliderValuesDiv">
+                    <div class="esriCTSliderMinValueDiv" data-dojo-attach-point="sliderMinValue">
+                    </div>
+                    <div class="esriCTSliderMaxValueDiv" data-dojo-attach-point="sliderMaxValue">
+                    </div>
+                </div>
+            </div>
+            <div data-dojo-attach-point="layerListOuterDiv" class="esriCTListOuterContainer">
+            </div>
+        </div>
+        <div class="esriCTWidgetErrorNode" data-dojo-attach-point="widgetErrorNode">
+        </div>
+    </div>
+    <div data-dojo-attach-point="widgetFilterNode" class="esriCTWidgetFilterNode esriCTHidden">
+        <div class="esriCTItemlList esriCTPanelHeader" style="padding: 0 10px;">
+            <div class="esriCTFilterBackDiv" data-dojo-attach-point="filterBackButton">
+                <div class="esriCTBackButton">
+                    <div class="esriCTItemLeftArrow">
+                    </div>
+                </div>
+                <div class="esriCTItemName" title="${nls.filterTitle}">${nls.filterTitle}</div>
+            </div>
+            <div data-dojo-attach-point="clearAllFilterButton" class="esriCTClearAllFilter esriCTClearAllFilterActive">
+            </div>
+        </div>
+        <div style="height: 100%;" data-dojo-attach-point="filterListNode"></div>
+    </div>
+</div>

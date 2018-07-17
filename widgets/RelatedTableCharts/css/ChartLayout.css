@@ -1,0 +1,61 @@
+﻿
+/*-----------------------Styles for chart Layout container-----------------------*/
+.jimu-widget-RelatedTableCharts-layout .esriCTLabels
+{
+    width: 100%;
+    clear: both;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTLayoutHeaderTitle
+{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTLayoutContent
+{
+    width: calc(100% - 140px);
+    border: 1px solid #d2dae2;
+    margin: 20px auto;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTChartContainer
+{
+    margin: 10px 50px;
+    display: inline-block;
+    direction: ltr;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTChartDescription
+{
+    margin: 0 10px 10px 10px;
+    word-break: break-word;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTLegendContainer
+{
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTLegendContainer .dijitCheckBox
+{
+    margin: 1px;
+}
+
+.jimu-widget-RelatedTableCharts-layout .dojoxLegendNode td
+{
+    padding: 6px 4px 6px 6px;
+}
+
+.jimu-widget-RelatedTableCharts-layout .dojoxLegendNode
+{
+    border-top: 1px solid #DDDDDD;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+

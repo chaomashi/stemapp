@@ -1,0 +1,77 @@
+<div style="width: 100%; height: 100%;">
+    <div class="settings-section" data-dojo-attach-point="searchesSection">
+      <table class="setting-table input-table" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="first">${nls.layerSelect}:</td>
+            <td class="second">
+              <select style="margin: 0 10px;" data-dojo-attach-point="mapLayerSelect" data-dojo-type="dijit/form/Select">
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="first">${nls.elevationFieldSelect}:</td>
+            <td class="second">
+              <select style="margin: 0 10px;" data-dojo-attach-point="elevationFieldSelect" data-dojo-type="dijit/form/Select">
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="first">${nls.azimuthFieldSelect}:</td>
+            <td class="second">
+              <select style="margin: 0 10px;" data-dojo-attach-point="azimuthFieldSelect" data-dojo-type="dijit/form/Select">
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="first">${nls.searchRadiusSelect}:</td>
+            <td class="second">
+              <table>
+                <tr>
+                  <td>
+                      <select style="width: 100px; margin: 10px 0 10px 7px;" data-dojo-attach-point="searchRadiusSelect" data-dojo-type="dijit/form/NumberSpinner">
+                      </select>
+                  </td>
+                  <td>
+                      <select style="width: 170px; margin: 10px 0;" data-dojo-attach-point="searchUnitSelect" data-dojo-type="dijit/form/Select">
+                      </select>
+                  </td>   
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="first">${nls.rasterInfoFieldsSelect}:<br/>
+              <label data-dojo-attach-point="fieldLimitLabel">(${nls.fieldLimitText})</label>
+                              </td>
+            <td class="second">
+              <select style="margin: 0 10px;" data-dojo-attach-point="rasterInfoFieldsSelect" data-dojo-type="dojox/form/CheckedMultiSelect" multiple="true">
+              </select>
+            </td>
+          </tr>
+  
+          <tr>
+            <td colspan="2">
+              <input data-dojo-attach-point="thumbnailCheckbox" data-dojo-type="dijit/form/CheckBox" />
+              <label style="margin: 0 15px;">${nls.showThumbnailText}</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input data-dojo-attach-point="autoSyncCheckbox" data-dojo-type="dijit/form/CheckBox" checked />
+              <label style="margin: 0 15px;">${nls.autoSyncText}</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input data-dojo-attach-point="distanceToolCheckbox" data-dojo-type="dijit/form/CheckBox" />
+              <label style="margin: 0 15px;">${nls.distanceToolText}</label>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div data-dojo-attach-point="errorSection">
+    </div>
+  </div>
+  

@@ -1,0 +1,30 @@
+<div>
+  <div class="esriCTImpactSummaryLayerContainer" data-dojo-attach-point="impactSummaryLayerContainer">
+    <!--title & field icon table-->
+    <div class="esriCTLayerTitleAndFieldParentContainer esriCTLayerSectionDisabled esriCTCursorPointer" data-dojo-attach-point="layerTitleAndFieldParentContainer">
+      <!--title & field icon row-->
+      <div class="esriCTLayerTitleAndFieldChildContainer">
+        <div class="esriCTLayerPanelIcon esriCTLayerPanelExpand" data-dojo-attach-point="layerSectionIcon">
+        </div>
+        <!--title-->
+        <div class="esriCTImpactSummaryLayerTitle" data-dojo-attach-point="impactSummaryLayerTitle">
+        </div>
+        <!--field icon-->
+        <div class="esriCTImpactSummaryLayerFieldIcon esriCTImpactSummaryLayerFieldIconDisabled" data-dojo-attach-point="impactSummaryLayerField"
+          title="${nls.reportsTab.attributeChooserTooltip}"></div>
+        <!--feature count-->
+        <div class="esriCTImpactSummaryLayerFeatureCount esriCTLoadingIcon" data-dojo-attach-point="impactSummaryLayerFeatureCount"></div>
+        <!-- Hint for count exceeding max record count -->
+        <div class="esriCTImpactSummaryLayerMaxRecordHint esriCTHidden" title="${nls.reportsTab.unableToAnalyzeText}" data-dojo-attach-point="impactSummaryLayerMaxRecordHint"></div>
+      </div>
+    </div>
+    <!--layer description-->
+    <div class="esriCTImpactSummaryLayerDetailContainer esriCTHidden" data-dojo-attach-point="impactSummaryLayerDetailContainer">
+      <div data-dojo-attach-point="impactSummaryLayerDetailsMsg"></div>
+      <div data-dojo-attach-point="impactSummaryLayerDetails"></div>
+      <div data-dojo-attach-point="noFieldsSelectedContainer" class="esriCTNoFieldSelectedContainer esriCTHidden">
+        ${nls.reportsTab.noFieldsSelected}
+      </div>
+    </div>
+  </div>
+</div>

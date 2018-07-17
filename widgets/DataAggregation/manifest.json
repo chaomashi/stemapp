@@ -1,0 +1,24 @@
+{
+  "name": "DataAggregation",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri Inc",
+  "description": "A widget for aggregating data from CSV files with a feature service",
+  "copyright": "Copyright 2016 Esri Inc.",
+  "license": "http://links.esri.com/solutions/license",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "IsController": false
+  }
+}

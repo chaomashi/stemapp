@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>create</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Data-source" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="Default" transform="translate(-360.000000, -382.000000)" fill="#000000">
+            <g id="Links" transform="translate(30.000000, 332.000000)">
+                <g id="list-01" transform="translate(0.000000, 46.000000)">
+                    <g id="create" transform="translate(330.000000, 4.000000)">
+                        <path d="M0,7.88888889 L0,10 L2.11111111,10 L8.22222222,3.83333333 L6.11111111,1.72222222 L0,7.88888889 L0,7.88888889 Z M9.83333333,2.22222222 C10.0555556,2 10.0555556,1.66666667 9.83333333,1.44444444 L8.55555556,0.166666667 C8.33333333,-0.0555555556 8,-0.0555555556 7.77777778,0.166666667 L6.77777778,1.16666667 L8.88888889,3.27777778 L9.83333333,2.22222222 L9.83333333,2.22222222 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

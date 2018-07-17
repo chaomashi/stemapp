@@ -1,0 +1,73 @@
+﻿<div>
+	<div style="margin-top:15px;margin-bottom:10px;">
+		<div class="radio-label-container radio-div portal-radio-div">
+			<input type="radio" data-dojo-attach-point="portalRadio" class="jimu-radio-btn"/>
+			<label data-dojo-attach-point="portalLabel">${nls.webMapPopupTip}</label>
+		</div>
+		<div class="radio-label-container radio-div custom-radio-div" style="margin-top:15px;">
+			<input type="radio" data-dojo-attach-point="customRadio" class="jimu-radio-btn"/>
+			<label data-dojo-attach-point="customLabel" checked>${nls.customPopupTip}</label>
+		</div>
+	</div>
+	<table class="title-sorting-table">
+		<colgroup>
+			<col width="auto"></col>
+			<col width="38px"></col>
+		</colgroup>
+		<tbody>
+			<tr class="indent-tr">
+				<td colspan="2" class="indent-td" style="padding-bottom:4px;">
+					<span class="light-stress">${nls.resultItemTitle}:</span>
+				</td>
+			</tr>
+			<tr class="indent-tr">
+				<td class="indent-td">
+					<div data-dojo-attach-point="titleTextBox" data-dojo-type="dijit/form/ValidationTextBox"
+					data-dojo-props='required:true,trim:true' style="width:100%;" />
+				</td>
+				<td>
+					<div data-dojo-attach-point="btnAddFields" data-dojo-attach-event="onclick:_onAddClicked" class="setting-btn btn-add-fields jimu-float-trailing">
+						<div class="jimu-icon jimu-icon-add"></div>
+					</div>
+				</td>
+			</tr>
+			<tr class="indent-tr">
+				<td colspan="2" class="indent-td" style="padding-top:10px;padding-bottom:4px;">
+					<span class="light-stress">${nls.resultItemContent}:</span>
+				</td>
+			</tr>
+			<tr class="indent-tr">
+				<td class="indent-td">
+					<div data-dojo-attach-point="displayFieldsTextBox" class="display-fields-textbox" data-dojo-type="dijit/form/ValidationTextBox"
+					data-dojo-props='required:true,trim:true,disabled:true' style="width:100%;" />
+				</td>
+				<td>
+					<div data-dojo-attach-point="btnSetDisplayFields" class="setting-btn btn-display-fields jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnSetDisplayFieldsClicked">
+						<div class="jimu-icon jimu-icon-edit"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="padding-top:15px;padding-bottom:7px;">
+					<span class="light-stress">${nls.sortingFields}:</span>
+				</td>
+			</tr>
+			<tr>
+				<td data-dojo-attach-point="tdSortFields">
+					<div data-dojo-attach-point="sortFieldsDiv" class="sort-fields-div jimu-ellipsis"></div>
+				</td>
+				<td>
+					<div data-dojo-attach-point="btnSortFields" class="setting-btn btn-sort-fields jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnSortFieldsClicked">
+						<div class="jimu-icon jimu-icon-edit" data-dojo-attach-point="sortFieldsIcon"></div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div data-dojo-attach-point="displayFieldsSection" style="display:none;">
+		<div data-dojo-attach-point="displayFieldsDiv">
+			<div style="margin-top:7px;margin-bottom:8px;font-size:12px;">${nls.fieldsSetTip}</div>
+		  <div data-dojo-attach-point="fieldsContainer"></div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+.jimu-widget-swipe .swipe-layer-menu{
+  color: #fff;
+  background: #222;
+}
+
+.claro .jimu-widget-swipe .swipe-layer-menu .dijitSelect .dijitButtonContents{
+  background: transparent !important;
+}
+
+.jimu-widget-swipe .dijitValidationTextBoxLabel {
+  color: #ccc;
+}

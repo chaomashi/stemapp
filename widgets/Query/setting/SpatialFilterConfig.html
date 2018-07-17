@@ -1,0 +1,99 @@
+﻿<div>
+	<div class="stress">${nls.spatialFilter}</div>
+	<div class="spatial-filter-content">
+		<div class="jimu-widget-note" style="margin-top:5px;">${nls.spatialFilterTip}</div>
+		<div class="spatial-filter-items" style="margin-top:5px;">
+			<div class="spatial-filter-item" data-dojo-attach-point="mapExtentSection">
+				<div class="spatial-filter-item-head">
+					<div class="checkbox-container" data-dojo-attach-point="cbxMapExtentDiv"></div>
+					<div class="icon-placeholder"></div>
+					<div class="make-default" data-dojo-attach-event="onclick:_onBtnMakeDefaultClicked" title="${nls.makeDefault}">${nls.makeDefault}</div>
+					<div class="default-text">${nls.defaultOption}</div>
+				</div>
+			</div>
+
+			<div class="spatial-filter-item" data-dojo-attach-point="drawGraphicSection">
+				<div class="spatial-filter-item-head">
+					<div class="checkbox-container cbx-draw-graphic-div" data-dojo-attach-point="cbxDrawGraphicDiv"></div>
+					<div class="icon-placeholder arrow-icon" data-dojo-attach-point="arrowIconDrawGraphic" data-dojo-attach-event="onclick:_onDrawGraphicArrowIconClicked"></div>
+					<div class="make-default" data-dojo-attach-event="onclick:_onBtnMakeDefaultClicked" title="${nls.makeDefault}">${nls.makeDefault}</div>
+					<div class="default-text">${nls.defaultOption}</div>
+				</div>
+				<div data-dojo-attach-point="drawGraphicSettting" class="draw-graphic-setting hidden-setting leading-padding20">
+					<div class="drawing-tools-section">
+						<div style="font-weight:bold;">${nls.drawingTools}</div>
+						<div data-dojo-attach-point="drawingToolsContainer" class="drawing-tools-container" data-dojo-attach-event="onclick:_onDrawingToolsContainerClicked">
+							<div class="draw-item point" data-geotype="POINT">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item line" data-geotype="LINE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item polyline" data-geotype="POLYLINE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item freehand-polyline" data-geotype="FREEHAND_POLYLINE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item triangle" data-geotype="TRIANGLE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item extent" data-geotype="EXTENT">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item circle" data-geotype="CIRCLE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item ellipse" data-geotype="ELLIPSE">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item polygon" data-geotype="POLYGON">
+								<div class="draw-item-icon"></div>
+							</div>
+							<div class="draw-item freehand-polygon" data-geotype="FREEHAND_POLYGON">
+								<div class="draw-item-icon"></div>
+							</div>
+						</div>
+					</div>
+					<div class="search-distance-section" >
+						<div data-dojo-attach-point="drawBufferSettingCbxDiv"></div>
+						<div class="search-distance-div" data-dojo-attach-point="drawingSearchDistanceDiv" style="margin-top:5px;"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="spatial-filter-item" data-dojo-attach-point="useFeaturesSection">
+				<div class="spatial-filter-item-head">
+					<div class="checkbox-container cbx-use-features-div" data-dojo-attach-point="cbxUseFeaturesDiv"></div>
+					<div class="icon-placeholder arrow-icon" data-dojo-attach-point="arrowIconFeatures" data-dojo-attach-event="onclick:_onFeaturesArrowIconClicked"></div>
+					<div class="make-default" data-dojo-attach-event="onclick:_onBtnMakeDefaultClicked" title="${nls.makeDefault}">${nls.makeDefault}</div>
+					<div class="default-text">${nls.defaultOption}</div>
+				</div>
+				<div data-dojo-attach-point="featuresSetting" class="features-setting hidden-setting leading-padding20">
+					<div class="relationships-section" style="margin-top:10px;">
+						<div style="font-weight:bold;">${nls.availableSpatialRelationships}</div>
+						<div class="relationships-selector-div">
+							<div data-dojo-attach-point="relationshipTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true,trim:true,disabled:true'></div>
+							<div class="setting-btn jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnRelationshipClicked">
+								<div class="jimu-icon jimu-icon-setting"></div>
+							</div>
+						</div>
+					</div>
+					<div class="search-distance-section" style="margin-top:10px;">
+						<div data-dojo-attach-point="featureBufferSettingCbxDiv"></div>
+						<div class="search-distance-div" data-dojo-attach-point="featuresSearchDistanceDiv" style="margin-top:5px;"></div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="spatial-filter-item" data-dojo-attach-point="layerExtentSection">
+				<div class="spatial-filter-item-head">
+					<div class="checkbox-container" data-dojo-attach-point="cbxLayerExtentDiv"></div>
+					<div class="icon-placeholder"></div>
+					<div class="make-default" data-dojo-attach-event="onclick:_onBtnMakeDefaultClicked" title="${nls.makeDefault}">${nls.makeDefault}</div>
+					<div class="default-text">${nls.defaultOption}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

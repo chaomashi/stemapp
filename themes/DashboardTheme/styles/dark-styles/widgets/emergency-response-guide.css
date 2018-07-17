@@ -1,0 +1,331 @@
+/* dropdown / select menus */
+.jimu-widget-ERG .dijitSelect .dijitArrowButton
+{
+    background-color: transparent;
+    border-color: #fafafc;
+}
+
+.jimu-widget-ERG .dijitSelect .dijitButtonContents
+{
+    background-color: transparent;
+}
+
+/* disabled input boxes */
+.jimu-widget-ERG .claro .dijitSelectHover,
+.jimu-widget-ERG .claro .dijitSelectFocused{
+  border: 1px solid #00f;
+}
+
+.jimu-widget-ERG .dijitTextBoxDisabled .dijitInputContainer  {
+     background-color: transparent;
+}
+
+.claro .jimu-widget-ERG .dijitTextBoxHover {
+  background-color: #222;
+}
+
+.claro .jimu-widget-ERG .dijitTextBoxFocused .dijitInputContainer {
+  background: #222;
+}
+
+/* button icons */
+.jimu-widget-ERG .ERGLabelSettingsDownButton{
+    background: url("../images/EmergencyResponseGuide/arrow-down_white.png") no-repeat;
+
+}
+
+.jimu-widget-ERG .ERGLabelSettingsDownButton:hover{
+    background: url("../images/EmergencyResponseGuide/arrow-down_white_hover.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsRightButton{
+    background: url("../images/EmergencyResponseGuide/arrow-right_white.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGLabelSettingsRightButton:hover{
+    background: url("../images/EmergencyResponseGuide/arrow-right_white_hover.png") no-repeat;
+}
+
+.jimu-widget-ERG .ERGItemLeftArrow{
+    background-image: url('../images/EmergencyResponseGuide/left-arrow_white.png');
+}
+
+.jimu-widget-ERG .ERGItemLeftArrow:hover{
+    background-image: url('../images/EmergencyResponseGuide/left-arrow_white_hover.png');
+}
+
+.jimu-widget-ERG .ERGSettingsIcon{
+    background-image: url('../images/EmergencyResponseGuide/settings_white.png');
+}
+
+.jimu-widget-ERG .ERGSettingsIcon:hover{
+    background-image: url('../images/EmergencyResponseGuide/settings_white_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ERG .settingBtn {
+    background: url('../images/EmergencyResponseGuide/settings_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: -4px;
+}
+
+.jimu-widget-ERG .settingBtn:hover {
+    background: url('../images/EmergencyResponseGuide/settings_white_hover.png');
+}
+
+.jimu-widget-ERG .editBtn {
+    float: right;
+    background: url('../images/EmergencyResponseGuide/draw_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+}
+
+.jimu-widget-ERG .editBtn:hover {
+    background: url('../images/EmergencyResponseGuide/draw_white_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ERG .jimu-edit-active {
+    background: url('../images/EmergencyResponseGuide/draw_white_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-ERG .helpBtn {
+    float: right;
+    background: url('../images/EmergencyResponseGuide/help_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.jimu-widget-ERG .helpBtn:hover{
+    background: url('../images/EmergencyResponseGuide/help_white_hover.png');
+}
+
+.jimu-widget-ERG  .dijitSliderThumbHover{
+  background-image: url("../images/EmergencyResponseGuide/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH {
+  background-image: url("../images/EmergencyResponseGuide/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  background-image: url("../images/EmergencyResponseGuide/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-ERG .dijitSlider .dijitSliderProgressBarH,
+.jimu-widget-ERG .dijitSlider .dijitSliderLeftBumper{
+  border-color: #fff;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: -o-linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+}
+.jimu-widget-ERG .dijitSlider .dijitSliderRemainingBarH,
+.jimu-widget-ERG .dijitSlider .dijitSliderRightBumper{
+  border-color: #000;
+  background-color: #000;
+}
+
+/* dojo color picker */
+
+.jimu-widget-ERG .jimu-colorpalette {
+  background-color: #222;
+}
+
+.jimu-widget-ERG .jimu-color-picker-dialog .dijitTooltipContainer {
+  background-color: #222 !important;
+}
+
+.claro .jimu-widget-ERG .dojoxColorPicker {
+    background: #222;
+}
+
+/* dojo select */
+
+.claro .jimu-widget-ERG .dijitSelect{
+  background-color: #222;
+}
+.claro .jimu-widget-ERG .dijitSelectHover,
+.claro .jimu-widget-ERG .dijitSelectFocused{
+  border-color: #51b1fe !important;
+  box-shadow: 0px 0px 5px #51b1fe;
+}
+.claro .jimu-widget-ERG .dijitSelect .dijitArrowButton {
+  background-color: #222;
+}
+.claro .jimu-widget-ERG .dijitMenu{
+  border:1px solid #999;
+}
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItem{
+  color: #fff;
+}
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItem,
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItem td{
+  background-color: #222;
+  border: 1px solid #222;
+  font-weight: normal;
+}
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItem:hover,
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItem:hover td
+ {
+  background: none;
+  background-color: #1e90ff;
+}
+.claro .jimu-widget-ERG .dijitMenu .dijitMenuItemSelected td{
+  background: none;
+  background-color: #1e90ff;
+  font-weight: normal;
+  color: #fff;
+}
+.claro .jimu-widget-ERG .dijitMenuItem .esriTravelModesTypeName{
+  color: #fff;
+}
+.claro .jimu-widget-ERG .dijitMenuItem .dijitMenuItemSelected td:hover .esriTravelModesTypeName{
+  color: #666;
+}
+
+/*dojo dialog box*/
+
+.claro .jimu-widget-ERG .dijitDialog {
+  background-color: #222;
+}
+.claro .jimu-widget-ERG .dijitDialogTitle {
+  color: #fff;
+}
+
+.claro .jimu-widget-ERG .dijitDialogPaneActionBar {
+  background-color: #222;
+  border-top: none;
+}
+
+.claro .jimu-widget-ERG .dijitDialogTitleBar {
+    border: 0px solid #222;
+    border-bottom: 1px solid #000;
+    background-color: #222;
+    background-image: none;
+}
+.claro .jimu-widget-ERG .dijitTooltipContainer {
+    background-color: #222;
+    border: 1px solid #9a9a9a;
+    color: #fff;
+}
+
+.claro .jimu-widget-ERG .dijitDialogPaneContent {
+    background-color: #222;
+    border: 0px solid #9a9a9a;
+    color: #fff;
+}
+.claro .jimu-widget-ERG .dijitDialogPaneContent  {
+  float: right;
+}
+
+/*tab*/
+
+.claro .jimu-widget-ERG .dijitTab{
+  background: #222;
+  color: white;
+}
+.claro .jimu-widget-ERG .dijitTabContainerTop-tabs .dijitTabChecked{
+  background: #333;
+}
+.claro .jimu-widget-ERG .dijitTabContainerTop-dijitContentPane{
+  background: #222;
+  color: white;
+}
+
+/*ComboBox*/
+
+.claro .jimu-widget-ERG .dijitComboBox .dijitButtonNode,
+.claro .jimu-widget-ERG .dijitSelect .dijitArrowButton {
+  background-image: none;
+  background-color: transparent;
+}
+
+.claro .jimu-widget-ERG .dijitComboBox .dijitArrowButtonContainer,
+.claro .jimu-widget-ERG .dijitSelect .dijitArrowButtonContainer {
+  border-width: 0 !important;
+}
+
+.claro .jimu-widget-ERG .dijitSelect .dijitButtonContents {
+  border-style: none;
+}
+
+/*Button*/
+
+.claro .jimu-widget-ERG .dijitButton .dijitButtonNode {
+    border: 0px solid #000000;
+    background-image: none;
+    background-color: #666;
+    padding: 5px 18px 8px 18px;
+    font-size: 14px;
+}
+
+.claro .jimu-widget-ERG .dijitButtonHover  .dijitButtonNode {
+  background-color: #333;
+}
+
+/*tree*/
+
+.claro .jimu-widget-ERG .dijitTreeRow{
+  background-color: #333;
+  color: white;
+}
+
+.claro .jimu-widget-ERG .dijitTabPaneWrapper, .claro .dijitToolbar{
+  background-color: #222;
+}
+
+.claro .jimu-widget-ERG .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode{
+  background-color: #666;
+}
+.claro .jimu-widget-ERG .dijitDropDownButton .dijitButtonNode,
+.claro .dijitButton .dijitButtonNode,
+.claro .jimu-widget-ERG .dijitToggleButton .dijitButtonNode{
+  color: white;
+}
+.claro .jimu-widget-ERG .dijitButtonDisabled .dijitButtonNode{
+  color: #bbb;
+}
+
+.claro .jimu-widget-ERG .dgrid-header, .jimu-widget-ERG .dgrid-header-row, .dgrid-footer {
+  background-color: #222;
+}
+
+.jimu-widget-ERG .easy-autocomplete input {
+    background-color: #222;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.jimu-widget-ERG .easy-autocomplete-container ul {
+  background: none repeat scroll 0 0 #222;
+}
+
+.jimu-widget-ERG .easy-autocomplete-container ul li.selected {
+  background: none repeat scroll 0 0 #1e90ff;
+}
+
+.jimu-widget-ERG .easy-autocomplete input:focus {
+    border-color: #51b1fe !important;
+    box-shadow: 0px 0px 5px #51b1fe;
+}
+
+.jimu-widget-ERG .dijitRuleLabelH {
+    color: #fff;
+}
+

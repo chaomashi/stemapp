@@ -1,0 +1,34 @@
+﻿<div style="width: 100%; height: 100%;">
+    <div class="esriCTLayerSelectorNode" data-dojo-attach-point="layerSelectorContainer">
+        <!-- Single Layer Selector -->
+        <div style="width: 98%;"  data-dojo-attach-point="singleLayerChooser">
+        </div>
+        <!-- Related Layer Selector -->
+        <div class="esriCTLayerSelectorDiv"  data-dojo-attach-point="relatedLayerChooser">
+            <div class="esriCTLayerChooserContainer row">
+                <div class="esriCTLayerChooserFieldLabel esriCTEllipsis" title="${nls.parcelPolygonLayer.selectPolygonLayerLabel}">
+                    ${nls.parcelPolygonLayer.selectPolygonLayerLabel}
+                </div>
+                <div class="esriCTLayerChooserField">
+                    <div style="width: 98%;" data-dojo-attach-point="relatedLayerChooserDiv">
+                    </div>
+                    <div class="esriCTHint">
+                        ${nls.parcelPolygonLayer.selectPolygonLayerHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerChooserContainer row">
+                <div class="esriCTLayerChooserFieldLabel esriCTEllipsis" title="${nls.parcelLineLayer.selectLayerLabel}">
+                    ${nls.parcelLineLayer.selectLayerLabel}
+                </div>
+                <div class="esriCTLayerChooserField">
+                    <select style="width: 98%;" data-dojo-type="dijit/form/Select"  data-dojo-attach-point="relatedLayerSelector">
+                </select>
+                    <div class="esriCTHint">
+                        ${nls.parcelLineLayer.selectLayerHintText}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

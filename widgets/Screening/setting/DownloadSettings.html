@@ -1,0 +1,161 @@
+<div>
+  <!--Download Settings-->
+  <fieldset class="esriCTFieldSet esriCTDownloadTabFieldSet">
+    <legend class="esriCTFieldSetLegend">${nls.downloadTab.downloadLegend}</legend>
+    <!--Sync enable download Option-->
+    <form data-dojo-attach-point="downloadOptionForm" class="esriCTDownloadOptionForm">
+      <!--Sync-enable feature service option-->
+      <div class="esriCTSyncEnableOptionDiv">
+        <!--Sync-enable radio button-->
+        <input class="esriCTDownloadRadioButton" name="downloadOption" type="radio" data-dojo-type="jimu/dijit/RadioBtn" value="syncEnable"
+          data-dojo-attach-point="syncEnableRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
+        <!--Sync-enable download option label and hint container-->
+        <div class="esriCTDownloadLabelDiv">
+          <div class=esriCTDownloadOptionLabel>
+            ${nls.downloadTab.syncEnableOptionLabel}
+          </div>
+          <div class="esriCTHint">
+            ${nls.downloadTab.syncEnableOptionHint}
+            <br>${nls.downloadTab.syncEnableOptionNote}
+          </div>
+        </div>
+      </div>
+      <!--Table representation of download file options for each layer-->
+      <div class="esriCTLayerDownloadOptionTable" data-dojo-attach-point="downloadOptionTable">
+      </div>
+      <!--Extract data task geoprocessing service option-->
+      <div class="esriCTGPServiceOptionDiv">
+        <!--Extract data task radio button-->
+        <input class="esriCTDownloadRadioButton" name="downloadOption" type="radio" data-dojo-type="jimu/dijit/RadioBtn" value="extractDataTask"
+          data-dojo-attach-point="gpServiceRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
+        <!--Extract data task download option label and hint container-->
+        <div class="esriCTDownloadLabelDiv">
+          <div class=esriCTDownloadOptionLabel>
+            ${nls.downloadTab.extractDataTaskOptionLabel}
+          </div>
+          <div class="esriCTHint">
+            ${nls.downloadTab.extractDataTaskOptionHint}
+          </div>
+        </div>
+      </div>
+      <!--Extract data task INPUT Container-->
+      <div class="esriCTDownloadTabInputContainer esriCTHidden" data-dojo-attach-point="extractDataTaskInputContainer">
+        <!--Extract data task INPUT TEXTBOX label-->
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.GPTaskLabel}
+        </div>
+        <!--Extract data task TEXTBOX-->
+        <div data-dojo-attach-point="extractDataTaskTextBox" class="esriCTDownloadTabTextbox" data-dojo-type="dijit/form/ValidationTextBox"
+          data-dojo-props='required:true,trim:true,disabled:true'>
+        </div>
+        <!--Set Button-->
+        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="extractDataTaskSetButton" title="${nls.downloadTab.setButtonLabel}">
+          ${nls.downloadTab.setButtonLabel}
+        </div>
+      </div>
+      <!--User cannot download-->
+      <div class="esriCTCannotDownloadOptionDiv">
+        <!--User cannot download radio button-->
+        <input class="esriCTDownloadRadioButton" name="downloadOption" type="radio" data-dojo-type="jimu/dijit/RadioBtn" value="cannotDownload"
+          data-dojo-attach-point="cannotDownloadRadioButton" data-dojo-props="group:'radioButtonDownloadOption'">
+        <!--User cannot download option label div-->
+        <div class="esriCTDownloadLabelDiv">
+          <div class=esriCTDownloadOptionLabel>
+            ${nls.downloadTab.cannotDownloadOptionLabel}
+          </div>
+        </div>
+      </div>
+    </form>
+  </fieldset>
+  <!--Report Settings-->
+  <fieldset class="esriCTFieldSet esriCTDownloadTabFieldSet">
+    <legend class="esriCTFieldSetLegend">${nls.downloadTab.reportLegend}</legend>
+    <div class="esriCTReportSettingsContainer">
+      <!--Print service URL container starts-->
+      <div class="esriCTDownloadTabInputContainer" data-dojo-attach-point="printGPServiceInputContainer">
+        <!--Print Service url LABEL-->
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.printGPServiceLabel}
+        </div>
+        <!--Print Service url TEXTBOX-->
+        <div data-dojo-attach-point="printGPServiceTextBox" class="esriCTDownloadTabTextbox" data-dojo-type="dijit/form/ValidationTextBox"
+          data-dojo-props='required:true,trim:true,disabled:true'>
+        </div>
+        <!--Set BUTTON-->
+        <div class="jimu-btn jimu-float-trailing esriCTDownloadTabSetButton" data-dojo-attach-point="printGPServiceSetButton" title="${nls.downloadTab.setButtonLabel}">
+          ${nls.downloadTab.setButtonLabel}
+        </div>
+      </div>
+      <!--Print service URL container ends-->
+      <!-- Print layout container starts -->
+      <!-- Defaut layout starts -->
+      <div data-dojo-attach-point="defaultLayoutTable" class="esriCTDefaultLayoutTable"></div>
+      <!-- Default layout ends -->
+      <!-- Custom Layout button starts -->
+      <div class="esriCTAddCustomLayoutParentContainer esriCTCustomOptionBtnAddSection esriCTCustomOptionButtonDisable" data-dojo-attach-point="addCustomOptionButton">
+        <span class="esriCTCustomOptionBtnAddIcon esriCTCustomOptionBtnAddIconDisable" data-dojo-attach-point="addCustomOptionButtonIcon"></span>
+        <span class="esriCTCustomOptionBtnAddLabel">${nls.downloadTab.addCustomLayoutTitle}</span>
+      </div>
+      <div class="esriCTHint esriCTCustomLayoutHintText">${nls.downloadTab.customLayoutOptionHint}</div>
+      <!-- Custom Layout button ends -->
+      <!-- Custom layout starts -->
+      <div data-dojo-attach-point="customLayoutTable" class="esriCTCustomLayoutTable"></div>
+      <!-- Custom layout ends -->
+      <!-- Default print layout option starts -->
+      <div class="esriCTDefaultPrintTemplateContainer">
+        <div class="esriCTDefaultPrintTemplateText">${nls.downloadTab.reportDefaultOptionLabel}</div>
+        <div class="esriCTDefaultPrintTemplateDropdown" data-dojo-attach-point="defaultPrintTemplateDropdown"></div>
+      </div>
+      <!-- Default print layout option ends -->
+      <!-- Print layout container ends -->
+      <!--Logo chooser starts-->
+      <div class="esriCTLogoChooserMainContainer">
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.logoLabel}
+        </div>
+        <div class="esriCTLogoChooserDiv">
+          <div class="esriCTImageChooserPreviewContainer">
+            <img class="esriCTImageChooserPreview" data-dojo-attach-point="imageChooserPreview">
+            <div class="esriCTLogoChooser" data-dojo-attach-point="logoChooserNode"></div>
+          </div>
+          <div class="esriCTHint">
+            ${nls.downloadTab.logoChooserHint}
+          </div>
+        </div>
+      </div>
+      <!--Logo chooser ends-->
+      <!--Report Title container start-->
+      <div class="esriCTDownloadTabReportTitleContainer" data-dojo-attach-point="reportTitle">
+        <!--Report Title  LABEL-->
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.reportTitleLabel}
+        </div>
+        <!--Report Title  TEXTAREA-->
+        <div data-dojo-attach-point="reportTitleTextBox" class="esriCTDownloadTabReportInputNode" data-dojo-type="dijit/form/ValidationTextBox">
+        </div>
+      </div>
+      <!--Report Title container end-->
+      <!--Column title Color Picker container starts-->
+      <div class="esriCTDownloadTabReportTitleContainer" data-dojo-attach-point="reportTitle">
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.columnTitleColorPickerLabel}
+        </div>
+        <div class="esriCTDownloadTabReportInputNode">
+          <div class="esriCTColorPickerPreviewField" data-dojo-attach-point="columnTitleColorPickerNode">
+          </div>
+        </div>
+      </div>
+      <!--Column title Color Picker container ends-->
+      <!--Footnote container starts-->
+      <div class="esriCTFootnoteContainer">
+        <!--Footnote LABEL-->
+        <div class="esriCTDownloadTabLabel">
+          ${nls.downloadTab.footnoteLabel}
+        </div>
+        <!--Footnote TEXTAREA-->
+        <textarea class="esriCTFootnoteTextArea" data-dojo-attach-point="footnoteTextArea" rows="5"></textarea>
+      </div>
+      <!--Footnote container ends-->
+    </div>
+  </fieldset>
+</div>

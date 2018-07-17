@@ -1,0 +1,66 @@
+{
+  "erg": {
+    "symbology": {
+      "spillLocationOutlineColor": {
+        "color": "#000001",
+        "transparency": 0,
+        "type": "esriSLSSolid"
+      },
+      "spillLocationFillColor": {
+        "color": "#000001",
+        "transparency": 0.5,
+        "type": "esriSFSDiagonalCross"
+      },
+      "IIZoneOutlineColor": {
+        "color": "#ffa500",
+        "transparency": 0,
+        "type": "esriSLSSolid"
+      },
+      "IIZoneFillColor": {
+        "color": "#ffa500",
+        "transparency": 0.5,
+        "type": "esriSFSSolid"
+      },
+      "PAZoneOutlineColor": {
+        "color": "#ffa500",
+        "transparency": 0,
+        "type": "esriSLSSolid"
+      },
+      "PAZoneFillColor": {
+        "color": "#ffa500",
+        "transparency": 0.5,
+        "type": "esriSFSSolid"
+      },
+      "downwindZoneOutlineColor": {
+        "color": "#ffa500",
+        "transparency": 0,
+        "type": "esriSLSLongDash"
+      },
+      "downwindZoneFillColor": {
+        "color": "#ffa500",
+        "transparency": 0.5,
+        "type": "esriSFSSolid"
+      },
+      "fireZoneOutlineColor": {
+        "color": "#ff0000",
+        "transparency": 0,
+        "type": "esriSLSSolid"
+      },
+      "fireZoneFillColor": {
+        "color": "#ffffff",
+        "transparency": 0,
+        "type": "esriSFSForwardDiagonal"
+      },
+      "bleveZoneOutlineColor": {
+        "color": "#0000ff",
+        "transparency": 0,
+        "type": "esriSLSSolid"
+      },
+      "bleveZoneFillColor": {
+        "color": "#ffffff",
+        "transparency": 0,
+        "type": "esriSFSBackwardDiagonal"
+      }
+    }
+  }
+}

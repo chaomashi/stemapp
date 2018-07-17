@@ -1,0 +1,192 @@
+/* jimu-widget-swipe-setting */
+.jimu-widget-swipe-setting{
+	margin:0;
+  padding:0;
+  font-size:14px;
+  color: #000;
+}
+.jimu-widget-swipe-setting .hide{
+  display: none;
+}
+.jimu-widget-swipe-setting .transparent{
+  visibility: hidden;
+}
+.jimu-widget-swipe-setting .style-text,
+.jimu-widget-swipe-setting .layer-text{
+  font-weight: bold;
+}
+.jimu-widget-swipe-setting .style-section .style-items{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  font-size: 10px;
+}
+.jimu-widget-swipe-setting .style-section .style-item {
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}
+.jimu-widget-swipe-setting .style-section .style-item label {
+  font-size: 14px;
+  vertical-align: middle;
+}
+.jimu-widget-swipe-setting .style-section .style-item:first-child{
+  margin-left: 0;
+}
+.jimu-rtl .style-item:first-child {
+  margin-left: 2em;
+  margin-right: 0;
+}
+.jimu-widget-swipe-setting .style-section .style-item-image{
+  position: relative;
+  width: 226px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-swipe-setting .layers-chooser{
+  width: 100%;
+  height: 130px;
+  overflow-y: scroll;
+  border: 1px solid #D7D7D7;
+}
+/*
+.jimu-widget-swipe-setting .layers-chooser.error{
+  border: 1px solid red;
+}*/
+.jimu-widget-swipe-setting .layers-chooser .jimu-basic-layer-chooser-from-map {
+  position: relative;
+}
+.jimu-widget-swipe-setting .layers-chooser .jimu-basic-layer-chooser-from-map .jimu-tree{
+  position: relative !important;
+}
+.jimu-widget-swipe-setting .layers-chooser .jimu-basic-layer-chooser-from-map-lite .tree-root-ul{
+  border: none;
+}
+
+.jimu-widget-swipe-setting .jimu-radio {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+.jimu-widget-swipe-setting .jimu-radio-inner{
+  width: 8px;
+  height: 8px;
+}
+.jimu-widget-swipe-setting .style-item .style-vertical{
+  background: url(images/vertical.png);
+}
+.jimu-widget-swipe-setting .style-item .style-horizontal{
+  background: url(images/horizontal.png);
+}
+.jimu-widget-swipe-setting .style-item .style-scope{
+  background: url(images/scope.png);
+}
+
+.jimu-widget-swipe-setting .layer-text{
+  margin: 20px 0 5px 0;
+  display: inline-block;
+}
+.jimu-widget-swipe-setting .layer-hint{
+  display: inline-block;
+  margin-top: 5px;
+  color: #a0acbf;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.claro .jimu-widget-swipe-setting .dijitSelect {
+  color: #7989a0;
+  /* border-color: #d2dade; */
+}
+.claro .jimu-widget-swipe-setting .dijitSelectHover,
+.claro .jimu-widget-swipe-setting .dijitSelectFocused {
+  border-color: #759dc0;
+}
+.claro .jimu-widget-swipe-setting .dijitSelect .dijitButtonContents {
+  border-style: none;
+  background: #fafafc !important;
+}
+.claro .jimu-widget-swipe-setting .dijitSelect .dijitArrowButton {
+  border-style: none;
+  background: #fafafc !important;
+}
+
+.jimu-widget-swipe-setting .layer-section .select-container {
+  border: 1px solid #d2dade;
+}
+.jimu-widget-swipe-setting .layer-section .dijitValidationTextBox {
+  width: 100%;
+  border: none;
+}
+
+.jimu-widget-swipe-setting .layer-section .jimu-icon-error{
+  vertical-align: sub;
+}
+.jimu-widget-swipe-setting .layers-chooser.error {
+  -webkit-animation: swipe-err-glow 800ms ease-out infinite alternate;
+  -moz-animation: swipe-err-glow 800ms ease-out infinite alternate;
+  -o-animation: swipe-err-glow 800ms ease-out infinite alternate;
+  -ms-animation: swipe-err-glow 800ms ease-out infinite alternate;
+  animation: swipe-err-glow 800ms ease-out infinite alternate;
+  box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  outline: none;
+}
+@-webkit-keyframes swipe-err-glow {
+  0% {
+    border-color: rgb(179, 22, 22);
+    box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  }
+  100% {
+    border-color: #F00;
+    box-shadow: 0 0 10px rgba(255, 0, 0, .6), inset 0 0 10px rgba(255, 0, 0, .4), 0 2px 0 #FFF;
+  }
+}
+@-moz-keyframes swipe-err-glow {
+  0% {
+    border-color: rgb(179, 22, 22);
+    box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  }
+  100% {
+    border-color: #F00;
+    box-shadow: 0 0 10px rgba(255, 0, 0, .6), inset 0 0 10px rgba(255, 0, 0, .4), 0 2px 0 #FFF;
+  }
+}
+@-o-keyframes swipe-err-glow {
+  0% {
+    border-color: rgb(179, 22, 22);
+    box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  }
+  100% {
+    border-color: #F00;
+    box-shadow: 0 0 10px rgba(255, 0, 0, .6), inset 0 0 10px rgba(255, 0, 0, .4), 0 2px 0 #FFF;
+  }
+}
+@-ms-keyframes swipe-err-glow {
+  0% {
+    border-color: rgb(179, 22, 22);
+    box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  }
+  100% {
+    border-color: #F00;
+    box-shadow: 0 0 10px rgba(255, 0, 0, .6), inset 0 0 10px rgba(255, 0, 0, .4), 0 2px 0 #FFF;
+  }
+}
+@keyframes swipe-err-glow {
+  0% {
+    border-color: rgb(179, 22, 22);
+    box-shadow: 0 0 3px rgba(255, 0, 0, .2), inset 0 0 3px rgba(255, 0, 0, .1), 0 2px 0 #FFF;
+  }
+  100% {
+    border-color:#F00;
+    box-shadow: 0 0 10px rgba(255, 0, 0, .6), inset 0 0 10px rgba(255, 0, 0, .4), 0 2px 0 #FFF;
+  }
+}
+
+.jimu-widget-swipe-setting .bar-color-tip{
+  margin-top: 0;
+}
+.jimu-widget-swipe-setting .handler-color-picker{
+  display: inline-block;
+  vertical-align: middle;
+}

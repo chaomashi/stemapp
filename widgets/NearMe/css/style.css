@@ -1,0 +1,822 @@
+
+/*-----------------------Styles for widget panel--------------------------*/
+@import url("../libs/swiper.css");
+@import url("./filter-list.css");
+
+.jimu-widget-nearme  .swiper-container {
+    width: 100%;
+    height: 250px;
+}
+
+.jimu-widget-nearme  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.jimu-widget-nearme  .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jimu-widget-nearme  .swiper-slide .chart {
+    width: 200px;
+    height: 200px;
+}
+
+.esriCTNearMeContentPanel
+{
+    padding: 15px 0px !important;
+    overflow-y: hidden !important;
+}
+
+.esriCTContentPanelNoPadding
+{
+    padding: 0 0 !important;
+}
+.jimu-widget-nearme
+{
+    min-width: 222px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.jimu-widget-nearme .esriCTHidden
+{
+    display: none;
+}
+
+.jimu-widget-nearme .esriCTWidgetMainNode
+{
+    min-height: 200px;
+}
+
+.jimu-widget-nearme .esriCTWidgetFilterNode
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+.jimu-widget-nearme .esriCTWidgetErrorNode
+{
+    padding: 0px 14px;
+}
+
+/*--------------------End of styles for widget panel-----------------------*/
+
+/*--------------------------Override esri css -----------------------------*/
+
+/*override bottom padding otherwise scrollbar is shown in case of media content with multiple medias configured*/
+.jimu-widget-nearme .mediaSection
+{
+    padding-bottom: 10px;
+    clear: both;
+}
+
+/*---------------------Override Direction dijit css------------------------*/
+.jimu-widget-nearme .esriCTDistanceToLocation
+{
+    line-height: 25px;
+    margin-top: 10px;
+    background-color: #d9dde0;
+    text-align: center;
+}
+
+
+.jimu-widget-nearme .simpleDirections .esriSearchSourceContainer
+{
+    display: none;
+}
+
+.jimu-widget-nearme .simpleDirections .esriStopsContainer
+{
+    height: 0px;
+    margin: 0px;
+}
+
+.jimu-widget-nearme .getDirectionsBtnContainer
+{
+    display: none;
+}
+
+.jimu-widget-nearme .esriStopsTableContainer
+{
+    display: none;
+}
+
+.jimu-widget-nearme .esriStopsButtons
+{
+    display: none;
+}
+
+.jimu-widget-nearme .simpleDirections
+{
+    margin-top: 20px;
+}
+.jimu-widget-nearme .simpleDirections .savePrintBtnContainer
+{
+    position: relative;
+    top: 15px;
+    left: 90%;
+    margin: 0px;
+    z-index: 1;
+}
+
+.jimu-launchpad-panel .jimu-widget-nearme .simpleDirections .savePrintBtnContainer
+{
+     top: 10px;
+}
+
+.jimu-launchpad-panel .jimu-widget-nearme .simpleDirections .esriStopsGetDirectionsContainer{
+    padding-top: 0;
+    margin: 0px 10px;
+}
+
+
+.jimu-widget-nearme .simpleDirections .esriResultsSummary
+{
+    padding: 0 40px;
+}
+
+.jimu-widget-nearme .simpleDirections .esriResultsLoading .esriResultsContainer
+{
+    display: none;
+}
+
+/*----------End of Styles to override Direction dijit css---------------- */
+
+/*-----------------------End of override esri css-------------------------*/
+
+/*------------------------------ slider css ------------------------------*/
+
+.jimu-widget-nearme .esriCTSliderDiv
+{
+    height: 70px;
+    padding-top: 10px;
+    clear: both;
+}
+
+.jimu-widget-nearme .esriCTSliderText
+{
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.jimu-widget-nearme .esriCTHorizantalSlider
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.jimu-widget-nearme .esriCTSliderValuesDiv
+{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.jimu-widget-nearme .esriCTSliderMinValueDiv
+{
+    float: left;
+    margin-left: 2px;
+}
+
+.jimu-widget-nearme .esriCTSliderMaxValueDiv
+{
+    float: right;
+    margin-right: 2px;
+}
+/*------------------------------ End slider css --------------------------*/
+
+/*-------------------------- Search panel css ----------------------------*/
+
+.jimu-widget-nearme .esriCTSearchDiv
+{
+    float: left;
+}
+
+.jimu-widget-nearme .esriCTSearchDiv .arcgisSearch
+{
+    float: left;
+    width: 100% !important; /*added to fix issue in Dart theme*/
+}
+
+.jimu-widget-nearme .esriCTSearchContainer
+{
+    width: 100%;
+    height: 35px;
+    float: left;
+    clear: both;
+
+}
+
+.jimu-widget-nearme .arcgisSearch .searchGroup .searchInput
+{
+    width: 170px;
+}
+
+.jimu-widget-nearme .arcgisSearch .searchBtn
+{
+    padding: 6px;
+}
+
+.jimu-widget-search .arcgisSearch .searchGroup .searchInputGroup .searchInput
+{
+    width: auto;
+}
+
+.jimu-widget-nearme .esriCTSearchOuterContainer
+{
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.jimu-widget-nearme .esriCTSearchHeader
+{
+    padding: 0px 0px 10px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #000000;
+    font-weight: normal;
+}
+
+/*--------------------- Select location from map css ---------------------*/
+
+.jimu-widget-nearme .esriCTSelectLocationDiv
+{
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+.jimu-widget-nearme .esriCTSelectLocation
+{
+    background-image: url("../images/select-location.png");
+}
+
+.jimu-widget-nearme .esriCTSelectLocationActive
+{
+    background-image: url("../images/select-location-active.png");
+    background-color: #57585A;
+}
+
+.jimu-widget-nearme .esriCTImgButtons
+{
+    cursor: pointer;
+    width: 32px;
+    height: 34px;
+    border: 1px solid #57585A;
+    border-radius: 4px;
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/*----------------- End select location from map css ----------------------*/
+
+/*-------------------------- End Search panel css ------------------------*/
+
+/*----------------Styles to override loading indicator css-----------------*/
+
+.jimu-widget-nearme .jimu-loading-indicator
+{
+    z-index: 100;
+}
+
+/*------------End of styles to override loading indicator css--------------*/
+
+/*---------------------------Styles for item list--------------------------*/
+
+.jimu-widget-nearme .esriCTListOuterContainer
+{
+    margin-top: 10px;
+}
+
+.jimu-widget-nearme .esriCTItemListMainContainer
+{
+    width: 100%;
+    right: 0px;
+    min-height: 80px;
+    left: 0px;
+    height: calc(100% - 150px);
+    position: absolute;
+}
+
+.jimu-widget-nearme .esriCTItemListOverrideMainContainer
+{
+    height: calc(100% - 80px);
+}
+
+.jimu-widget-nearme .esriCTItemlList
+{
+    width: 100%;
+    border-bottom: 1px solid #DDDDDD;
+    height: 36px;
+    cursor: pointer;
+}
+
+.jimu-widget-nearme .esriCTItemlList:focus
+{
+    font-weight: bolder;
+}
+
+.jimu-widget-nearme .esriCTItemName
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 35px;
+    padding: 0px 10px 0px 20px;
+}
+
+.jimu-widget-nearme .esriCTPanelHeader .esriCTItemName
+{
+    padding: 0px 20px 0px 0px;
+    font-size: 12px;
+    color: #3e3e3e;
+}
+
+.jimu-widget-nearme .esriCTItemRightArrow, .jimu-widget-nearme .esriCTItemLeftArrow
+{
+    width: 10px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-color: #3e3e3e;
+    background-position: center center;
+}
+
+.jimu-widget-nearme .esriCTItemRightArrow
+{
+    margin: 7px 20px 0px 0px;
+}
+
+.jimu-widget-nearme .esriCTItemLeftArrow
+{
+    margin: 7px 10px 0px 0px;
+}
+
+.jimu-widget-nearme .esriCTItemCount
+{
+    float: right;
+    margin: 0px 20px 0px 0px;
+    line-height: 35px;
+    height: 35px;
+    text-align: right;
+    overflow: hidden;
+    max-width: 100px;
+}
+
+.jimu-widget-nearme .esriCTLoadingIcon
+{
+    background-image: url('../images/loading-icon.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.jimu-widget-nearme .esriCTItemRightArrow
+{
+    background-image: url('../images/right-arrow.png');
+    float: right;
+}
+
+.jimu-widget-nearme .esriCTItemLeftArrow
+{
+    background-image: url('../images/left-arrow.png');
+    float: left;
+}
+
+.esriCTDisabled
+{
+    cursor: default !important;
+}
+
+.esriCTDisabled .esriCTItemRightArrow
+{
+    background-color: #d8d8d8;
+}
+
+.jimu-widget-nearme .esriCTBackButtonText
+{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100px;
+    overflow: hidden;
+}
+
+.jimu-widget-nearme .esriCTBackButton
+{
+    float: left;
+}
+
+.jimu-widget-nearme .esriCTPanelHeader
+{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.esriCTDirectionInfoPanel .esriCTItemlList
+{
+    border-bottom: none;
+}
+
+.esriCTFeatureList .esriCTItemCount, .esriCTFeatureList .esriCTItemRightArrow, .esriCTLayerList .esriCTItemLeftArrow, .esriCTDirectionInfoPanel .esriCTItemRightArrow, .esriCTDirectionInfoPanel .esriCTItemCount
+{
+    display: none;
+}
+
+.esriCTFeatureListItem .esriCTItemCount
+{
+    display: block;
+}
+
+.esriCTFeatureListItem .esriCTItemLeftArrow, .esriCTFeatureListItem .esriCTBackButtonText
+{
+    display: none;
+}
+
+.jimu-widget-nearme .esriCTLayerList, .jimu-widget-nearme .esriCTFeatureList, .jimu-widget-nearme .esriCTDirectionInfoPanel
+{
+    border-top: 1px solid #464646;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.jimu-widget-nearme .esriCTNoFeatureFound
+{
+    height: 32px;
+    font-weight: bold;
+    margin: 0px 16px;
+    line-height: 30px;
+}
+
+.jimu-widget-nearme .esriCTFeatureListContent
+{
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+.jimu-widget-nearme .esriCTLayerList
+{
+    overflow: auto;
+}
+.jimu-widget-nearme .esriCTAttributeSymbolWrapper
+{
+    margin: 5px;
+    display: inline-block;
+}
+.jimu-widget-nearme .esriCTAttributeSymbolContainer
+{
+    float: left;
+    margin-right : 5px;
+}
+/*Added to hide editor info from popupinfo*/
+.jimu-widget-nearme .esriCTItemListMainContainer .editSummarySection
+{
+    display: none;
+}
+
+/*------------------Styles for override tab container css------------------*/
+.jimu-widget-nearme .jimu-tab > .jimu-viewstack
+{
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+
+.jimu-widget-nearme .dijitContentPane
+{
+    overflow: auto;
+    padding: 0px 20px;
+    -webkit-overflow-scrolling: auto;
+}
+
+.jimu-widget-nearme .esriCTPopupInfo
+{
+    padding: 20px 0px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.jimu-widget-nearme .jimu-tab
+{
+    height: calc(100% - 56px);
+    min-height: 80px;
+}
+
+.jimu-widget-nearme .esriCTOverrideHeight
+{
+       height: calc(100% - 46px);
+}
+
+
+.jimu-widget-nearme .esriCTFeatureInfo
+{
+    height: calc(100% - 35px);
+    min-height: 80px;
+}
+
+.jimu-widget-nearme .esriCTBorderBottom
+{
+    border-bottom: 1px solid #464646;
+}
+
+.jimu-widget-nearme .esriCTTopBorder
+{
+    border-top: 1px solid #464646;
+}
+
+/*-------------End of styles to override tab container css-----------------*/
+
+/*---------------------Styles for popup attachments------------------------*/
+
+.jimu-widget-nearme .esriCTThumbnailContainer
+{
+    margin: 2px;
+}
+
+.jimu-widget-nearme .esriCTAttachmentImg
+{
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.jimu-widget-nearme .esriCTNonImageAttachmentImg
+{
+    cursor: pointer;
+    float: left;
+}
+
+.jimu-widget-nearme .esriCTImageFormatDiv
+{
+    height: 18px;
+    width: 50px;
+    float: left;
+    background-color: #C4BD97;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+}
+
+.jimu-widget-nearme .esriCTNonImageAttachmentContainer
+{
+    height: 58px;
+    width: 50px;
+    float: left;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.jimu-widget-nearme .esriCTImageLoader
+{
+    cursor: default;
+    display: block;
+    background-position: center center;
+    background-image: url(../images/image-loader.gif);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 60px;
+}
+
+.jimu-widget-nearme .esriCTAutoHeight
+{
+    height: auto;
+}
+
+.jimu-widget-nearme .esriViewPopup .break
+{
+    display: none;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTNonImageAttachmentImg
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTImageFormatDiv
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTNonImageAttachmentContainer
+{
+    margin: 0 0 10px 10px;
+    float: right;
+}
+
+/*--------------------End of styles for popup attachments------------------*/
+
+.esriRtl .jimu-widget-nearme .esriCTSliderMinValueDiv
+{
+    float: right;
+    margin-right: 2px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTSliderMaxValueDiv
+{
+    float: left;
+    margin-left: 2px;
+}
+
+
+.esriRtl .jimu-widget-nearme .esriCTItemName
+{
+    padding: 0px 20px 0px 10px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTPanelHeader .esriCTItemName
+{
+    padding: 0px 0px 0px 20px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTItemCount
+{
+    float: left;
+    margin: 0px 0px 0px 20px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTItemRightArrow
+{
+    background-image: url('../images/left-arrow.png');
+    float: left;
+    margin: 7px 0 0 20px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTBackButton
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTItemLeftArrow
+{
+    background-image: url('../images/right-arrow.png');
+    margin: 7px 0px 0px 10px;
+}
+
+.esriRtl .jimu-widget-nearme .simpleDirections .savePrintBtnContainer
+{
+    left: 0px;
+    right: 90%;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTSearchDiv, .esriRtl .jimu-widget-nearme .esriCTAttributeSymbolContainer
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTSelectLocationDiv
+{
+ margin: 0px 0px 10px 0px;
+ float: left;
+}
+
+/* Proximity search icon styles*/
+.jimu-widget-nearme .esriCTProximityParent {
+    position: relative;
+    right: 65px;
+    float: right;
+    bottom: -20px;
+}
+.esriRtl .jimu-widget-nearme .esriCTProximityParent {
+    right: inherit;
+    left: 65px;
+    float: left;
+}
+.jimu-widget-nearme .esriCTProximityIconContainer {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #fffdfd;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px #d4d4d4;
+    cursor: pointer;
+    z-index: 1;
+    bottom: 0;
+}
+
+.jimu-widget-nearme .esriCTProximityIcon {
+    background-image: url(../images/proximity.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: gray;
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
+    margin: 8px;
+}
+
+.jimu-widget-nearme .esriCTFilterIconContainer {
+    position: absolute;
+    right: 25px;
+    height: 40px;
+    width: 40px;
+    background: #fffdfd;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 2px #d4d4d4;
+    cursor: pointer;
+    z-index: 1;
+    bottom: 0;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTFilterIconContainer {
+    right: inherit;
+    left: 25px;
+}
+
+.jimu-widget-nearme .esriCTFilterIcon {
+    background-image: url(../images/filter.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: gray;
+    height: 25px;
+    width: 25px;
+    background-size: 25px 25px;
+    margin: 8px;
+}
+/* Proximity search icon styles end*/
+/*Added class for map tooltip*/
+.esriCTMapTooltip
+{
+    width: 100px;
+    word-wrap: break-word;
+    border: 1px solid #7EABCD;
+    background-color: white;
+    padding: 5px;
+    font-size: 9pt;
+    z-index: 9999;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/*Clear all filter styles*/
+.jimu-widget-nearme .esriCTClearAllFilter {
+    background-image: url(../images/clear-all-filter.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d6d6d6;
+    height: 20px;
+    width: 20px;
+    background-size: 20px 20px;
+    cursor: default;
+    float: right;
+    margin-top: 8px;
+}
+
+.esriRtl .jimu-widget-nearme .esriCTClearAllFilter {
+    float: left;
+}
+
+.jimu-widget-nearme .esriCTClearAllFilterActive {
+    background-color:  #18acc2;
+    cursor: pointer;
+}
+
+.jimu-widget-nearme .esriCTFilterBackDiv {
+    width: calc(100% - 30px);
+    float: left;
+}
+.esriRtl .jimu-widget-nearme .esriCTFilterBackDiv {
+    float: right;
+}
+
+/*Clear all filter styles*/
+
+/* Start dart theme*/
+
+.dart-panel .jimu-widget-nearme .esriCTDistanceToLocation {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* End dart theme*/
+
+
+

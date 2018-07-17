@@ -1,0 +1,40 @@
+<div>
+	<div style="margin-bottom: 10px;" data-dojo-attach-point="radioDiv" class="radio-div">
+		
+		<div class="axis-tr">
+			<div class="flex-left-center">
+				<input type="radio" data-dojo-attach-point="xAxisRadio" data-dojo-attach-event="change:_onXaxisRadioChanged" checked="true" name="sortaxis" data-dojo-type="dijit/form/RadioButton">
+	   			<label class="marginleft10">${nls.labelAxis}</label>
+			</div>
+			<div data-dojo-attach-point="xAxisSortDiv"></div>
+		</div>
+
+		<div style="margin-top: 10px;" class="axis-tr">
+			<div class="flex-left-center">
+				<input data-dojo-attach-point="yAxisRadio" type="radio" name="sortaxis" data-dojo-type="dijit/form/RadioButton">
+   				<label class="marginleft10">${nls.valueAxis}</label>
+			</div>
+			<div data-dojo-attach-point="yAxisSortDiv" class="flex-left-center"></div>
+		</div>
+
+	</div>
+
+	<div class="axis-tr" data-dojo-attach-point="sortFielTr">
+
+		<div class="down-select-div" data-dojo-attach-point="sortFieldDiv">
+			<select data-dojo-attach-event="change:_onSortFieldsChanged" data-dojo-attach-point="sortField" data-dojo-type="dijit/form/Select" class="restrict-select-width sort-filed"></select>
+
+		</div>
+		
+		<div data-dojo-attach-point="zSortContainer" class="z-axis-container">
+			<div data-dojo-attach-point="zAxisSortDiv"></div>
+		</div>
+		
+	</div>
+
+	<div style="width: 39px;" class="flex-sb-center" data-dojo-attach-event="click:_onAxisSortDivClick" data-dojo-attach-point="sortBtn">
+		<div class="sort-icon asc selected"></div>
+		<div class="sort-icon desc"></div>
+	</div>
+
+</div>

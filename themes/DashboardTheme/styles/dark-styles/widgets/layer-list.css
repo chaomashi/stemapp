@@ -1,0 +1,24 @@
+
+.jimu-widget-layerList .layer-list-operations .jimu-dropmenu {
+}
+
+.jimu-widget-layerList .layer-row-mouseover{
+  background-color: #666666;
+}
+
+.jimu-widget-layerList .jimu-widget-row-selected{
+  background-color: #666666;
+}
+
+.jimu-widget-layerList .layer-row:hover {
+  background-color: #666666;
+}
+
+.jimu-widget-layerList .layers-list-popupMenu-div{
+  background: url(../images/more-horiz.svg) no-repeat center;
+}
+
+.jimu-widget-layerList .layers-list-popupMenu-div:hover{
+  background: url(../images/more-horiz.svg) no-repeat center;
+}
+

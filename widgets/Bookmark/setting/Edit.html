@@ -1,0 +1,28 @@
+<div class="edit-page jimu-widget-bookmark">
+  <div class="info">
+    <div class="image">
+      <div data-dojo-attach-point="imageChooserBase"></div>
+    </div>
+    <div class="text">
+      <div class="lebel">
+        <span>${nls.title}</span><span class="start">*</span>
+      </div>
+      <input type="text" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="displayName" required="true" placeHolder=${nls.title} data-dojo-props='style:{width:"100%"}' class="title"/>
+      <div class="tips">(${nls.thumbnailHint})</div>
+    </div>
+  </div>
+
+  <div class="options">
+    <div class="tips">${nls.extent}</div>
+
+    <div class="extent-chooser" data-dojo-attach-point="extentChooserNode"></div>
+
+    <div class="itmes btns">
+      <div class="" data-dojo-attach-point="saveLayers"></div>
+    </div>
+
+    <div data-dojo-attach-point="layerChooserContainer" class="layer-chooser-container">
+      <div data-dojo-attach-point="layerChooser"></div>
+    </div>
+  </div>
+</div>

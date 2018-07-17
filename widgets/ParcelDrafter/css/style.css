@@ -1,0 +1,743 @@
+/*------------------------- Styles for widget panel -----------------------*/
+.esriCTMainContainer
+{
+    min-width: 222px;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+}
+
+.esriCTOverridePanelStyle
+{
+    padding: 15px 0 0 0 !important;
+}
+
+.jimu-widget-ParcelDrafter .esriCTWidgetErrorNode
+{
+    padding: 0px 20px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTFullHeight
+{
+    height: 100%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTFullWidth
+{
+    width: 100%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTEllipsis
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-ParcelDrafter .esriCTCursorPointer
+{
+    cursor: pointer;
+}
+
+.jimu-widget-ParcelDrafter .esriCTCursorDefault
+{
+    cursor: pointer;
+}
+
+.jimu-widget-ParcelDrafter .esriCTAlignCenter
+{
+    text-align: center;
+}
+/*------------------------- Styles for Main Page starts-----------------------*/
+.jimu-widget-ParcelDrafter .esriCTMainPageRow
+{
+    width: calc(100% - 40px);
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.jimu-widget-ParcelDrafter .esriCTButtonLabel
+{
+    float: left;
+    width: calc(100% - 45px);
+    line-height: 35px;
+    padding: 5px 5px 5px 0;
+}
+
+.jimu-widget-ParcelDrafter .esriCTEditTraverseButton
+{
+    background: url("../images/edit-traverse.png") no-repeat;
+}
+
+.jimu-widget-ParcelDrafter .esriCTNewTraverseButton
+{
+    background: url("../images/new-traverse.png") no-repeat;
+}
+
+.jimu-widget-ParcelDrafter .esriCTNewTraverseActive
+{
+    background: url("../images/new-traverse-selected.png") no-repeat;
+    background-color: #8e8e8e;
+}
+
+.jimu-widget-ParcelDrafter .esriCTEditTraverseActive
+{
+    background: url("../images/edit-traverse-selected.png") no-repeat;
+    background-color: #8e8e8e;
+}
+
+.jimu-widget-ParcelDrafter .esriCTButtonIcon
+{
+    height: 45px;
+    width: 45px;
+    float: right;
+    background-size: 45px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTParcelToolButtonIcon
+{
+    height: 45px;
+    width: 45px;
+    float: left;
+    background-size: 45px 45px;
+    background-color: #8e8e8e;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTButtonIcon
+{
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseTool
+{
+    float: left;
+    padding: 5px 5px 0 0;
+    width: calc(100% - 20px);
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTTraverseTool
+{
+    float: right;
+    padding: 5px 0 0 5px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseToolContainer
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTTraverseToolContainer {
+    float: left;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseToolIcons
+{
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    float: left;
+    background-repeat: no-repeat;
+    margin: 5px 0px 5px 20px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTTraverseToolIcons
+{
+    float: right;
+    margin: 5px 20px 5px 0px;
+}
+
+.jimu-widget-ParcelDrafter .ecriCTLocationIcon
+{
+    background-image: url('../images/digitization.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTEnableButton
+{
+    background-image: url('../images/digitization-selected.png');
+    background-color: #8e8e8e;
+}
+
+.jimu-widget-ParcelDrafter .ecriCTZoomToIcon
+{
+    background-image: url('../images/zoom.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTCollapse
+{
+    background-image: url('../images/collapse.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTExpand
+{
+    background-image: url('../images/expand.png');
+}
+/*------------------------- Styles for Main Page End-----------------------*/
+
+/*------------------------- Styles for Traverse Page-----------------------*/
+.jimu-widget-ParcelDrafter .esriCTNewTraverseHeader
+{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanSettingsIcon
+{
+    background-image: url('../images/settings.png');
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseDetailContainer
+{
+    float: left;
+    border-top: 1px solid #464646;
+    border-bottom: 1px solid #464646;
+    margin-top: 20px;
+    background-color: #E4E4ED;
+}
+
+.jimu-widget-ParcelDrafter .esriCTMiscloseHeaderDiv
+{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseResultContainer
+{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    float: left;
+    text-align: left;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTTraverseResultContainer{
+    text-align: right;
+}
+
+.jimu-widget-ParcelDrafter .esriCTGridEmptyLabel
+{
+    width: 50px;
+    float: left;
+    text-align: left;
+}
+
+.jimu-widget-ParcelDrafter .esriCTGridLabels
+{
+    width: 70px;
+    float: left;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTGridBearingLabel
+{
+    width: calc(100% - 210px);
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTGridEmptyLabel
+{
+    float: right;
+    text-align: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTGridLabels
+{
+    float: right;
+    text-align: right;
+    padding-right: 4px;
+    padding-left: 0px;
+}
+
+.jimu-widget-ParcelDrafter .dijitTextBox .dijitInputInner
+{
+    height: 21px;
+}
+
+.jimu-widget-ParcelDrafter .dijitTextBoxFocused .dijitInputContainer
+{
+    background: transparent;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseResultsDiv
+{
+    max-width: 49%;
+    float: left;
+    padding-right: 5px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraversedValueDiv
+{
+    font-weight: bold;
+}
+
+.jimu-widget-ParcelDrafter .esriCTNewTraverseGrid
+{
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+
+.jimu-widget-ParcelDrafter .esriCTNewTraverseContainer
+{
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+}
+.jimu-widget-ParcelDrafter .esriCTNewTraverseLabelDiv
+{
+    display: inline-block;
+    width: 100%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTraverseGrid
+{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+}
+
+
+.jimu-widget-ParcelDrafter .esriCTHidden
+{
+    display: none;
+}
+
+::-ms-clear
+{
+    display: none;
+}
+
+/*------------------------- Styles for Traverse Page End-----------------------*/
+
+/*------------------------- Styles for Parcel Tools Page Starts-----------------------*/
+.jimu-widget-ParcelDrafter .esriCTRotationButton
+{
+    background-image: url('../images/scale-rotation-active.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTScaleButton
+{
+    background-image: url('../images/scale-active.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTDisableButton .esriCTParcelToolButtonIcon
+{
+    background-color: inherit;
+}
+
+.jimu-widget-ParcelDrafter .esriCTDisableButton .esriCTRotationButton
+{
+    background-image: url('../images/scale-rotation.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTDisableButton .esriCTScaleButton
+{
+    background-image: url('../images/scale.png');
+}
+
+.jimu-widget-ParcelDrafter .esriCTParcelToolButtonLabel
+{
+    float: left;
+    max-width: calc(100% - 145px);
+    line-height: 35px;
+    padding: 5px 20px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTParcelToolInputNode
+{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTParcelToolButtonIcon
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTParcelToolInputNode
+{
+    float: left;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTParcelToolButtonLabel
+{
+    float: right;
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanInfoNode
+{
+    margin: 10px 20px;
+    display: inline-block;
+    width: calc(100% - 40px);
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanInfoButton
+{
+    width: 80px;
+}
+
+/*------------------------- Styles for Parcel Tools Page Ends-----------------------*/
+
+/*------------------------- Styles for Plan Settings-----------------------*/
+.jimu-widget-ParcelDrafter .esriCTPlanSettingsNode
+{
+    width: 100%;
+    height: calc(100% - 30px);
+    display: inline-block;
+    overflow-y: auto;
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanSettingsContainer
+{
+    margin: 20px;
+    display: inline-block;
+    width: calc(100% - 40px);
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanSettingRow
+{
+    padding-bottom: 20px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTDropdownLabel
+{
+    padding-bottom: 5px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTPlanSettingHeader
+{
+    float: left;
+    height: 30px;
+    border-bottom: 1px solid #464646;
+    padding: 0px 10px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTBackButton
+{
+    width: 25%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTTitleDiv
+{
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: calc(100% - 50px);
+    padding: 5px;
+    display: inline-block;
+}
+
+.jimu-widget-ParcelDrafter .esriCTItemLeftArrow
+{
+    background-image: url('../images/left-arrow.png');
+    float: left;
+    margin: 0px 5px 0px 0px;
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* overriding CSS for the dijitSelect box starts */
+.jimu-widget-ParcelDrafter .dijitSelect .dijitButtonContents
+{
+    border-style: none none none none;
+    background-color: #fafafc;
+}
+
+.jimu-widget-ParcelDrafter .dijitSelect .dijitButtonContentsDartTheme {
+    background-color: inherit;
+}
+
+.jimu-widget-ParcelDrafter .dijitSelect .dijitArrowButton
+{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-ParcelDrafter .dijitSelect .dijitArrowButtonDartTheme {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.jimu-widget-ParcelDrafter .dijitMenuItem
+{
+    color: #7989a0;
+}
+
+.jimu-widget-ParcelDrafter .dijitSelect .dijitInputField
+{
+    margin-right: 8px;
+}
+
+/* overriding CSS for the dijitSelect box starts */
+
+/* Remove close button from textbox in IE */
+input[type=text]::-ms-clear
+{
+    display: none;
+}
+
+/*------------------------- Styles for Plan Settings-----------------------*/
+
+.jimu-widget-ParcelDrafter .esriCTRow {
+    clear: both;
+    display: table-row;
+    width: 100%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTNewTraverseGrid
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.jimu-widget-ParcelDrafter .dijitTextBox .dijitPlaceHolder{
+    font-size: 12px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTRow .dijitTextBox
+{
+    margin: 0;
+    width: 70px;
+    display: table-cell;
+}
+
+.jimu-widget-ParcelDrafter  .dijitTextBoxError {
+    border-color: #d9dde0 !important;
+    box-shadow: inset 0 0 0 2px #d46464;
+}
+
+.jimu-widget-ParcelDrafter .esriCTRow .dijitTextBoxHover
+{
+    border-color: #d9dde0;
+}
+
+.jimu-widget-ParcelDrafter .esriCTRow .dijitTextBoxFocused
+{
+    border-color: #d9dde0 !important;
+    box-shadow: none;
+    outline: none;
+}
+
+.jimu-widget-ParcelDrafter .esriCTBearingRow
+{
+    width: calc(100% - 210px) !important;
+}
+
+.jimu-widget-ParcelDrafter .dojoDndItemAfter .esriCTSymbolContainer, .jimu-widget-ParcelDrafter .dojoDndItemBefore .esriCTSymbolContainer{
+    background: #E4E4ED !important;
+}
+
+.jimu-widget-ParcelDrafter .dojoDndItem, .jimu-widget-demo .dojoDndItemAnchor, .jimu-widget-demo .dojoDndItemSelected, .dojoDndContainerOver, .dojoDndItemOver
+{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: move;
+}
+
+.jimu-widget-ParcelDrafter .esriCTDeleteRow, .jimu-widget-ParcelDrafter .esriCTAddRow
+{
+    color: #CCC;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 15px;
+}
+
+.jimu-widget-ParcelDrafter .esriCTDeleteIcon, .jimu-widget-ParcelDrafter .esriCTAddIcon
+{
+    cursor: pointer;
+    height: 30px;
+    width: 15px;
+    margin-left: 5px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTDeleteIcon,.esriRtl  .jimu-widget-ParcelDrafter .esriCTAddIcon
+{
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.jimu-widget-ParcelDrafter .esriCTDeleteIcon
+{
+    background: url('../images/delete.png') no-repeat center center;
+}
+
+.jimu-widget-ParcelDrafter .esriCTAddIcon
+{
+    background: url('../images/add.png') no-repeat center center;
+}
+
+.jimu-widget-ParcelDrafter .esriCTEntryNodeContainer
+{
+    float: left;
+    width: 100%;
+}
+
+.jimu-widget-ParcelDrafter .esriCTEntrtyNodeContent
+{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+}
+/*------------------------- Styles for symbol selector panel -----------------------*/
+
+.esriCTSymbolContainer
+{
+    border: 1px solid #dedede;
+    width: 50px;
+    height: 30px;
+    padding: 0px 5px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.esriCTSymbolPopup .dijitTooltipContainer
+{
+    padding: 0px;
+}
+
+.esriCTSymbolListContainer
+{
+    max-height: 150px;
+    overflow: auto;
+    margin: 6px 0px;
+    width: 170px;
+}
+
+.esriCTSymbolListContent
+{
+    margin: 0px 6px;
+}
+
+.esriCTSelectedSymbol
+{
+    width: 30px;
+    height: 25px;
+    overflow: hidden;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.esriCTSymbolIcon
+{
+    width: 35px;
+    vertical-align: middle;
+    margin: 2px 3px 0px 3px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.esriCTSymbolOption
+{
+    height: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.esriCTSymbolOption:hover
+{
+    background-color: #edf2f5;
+}
+
+.esriCTSymbolName
+{
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95px;
+    color: #7989a0;
+    vertical-align: middle;
+}
+
+/*------------------------- End styles for symbol selector panel -----------------------*/
+/* CSS for RTL Mode Starts */
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTButtonLabel
+{
+    float: right;
+    padding: 5px 0px 5px 5px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTItemLeftArrow
+{
+    float: right;
+    margin: 0px 0px 00px 10px;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTPlanSettingsIcon
+{
+    float: left;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTItemLeftArrow
+{
+    background-image: url('../images/right-arrow.png');
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .esriCTTraverseResultsDiv
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-ParcelDrafter .dijitSelect .dijitInputField
+{
+    margin-left: 8px;
+    margin-right: 0;
+}
+/* CSS for RTL Mode Ends */
+/*------------------------- Styles for widget panel -----------------------*/
+/*------------------------- Styles for parcel info popup -----------------------*/
+
+.jimu-widget-ParcelDrafter .esriCTEditParcelDialog
+{
+    position: absolute;
+    width: 250px;
+    z-index:100;
+}
+
+.jimu-widget-ParcelDrafter .esriCTParcelInfoPopup
+{
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+.jimu-widget-ParcelDrafter .esriCTParcelInfoLabels
+{
+    height: 20px;
+    display: table-cell;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: nowrap;
+    margin-right: 5px;
+}
+.jimu-widget-ParcelDrafter .esriCTLabelRows
+{
+    display: table-row;
+}
+
+.jimu-widget-ParcelDrafter .esriCTParcelInfoPopup .esriCTRowContainer
+{
+    display: table-row;
+}
+/*------------------------- Styles for parcel info popup -----------------------*/
+/*------------------------- Styles for XYInput Form -----------------------*/
+.jimu-widget-ParcelDrafter .jimu-widget-ParcelDrafter-XYInput .xyRowWrapper {
+  margin: 5px;
+}
+/*------------------------- Styles for XYInput Form -----------------------*/

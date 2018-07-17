@@ -1,0 +1,24 @@
+<div>
+  <div class="esriCTProjectOverview" data-dojo-attach-point="projectOverviewNode"></div>
+  <div data-dojo-attach-point="assetSummaryInfo">
+    <div data-dojo-attach-point="assetSummaryDiv"></div>
+    <table class="esriCTTable esriCTBoldFont esriCTTotalCostTable" style="width: 100%;">
+      <tbody>
+        <tr>
+          <td class="esriCTAssetItemsTotalCostLabel" data-dojo-attach-point="totalCostLabel">${nls.projectOverview.totalCostLabel}</td>
+          <td class="esriCTAssetItemsTotalCost" data-dojo-attach-point="totalCost"></td>
+        </tr>
+        <tr>
+          <td class="esriCTAssetItemsGrossCostLabel" data-dojo-attach-point="grossCostLabel">${nls.projectOverview.grossCostLabel}</td>
+          <td class="esriCTAssetItemsGrossCost" data-dojo-attach-point="grossCost"></td>
+        </tr>
+        <tr>
+          <td style="font-weight: normal; font-style: italic;" colspan="2" data-dojo-attach-point="roundingLabel">${nls.projectOverview.roundingLabel}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div data-dojo-attach-point="projectSummaryInfo">
+    <div class="esriCTBoldFont esriCTProjectName" data-dojo-attach-point="projectNameDiv"></div>
+  </div>
+</div>

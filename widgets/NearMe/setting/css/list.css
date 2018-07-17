@@ -1,0 +1,209 @@
+.jimu-widget-nearme-filter-setting{
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-nearme-filter-setting .not-visible{
+  display: none;
+}
+
+.jimu-widget-nearme-filter-setting .content{
+  position: relative;
+  height: calc(100% - 70px);
+}
+
+.jimu-widget-nearme-filter-setting .content > div{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.jimu-widget-nearme-filter-setting .items-list{
+  left: 0;
+  width: 300px;
+}
+
+.jimu-widget-nearme-filter-setting > .content > .separator{
+  left: 320px;
+  width: 1px;
+  background-color: #ccc;
+}
+
+.jimu-widget-nearme-filter-setting .single-setting-content{
+  right: 0;
+  left: 335px;
+  width: 628px;
+}
+
+.jimu-rtl .jimu-widget-nearme-filter-setting .items-list{
+  left: auto;
+  right: 0;
+}
+
+.jimu-rtl .jimu-widget-nearme-filter-setting > .content > .separator{
+  left: auto;
+  right: 320px;
+}
+
+.jimu-rtl .jimu-widget-nearme-filter-setting .single-setting-content{
+  right: auto;
+  left: 0;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 37px;
+  bottom: 0;
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #F3F3F3;
+  cursor: pointer;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item:hover{
+  background-color: #F9F9F9;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item.selected{
+  background-color: #F3F3F3 !important;
+  border-left: 4px solid #24B5CC;
+}
+
+.jimu-rtl .jimu-widget-nearme-filter-setting .items-list-content .item.selected{
+  border-left: 0;
+  border-right: 4px solid #24B5CC;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item > *{
+  cursor: pointer;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item:first-child{
+  border-top: 0;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .label{
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  line-height: 40px;
+  font-size: 12px;
+  color: #353535;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item.selected .label{
+  font-weight: bold;
+  color: #000;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .actions{
+  position: relative;
+  display: none;
+  height: 100%;
+  overflow: hidden;
+  background-color: #F9F9F9;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item:hover .actions{
+  display: block;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item.selected .actions{
+  background-color: #F3F3F3 !important;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action{
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  top: 14px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.up{
+  background-image: url(images/up_normal.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.up:hover{
+  background-image: url(images/up_hover.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.down{
+  background-image: url(images/down_normal.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.down:hover{
+  background-image: url(images/down_hover.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.delete{
+  background-image: url(images/delete_normal.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item .action.delete:hover{
+  background-image: url(images/delete_hover.png);
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item:first-child .action.up{
+  display: none;
+}
+
+.jimu-widget-nearme-filter-setting .items-list-content .item:last-child .action.down{
+  display: none;
+}
+
+.jimu-widget-nearme-filter-setting .add-btn{
+  display: inline-block;
+  width: 100%;
+  height: 32px;
+  background-color: #24B5CC;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.jimu-widget-nearme-filter-setting .add-btn:hover{
+  background-color: #0090A7;
+}
+
+.jimu-widget-nearme-filter-setting .add-btn > div{
+  display: inline-block;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+}
+
+.jimu-widget-nearme-filter-setting .add-btn .icon{
+  position: relative;
+  top: 1px;
+  width: 12px;
+  height: 12px;
+  background: url(images/add.png) center center no-repeat;
+  background-size: contain;
+}
+
+.jimu-widget-nearme-filter-setting .add-btn .tip{
+  margin-left: 8px;
+}
+
+.jimu-rtl .jimu-widget-nearme-filter-setting .add-btn .tip{
+  margin-left: 0;
+  margin-right: 8px;
+}

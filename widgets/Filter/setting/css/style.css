@@ -1,0 +1,146 @@
+@import url("list.css");
+
+.jimu-widget-filter-setting{
+  font-size: 12px;
+}
+.jimu-widget-filter-setting .collapse-option{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 55px;
+  height: auto;
+}
+.jimu-widget-filter-setting .add-task-tip{
+  font-size: 12px;
+}
+
+.jimu-widget-filter-setting .collapse-option .collapse-tip{
+  margin-left: 5px;
+}
+
+.jimu-rtl .jimu-widget-filter-setting .collapse-option .collapse-tip{
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.jimu-widget-filter-setting .zoomto-option{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  height: auto;
+}
+
+.jimu-widget-filter-setting .zoomto-option .zoomto-tip{
+  margin-left: 5px;
+}
+
+.jimu-rtl .jimu-widget-filter-setting .zoomto-option .zoomto-tip{
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.jimu-widget-filter-setting .allow-custom-option{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  height: auto;
+}
+
+.jimu-widget-filter-setting .allow-custom-option .allow-custom-tip{
+  margin-left: 5px;
+}
+
+.jimu-rtl .jimu-widget-filter-setting .allow-custom-option .allow-custom-tip{
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+html.hr .jimu-widget-filter-setting .items-list{
+  width: 280px;
+}
+
+html.hr .jimu-widget-filter-setting > .content > .separator{
+  left: 295px;
+}
+
+html.hr .jimu-widget-filter-setting .single-setting-content{
+  width: 650px;
+}
+
+.jimu-widget-singlefilter-setting{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.jimu-widget-singlefilter-setting .tab-part{
+  height: calc(100% - 75px);
+}
+.jimu-widget-singlefilter-setting .tabs-node, .jimu-widget-singlefilter-setting .tabs-node .jimu-tab3
+{
+  height: 100%;
+}
+.jimu-widget-singlefilter-setting .tabs-node .jimu-tab3 .container-node{
+  height: calc(100% - 40px);
+}
+
+.jimu-widget-singlefilter-setting .title{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.jimu-widget-singlefilter-setting .option-div{
+  margin-top: 20px;
+}
+
+.jimu-widget-singlefilter-setting .jimu-filter .allExpsBox{
+  /*max-height: 300px;*/
+  /* el locale */
+  /*max-height: 270px;*/
+}
+
+.jimu-widget-singlefilter-setting .click-picker{
+  display: inline-block;
+  border: 1px solid #D7D7D7;
+  height: 24px;
+  overflow: hidden;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.jimu-widget-singlefilter-setting .click-picker .jimu-image-chooser{
+  position: relative;
+  top: 4px;
+}
+
+.jimu-widget-singlefilter-setting .click-picker .separator{
+  position: relative;
+  top: 4px;
+  width: 1px;
+  height: 16px;
+  background-color: #D7D7D7;
+  margin: 0 5px;
+}
+
+.jimu-widget-singlefilter-setting .click-picker .jimu-icon{
+  position: relative;
+  top: 8px;
+}
+
+.jimu-widget-filter-setting .single-setting-content .no-task-tip{
+  position: relative;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.jimu-widget-filter-setting .single-setting-content .no-task-tip span{
+  font-weight: bold;
+}
+
+.jimu-widget-filter-setting .jimu-image-chooser .hint .display-image{
+  width: 100% !important;
+  height: 100% !important;
+}

@@ -1,0 +1,23 @@
+<div>
+  <div data-dojo-attach-point="filterListContainerNode" style="height: 100%">
+    <ul class="filter-list" data-dojo-attach-point="filterList"></ul>
+
+    <div class="show-custom" data-dojo-attach-point="showCustomButtonNode" data-dojo-attach-event="click:_onShowCustomClick" title="${nls.createCustomFilter}"></div>
+  </div>
+
+  <div class="custom-filter" data-dojo-attach-point="customFilterContainerNode">
+    <div class="title-part">
+      <span class="back-list" data-dojo-attach-event="click:_onBackToListClick"></span>
+      <span>${nls.customFilter}</span>
+      <div class="toggle-filter" data-dojo-type="jimu/dijit/ToggleButton" data-dojo-props="checked:true" title="${nls.toggleCustomFilters}" data-dojo-attach-event="change:_onCustomFilterToggle" data-dojo-attach-point="customFilterToggleButton"></div>
+    </div>
+
+    <div class="layer-part">
+      <div class="layer-title">${jimuNls.common.layer}</div>
+      <div class="layer-select" data-dojo-attach-point="layerSelectNode"></div>
+    </div>
+
+    <div class="custom-filter-node" data-dojo-attach-point="customFilterNode"></div>
+  </div>
+
+</div>

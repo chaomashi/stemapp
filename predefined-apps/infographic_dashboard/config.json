@@ -1,0 +1,2163 @@
+{
+  "theme": {
+    "name": "DashboardTheme",
+    "styles": [
+      "default",
+      "light",
+      "style3"
+    ],
+    "version": "2.8"
+  },
+  "portalUrl": "",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Dashboard with Web Appbuilder",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "",
+  "geometryService": "",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/DashboardTheme/widgets/Header/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 80,
+          "relativeTo": "browser"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "themes_DashboardTheme_widgets_Header_Widget_20",
+        "name": "DashboardHeader"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "widgets_ZoomSlider_Widget_21",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 10,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "widgets_HomeButton_Widget_22",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 115,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_ExtentNavigate_Widget_23",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 10,
+          "top": 185,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_MyLocation_Widget_24",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "right": 10,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_Search_Widget_25",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "visible": false,
+        "id": "widgets_Scalebar_Widget_26",
+        "name": "Scalebar",
+        "version": "2.8"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_Coordinate_Widget_27",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_Splash_Widget_28",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "visible": false,
+        "id": "widgets_OverviewMap_Widget_29",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.8",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_30",
+        "name": "AttributeTable",
+        "config": {
+          "layerInfos": [],
+          "table": {
+            "pageSizeOptions": [
+              25,
+              50,
+              100,
+              1000
+            ]
+          },
+          "hideExportButton": true,
+          "initiallyExpand": false,
+          "filterByMapExtent": true
+        },
+        "visible": false
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser",
+          "right": 25,
+          "bottom": 25
+        },
+        "version": "2.8",
+        "id": "widgets_FullScreen_Widget_31",
+        "name": "FullScreen"
+      },
+      {
+        "position": {
+          "left": 50,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "LayerList",
+        "version": "2.8",
+        "closeable": true,
+        "uri": "widgets/LayerList/Widget"
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_33",
+        "name": "Select",
+        "version": "2.8",
+        "closeable": true,
+        "uri": "widgets/Select/Widget",
+        "config": {
+          "selectionColor": "#00FFFF",
+          "selectionMode": "partial",
+          "allowExport": false,
+          "geometryTypes": [
+            "EXTENT"
+          ]
+        }
+      },
+      {
+        "position": {
+          "left": 140,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_34"
+      },
+      {
+        "position": {
+          "left": 185,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_35"
+      },
+      {
+        "position": {
+          "left": 230,
+          "top": 10,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_36"
+      }
+    ],
+    "groups": [
+      {
+        "id": "dd_group_13",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "TOTAL INCIDENT COUNT",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_39",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 24.041811846689896,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "5280780628160642-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "5280780628160642-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 75.9581881533101,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "5280780628160642-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "5280780628160642-2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "5280780628160642-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "TOTAL INCIDENT COUNT"
+                  }
+                },
+                {
+                  "id": "5280780628160642-2",
+                  "type": "gauge",
+                  "visible": true,
+                  "config": {
+                    "shape": "horizontal",
+                    "min": 0,
+                    "max": 1000,
+                    "indicators": [
+                      {
+                        "value": [
+                          10
+                        ],
+                        "operator": "greater",
+                        "isRatio": true,
+                        "valueColor": "#87cefa",
+                        "gaugeColor": "#87cefa"
+                      },
+                      {
+                        "value": [
+                          30
+                        ],
+                        "operator": "greater",
+                        "isRatio": true,
+                        "valueColor": "#0000ff",
+                        "gaugeColor": "#0000ff"
+                      },
+                      {
+                        "value": [
+                          50
+                        ],
+                        "operator": "greater",
+                        "isRatio": true,
+                        "valueColor": "#ffa500",
+                        "gaugeColor": "#ffa500"
+                      },
+                      {
+                        "value": [
+                          70
+                        ],
+                        "operator": "greater",
+                        "isRatio": true,
+                        "valueColor": "#ff0000",
+                        "gaugeColor": "#ff0000"
+                      }
+                    ],
+                    "display": {
+                      "bgColor": "#1E5F6F",
+                      "backgroundColor": "#222222",
+                      "gaugeColor": "#12ddf9",
+                      "dataLabels": {
+                        "state": true,
+                        "textColor": "#ffffff",
+                        "dataRange": true,
+                        "targetValue": true
+                      },
+                      "currentValue": {
+                        "state": true,
+                        "isRatio": true,
+                        "font": {
+                          "font": {
+                            "fontFamily": "Arial",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          },
+                          "fontSize": "35",
+                          "textColor": "#59bad8"
+                        },
+                        "dataFormat": {
+                          "unit": "percentage",
+                          "decimalPlaces": 1,
+                          "prefix": "",
+                          "suffix": ""
+                        }
+                      }
+                    },
+                    "statistic": {
+                      "type": "Features",
+                      "fieldName": "X",
+                      "statisticsType": "sum"
+                    }
+                  }
+                },
+                {
+                  "id": "5280780628160642-3",
+                  "type": "text",
+                  "visible": false,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 14,
+                      "textColor": "#fff"
+                    },
+                    "text": "Description: additional infomation about this infographic."
+                  }
+                }
+              ],
+              "wid": "5280780628160642",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": false,
+                "filterByExtent": false
+              }
+            }
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 0",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_14",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "MAXIMUM OF DEATH",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_38",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 16.724032499803975,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "010974520438876034-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "010974520438876034-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 71.02950169134368,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "010974520438876034-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "010974520438876034-2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 12.246465808852362,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "010974520438876034-3"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "010974520438876034-3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "010974520438876034-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "MAXIMUM OF DEATH"
+                  }
+                },
+                {
+                  "id": "010974520438876034-2",
+                  "type": "gauge",
+                  "visible": true,
+                  "config": {
+                    "shape": "curved",
+                    "min": 0,
+                    "max": 300,
+                    "indicators": [
+                      {
+                        "value": [
+                          50
+                        ],
+                        "operator": "greater",
+                        "isRatio": true,
+                        "valueColor": "#ff0000",
+                        "gaugeColor": "#ff0000"
+                      }
+                    ],
+                    "display": {
+                      "bgColor": "#1E5F6F",
+                      "backgroundColor": "#222222",
+                      "gaugeColor": "#12ddf9",
+                      "dataLabels": {
+                        "state": true,
+                        "textColor": "#ffffff",
+                        "dataRange": true,
+                        "targetValue": true
+                      },
+                      "currentValue": {
+                        "state": true,
+                        "isRatio": false,
+                        "font": {
+                          "font": {
+                            "fontFamily": "Arial",
+                            "bold": false,
+                            "italic": false,
+                            "underline": false
+                          },
+                          "fontSize": "46",
+                          "textColor": "#59bad8"
+                        },
+                        "dataFormat": {
+                          "unit": "none",
+                          "decimalPlaces": 0,
+                          "prefix": "",
+                          "suffix": ""
+                        }
+                      }
+                    },
+                    "statistic": {
+                      "type": "FeatureStatistics",
+                      "fieldName": "DEAD",
+                      "statisticsType": "max"
+                    }
+                  }
+                },
+                {
+                  "id": "010974520438876034-3",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 14,
+                      "textColor": "#fff"
+                    },
+                    "text": "The maximum death counts for a single incident"
+                  }
+                }
+              ],
+              "wid": "010974520438876034",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": true
+              }
+            }
+          }
+        ],
+        "visible": true,
+        "label": "Group 1",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_12",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "NUMBER OF INCIDENTS",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_37",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 21.673783114322923,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3848202440422601-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3848202440422601-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 59.77769213789064,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3848202440422601-3"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3848202440422601-3"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "height": 18.548524747786445,
+                        "activeItemIndex": 0,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3848202440422601-4"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3848202440422601-4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "3848202440422601-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "NUMBER OF INCIDENTS"
+                  }
+                },
+                {
+                  "id": "3848202440422601-2",
+                  "type": "image",
+                  "visible": false,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    }
+                  }
+                },
+                {
+                  "id": "3848202440422601-3",
+                  "type": "number",
+                  "visible": true,
+                  "config": {
+                    "indicators": [
+                      {
+                        "value": [
+                          150
+                        ],
+                        "operator": "greater",
+                        "valueColor": "#ff0000",
+                        "iconInfo": {
+                          "color": "#ff0000",
+                          "icon": "icon-danger",
+                          "placement": "left"
+                        }
+                      },
+                      {
+                        "value": [
+                          50
+                        ],
+                        "operator": "smaller",
+                        "valueColor": "#7fff00",
+                        "iconInfo": {
+                          "color": "#7fff00",
+                          "icon": "icon-like",
+                          "placement": "left"
+                        }
+                      }
+                    ],
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": "60",
+                      "textColor": "#59bad8"
+                    },
+                    "dataFormat": {
+                      "unit": "none",
+                      "decimalPlaces": 0,
+                      "prefix": "",
+                      "suffix": ""
+                    },
+                    "statistic": {
+                      "type": "Features",
+                      "fieldName": "X",
+                      "statisticsType": "sum"
+                    }
+                  }
+                },
+                {
+                  "id": "3848202440422601-4",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 14,
+                      "textColor": "#fff"
+                    },
+                    "text": "Incident reports from the International Organization for Migration (IOM)"
+                  }
+                }
+              ],
+              "wid": "3848202440422601",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": true
+              }
+            }
+          }
+        ],
+        "visible": true,
+        "label": "Group 2",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_15",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "INCIDENT COUNT ",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_40",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 15.034420289855072,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "20177187819613773-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "20177187819613773-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 74.82565455955151,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "20177187819613773-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "20177187819613773-2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 10.13992515059343,
+                        "width": 59.15915915915916,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "20177187819613773-3"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "20177187819613773-3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "20177187819613773-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "INCIDENT COUNT "
+                  }
+                },
+                {
+                  "id": "20177187819613773-2",
+                  "type": "chart",
+                  "visible": true,
+                  "config": {
+                    "mode": "count",
+                    "type": "bar",
+                    "categoryField": "INFORELIABILITY",
+                    "sortOrder": "asc",
+                    "backgroundColor": "#222222",
+                    "colors": [
+                      "#5d9cd3"
+                    ],
+                    "showLegend": false,
+                    "legendTextColor": "#ffffff",
+                    "showHorizontalAxis": true,
+                    "horizontalAxisTextColor": "#ffffff",
+                    "showVerticalAxis": true,
+                    "verticalAxisTextColor": "#ffffff"
+                  }
+                },
+                {
+                  "id": "20177187819613773-3",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 12,
+                      "textColor": "#fff"
+                    },
+                    "text": "( CATEGORIZED BY RELIABILITY, CURRENT EXTENT)"
+                  }
+                }
+              ],
+              "wid": "20177187819613773",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": true
+              }
+            }
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 3",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_3",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "DEATH AND MISSING",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_41",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 15.034420289855072,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "06460437102270156-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "06460437102270156-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 73.77669678535219,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "06460437102270156-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "06460437102270156-2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 11.188882924792745,
+                        "width": 59.15915915915916,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "06460437102270156-3"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "06460437102270156-3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "06460437102270156-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "DEATH AND MISSING"
+                  }
+                },
+                {
+                  "id": "06460437102270156-2",
+                  "type": "chart",
+                  "visible": true,
+                  "config": {
+                    "mode": "category",
+                    "type": "line",
+                    "categoryField": "INCIDENTREGION",
+                    "operation": "average",
+                    "valueFields": [
+                      "DEAD",
+                      "MISSING"
+                    ],
+                    "sortOrder": "asc",
+                    "backgroundColor": "#222222",
+                    "colors": [
+                      "#5d9cd3",
+                      "#eb7b3a",
+                      "#a5a5a5",
+                      "#febf29",
+                      "#4673c2",
+                      "#72ad4c"
+                    ],
+                    "showLegend": true,
+                    "legendTextColor": "#ffffff",
+                    "showHorizontalAxis": true,
+                    "horizontalAxisTextColor": "#ffffff",
+                    "showVerticalAxis": true,
+                    "verticalAxisTextColor": "#ffffff"
+                  }
+                },
+                {
+                  "id": "06460437102270156-3",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 12,
+                      "textColor": "#fff"
+                    },
+                    "text": "(CATEGORIZED BY REGION, CURRENT EXTENT)"
+                  }
+                }
+              ],
+              "wid": "06460437102270156",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": true
+              }
+            }
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 2",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_4",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "MISSING COUNT ",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_42",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 16.782608695652176,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3221959071272813-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3221959071272813-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 66.0843989769821,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3221959071272813-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3221959071272813-2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 17.132992327365734,
+                        "width": 59.15915915915916,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "3221959071272813-3"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "3221959071272813-3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "3221959071272813-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "MISSING COUNT "
+                  }
+                },
+                {
+                  "id": "3221959071272813-2",
+                  "type": "chart",
+                  "visible": true,
+                  "config": {
+                    "mode": "category",
+                    "type": "pie",
+                    "categoryField": "ORIGINREGION",
+                    "operation": "average",
+                    "valueFields": [
+                      "MISSING"
+                    ],
+                    "sortOrder": "asc",
+                    "backgroundColor": "#222222",
+                    "colors": [
+                      "#5d9cd3",
+                      "#eb7b3a",
+                      "#a5a5a5",
+                      "#febf29",
+                      "#4673c2",
+                      "#72ad4c"
+                    ],
+                    "showLegend": false,
+                    "legendTextColor": "#ffffff",
+                    "showDataLabel": false,
+                    "dataLabelColor": "#ffffff"
+                  }
+                },
+                {
+                  "id": "3221959071272813-3",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 12,
+                      "textColor": "#fff"
+                    },
+                    "text": "(CATEGORIZED BY ORIGIN REGION, CURRENT EXTENT)"
+                  }
+                }
+              ],
+              "wid": "3221959071272813",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": true
+              }
+            }
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 3",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      },
+      {
+        "id": "dd_group_5",
+        "widgets": [
+          {
+            "name": "Infographic",
+            "label": "DAILY CASUALTY ",
+            "version": "2.8",
+            "uri": "widgets/Infographic/Widget",
+            "id": "widgets_Infographic_Widget_43",
+            "config": {
+              "layout": {
+                "definition": [
+                  {
+                    "type": "column",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "width": 100,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 18.81533101045296,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "4761573618260133-1"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "4761573618260133-1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "stack",
+                        "isClosable": true,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "activeItemIndex": 0,
+                        "height": 81.18466898954703,
+                        "content": [
+                          {
+                            "type": "component",
+                            "isClosable": true,
+                            "componentName": "jimu grid",
+                            "componentState": {
+                              "id": "4761573618260133-2"
+                            },
+                            "reorderEnabled": true,
+                            "title": "jimu grid",
+                            "id": "4761573618260133-2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              "dijits": [
+                {
+                  "id": "4761573618260133-1",
+                  "type": "text",
+                  "visible": true,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "middle"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 16,
+                      "textColor": "#fff"
+                    },
+                    "text": "DAILY CASUALTY "
+                  }
+                },
+                {
+                  "id": "4761573618260133-2",
+                  "type": "chart",
+                  "visible": true,
+                  "config": {
+                    "mode": "category",
+                    "type": "column",
+                    "categoryField": "DATEREPORTED",
+                    "operation": "average",
+                    "valueFields": [
+                      "DEAD",
+                      "MISSING",
+                      "Number_of_survivors"
+                    ],
+                    "sortOrder": "asc",
+                    "backgroundColor": "#222222",
+                    "colors": [
+                      "#5d9cd3",
+                      "#eb7b3a",
+                      "#a5a5a5",
+                      "#febf29",
+                      "#4673c2",
+                      "#72ad4c"
+                    ],
+                    "showLegend": false,
+                    "legendTextColor": "#ffffff",
+                    "showHorizontalAxis": true,
+                    "horizontalAxisTextColor": "#ffffff",
+                    "showVerticalAxis": true,
+                    "verticalAxisTextColor": "#ffffff"
+                  }
+                },
+                {
+                  "id": "4761573618260133-3",
+                  "type": "text",
+                  "visible": false,
+                  "config": {
+                    "background": {
+                      "backgroundColor": "#222222",
+                      "alignment": {
+                        "horizontal": "center",
+                        "vertical": "top"
+                      },
+                      "link": ""
+                    },
+                    "font": {
+                      "font": {
+                        "fontFamily": "Arial",
+                        "bold": false,
+                        "italic": false,
+                        "underline": false
+                      },
+                      "fontSize": 14,
+                      "textColor": "#fff"
+                    },
+                    "text": "Description: additional infomation about this infographic."
+                  }
+                }
+              ],
+              "wid": "4761573618260133",
+              "dataSource": {
+                "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+                "name": "Missing Migrants - Incident Reports",
+                "layerId": "Missing Migrants - Incident Reports_880",
+                "useSelection": true,
+                "filterByExtent": false
+              }
+            }
+          }
+        ],
+        "placeholderIndex": 1,
+        "visible": true,
+        "label": "Group 4",
+        "icon": "widgets/Infographic/images/icon.png?wab_dv=2.5"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "572eb8bed1c443f8accc946687bf0d59",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "https://esridevbeijing.maps.arcgis.com/",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.8",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.8",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": [],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "mobileLayout": {
+    "layoutDefinition": {
+      "manager": "jimu/layoutManagers/GridLayoutManager",
+      "layout": {
+        "panel": {
+          "uri": "jimu/BaseWidgetPanel"
+        },
+        "config": {
+          "settings": {
+            "hasHeaders": true,
+            "showPopoutIcon": false,
+            "showMaximiseIcon": true,
+            "showCloseIcon": true
+          },
+          "content": [
+            {
+              "type": "row",
+              "isClosable": false,
+              "reorderEnabled": true,
+              "title": "",
+              "content": [
+                {
+                  "type": "column",
+                  "width": 30,
+                  "isClosable": false,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "content": [
+                    {
+                      "id": "dd_group_1",
+                      "type": "stack",
+                      "isClosable": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "height": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_2",
+                      "type": "stack",
+                      "isClosable": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "height": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "content": []
+                    },
+                    {
+                      "id": "dd_group_3",
+                      "type": "stack",
+                      "isClosable": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "height": 33.333333333333336,
+                      "activeItemIndex": 0,
+                      "content": []
+                    }
+                  ]
+                },
+                {
+                  "type": "column",
+                  "width": 70,
+                  "isClosable": false,
+                  "reorderEnabled": true,
+                  "title": "",
+                  "content": [
+                    {
+                      "id": "map",
+                      "type": "stack",
+                      "showTabs": false,
+                      "height": 66.7,
+                      "isClosable": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "activeItemIndex": 0,
+                      "content": [
+                        {
+                          "type": "component",
+                          "componentName": "map",
+                          "title": "map",
+                          "isClosable": false,
+                          "reorderEnabled": true
+                        }
+                      ]
+                    },
+                    {
+                      "type": "row",
+                      "height": 33.3,
+                      "isClosable": false,
+                      "reorderEnabled": true,
+                      "title": "",
+                      "content": [
+                        {
+                          "id": "dd_group_4",
+                          "type": "stack",
+                          "isClosable": false,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "width": 50,
+                          "activeItemIndex": 0,
+                          "content": []
+                        },
+                        {
+                          "id": "dd_group_5",
+                          "type": "stack",
+                          "isClosable": false,
+                          "reorderEnabled": true,
+                          "title": "",
+                          "width": 50,
+                          "activeItemIndex": 0,
+                          "content": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "mobileLayout": {
+        "panel": {
+          "uri": "themes/DashboardTheme/panels/MobilePanel/Panel"
+        }
+      }
+    },
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/DashboardTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 80,
+            "relativeTo": "browser"
+          },
+          "version": "2.4",
+          "visible": false
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "top": 80,
+            "relativeTo": "map"
+          },
+          "version": "2.8"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "position": {
+            "right": 10,
+            "top": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.8",
+          "visible": false
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "top": 185,
+            "relativeTo": "map"
+          },
+          "version": "2.8",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 50,
+            "top": 10,
+            "relativeTo": "map"
+          },
+          "version": "2.8",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 10,
+            "relativeTo": "map"
+          },
+          "visible": false
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 10
+          },
+          "version": "2.4",
+          "visible": false
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.8",
+          "visible": false
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.8",
+          "visible": false
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.8",
+          "position": {
+            "relativeTo": "browser"
+          },
+          "visible": false
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser",
+            "right": 25,
+            "bottom": 25
+          },
+          "version": "2.8"
+        },
+        {
+          "position": {
+            "left": 50,
+            "top": 10
+          }
+        },
+        {
+          "position": {
+            "left": 95,
+            "top": 10
+          }
+        },
+        {
+          "position": {
+            "left": 140,
+            "top": 10
+          }
+        },
+        {
+          "position": {
+            "left": 185,
+            "top": 10
+          }
+        },
+        {
+          "position": {
+            "left": 230,
+            "top": 10
+          }
+        }
+      ],
+      "groups": [
+        {
+          "id": "dd_group_1",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_2",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_3",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_4",
+          "widgets": []
+        },
+        {
+          "id": "dd_group_5",
+          "widgets": []
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.8",
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "layoutDefinition": {
+    "manager": "jimu/layoutManagers/GridLayoutManager",
+    "layout": {
+      "panel": {
+        "uri": "jimu/BaseWidgetPanel"
+      },
+      "config": {
+        "settings": {
+          "hasHeaders": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": true,
+          "showCloseIcon": true
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "column",
+                "width": 35.525684109457515,
+                "reorderEnabled": true,
+                "title": "",
+                "isClosable": true,
+                "content": [
+                  {
+                    "type": "stack",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "id": "dd_group_13",
+                    "height": 17.791152662121668,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": []
+                  },
+                  {
+                    "type": "row",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 27.622832355255014,
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "id": "dd_group_14",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      },
+                      {
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "id": "dd_group_12",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "height": 35.400569922629046,
+                        "isClosable": true,
+                        "content": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "stack",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "id": "dd_group_15",
+                    "height": 27.29300749131167,
+                    "content": [],
+                    "activeItemIndex": 0
+                  },
+                  {
+                    "id": "dd_group_3",
+                    "type": "stack",
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 27.29300749131167,
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": []
+                  }
+                ]
+              },
+              {
+                "type": "column",
+                "width": 64.47431589054248,
+                "reorderEnabled": true,
+                "title": "",
+                "isClosable": true,
+                "content": [
+                  {
+                    "id": "map",
+                    "type": "stack",
+                    "showTabs": false,
+                    "height": 60.42692939244664,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "activeItemIndex": 0,
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "type": "component",
+                        "componentName": "map",
+                        "title": "map",
+                        "isClosable": false,
+                        "reorderEnabled": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "row",
+                    "height": 39.57307060755336,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "isClosable": true,
+                    "content": [
+                      {
+                        "id": "dd_group_4",
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      },
+                      {
+                        "id": "dd_group_5",
+                        "type": "stack",
+                        "reorderEnabled": true,
+                        "title": "",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "isClosable": true,
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mobileLayout": {
+      "panel": {
+        "uri": "themes/DashboardTheme/panels/MobilePanel/Panel"
+      }
+    }
+  },
+  "templateConfig": {
+    "configurationSettings": [],
+    "values": {}
+  }
+}

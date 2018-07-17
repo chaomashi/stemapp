@@ -1,0 +1,74 @@
+.jimu-widget-dnd-header{
+  width: 100%;
+  height: 80px;
+  display: block;
+}
+
+.jimu-ismobile .jimu-widget-dnd-header{
+  display: none;
+}
+
+.jimu-widget-dnd-header .header-section{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.jimu-widget-dnd-header .logo{
+  cursor: pointer;
+  height: 40px;
+  margin: 20px 0 20px 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+}
+
+.jimu-widget-dnd-header .logo  img{
+  max-height: 40px;
+}
+
+.jimu-rtl .jimu-widget-dnd-header .logo{
+  margin: 20px 20px 20px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
+  padding-left: 20px;
+  padding-right: auto;
+}
+
+.jimu-widget-dnd-header .hidden{
+  display: none !important;
+}
+
+.jimu-widget-dnd-header .titles{
+  height: 100%;
+  overflow: hidden;
+}
+
+.jimu-widget-dnd-header .jimu-title{
+  height: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-size: 24px;
+}
+
+.jimu-widget-dnd-header .jimu-subtitle{
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 5px;
+}
+
+.jimu-widget-dnd-header .links{
+  height: 100%;
+  overflow: hidden;
+}
+.jimu-widget-dnd-header .dynamic-section,
+.jimu-widget-dnd-header .signin-section{
+  height: 100%;
+}
+.jimu-widget-dnd-header .links .jimu-link{
+  height: 100%;
+}
+.jimu-widget-dnd-header .signin-section .jimu-link{
+  color: #d9dde0;
+}

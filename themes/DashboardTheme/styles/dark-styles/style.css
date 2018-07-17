@@ -1,0 +1,177 @@
+@import url("../../../../libs/goldenlayout/goldenlayout-dark-theme.css");
+@import url('./dojo-override.css');
+@import url('./api-override.css');
+@import url('./sprite.css');
+@import url('./jimu-theme-override.css');
+@import url('./widgets/print.css');
+@import url('./widgets/add-data.css');
+@import url('./widgets/nearme.css');
+@import url('./widgets/layer-list.css');
+@import url('./widgets/edit.css');
+@import url('./widgets/select.css');
+@import url('./widgets/share.css');
+@import url('./widgets/analysis.css');
+@import url('./widgets/filter.css');
+@import url('./widgets/geolookup.css');
+@import url('./widgets/gp.css');
+@import url('./widgets/stream.css');
+@import url('./widgets/group-filter.css');
+@import url('./widgets/oblique-viewer.css');
+@import url('./widgets/screening.css');
+@import url('./widgets/review-dashboard.css');
+@import url('./widgets/zoomslider.css');
+@import url('./widgets/suitability-modeler.css');
+@import url('./widgets/info-summary.css');
+@import url('./widgets/batch-edit.css');
+@import url('./widgets/at.css');
+@import url('./widgets/parcel-drafter.css');
+@import url('./widgets/related-table-chart.css');
+@import url('./widgets/home-button.css');
+@import url('./widgets/extent-navi.css');
+@import url('./widgets/my-location.css');
+@import url('./widgets/bookmark.css');
+@import url('./widgets/draw.css');
+@import url('./widgets/fullscreen.css');
+@import url('./widgets/swipe.css');
+@import url('./widgets/chart.css');
+@import url('./widgets/query.css');
+@import url('./widgets/ig.css');
+@import url('./widgets/coordinate-conversion.css');
+@import url('./widgets/search.css');
+@import url('./widgets/grid-overlay.css');
+@import url('./widgets/infographic.css');
+@import url('./widgets/distance-direction.css');
+@import url('./widgets/grided-reference-graphic.css');
+@import url('./widgets/emergency-response-guide.css');
+a {
+  color: #FFFFFF;
+}
+
+.jimu-main-background{
+  background-color: #222222;
+}
+
+.jimu-widget-dnd-header{
+  background: #444444;
+}
+
+.jimu-widget-dnd-header .logo{
+  border-color: rgba(255,255,255,0.5);
+}
+
+.jimu-widget-dnd-header .titles{
+  height: 100%;
+  overflow: hidden;
+}
+
+.jimu-widget-dnd-header .jimu-title,
+.jimu-widget-dnd-header .links,
+.jimu-widget-dnd-header .links .jimu-link,
+.jimu-widget-dnd-header .signin-section .jimu-link{
+  color: #FFFFFF;
+}
+.jimu-widget-dnd-header .jimu-subtitle {
+  opacity: 0.8;
+  color: #FFFFFF;
+}
+
+.lm_header {
+  background: #222222;
+}
+
+.lm_content {
+  border: none;
+}
+
+.lm_header .lm_tab,
+.lm_header .lm_tab.lm_active {
+  background: #222222;
+  margin-top: 0;
+  margin-right: 0;
+  border: none;
+  box-shadow: none;
+  padding-bottom: 4px;
+}
+
+.lm_header .lm_tabdropdown_list .lm_tab {
+  background: #333;
+}
+
+.lm_header .lm_tab {
+  color: #666;
+}
+
+.lm_header .lm_tab:hover,
+.lm_header .lm_tab.lm_active {
+  color: #999;
+}
+
+.lm_header .lm_tab .lm_left,
+.lm_header .lm_tab .lm_right {
+  display: none;
+}
+
+.lm_stack_highlight {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #49BDCA;
+  box-sizing: border-box;
+  background: transparent;
+  display: none;
+  position: relative;
+  top: -100%;
+}
+
+.lm_header .lm_tab.highlight {
+  border: 2px solid #e84b4b;
+  background: transparent;
+}
+
+.lm_splitter {
+  background: #000;
+  opacity: 1;
+  transition: none;
+}
+
+.lm_splitter:hover,
+.lm_splitter.lm_dragging {
+  background: #333;
+}
+
+.jimu-dnd-layout.config .lm_splitter:hover,
+.jimu-dnd-layout.config .lm_splitter.lm_dragging {
+  background: #000;
+}
+
+.jimu-dnd-mobile-panel .splitter {
+  background: #000000;
+}
+
+/*.jimu-dnd-mobile-panel .splitter .splitter_handler{
+  background: url(images/more-horiz.svg) no-repeat;
+}*/
+
+.jimu-dnd-mobile-panel .widget-area .panel-header {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.jimu-dnd-mobile-panel .widget-area .panel-header .count {
+  color: #999999;
+}
+
+.jimu-dashboard-panel .title{
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.jimu-dnd-mobile-controller .icon-section {
+  width: 30px;
+  height: 30px;
+  background: url(images/menu.svg) center no-repeat;
+  background-size: 14px;
+}
+
+.jimu-dnd-layout, .jimu-edit-layout .layout-container {
+  border: 5px solid #000;
+}

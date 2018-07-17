@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>email_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Widget" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spec_widget_dark" transform="translate(-465.000000, -6247.000000)">
+            <g id="email_hover" transform="translate(465.000000, 6247.000000)">
+                <path d="M2,0 C0.9,0 0,0.9 0,2 L0,18 C0,19.1 0.9,20 2,20 L18,20 C19.1,20 20,19.1 20,18 L20,2 C20,0.9 19.1,0 18,0 L2,0 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M15.6,5 C16.37,5 17,5.61875 17,6.375 L17,14.625 C17,15.38125 16.37,16 15.6,16 L4.4,16 C3.63,16 3,15.38125 3,14.625 L3,6.375 C3,5.61875 3.63,5 4.4,5 L15.6,5 Z M9.5,11 L15,7.42857143 L15,6 L9.5,9.57142857 L4,6 L4,7.42857143 L9.5,11 Z" id="Combined-Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

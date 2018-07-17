@@ -1,0 +1,353 @@
+{
+  "layoutDefinition": {
+    "manager": "jimu/layoutManagers/GridLayoutManager",
+    "layout": {
+      "panel": {
+        "uri": "jimu/BaseWidgetPanel"
+      },
+      "config": {
+        "settings": {
+          "hasHeaders": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": true,
+          "showCloseIcon": true
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": false,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "column",
+                "width": 30,
+                "isClosable": false,
+                "reorderEnabled": true,
+                "title": "",
+                "content": [
+                  {
+                    "id": "dd_group_1",
+                    "type": "stack",
+                    "isClosable": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 33.333333333333336,
+                    "activeItemIndex": 0,
+                    "content": []
+                  },
+                  {
+                    "id": "dd_group_2",
+                    "type": "stack",
+                    "isClosable": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 33.333333333333336,
+                    "activeItemIndex": 0,
+                    "content": []
+                  },
+                  {
+                    "id": "dd_group_3",
+                    "type": "stack",
+                    "isClosable": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "height": 33.333333333333336,
+                    "activeItemIndex": 0,
+                    "content": []
+                  }
+                ]
+              },
+              {
+                "type": "column",
+                "width": 70,
+                "isClosable": false,
+                "reorderEnabled": true,
+                "title": "",
+                "content": [
+                  {
+                    "id": "map",
+                    "type": "stack",
+                    "showTabs": false,
+                    "height": 66.7,
+                    "isClosable": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "activeItemIndex": 0,
+                    "content": [
+                      {
+                        "type": "component",
+                        "componentName": "map",
+                        "title": "map",
+                        "isClosable": false,
+                        "reorderEnabled": true
+                      }
+                    ]
+                  },
+                  {
+                    "type": "row",
+                    "height": 33.3,
+                    "isClosable": false,
+                    "reorderEnabled": true,
+                    "title": "",
+                    "content": [
+                      {
+                        "id": "dd_group_4",
+                        "type": "stack",
+                        "isClosable": false,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "content": []
+                      },
+                      {
+                        "id": "dd_group_5",
+                        "type": "stack",
+                        "isClosable": false,
+                        "reorderEnabled": true,
+                        "title": "",
+                        "width": 50,
+                        "activeItemIndex": 0,
+                        "content": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "mobileLayout": {
+      "panel": {
+        "uri": "themes/DashboardTheme/panels/MobilePanel/Panel"
+      }
+    }
+  },
+  "widgetOnScreen": {
+    "widgets": [{
+        "uri": "themes/DashboardTheme/widgets/Header/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 80,
+          "relativeTo": "browser"
+        },
+        "version": "2.4",
+        "visible": false
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 10
+        },
+        "version": "2.4"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "inPanel": false,
+        "position": {
+          "left": 10,
+          "top": 80
+        },
+        "version": "2.8"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "position": {
+          "left": 10,
+          "top": 115
+        },
+        "version": "2.8",
+        "visible": false
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "inPanel": false,
+        "position": {
+          "left": 10,
+          "top": 185
+        },
+        "version": "2.8",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "right": 10,
+          "top": 10
+        },
+        "version": "2.8",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 30
+        },
+        "visible": false
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 10
+        },
+        "version": "2.4",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.8",
+        "visible": false
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "zIndex": 1
+        },
+        "version": "2.8",
+        "visible": false
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.8",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "visible": false
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser",
+          "right": 25,
+          "bottom": 25
+        },
+        "version": "2.8"
+      },
+      {
+        "position": {
+          "left": 50,
+          "top": 10
+        }
+      },
+      {
+        "position": {
+          "left": 95,
+          "top": 10
+        }
+      },
+      {
+        "position": {
+          "left": 140,
+          "top": 10
+        }
+      },
+      {
+        "position": {
+          "left": 185,
+          "top": 10
+        }
+      },
+      {
+        "position": {
+          "left": 230,
+          "top": 10
+        }
+      }
+    ],
+    "groups": [
+      {
+        "id": "dd_group_1",
+        "widgets": []
+      },
+      {
+        "id": "dd_group_2",
+        "widgets": []
+      },
+      {
+        "id": "dd_group_3",
+        "widgets": []
+      },
+      {
+        "id": "dd_group_4",
+        "widgets": []
+      },
+      {
+        "id": "dd_group_5",
+        "widgets": []
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/ZoomSlider/Widget": {
+          "position": {
+            "right": 10,
+            "top": 10
+          }
+        },
+        "widgets/HomeButton/Widget": {
+          "position": {
+            "right": 10,
+            "top": 80
+          }
+        },
+        "widgets/ExtentNavigate/Widget": {
+          "position": {
+            "right": 10,
+            "top": 115
+          }
+        },
+        "widgets/MyLocation/Widget": {
+          "position": {
+            "right": 10,
+            "top": 185
+          }
+        },
+        "widgets/Coordinate/Widget": {
+          "visible": false
+        },
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 10
+          }
+        },
+        "widgets/OverviewMap/Widget": {
+          "position": {
+            "right": 0,
+            "bottom": 0
+          }
+        },
+        "widgets/Search/Widget": {
+          "position": {
+            "left": 50,
+            "top": 10
+          }
+        }
+      }
+    }
+  },
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    }
+  }
+}

@@ -1,0 +1,96 @@
+﻿<div>
+
+  <!--Feature toolbar table-->
+  <table class="page-table display-none table-layout" cellpading="0" data-dojo-attach-point="featureToolbarTable">
+    <tbody>
+      <tr class="bottom-border task-instruction-row">
+        <td data-dojo-attach-point="reviewRowRecordTd" class="pad-bottom-10">
+          <span class="float-left main-text pad-left-10 pad-right-10 display-none" data-dojo-attach-point="reviewText" style="line-height:30px;">${nls.review.item}</span>
+          <div data-dojo-attach-point="_duplicateFlag" class="pad-bottom-10 duplicate-flag"></div>
+        </td>
+        <td class="pad-bottom-10 feature-toolbar-td">
+          <div data-dojo-attach-point="featureToolbar">
+
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!--feature toggle table-->
+  <table data-dojo-attach-point="featureToggleTable" class="page-table display-none table-layout" cellpading="0">
+    <tbody>
+      <tr class="bottom-border toggle-expand-row" data-dojo-attach-event="onclick:_toggleFeature">
+        <td colspan="2" class="field-control-td text-left field-row-width">
+          <div class="main-text float-left">
+            ${nls.review.feature}
+          </div>
+        </td>
+        <td style="width: 20px;" nowrap class="page-item-td-nav" data-dojo-attach-point="featureTd">
+          <div class="float-right bg-img-toggle bg-toggle-down-img margin-left-5" data-dojo-attach-point="toggleFeature"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div data-dojo-attach-point="featureInformation" class="display-none">
+
+    <!--feature controls table-->
+    <table data-dojo-attach-point="featureTable" class="page-table display-none table-layout" cellpading="0">
+      <colgroup>
+        <col width="30%" />
+        <col width="35%" />
+        <col width="35%" />
+      </colgroup>
+      <tbody data-dojo-attach-point="featureControlTable"></tbody>
+    </table>
+  </div>
+
+  <!--location toggle table-->
+  <table data-dojo-attach-point="locationControlToggleTable" class="page-table display-none table-layout" cellpading="0">
+    <tbody>
+      <tr class="bottom-border toggle-expand-row" data-dojo-attach-event="onclick:_toggleLocation">
+        <td class="field-control-td text-left field-row-width">
+          <div class="main-text float-left">
+            ${nls.review.locationInfo}
+          </div>
+        </td>
+        <td style="width: 20px;" class="page-item-td-nav" data-dojo-attach-point="locationTd">
+          <div class="float-right bg-img-toggle bg-toggle-down-img margin-left-5" data-dojo-attach-point="toggleLocation"></div>
+        </td>
+      </tr>
+  </table>
+
+  <div data-dojo-attach-point="locationInformation" class="display-none">
+
+    <!--location toolbar-->
+    <table class="page-table display-none" cellpading="0" data-dojo-attach-point="locationSyncTable">
+      <tbody>
+        <tr class="bottom-border task-instruction-row">
+          <td class="field-control-td">
+            <div class="instruction" data-dojo-attach-point="locationHint">${nls.review.locationControlHint}</div>
+          </td>
+          <td class="field-control-td" title="${nls.review.sync}">
+            <div class="float-right bg-ft-img bg-sync feature-toolbar-btn" data-dojo-attach-point="syncFields" data-dojo-attach-event="onclick:_syncAddressInfo"></div>
+          </td>
+          <td title="${nls.featureToolbar.locate}">
+            <div class="bg-ft-img bg-locate feature-toolbar-btn float-right" data-dojo-attach-point="locateButton" data-dojo-attach-event="onclick:_locate">
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--location controls table-->
+    <table class="page-table display-none" cellpading="0" data-dojo-attach-point="locationControlTable">
+      <colgroup>
+        <col width="35%" />
+        <col width="65%" />
+      </colgroup>
+      <tbody></tbody>
+    </table>
+
+  </div>
+
+</div>
+

@@ -1,0 +1,111 @@
+.jimu-main-background {
+    background-color: rgb(218 ,77, 30)!important;
+}
+
+/* Font styles for header controller */
+.jimu-widget-header-controller .jimu-title, .jimu-widget-header-controller .jimu-subtitle {
+    color: rgb(218 ,77, 30);
+}
+
+.jimu-widget-header-controller .links .jimu-link {
+    color: rgb(218 ,77, 30);
+}
+
+/* Border for header controller*/
+.jimu-widget-header-controller {
+    border-bottom: 1px solid rgb(218 ,77, 30);
+}
+
+/*Override Navigation color*/
+.jimu-widget-zoomslider, .jimu-widget-extent-navigate {
+    background-color: rgb(218 ,77, 30);
+}
+
+.vertical.jimu-widget-zoomslider .zoom-in, .jimu-widget-extent-navigate.vertical .previous {
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.jimu-widget-homebutton .HomeButton .home, .jimu-widget-mylocation, .jimu-widget-mylocation .place-holder, .jimu-widget-zoomslider.vertical .zoom-in, .jimu-widget-zoomslider.vertical .zoom-out, .jimu-widget-extent-navigate.vertical .operation {
+    background-color: rgb(218 ,77, 30) !important;
+}
+/*Navigation*/
+
+/*Override jimu panel*/
+.jimu-panel {
+    border-color: rgb(218 ,77, 30);
+}
+
+/* New Start */
+.jimu-preload-widget-icon-panel > .jimu-panel-title, .jimu-foldable-panel > .jimu-panel-title, .jimu-title-panel > .title {
+    color: rgb(218 ,77, 30);
+    background-color: #ffffff;
+    border-color: rgb(218 ,77, 30);
+    border-bottom: 2px solid;
+}
+/* New End */
+
+/* pop up Link CSS */
+.popup-links .title, .popup-links a, .popup-links, .popup-links .line {
+    color: rgb(218 ,77, 30);
+    border-color: rgb(218 ,77, 30);
+}
+
+.jimu-widget-attributetable-bar {
+    border-color: rgb(218 ,77, 30) !important;
+    border-bottom-color: #fff !important;
+}
+
+.jimu-widget-attributetable-bar.open {
+    border: 1px solid rgb(218 ,77, 30) !important;
+    border-bottom: none !important;
+}
+
+.jimu-widget-attributetable-move {
+    border-top: 1px solid rgb(218 ,77, 30);
+}
+
+.esriOverviewMap.ovwBR .ovwContainer {
+    border-top: 1px solid rgb(218 ,77, 30);
+    border-left: 1px solid rgb(218 ,77, 30);
+}
+/* pop up Link CSS */
+
+/* jimu dijit override*/
+
+.jimu-tab>.control>.tab.jimu-state-selected {
+    background-color: #fff;
+    color: rgb(218 ,77, 30);
+    border: none;
+    border-top: 1px solid rgb(218 ,77, 30);
+}
+.jimu-tab>.control>.tab {
+    background-color: #fff;
+    color: rgb(218 ,77, 30);
+    border: 1px solid rgb(218 ,77, 30);
+    border-left: none;
+}
+
+.jimu-tab>.control>.tab.jimu-state-selected+.tab {
+    border-left: 1px solid rgb(218 ,77, 30);
+    border-right: none;
+}
+/* CSS For RTL */
+
+.jimu-rtl .jimu-tab>.control>.tab {
+    border-right: none;
+}
+
+.jimu-rtl .jimu-tab>.control>.tab {
+    border-left: 1px solid rgb(218 ,77, 30);
+}
+
+.jimu-rtl .jimu-tab>.control>.tab.jimu-state-selected+.tab
+{
+    border-left: none;
+    border-right: 1px solid rgb(218 ,77, 30);
+}
+
+.jimu-rtl .jimu-tab>.control>.tab.jimu-state-selected {
+    border-right: none;
+    border-left: none;
+}

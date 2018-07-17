@@ -1,0 +1,23 @@
+<div>
+	<div class="esriCTFilterMsg">${nls.filterSetting.addTaskTip}</div>
+	<div class="content">
+		<div class="items-list jimu-not-selectable">
+			<div class="add-btn" data-dojo-attach-event="click:_onBtnAddItemClicked">
+				<div class="icon"></div>
+				<div class="tip">${nls.filterSetting.newFilter}</div>
+			</div>
+			<div class="items-list-content" data-dojo-attach-point="listContent" data-dojo-attach-event="click:_onListContentClicked"></div>
+		</div>
+		<div class="separator not-visible" data-dojo-attach-point="separator"></div>
+		<div class="single-setting-content" data-dojo-attach-point="singleSettingContent">
+			<div class="no-task-tip" data-dojo-attach-point="noTaskTip"></div>
+		</div>
+	</div>
+	<div class="collapse-option" >
+		<div data-dojo-attach-point="cbxCollapseFilters"></div>
+	</div>
+	<div class="collapse-option" >
+		<div data-dojo-attach-point="cbxGroupFiltersNode"></div>
+	</div>
+	<div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

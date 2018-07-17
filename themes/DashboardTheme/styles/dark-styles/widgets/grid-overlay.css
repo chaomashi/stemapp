@@ -1,0 +1,16 @@
+.grid-overlay-setting .sectionTitle,
+.grid-overlay-setting .sliderValue {
+  color: #FFF !important;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style tr {
+  background-color: transparent;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style th {
+  color: #ffffff;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style td {
+  color: #ffffff;
+}

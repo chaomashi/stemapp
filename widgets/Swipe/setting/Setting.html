@@ -1,0 +1,43 @@
+<div style="width:100%;height:100%;">
+  <div class="style-section">
+    <span class="style-text">${nls.styleText}</span>
+    <div class="style-items">
+      <div class="style-item jimu-float-leading jimu-leading-margin2" data-dojo-attach-point="verticalNode">
+        <div class="style-vertical style-item-image"></div>
+        <div data-dojo-type="jimu/dijit/RadioBtn" data-dojo-props="group:'swipe'"></div>
+        <label>${nls.vertical}</label>
+      </div>
+      <div class="style-item jimu-float-leading jimu-leading-margin2" data-dojo-attach-point="horizontalNode">
+        <div class="style-horizontal style-item-image"></div>
+        <div data-dojo-type="jimu/dijit/RadioBtn" data-dojo-props="group:'swipe'"></div>
+        <label>${nls.horizontal}</label>
+      </div>
+      <div class="style-item jimu-float-leading jimu-leading-margin2" data-dojo-attach-point="scopeNode">
+        <div class="style-scope style-item-image"></div>
+        <div data-dojo-type="jimu/dijit/RadioBtn" data-dojo-props="group:'swipe'"></div>
+        <label>${nls.scope}</label>
+      </div>
+    </div>
+
+    <div class="layer-section" data-dojo-attach-point="handlerColorPicker">
+      <span class="layer-text bar-color-tip">${nls.barColor}</span>
+      <div class="handler-color-picker" data-dojo-attach-point="colorPicker" data-dojo-type="jimu/dijit/ColorPickerButton"></div>
+    </div>
+  </div>
+
+  <div class="layer-section">
+    <span class="layer-text">${nls.layersAvailable}</span>
+    <span class="jimu-icon jimu-icon-error hide" data-dojo-attach-point="layersChooserError"></span>
+    <div class="layers-chooser" data-dojo-attach-point="layersChooser"></div>
+  </div>
+  <div class="layer-section">
+    <span class="layer-text" data-dojo-attach-point="layerTextNode">${nls.layerText}</span>
+    <div class="select-container">
+      <div data-dojo-type="dijit/form/Select" data-dojo-attach-point="swipeLayers"></div>
+    </div>
+    <label class="layer-hint">${nls.layerHint}</label>
+  </div>
+  <div class="layer-section">
+    <div class="layer-text" data-dojo-attach-point="isZoomNode"></div>
+  </div>
+</div>

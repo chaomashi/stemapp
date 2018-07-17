@@ -1,0 +1,45 @@
+<div>
+  <div class="features-result" data-dojo-attach-point="featuresResultDiv">
+    <div class="results-number" data-dojo-attach-point="resultsNumberDiv">
+      <span>${nls.numberFound}: </span>
+      <span data-dojo-attach-point="numSpan"></span>
+    </div>
+    <div class="popup-menu-button query-result-action-button" data-dojo-attach-point="btnFeatureAction" data-dojo-attach-event="click:_onBtnMenuClicked"></div>
+    <div class="results-container" data-dojo-attach-point="resultsContainer" data-dojo-attach-event="onscroll:_onResultsScroll" onselectstart="return false;">
+      <table data-dojo-attach-point="resultsTable" valign="top" class="results-table" data-dojo-attach-event="onclick:_onResultsTableClicked" cellpadding="0" cellspacing="0" >
+        <tbody data-dojo-attach-point="resultsTbody"></tbody>
+      </table>
+    </div>
+  </div>
+  <div class="multiple-related-records-section not-visible" data-dojo-attach-point="multipleRelatedRecordsDiv">
+    <table class="related-records-header multiple-related-records-header">
+      <tbody>
+        <tr>
+          <td class="first-td">
+            <div class="back-arrow" data-dojo-attach-event="click:_onBtnMultipleRelatedBackClicked"></div>
+          </td>
+          <td class="middle-td">
+            <select data-dojo-type="dijit/form/Select" data-dojo-attach-point="relatedLayersSelect" data-dojo-attach-event="change:_onRelatedLayersSelectChanged" style="width:100%;"></select>
+          </td>
+          <td class="last-td"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="single-related-records-section not-visible" data-dojo-attach-point="singleRelatedRecordsResultDiv">
+    <table class="related-records-header single-related-records-header">
+      <tbody>
+        <tr>
+          <td class="first-td">
+            <div class="back-arrow" data-dojo-attach-event="click:_onBtnSingleRelatedBackClicked"></div>
+          </td>
+          <td class="middle-td">
+            <div class="related-records-title jimu-ellipsis" data-dojo-attach-point="relatedTitleDiv"></div>
+          </td>
+          <td class="last-td"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props="hidden:true"></div>
+</div>

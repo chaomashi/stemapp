@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Layout_custom_ok" transform="translate(-1153.000000, -547.000000)">
+            <g id="selected" transform="translate(1153.000000, 547.000000)">
+                <circle id="Oval-5" fill="#000000" opacity="0.600000024" cx="12" cy="12" r="12"></circle>
+                <g id="done" transform="translate(5.000000, 7.000000)" fill="#FFFFFF">
+                    <polygon id="Shape" points="5.05263158 7.43157895 1.51578947 3.89473684 0.336842105 5.07368421 5.05263158 9.78947368 13.1578947 1.68421053 11.9789474 0.505263158"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

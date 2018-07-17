@@ -1,0 +1,74 @@
+{
+  "name": "BoxTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "BoxPanel",
+      "description": "Box panel"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "Default style",
+      "styleColor": "#646464"
+    },
+    {
+      "name": "purple",
+      "description": "Purple style",
+      "styleColor": "#886197"
+    },
+    {
+      "name": "blue",
+      "description": "Blue style",
+      "styleColor": "#2d70e4"
+    },
+    {
+      "name": "turquoise",
+      "description": "Turquoise style",
+      "styleColor": "#2faacd"
+    },
+    {
+      "name": "green",
+      "description": "Green style",
+      "styleColor": "#80ab00"
+    },
+    {
+      "name": "orange",
+      "description": "Orange style",
+      "styleColor": "#ff9b00"
+    },
+    {
+      "name": "red",
+      "description": "Red style",
+      "styleColor": "#cf0000"
+    },
+    {
+      "name": "pink",
+      "description": "Pink style",
+      "styleColor": "#ed008c"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "Default layout"
+    },
+    {
+      "name": "top",
+      "description": "Top layout"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "BoxController",
+      "description": "Theme widget controller"
+    }
+  ],
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "@SpatialAgent",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

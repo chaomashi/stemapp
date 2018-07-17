@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Graphic-Select</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bookmark_Editable-Card" transform="translate(-1368.000000, -180.000000)" fill="#000000">
+            <g id="Bookmark" transform="translate(1070.000000, 120.000000)">
+                <g id="Button" transform="translate(20.000000, 60.000000)">
+                    <g id="Graphic-Select" transform="translate(278.000000, 0.000000)">
+                        <path d="M0,0 L6,0 L6,6 L0,6 L0,0 Z M0,10 L6,10 L6,16 L0,16 L0,10 Z M10,10 L16,10 L16,16 L10,16 L10,10 Z M10,0 L16,0 L16,6 L10,6 L10,0 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

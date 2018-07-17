@@ -1,0 +1,23 @@
+
+.jimu-widget-card-setting{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.jimu-widget-card-setting .control-area {
+  width: 200px;
+  height: 100%;
+}
+.jimu-widget-card-setting .container {
+  left: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.jimu-widget-card-setting .container .lm_goldenlayout {
+  z-index: 300;
+}
+.jimu-widget-card-setting .grid-label {
+  color: white;
+}

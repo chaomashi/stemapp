@@ -1,0 +1,23 @@
+@import url("panels/FoldablePanel/style.css");
+@import url("panels/LDockablePanel/style.css");
+/********** styles for simple panel***********/
+.jimu-simple-panel{
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.jimu-ldockable-panel .empty-tip{
+  top: 50%;
+  position: absolute;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  width: 100%;
+}
+.jimu-subtitle{
+  opacity: 0.5;
+}
+.jimu-link{
+  opacity: 0.8;
+}

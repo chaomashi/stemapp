@@ -1,0 +1,14 @@
+.obliqueViewerWidget.jimu-widget {
+  color: #000;
+}
+
+.obliqueRasterList .dgrid-row
+{
+  background: #333 !important;
+  color: #FFF;
+}
+
+.obliqueViewerWidgetDiv .dgrid-selected
+{
+  background: #666 !important;
+}

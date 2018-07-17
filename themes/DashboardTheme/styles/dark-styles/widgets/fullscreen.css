@@ -1,0 +1,7 @@
+.jimu-widget-fullScreen{
+  z-index: 110;
+}
+
+.jimu-widget-fullScreen .fullScreen{
+  background-color: rgba(0,0,0,0.2)
+}

@@ -1,0 +1,25 @@
+
+.jimu-widget-edit-infoWindow .related-records-editor.fix-height-mode .content-box {
+  right: 10px;
+}
+
+.jimu-widget-edit-infoWindow .related-records-editor .content-box .item {
+  background-color: #333;
+  color: #fff;
+}
+
+.jimu-widget-edit-infoWindow .related-records-editor .content-box .item.oddLine {
+  background-color: transparent;
+}
+
+.jimu-widget-edit-infoWindow .related-records-editor .previos-btn {
+  color: #fff;
+}
+
+.jimu-widget-edit-infoWindow .related-records-editor .add-new-btn {
+  background-image: url(../images/add_normal.svg);
+}
+
+.jimu-widget-edit-infoWindow .related-records-editor .add-new-btn:hover {
+  background-image: url(../images/add_normal.svg);
+}

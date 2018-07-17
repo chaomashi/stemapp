@@ -1,0 +1,24 @@
+{
+  "name": "CoordinateConversion",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri Inc",
+  "description": "Convert coordinates to various notation formats",
+  "copyright": "",
+  "license": "http://links.esri.com/solutions/license",
+  "properties": {
+    "hasLocale": true,
+    "hasStyle":true,
+    "hasConfig":true,
+    "hasUIFile":true,
+    "hasSettingPage":true,
+    "hasSettingUIFile":true,
+    "hasSettingLocale":true,
+    "hasSettingStyle":true,
+    "IsController":false,
+    "keepConfigAfterMapSwitched": false
+  }
+}

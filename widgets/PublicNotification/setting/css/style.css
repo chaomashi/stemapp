@@ -1,0 +1,191 @@
+@import url("settingComponents.css");
+
+/* Configuration panel */
+
+.jimu-widget-public-notification-setting.main-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/* Tab container */
+
+.jimu-widget-public-notification-setting .jimu-viewstack {
+  height: calc(100% - 42px); /* Subtract height of tab control tab labels */
+}
+
+.jimu-widget-public-notification-setting .view {
+  overflow: auto;
+}
+
+.jimu-widget-public-notification-setting .tab-contents {
+  padding: 10px 2px 1px 2px;
+}
+
+.jimu-widget-public-notification-setting .category-panel {
+  width: 270px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.jimu-widget-public-notification-setting .details-panel {
+  width: calc(100% - 290px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.jimu-widget-public-notification-setting .details-label {
+  width: 120px;
+}
+
+.jimu-widget-public-notification-setting .details-value {
+  width: calc(100% - 125px);
+}
+
+.jimu-widget-public-notification-setting .jimu-btn {
+  line-height: 28px;
+}
+
+.jimu-ltr .jimu-widget-public-notification-setting .majorTrailingHorizGap {
+  margin-right: 24px;
+}
+.jimu-rtl .jimu-widget-public-notification-setting .majorTrailingHorizGap {
+  margin-left: 24px;
+}
+
+.jimu-ltr .jimu-widget-public-notification-setting .minorTrailingHorizGap {
+  margin-right: 5px;
+}
+.jimu-rtl .jimu-widget-public-notification-setting .minorTrailingHorizGap {
+  margin-left: 5px;
+}
+
+.jimu-widget-public-notification-setting .majorTrailingVertGap {
+  margin-bottom: 12px;
+}
+
+.jimu-widget-public-notification-setting .minorTrailingVertGap {
+  margin-bottom: 2px;
+}
+
+/* Icon buttons */
+
+.jimu-widget-public-notification-setting .edit-button {
+  background: url(images/edit_icon.png) no-repeat center;
+  cursor: pointer;
+  width: 20px;
+  height: 30px;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;  /* do not shrink */
+}
+.jimu-widget-public-notification-setting .edit-button:hover {
+  background-color: rgba(36, 181, 204, 0.4);
+}
+
+/* Appearance tweaks */
+
+.jimu-widget-public-notification-setting .hint {
+  font-size: 12px;
+  font-style: italic;
+  color: #999999;
+  margin-top: 5px;
+}
+
+.jimu-widget-public-notification-setting .static-text {
+  margin-top: 5px;
+}
+
+.jimu-ltr .jimu-widget-public-notification-setting .dijitNumberTextBox .dijitInputInner {
+  text-align: left;
+}
+.jimu-rtl .jimu-widget-public-notification-setting .dijitNumberTextBox .dijitInputInner {
+  text-align: right;
+}
+
+/* Aliases */
+
+.jimu-widget-public-notification-setting .italic {
+  font-style: italic;
+}
+
+.jimu-widget-public-notification-setting .full-width {
+  width: 100%;
+}
+
+.jimu-widget-public-notification-setting .full-height {
+  height: 100%;
+}
+
+.jimu-widget-public-notification-setting .half-width {
+  width: 50%;
+}
+
+.jimu-widget-public-notification-setting .third-width {
+  width: 33%;
+}
+
+.jimu-widget-public-notification-setting .two-thirds-width {
+  width: 66%;
+}
+
+.jimu-ltr .jimu-widget-public-notification-setting .indented {
+  padding-left: 22px;
+}
+.jimu-rtl .jimu-widget-public-notification-setting .indented {
+  padding-right: 22px;
+}
+
+.jimu-widget-public-notification-setting .clear {
+  clear: both;
+}
+
+.jimu-widget-public-notification-setting .inline-block {
+  display: inline-block;
+}
+
+.jimu-widget-public-notification-setting .flexbox {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+.jimu-widget-public-notification-setting .variable-width {
+  -webkit-flex-grow: 1; /* Safari */
+  flex-grow: 1;
+}
+
+.jimu-widget-public-notification-setting .optionsTableHeaderHeight {
+  margin-top: 36px;
+}
+
+.jimu-widget-public-notification-setting .hidden {
+  visibility: hidden;
+}
+
+.jimu-widget-public-notification-setting .hiddenEmpty {
+  display: none;
+}
+
+.jimu-widget-public-notification-setting .readOnlyTextField {
+  border: solid #d9dde0 1px;
+  padding: 5px 10px;
+  min-height: 30px;
+}
+
+.jimu-widget-public-notification-setting-fields .fields-checkbox {
+  width: 167px;
+  margin-bottom: 20px;
+  color: #596679;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.jimu-widget-public-notification-setting-fields .fields-checkbox .label {
+  width: 140px;
+}
+
+.jimu-rtl .jimu-widget-public-notification-setting-fields .fields-checkbox {
+  margin-right: 30px;
+  margin-left: auto;
+}
+

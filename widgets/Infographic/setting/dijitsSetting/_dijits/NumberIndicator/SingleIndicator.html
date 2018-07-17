@@ -1,0 +1,86 @@
+<div>
+	<div class="header drag-masker"></div>
+	<div class="tr">
+
+		<div class="flex-in-left">
+			<div title="${nls.ifValue}" class="labelTip flex-in-left-div textOverFlow">${nls.ifValue}</div>
+			<div class="compareDiv">
+		        <select data-dojo-type="dijit/form/Select" data-dojo-attach-point="operator">
+			        <option value="greater">${nls.numberOperatorIsGreaterThan}</option>
+			        <option value="smaller">${nls.numberOperatorIsLessThan}</option>
+			        <option value="between">${nls.numberOperatorIsBetween}</option>
+			        <option value="equal">${nls.numberOperatorIsEqual}</option>
+			        <option value="notEqual">${nls.numberOperatorIsNotEqual}</option>
+		        </select>
+        	</div>
+		</div>
+
+		<div class="flex-in-right">
+			<div class="flex-in-left-div compareContainer">
+				<div data-dojo-attach-point="oneValueDiv">
+					<input class="longValue" type="text" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" required="true" data-dojo-attach-event="change:_onUpdate" data-dojo-attach-point="compareValue" />
+				</div>
+				<div style="display: none;" class="compareContainer" data-dojo-attach-point="twoValueDiv">
+					<input class="shortValue" type="text"data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" data-dojo-attach-event="change:_onUpdate" data-dojo-attach-point="compareValue1" />
+					<span class="textOverFlow" title="${nls.and}">${nls.and}</span>
+					<input class="shortValue" type="text" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="regExp:'^\\d+(\\.\\d+)?$'" data-dojo-attach-event="change:_onUpdate" data-dojo-attach-point="compareValue2" />
+				</div>
+			</div>
+			<div data-dojo-attach-event="click:_removeIndicator" class="close-div close"></div>
+		</div>	
+	</div>
+	
+
+	<div class="ratio-div drag-masker" data-dojo-attach-point="ratioBtnDiv" style="overflow: hidden;">
+		<div class="ratio-in-div jimu-float-trailing">
+			<div data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-event="change:_onUpdate" data-dojo-attach-point="ratioBtn"></div>
+			<label class="marginleft10 text-left-center">${nls.ratio}</label>
+		</div>
+	</div>
+
+	<div class="drag-masker indicator-option" data-dojo-attach-point="indicatorOption">
+		<div style="padding-top: 10px;" class="tr" data-dojo-attach-point="valueColorSetting">
+			<div class="flex-in-left then-text">
+				<div title="${nls.then}" class="flex-in-left-div labelTip textOverFlow">${nls.then}</div>
+				<div title="${nls.changeValueColor}" class="then-tip color-tip textOverFlow">${nls.changeValueColor}</div>
+			</div>
+			<div class="flex-in-right then-text">
+				<div class="flex-in-right-left-div then-text">
+					<div data-dojo-attach-point="valueColorSettingBtn"></div>
+				</div>
+					
+				<div data-dojo-attach-point="valueState" class="value-state activated"></div>
+			</div>
+		</div>
+		
+		<div style="padding-top: 5px;" class="tr" data-dojo-attach-point="gaugeColorSetting">
+			<div class="flex-in-left then-text">
+				<div class="flex-in-left-div labelTip"></div>
+				<div title="${nls.changeGaugeColor}" class="then-tip color-tip textOverFlow">${nls.changeGaugeColor}</div>
+			</div>
+			<div class="flex-in-right then-text">
+				<div class="flex-in-right-left-div then-text">
+					<div data-dojo-attach-point="gaugeColorSettingBtn"></div>
+				</div>
+				<div data-dojo-attach-point="gaugeState" class="gauge-state activated"></div>
+			</div>
+		</div>
+
+		<div style="padding-top: 5px;" class="tr" data-dojo-attach-point="indicatorIconSetting">
+			<div class="flex-in-left then-text">
+				<div class="flex-in-left-div labelTip"></div>
+				<div  title="${nls.setIndicatorIcon}" class="then-tip color-tip textOverFlow">${nls.setIndicatorIcon}</div>
+			</div>
+			<div class="flex-in-right then-text">
+				<div class="flex-in-right-left-div then-text">
+					<div data-dojo-attach-point="indicatorIconSettingBtn"></div>
+				</div>
+				<div data-dojo-attach-point="iconState" class="icon-state activated"></div>
+			</div>
+		</div>
+	</div>
+
+	<div data-dojo-attach-point="indicatorTottomLine" class="indicator-bottom-line drag-masker"></div>
+
+</div>
+

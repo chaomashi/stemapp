@@ -1,0 +1,319 @@
+.jimu-widget-DistanceAndDirection .jimu-state-active {
+    background-color: #c0c0c0 !important;
+}
+
+.jimu-widget-DistanceAndDirection .jimu-tab3 .tab-item-td {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.jimu-widget-DistanceAndDirection .tabsContainer {
+    border: 1px solid #838383;
+}
+
+.jimu-widget-DistanceAndDirection .selectInput {
+    width: 119px;
+}
+
+.jimu-widget-DistanceAndDirection .coordInput {
+    width: 225px;
+    height: 32px;
+
+}
+
+.jimu-widget-DistanceAndDirection  .dijitTitlePaneContentOuter{
+  background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .dijitTextBox .dijitInputInner {
+  height: 20px;
+  text-align: right;
+}
+
+.jimu-widget-DistanceAndDirection .tabPanel fieldset {
+    border: 1px solid #CCC;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.jimu-widget-DistanceAndDirection .tabPanel fieldset > div {
+    margin: 3px;
+}
+
+.jimu-widget-DistanceAndDirection .tabPanel fieldset > div > label {
+    width: 50px;
+    display: inline-block;
+}
+
+.jimu-widget-DistanceAndDirection .controls {
+    display: table;
+    padding-left: 15px;
+}
+
+.jimu-widget-DistanceAndDirection .buttonContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #CCC;
+    padding-top: 20px;
+}
+
+.jimu-widget-DistanceAndDirection .controlItem {
+    display: flex;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroup {
+    margin-top: 13px;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroupHidden {
+    display: none;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroup .warning{
+    color: #F00;
+    font-weight: bold;
+    width: 240px;
+    display: inline-block;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroup .controlGroupChild{
+    margin-top: 6px;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroup .splitRight {
+    position: absolute;
+    right: 25px;
+}
+
+.jimu-widget-DistanceAndDirection .controlGroup > label {
+    width: 100px;
+}
+
+.jimu-widget-DistanceAndDirection .controlSpace {
+    margin-left: 6px;
+}
+
+.jimu-widget-DistanceAndDirection  .noResize .dijitSelectLabel, 
+.jimu-widget-DistanceAndDirection .noResize .dijitTextBox .dijitInputInner, 
+.jimu-widget-DistanceAndDirection  .noResize.dijitValidationTextBox .dijitValidationContainer {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 58px;
+    text-align: left;
+}
+
+.jimu-widget-DistanceAndDirection .label {
+    font-size: 12px;
+    margin: auto 5px;
+    cursor: default;
+}
+
+.jimu-widget-DistanceAndDirection .numberTextBox {
+    width: 130px;
+    height: 25px;
+    margin-bottom: 2px;
+    border: none;
+}
+
+.jimu-widget-DistanceAndDirection .add-with-icon {
+    display: inline-block;
+    height: 32px;
+    color: #838383;
+}
+
+.jimu-widget-DistanceAndDirection .drawPointBtn {
+  background: url(./images/draw_black.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 12px;
+  height: 16px;
+}
+
+.jimu-widget-DistanceAndDirection .drawPointBtn:hover {
+    background: url(./images/draw_black_hover.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .drawPointBtn-active{
+    background: url(./images/draw_black_hover.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .settingBtn {
+    background: url(./images/settings_black.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+}
+
+.jimu-widget-DistanceAndDirection .settingBtn:hover {
+    background: url('./images/settings_black_hover.png');
+}
+
+.jimu-widget-DistanceAndDirection .add-with-icon .draw .hidden {
+  display: none;
+}
+
+.jimu-widget-DistanceAndDirection .jimu-tab3 .tab-item-td {
+    border-bottom: 0px;
+}
+
+.jimu-widget-DistanceAndDirection .jimu-tab3 .tab-item-td.jimu-state-active {
+    border: 1px solid #24B5CC;
+    background-color: transparent !important;
+}
+
+.jimu-widget-DistanceAndDirection .controlItem .paddedLeft{
+    padding-left: 7px;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+.jimu-widget-DistanceAndDirection .disabledLabel {
+    color: #c0c0c0 !important;
+}
+
+.jimu-widget-DistanceAndDirection .jimu-simple-table .head-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #eef2f5;
+}
+
+.jimu-widget-DistanceAndDirection .jimu-simple-table .simple-table-title {
+    color: #000;
+}
+
+/****** Dart Theme Overrides ******/
+
+.DartTheme .jimu-widget-DistanceAndDirection  .dijitSelectDisabled,
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTextBoxDisabled,
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTextBoxDisabled .dijitInputContainer ,
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTextBoxDisabled {
+     background-color: #4c4c4c; 
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection  .jimu-state-active {
+    background-color: #3c2d2d !important;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTitlePaneTitleOpen, 
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTitlePaneTitleFixedOpen {
+    background-color: #272727;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .dijitTitlePaneTitle {
+    background-color: #272727;
+    background-image: linear-gradient(rgb(103, 103, 103) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .controlGroup .warning {
+    font-weight: normal;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .jimu-tab3 .tab-item-td.jimu-state-active{
+    font-weight: normal;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .disabledLabel {
+    color: #c0c0c0 !important;
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .dijitTooltipContainer {
+    background-color: #4c4c4c;
+    background-image: -webkit-linear-gradient(bottom, rgb(76, 76, 76) 0px, #4c4c4c 10px);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .jimu-widget-subtitle {
+    color: #ffffff;
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .dijitTooltipConnector {    
+    background-image: url('./images/tooltip.png');    
+}
+
+.claro .dartThemeClaroDijitTooltipContainerOverride .dijitDialogPaneContent {
+    background-color: #222;
+    border: 0px solid #9a9a9a;
+    color: #fff;
+}
+
+
+/**
+ * Coordinate Format Dialog
+ **/
+
+
+.btnContainer {
+    text-align: right;
+    margin-top: 6px;
+}
+
+.settingsContainer {
+    margin-top: 6px;
+}
+
+.controlContainer {
+    margin-top: 6px;
+}
+
+.DartTheme  .jimu-widget-DistanceAndDirection .drawPointBtn {
+    background: url('./images/draw_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 12px;
+    height: 16px;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .drawPointBtn:hover {
+    background: url('./images/draw_white_hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .drawPointBtn-active{
+  background: url('./images/draw_white_hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .settingBtn {
+    background: url(./images/settings_white.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .settingBtn:hover {
+    background: url('./images/settings_white_hover.png');
+}
+
+.DartTheme .jimu-widget-DistanceAndDirection .disabledLabel {
+    color: #7b7b7b !important;
+}
+
+.DartTheme .jimu-simple-table .simple-table-row .editable-div, 
+.jimu-simple-table .simple-table-row .normal-text-div {
+    color: #FFFFFF !important;
+}
+
+.DartTheme .jimu-simple-table .simple-table-row .editable-input {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.jimu-tab>.control>.tab.jimu-state-selected{
+  border-bottom: 1px solid #ccc !important;
+    border-right: 0px solid #fff !important;
+    border-left: 0px solid #fff !important;
+    border-top: 0px solid #fff !important;
+    background-color: transparent !important;
+    font-size: 12px;
+}
+
+
+
+

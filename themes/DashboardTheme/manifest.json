@@ -1,0 +1,47 @@
+{
+  "name": "DashboardTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "SimpleBorderPanel",
+      "description": "This is a panel with a border"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is dark style",
+      "styleColor": "#444"
+    },
+    {
+      "name": "light",
+      "description": "this is light style",
+      "styleColor": "#ccc"
+    },
+    {
+      "name": "style3",
+      "description": "this is light style",
+      "styleColor": "#444"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the default layout"
+    },
+    {
+      "name": "layout1",
+      "description": "this is the second layout"
+    },
+    {
+      "name": "layout2",
+      "description": "this is the third layout"
+    }
+  ],
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri R&D Center Beijing",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

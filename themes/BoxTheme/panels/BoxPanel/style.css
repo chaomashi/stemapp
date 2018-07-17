@@ -1,0 +1,59 @@
+.box-frame {
+  position: relative;
+  margin: 10px;
+  height: auto;
+  min-height: 100%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background-color: #ffffff;
+  overflow: visible;
+  clear: both;
+}
+
+.box-frame.collapsed {
+  height: 30px !important;
+  min-height: 30px;
+  overflow: hidden;
+}
+
+.box-frame .title {
+  position: relative;
+  background-color: #efefef;
+  padding-left: 30px;
+  background-image: url(images/minus.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.box-frame.collapsed .title {
+  background-image: url(images/plus.png);
+}
+
+.box-frame .title-label {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.box-frame>.panel-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.box-panel > .box-frame{
+  margin-bottom: 30px; /* equals to the height of title */
+}
+
+.box-panel > .box-frame.collapsed{
+  margin-bottom: 0;
+}
+
+.panel-content {
+  background-color: #ffffff;
+}

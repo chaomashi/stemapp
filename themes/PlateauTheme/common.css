@@ -1,0 +1,111 @@
+@import url("panels/FoldablePanel/style.css");
+@import url("panels/DockablePanel/style.css");
+/********** styles for simple panel***********/
+
+.jimu-widget-header-controller .header-section{
+    background-color: #FFFFFF;
+}
+
+.jimu-simple-panel {
+}
+
+.jimu-panel {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.jimu-title {
+    max-width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width:700px) {
+    .jimu-panel {
+        border: 1px solid;
+    }
+
+    .jimu-leading-margin5 {
+        margin-left: 1em;
+    }
+
+    .jimu-title, .popup-links .title, .popup-links a {
+        max-width: 225px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .jimu-title, .popup-links .title, .popup-links a {
+        max-width: 150px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.jimu-main-bgcolor {
+    background-color: White !important;
+}
+
+.jimu-widget-header-controller .icon-node.jimu-state-selected {
+    background-color: transparent !important;
+    border-top: none !important;
+}
+
+.jimu-widget-header-controller {
+    box-shadow: none !important;
+}
+
+.jimu-widget-header-controller .icon-node {
+    border: none !important;
+}
+
+/* New Overridden CSS Start */
+.jimu-widget-placeholder {
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+}
+.jimu-widget-placeholder {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jimu-widget-placeholder .inner {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 15px;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.jimu-widget-header-controller .container-section {
+    float: right !important;
+}
+
+.jimu-widget-homebutton .HomeButton .home {
+    background-image: url("./images/home.png");
+}
+
+.jimu-widget-mylocation .place-holder {
+    background-image: url("./images/locate.png");
+}
+
+.HomeButton .loading  {
+    background-image: url("./images/home-spinner.gif") !important;
+}
+
+/* New Overridden CSS End */
+
+/**********Start Gridded Reference Graphic*************/
+.jimu-widget-GRGDrafter .jimu-tab >.control >.tab.jimu-state-selected {
+    border-top: 0;
+}
+.jimu-widget-GRGDrafter .jimu-tab>.control>.tab.jimu-state-selected+.tab{
+    border-left: 0;
+}
+/**********End Gridded Reference Graphic*************/

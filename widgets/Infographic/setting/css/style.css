@@ -1,0 +1,2399 @@
+@import url("../../common.css");
+
+.jimu-widget-infographic-setting {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.jimu-widget-infographic-setting .widget-setting-header {
+  flex: 0 0 15.33%;
+  min-height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jimu-widget-infographic-setting .widget-setting-body {
+  flex: 1 1 84.67%;
+  min-height: 437px;
+  margin-top: 20px;
+}
+
+.jimu-widget-infographic-setting .flex-lc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .flex-keep-auto {
+  flex: 0 0 auto;
+}
+
+.jimu-widget-infographic-setting .text-label {
+  height: 20px;
+}
+
+.jimu-widget-infographic-setting  .flexStart {
+  align-items: flex-start !important;
+}
+
+.jimu-widget-infographic-setting .lr-flex {
+  display: flex;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .filter-extent-selection .flex-keep-width {
+  flex: 0 0 auto;
+}
+
+.jimu-widget-infographic-setting .filter-extent-selection {
+  height: 20px;
+}
+
+.jimu-widget-infographic-setting .filter-extent-selection .filter-disable-tip-text {
+  font-size: 12px;
+  color: #999;
+  flex: 0 1 auto;
+}
+
+.jimu-widget-infographic-setting .filter-extent-selection label {
+  white-space: nowrap;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .jimu-leading-margin05 {
+  margin-right: 0.5em;
+  margin-left: 0;
+}
+
+.jimu-widget-infographic-setting .settingTitle {
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.39px;
+}
+
+.jimu-widget-infographic-setting .settingTabs {
+  margin-top: 10px;
+}
+
+/*.jimu-widget-infographic-setting .jimu-tab3 .control-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}*/
+.jimu-widget-infographic-setting .hide {
+  display: none !important;
+}
+
+.jimu-widget-infographic-setting .inline-block {
+  display: inline-block;
+}
+
+.jimu-widget-infographic-setting .marginTop10 {
+  margin-top: 10px;
+}
+
+.jimu-widget-infographic-setting .marginTop20 {
+  margin-top: 20px;
+}
+
+.jimu-widget-infographic-setting .marginTop15 {
+  margin-top: 15px;
+}
+
+.jimu-widget-infographic-setting .marginRight10 {
+  margin-right: 10px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .marginRight10 {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.jimu-widget-infographic-setting .marginleft10 {
+  margin-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .marginleft10 {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.jimu-widget-infographic-setting .paddingRight10 {
+  padding-right: 10px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .paddingRight10 {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.jimu-widget-infographic-setting .label-position {
+  margin: 5px auto;
+}
+
+.jimu-widget-infographic-setting  .textOverFlow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-infographic-setting .text-left-center {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.jimu-widget-infographic-setting .urlTextBox {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.jimu-widget-infographic-setting .settings {
+  background: no-repeat center center url(./images/setting_default.png);
+  width: 26px;
+  height: 26px;
+  margin: 3px 20px;
+}
+
+.jimu-widget-infographic-setting .jimu-viewstack > .view {
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .infographic-toggle-pocket .toggle-header .title {
+  font-size: 12px;
+}
+
+/** data-source */
+.jimu-widget-infographic-setting .data-source {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;  /*margin: 10px 0;*/
+}
+
+.jimu-widget-infographic-setting .tip {
+  height: 20px;
+  white-space: nowrap;
+}
+
+.jimu-widget-infographic-setting .data-source > .url {
+  flex: auto;
+}
+
+.jimu-widget-infographic-setting .data-source > .jimu-icon {
+  flex: none;
+}
+
+/** temolate-chooser */
+.jimu-widget-infographic-setting-template-popup {
+  overflow: hidden;
+  width: 100%;
+  height: 100%
+}
+
+.jimu-widget-infographic-setting-template-popup .chooser-container {
+  height: 450px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jimu-widget-infographic-setting-template-popup .chooser-container .template-tr {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px auto;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv {
+  margin: auto 15px;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv {
+  width: 120px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  outline: 1px solid #CCCCCC;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.number {
+  background: no-repeat center center url(./images/templates/number.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.gauge {
+  background: no-repeat center center url(./images/templates/gauge.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.vertical_gauge {
+  background: no-repeat center center url(./images/templates/vertical_gauge.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.horizontal_gauge {
+  background: no-repeat center center url(./images/templates/horizontal_gauge.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.pie {
+  background: no-repeat center center url(./images/templates/pie.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.donut {
+  background: no-repeat center center url(./images/templates/donuts.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.bar {
+  background: no-repeat center center url(./images/templates/bar.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.stacked_bar {
+  background: no-repeat center center url(./images/templates/stacked_bar.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.percentage_stacked_bar {
+  background: no-repeat center center url(./images/templates/percentage_stacked_bar.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.column {
+  background: no-repeat center center url(./images/templates/column.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.stacked_column {
+  background: no-repeat center center url(./images/templates/stacked_column.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.percentage_stacked_column {
+  background: no-repeat center center url(./images/templates/percentage_stacked_column.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.line {
+  background: no-repeat center center url(./images/templates/line.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.area {
+  background: no-repeat center center url(./images/templates/area.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.stacked_area {
+  background: no-repeat center center url(./images/templates/stacked_area.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.percentage_stacked_area {
+  background: no-repeat center center url(./images/templates/percentage_stacked_area.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .labelDiv {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 12px;
+  height: 30px;
+  text-align: center;
+  max-width: 120px;  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv .select-icon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 18px;
+  height: 18px;
+  background: center center no-repeat url(images/Selected.svg);
+  display: none;
+  background-size: contain;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv .select-icon {
+  left: 0;
+  right: 5px;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.selected {
+  outline: 2px solid #51B4CD;
+}
+
+.jimu-widget-infographic-setting-template-popup .tempDiv .imgDiv.selected .select-icon {
+  display: block;
+}
+
+.jimu-widget-infographic-setting-template-popup .footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 36px;
+}
+
+.jimu-widget-infographic-setting .body-section {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.jimu-widget-infographic-setting .body-section .mid-line {
+  background: #E9E9E9;
+  flex: 0 0 1px;
+}
+
+/** setting frame */
+.jimu-widget-infographic-setting .setting-section {
+  height: auto;
+  display: flex;
+  flex: 1 1 479.5px;
+}
+
+.jimu-widget-infographic-setting .indicatorsTitlePane {
+  max-height: 382px;
+  overflow: hidden;
+}
+
+.jimu-widget-infographic-setting .setting-section .infohraphic-setting-tab-container {
+  max-height: 455px;
+}
+
+.jimu-widget-infographic-setting .setting-section .infohraphic-setting-tab-container .number-setting-display {
+  height: 366px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jimu-widget-infographic-setting .setting-section .settingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 30px 0 39.5px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .setting-section .settingContainer {
+  padding: 0 39.5px 0 30px;
+}
+
+.jimu-widget-infographic-setting .setting-section .settingContent {
+  height: auto;
+  width: 100%;
+}
+
+/* preview section*/
+.jimu-widget-infographic-setting .preview-section {
+  height: auto;
+  padding: 0 49.5px 0 40px;
+  flex: 1 1 479.5px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .preview-section {
+  padding: 0 40px 0 49.5px;
+}
+
+.jimu-widget-infographic-setting .preview-container {
+  height: 100%;
+  width: 100%;
+}
+
+.jimu-widget-infographic-setting .preview-container .visual-controller-container {
+  height: 40px;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #C1C1C1;
+  cursor: pointer;
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller-selected {
+  border: 1px solid #40B0C0;
+}
+
+.jimu-widget-infographic-setting .preview-container .visual-controller-container .layout-reset {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background: center center no-repeat url('images/reset-layout.svg');
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting .preview-container .visual-controller-container .layout-reset:hover {
+  width: 40px;
+  height: 40px;
+  background: center center no-repeat url('images/reset-layout-hover.svg');
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting .preview-section .visual-controller-component {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .preview-section .visual-controller-component .controller-selected {
+  width: 16px;
+  height: 16px;
+  margin: 3px 0 0 3px;
+  background-size: contain;
+  background: center center no-repeat url(images/Selected.svg);
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .preview-section .visual-controller-component .controller-selected {
+  margin: 3px 3px 0 auto;
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller.text-controller {
+  background: no-repeat center center url(./images/text-format.svg);
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller.image-controller {
+  background: no-repeat center center url(./images/imge-icon.svg);
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller.number-controller {
+  background: no-repeat center center url(./images/plus-one.svg);
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller.gauge-controller {
+  background: no-repeat center center url(./images/gauge-icon.svg);
+}
+
+.jimu-widget-infographic-setting .preview-section  .visual-controller.chart-controller {
+  background: no-repeat center center url(./images/drive-fusiontable.svg);
+}
+
+.jimu-widget-infographic-setting .settingTip {
+  width: 100%;
+  height: auto;
+}
+
+.jimu-widget-infographic-setting  .settingTip .settingTip-title {
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.39px;
+}
+
+.jimu-widget-infographic-setting  .settingTip .settingTip-text {
+  font-style: italic;
+  font-size: 12px;
+  color: #282828;
+  letter-spacing: 0.33px;
+  max-width: 400px;
+}
+
+.jimu-widget-infographic-setting .preview-section .change-template-box {
+  margin-top: 30px;
+  width: 150px;
+  height: 30px;
+}
+
+.jimu-widget-infographic-setting .preview-section .change-template-style {
+  border: 1px solid #CCCCCC;
+  font-size: 14px;
+  color: #4A4A4A;
+  background: #FFFFFF;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.jimu-widget-infographic-setting .preview-section .change-template-style:hover {
+  background: #EFEFEF;
+}
+
+.jimu-widget-infographic-setting .preview-section .card-container {
+  width: 360px;
+  height: 308px;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px 2px rgba(213, 212, 212, 0.50);
+  position: relative;
+  margin-top: 20px;
+}
+
+.jimu-widget-infographic-setting .preview-section .card-content {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* gauge dijit setting */
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .margin-top-11 {
+  margin-top: 11px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex .data-range-value.dijitTextBoxHover,
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex .data-range-value.dijitValidationTextBoxHover,
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex .data-range-value.dijitHover {
+  background: transparent;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex .dijitInputField,
+.infographic-setting-single-indicator .tr .dijitInputField {
+  display: flex;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex .dijitInputInner,
+.infographic-setting-single-indicator .tr .dijitInputInner {
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px !important;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .justify-content-sb {
+  justify-content: space-between;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .align-items-center {
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .font-style {
+  font-size: 12px;
+  color: #282828;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .style-selector .setting-wapper {
+  width: 200px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .text-size .text-size-group>table {
+  width: 110px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .dijitSliderButtonContainerH {
+  padding: 0;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-leave1 label {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-leave2-left {
+  max-width: 160px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-leave2-right {
+  width: 200px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-leave3-left {
+  width: 60px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .flex-leave3-right {
+  width: 120px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .data-range-value {
+  width: 120px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .label {
+  margin: 6px auto
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .labelDiv {
+  overflow: hidden;
+  margin: 10px 10px auto auto;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .left-right-setting-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .top-bottom-setting-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .toggle {
+  width: 33px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .toggle.toggle-on {
+  background: no-repeat center left url(./images/toggle_on_builder.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .toggle.toggle-off {
+  background: no-repeat center left url(./images/toggle_off_builder.svg);
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-gauge-dijit-setting .toggle.toggle-on {
+  background: no-repeat center right url(./images/toggle_on_builder.svg);
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-gauge-dijit-setting .toggle.toggle-off {
+  background: no-repeat center right url(./images/toggle_off_builder.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .color-picker-position {
+  margin-right: 100px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-gauge-dijit-setting .color-picker-position {
+  margin-left: 100px;
+  margin-right: 0;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .jimu-color-picker.jimu-color-pickerPopup {
+  width: 30px;
+  height: 20px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .display-container {
+  height: 366px;
+  overflow: auto;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .display-in .ratio-true-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 100px;
+}
+
+/* infographic-toggle-pocket */
+.infographic-toggle-pocket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.infographic-toggle-pocket .toggle-header {
+  width: 100%;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infographic-toggle-pocket .toggle-header .title {
+  font-size: 14px;
+  color: #282828;
+  white-space: nowrap;
+}
+
+.infographic-toggle-pocket .toggle-header .toggle {
+  width: 33px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.infographic-toggle-pocket .toggle-header .toggle.toggle-on {
+  background: no-repeat center center url(./images/toggle_on_builder.svg);
+}
+
+.infographic-toggle-pocket .toggle-header .toggle.toggle-off {
+  background: no-repeat center center url(./images/toggle_off_builder.svg);
+  position: relative;
+}
+
+.infographic-toggle-pocket .horizontal-line {
+  background: #EAEAEA;
+  width: 100%;
+  height: 1px;
+}
+
+.infographic-toggle-pocket .pocket {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* single-number-statistics */
+.jimu-widget-infographic-setting .single-number-statistics  .field {
+  display: inline-block;
+  width: 150px;
+  margin-left: 10px
+}
+
+.jimu-widget-infographic-setting .single-number-statistics  .dijitSelect {
+  background-color: white
+}
+
+.jimu-widget-infographic-setting .single-number-statistics  .field .dijitSelect {
+  width: 150px
+}
+
+.jimu-widget-infographic-setting .single-number-statistics .field .dijitSelect span {
+  width: 120px
+}
+
+.jimu-widget-infographic-setting .single-number-statistics .operation {
+  display: inline-block;
+  margin-left: 10px
+}
+
+/** Icon Chooser */
+.infographic-setting-number-icon-chooser-panel {
+  width: 340px;
+  height: 240px;
+}
+
+.infographic-setting-number-icon-chooser-panel .margin-top-10 {
+  margin-top: 10px;
+}
+
+.infographic-setting-number-icon-chooser-panel .title {
+  font-size: 18px;
+  color: #000000;
+}
+
+.infographic-setting-number-icon-chooser-panel .title-box {
+  margin: 14px 0 0 20px;
+}
+
+.jimu-rtl .infographic-setting-number-icon-chooser-panel .title-box {
+  margin: 14px 20px 0 0;
+}
+
+.infographic-setting-number-icon-chooser-panel .marginLeft30 {
+  margin-left: 30px;
+}
+
+.jimu-rtl .infographic-setting-number-icon-chooser-panel .marginLeft30 {
+  margin-right: 30px;
+  margin-left: 0;
+}
+
+.infographic-setting-number-icon-chooser-panel .flex-Ttb {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infographic-setting-number-icon-chooser-panel .left-div {
+  width: 80px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.infographic-setting-number-icon-chooser-panel .right-div {
+  width: 200px;
+  display: flex;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 280px;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .style-label {
+  height: 77px;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .style-content {
+  height: 36px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .style-container {
+  height: 77px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infographic-setting-number-icon-chooser-panel .label-div {
+  width: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.infographic-setting-number-icon-chooser-panel .placement {
+  display: flex;
+}
+
+.infographic-setting-number-icon-chooser-panel .placement-label {
+  height: 24px;
+  padding: 5px 0;
+}
+
+.infographic-setting-number-icon-chooser-panel .color-label {
+  height: 30px;
+  padding: 6px 0;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-up-svg {
+  background: center center no-repeat url(images/icon-style/icon-up.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-down-svg {
+  background: center center no-repeat url(images/icon-style/icon-down.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-stop-svg {
+  background: center center no-repeat url(images/icon-style/icon-stop.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-star-svg {
+  background: center center no-repeat url(images/icon-style/icon-star.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-danger-svg {
+  background: center center no-repeat url(images/icon-style/icon-danger.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-alarm-svg {
+  background: center center no-repeat url(images/icon-style/icon-alarm.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-right-svg {
+  background: center center no-repeat url(images/icon-style/icon-right.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-wrong-svg {
+  background: center center no-repeat url(images/icon-style/icon-wrong.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-like-svg {
+  background: center center no-repeat url(images/icon-style/icon-like.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.icon-unlike-svg {
+  background: center center no-repeat url(images/icon-style/icon-unlike.svg);
+}
+
+.infographic-setting-number-icon-chooser-panel .styleDiv .iconDiv.iconSelected {
+  border: 1px solid #24B5CC;
+}
+
+.infographic-setting-number-icon-chooser-panel .placeDiv {
+  width: 67.1px;
+  height: 24px;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  font-size: 12px;
+  color: #000000;
+}
+
+.infographic-setting-number-icon-chooser-panel .placeDiv.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infographic-setting-number-icon-chooser-panel .placeDiv.placeSelected {
+  background-color: #49B4CB;
+  color: #FFFFFF;
+}
+
+.infographic-setting-number-icon-chooser-panel .placeDiv.mergeBorder {
+  margin-left: -1px;
+}
+
+/* infographic-setting-number-icon-chooser-popup */
+.infographic-setting-number-icon-chooser-popup {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  cursor: pointer;
+}
+
+.infographic-setting-number-icon-chooser-popup .border-merge {
+  margin-left: -1px;
+}
+
+.jimu-rtl .infographic-setting-number-icon-chooser-popup .border-merge {
+  margin-right: -1px;
+  margin-left: 0;
+}
+
+.infographic-setting-number-icon-chooser-popup .drop-down-arrow {
+  width: 30px;
+  height: 20px;
+  background: center center no-repeat url('images/arrow-drop-down.svg');
+  border: 1px solid #D7D7D7;
+}
+
+.infographic-setting-number-icon-chooser-popup .iconPreview {
+  border: 1px solid #D7D7D7;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infographic-setting-number-icon-chooser-popup-dialog .dijitTooltipContainer {
+  overflow: hidden;
+  background: #fff !important;
+  border-radius: 0;
+  border-style: none;
+  box-shadow: 0 0 12px 0 #9A9A9A;
+  padding: 0;
+  border: none;
+}
+
+.infographic-setting-number-icon-chooser-popup-dialog .dijitTooltipContainer .dijitTooltipFocusNode {
+  padding: 0;
+}
+
+.infographic-setting-number-icon-chooser-popup-dialog .dijitTooltipContainer .dijitTooltipFocusNode .colorPicker {
+  width: 36px;
+  height: 30px;
+}
+
+.infographic-setting-number-icon-chooser-popup-dialog .dijitTooltipContainer .dijitTooltipFocusNode .colorPicker .jimu-color-picker {
+  width: 34px;
+  height: 28px;
+}
+
+.infographic-setting-number-icon-chooser-popup-dialog .dijitTooltipConnector {
+  display: none;
+}
+
+/** indocators */
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .marginleft10 {
+  margin-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-setting-multiple-indicators .marginleft10 {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+/* top */
+.infographic-setting-multiple-indicators .top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 20px;
+}
+
+.infographic-setting-multiple-indicators .top .top-mid-block {
+  width: 10px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.infographic-setting-multiple-indicators .top .icon-add-indicator {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  background-size: contain;
+  background: no-repeat center center url(./images/add-icon-deactive.svg);
+}
+
+.infographic-setting-multiple-indicators .top .icon-add-indicator.active {
+  background: no-repeat center center url(./images/add-icon-active.svg);
+}
+
+.infographic-setting-multiple-indicators .top .text-add-indicator {
+  font-style: italic;
+  font-size: 12px;
+  color: #282828;
+  cursor: pointer;
+}
+
+.infographic-setting-multiple-indicators .top .text-add-indicator.active {
+  color: #24b5cc;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .indicatorDiv {
+  padding: 2px 5px 2px 0;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-setting-multiple-indicators .indicatorDiv {
+  padding: 2px 0 2px 5px;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .indicatorDiv {
+  width: 100%;
+  max-height: 347px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .icon-add-indicator {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .add-icon-active {
+  background: no-repeat center center url(./images/add-icon-active.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .add-icon-deactive {
+  background: no-repeat center center url(./images/add-icon-deactive.svg);
+  background-size: contain;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .add-indicator-tip-active {
+  color: #24B5CC;
+}
+
+.jimu-widget-infographic-setting .infographic-setting-multiple-indicators .add-indicator-tip-deactive {
+  color: #282828;
+}
+
+/** indicator */
+.infographic-setting-single-indicator {
+  width: 99%;
+}
+
+.infographic-setting-single-indicator.sortable-chosen {
+  box-shadow: 0 0 1px 1px rgba(213, 212, 212, 0.50);
+}
+
+.infographic-setting-single-indicator .header {
+  width: 100%;
+  height: 16px;
+  cursor: move;
+}
+
+.infographic-setting-single-indicator .header:hover {
+  cursor: move;
+}
+
+.infographic-setting-single-indicator .compareContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infographic-setting-single-indicator .tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+/* Overlap*/
+.infographic-setting-single-indicator .tr .dijitTextBoxHover,
+.infographic-setting-single-indicator .tr .dijitVaildationTextBoxHover,
+.infographic-setting-single-indicator .tr .dijitHover {
+  background: transparent;
+}
+
+.infographic-setting-single-indicator .tr .flex-in-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.infographic-setting-single-indicator .tr .flex-in-left.then-text {
+  width: 249px;
+}
+
+.infographic-setting-single-indicator .tr .flex-in-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 171px;
+}
+
+.infographic-setting-single-indicator .flex-in-right .flex-in-right-left-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 143px;
+}
+
+.infographic-setting-single-indicator .tr .flex-in-right.then-text {
+  width: 122px;
+}
+
+.infographic-setting-single-indicator .flex-in-right .flex-in-right-left-div.then-text {
+  width: 94px;
+}
+
+.infographic-setting-single-indicator .flex-in-right .close {
+  background-image: url('images/close.svg');
+}
+
+.infographic-setting-single-indicator .flex-in-right .close-div {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+}
+
+.infographic-setting-single-indicator .flex-in-right .close:hover {
+  background-image: url('images/close-mouseover.svg');
+}
+
+.infographic-setting-single-indicator .disable {
+  color: #BCBCBC !important;
+}
+
+.infographic-setting-single-indicator .value-state,
+.infographic-setting-single-indicator .gauge-state,
+.infographic-setting-single-indicator .icon-state {
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.infographic-setting-single-indicator .deactivated {
+  background: center center no-repeat url('images/indicator-off.svg');
+}
+
+.infographic-setting-single-indicator .activated {
+  background: center center no-repeat url('images/indicator-on.svg');
+}
+
+.infographic-setting-single-indicator .tr .then-tip {
+  font-size: 12px;
+  color: #282828;
+  width: 192px;
+}
+
+.infographic-setting-single-indicator .labelTip {
+  width: 43px;
+  font-size: 12px;
+  color: #282828;
+}
+
+.infographic-setting-single-indicator .label {
+  margin: 7px auto;
+}
+
+.infographic-setting-single-indicator .compareDiv {
+  width: 143px;
+}
+
+.infographic-setting-single-indicator .compareDiv .dijitSelect span {
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+}
+
+.infographic-setting-single-indicator .compareContainer {
+  width: 143px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infographic-setting-single-indicator .compareContainer span {
+  font-size: 12px;
+  color: #727272;
+  max-width: 25px;
+}
+
+.infographic-setting-single-indicator .longValue {
+  width: 143px;
+}
+
+.infographic-setting-single-indicator .shortValue {
+  width: 50px;
+}
+
+.infographic-setting-single-indicator .ratio-div {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.infographic-setting-single-indicator .ratio-div:hover {
+  cursor: move;
+}
+
+.infographic-setting-single-indicator .ratio-div .ratio-in-div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infographic-setting-single-indicator .ratio-div label {
+  font-size: 12px;
+  color: #4B4B4B;
+}
+
+.infographic-setting-single-indicator .indicator-option:hover {
+  cursor: move;
+}
+
+.infographic-setting-single-indicator .jimu-color-picker.jimu-color-pickerPopup {
+  width: 60px !important;
+  height: 20px !important;
+}
+
+.infographic-setting-single-indicator .color-piker-btn {
+  margin: 5px 5px 0px 5px
+}
+
+.infographic-setting-single-indicator .indicator-bottom-line {
+  height: 1px;
+  background: #EAEAEA;
+  margin-top: 15px;
+}
+
+.infographic-setting-single-indicator .indicator-bottom-line:hover {
+  cursor: move;
+}
+
+/** style selector */
+.jimu-widget-infographic-setting .style-selector .clearFix {
+  *overflow: hidden;
+  *zoom: 1
+}
+
+.jimu-widget-infographic-setting .style-selector .clearFix:after {
+  display: table;
+  content: "";
+  width: 0;
+  clear: both
+}
+
+.jimu-widget-infographic-setting .style-selector .hide {
+  display: none
+}
+
+.jimu-widget-infographic-setting .settings-container {
+}
+
+.jimu-widget-infographic-setting .settings-container .title {
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.39px;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-infographic-setting .settings-container .label {
+  font-size: 12px;
+  color: #282828;
+  letter-spacing: 0.33px;
+  line-height: 30px;
+}
+
+/*
+.jimu-widget-infographic-setting .style-selector {
+}*/
+.jimu-widget-infographic-setting .style-selector .label {
+  margin: 0 0;
+  max-width: 160px;
+  line-height: 30px;
+  font-size: 12px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitTextBox,
+.jimu-widget-infographic-setting .style-selector .dijitSelect {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #D7D7D7;
+}
+
+.jimu-widget-infographic-setting .style-selector .jimu-color-picker {
+  width: 40px !important;
+  height: 30px !important;
+  border: 1px solid #D7D7D7 !important;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitSelect .dijitArrowButtonContainer {
+  border: none;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitDownArrowButton .dijitButtonContents,
+.jimu-widget-infographic-setting .style-selector .dijitComboBox .dijitDownArrowButton {
+  border: none;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitTextBox .dijitInputInner {
+  padding: 1px 0 0 0 !important;
+  font-size: 12px;
+  font-style: normal !important;
+  height: 28px;
+  line-height: 28px !important;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitSelectLabel {
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitSelect,
+.jimu-widget-infographic-setting .style-selector .dijitSelect .dijitButtonContents,
+.jimu-widget-infographic-setting .style-selector .dijitTextBox,
+.jimu-widget-infographic-setting .style-selector .dijitTextBox .dijitButtonNode {
+  background-color: transparent;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitSelect .dijitArrowButton {
+  background-color: transparent;
+}
+
+.jimu-widget-infographic-setting .style-selector .dijitSelect .dijitInputField {
+  padding: 0px 10px;
+}
+
+.jimu-widget-infographic-setting .style-selector .jimu-image-chooser {
+  width: 100%;
+  height: 28px;
+}
+
+.jimu-widget-infographic-setting .dijitRadio,
+.jimu-widget-infographic-setting .dijitRadioIcon {
+  background-image: url("images/radiobutton.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 1px 2px 4px 2px;
+  padding: 0;
+  background-position: 0 0;
+}
+
+.jimu-widget-infographic-setting .dijitRadioChecked {
+  background-image: url("images/radiobutton_selected.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-infographic-setting .setting-items.field-statistics-wapper {
+  margin-top: -10px !important;
+}
+
+.jimu-widget-infographic-setting .setting-items .data-formats {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .setting-items .data-formats>label {
+  padding: 0 6px;
+}
+
+.jimu-widget-infographic-setting .jimu-image-chooser .display-text {
+  width: 100%;  /*height: 20px;*/
+
+  /*line-height: 20px;*/
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0.33px;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.jimu-image-chooser:hover .hint .display-text {
+  color: #FFF;
+}
+
+.jimu-widget-infographic-setting .dijitTextBoxFocused {
+  border: 1px solid #D7D7D7 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.jimu-widget-infographic-setting .dijitTextBox .dijitInputField {
+  padding: 0px 10px;
+}
+
+.jimu-widget-infographic-setting .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner {
+  background-position: -35px 53%;
+}
+
+.jimu-widget-infographic-setting .text-size .text-size-group>.dijitComboBox.dijitValidationTextBox {
+  width: 80px;
+}
+
+.jimu-widget-infographic-setting .text-size .text-size-group>table {
+  width: 140px;
+}
+
+.jimu-widget-infographic-setting .dijitSlider {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-top: 14px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .dijitSlider {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderImageHandleH {
+  top: -10px;
+  width: 20px;
+  height: 20px;
+}
+
+.jimu-widget-infographic-setting .dijitSliderImageHandle.dijitSliderImageHandleH {
+  background-image: url("images/sliderball.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-infographic-setting .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  background-image: url("images/sliderball_hold.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-infographic-setting .tabs .dijitSliderThumbHover {
+  background-image: url("images/sliderball_hover.png");
+  background-position: 0 0;
+}
+
+.jimu-widget-infographic-setting .dijitSliderFocused .dijitSliderRemainingBarH,
+.jimu-widget-infographic-setting .dijitSliderFocused .dijitSliderRightBumper {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderProgressBarH,
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderLeftBumper {
+  border-color: #24b5cc;
+  background-color: #24b5cc;
+  background-image: -webkit-linear-gradient(top, #24b5cc 0px, #24b5cc 1px, rgba(0, 0, 0, 0) 0px);
+  background-image: -o-linear-gradient(top, #24b5cc 0px, #24b5cc 1px, rgba(0, 0, 0, 0) 0px);
+  background-image: linear-gradient(top, #24b5cc 0px, #24b5cc 1px, rgba(0, 0, 0, 0) 0px);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderLeftBumper,
+.jimu-rtl .jimu-widget-infographic-setting .dijitSlider .dijitSliderRightBumper {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderRightBumper,
+.jimu-rtl .jimu-widget-infographic-setting .dijitSlider .dijitSliderLeftBumper {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderRemainingBarH,
+.jimu-widget-infographic-setting .dijitSlider .dijitSliderRightBumper {
+  border-color: #d7d7d7;
+  background-color: #d7d7d7;
+}
+
+.jimu-widget-infographic-setting .style-selector .setting-items {
+  height: 30px;
+  width: 100%;
+  margin: 10px 0;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/*.jimu-rtl .jimu-widget-infographic-setting .style-selector .setting-items {
+overflow: hidden;
+}*/
+.jimu-widget-infographic-setting .style-selector .setting-wapper {
+  width: 230px;
+}
+
+.jimu-widget-infographic-setting .single-number-statistics .dijitSelect span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-infographic-setting .infographic-number-dijit-setting .single-number-statistics .dijitSelect span {
+  max-width: 190px;
+}
+
+.jimu-widget-infographic-setting .infographic-gauge-dijit-setting .single-number-statistics .dijitSelect span {
+  max-width: 160px;
+}
+
+.jimu-widget-infographic-setting .style-selector .background-btn,
+.jimu-widget-infographic-setting .style-selector .text-color-btn {
+  width: 40px;
+  height: 30px;  /*border: 1px solid #D7D7D7;*/
+  overflow: hidden;
+}
+
+.jimu-widget-infographic-setting .style-selector .align-group {
+  margin-right: 8px;
+  margin-left: -3px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .style-selector .align-group {
+  margin-right: -3px;
+  margin-left: 8px;
+}
+
+.jimu-widget-infographic-setting .style-selector .font-group-btns {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.jimu-widget-infographic-setting .style-selector .align-btn,
+.jimu-widget-infographic-setting .style-selector .font-btn {
+  height: 30px;
+  margin: 0 3px;
+}
+
+.jimu-widget-infographic-setting .style-selector .font-btn {
+  width: 30px;
+}
+
+.jimu-widget-infographic-setting .style-selector .align-btn {
+  width: 30px;
+}
+
+.jimu-widget-infographic-setting .style-selector .image-btn {
+  width: 120px;
+  height: 30px;
+  border: 1px solid #D7D7D7;
+}
+
+.jimu-widget-infographic-setting .style-selector .bold {
+  background: url("images/btns/B.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .bold.selected {
+  background: url("images/btns/B_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .italic {
+  background: url("images/btns/I.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .italic.selected {
+  background: url("images/btns/I_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .underline {
+  background: url("images/btns/U.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .underline.selected {
+  background: url("images/btns/U_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .left {
+  background: url("images/btns/left.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .left.selected {
+  background: url("images/btns/left_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .center {
+  background: url("images/btns/center.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .center.selected {
+  background: url("images/btns/center_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .right {
+  background: url("images/btns/right.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .right.selected {
+  background: url("images/btns/right_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .top {
+  background: url("images/btns/top.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .top.selected {
+  background: url("images/btns/top_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .middle {
+  background: url("images/btns/middle.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .middle.selected {
+  background: url("images/btns/middle_selected.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .bottom {
+  background: url("images/btns/bottom.svg") no-repeat;
+}
+
+.jimu-widget-infographic-setting .style-selector .bottom.selected {
+  background: url("images/btns/bottom_selected.svg") no-repeat;
+}
+
+/* .infographic-chart-dijit-setting */
+.jimu-widget-infographic-setting .jimu-tab3 > .control-node {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .padding-right-5 {
+  padding-right: 5px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-chart-dijit-setting .padding-right-5 {
+  padding-left: 5px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .data-section,
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .display-section {
+  max-height: 355px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .jimu-viewstack > .view {
+  box-sizing: border-box;
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .infographic-toggle-pocket .toggle-header .title {
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .average-align {
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .average-align .jimu-dijit-data-fields {
+  width: 99%;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .average-align.value-fields-section-item {
+  align-items: flex-start;
+  margin-top: 6px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .average-align.value-fields-section-item .jimu-dijit-data-fields .field-item > span {
+  max-width: 130px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .average-align > * {
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+/* chart-color-setting */
+.jimu-widget-infographic-setting .chart-color-setting {
+  display: inline-block;
+}
+
+.jimu-widget-infographic-setting .chart-color-setting .jimu-color-picker {
+  width: 30px;
+  height: 20px;
+}
+
+/* infographic-chart-sort */
+.jimu-widget-infographic-setting .infographic-chart-sort .hide {
+  display: none !important;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .marginLeft13 {
+  margin-left: 13px;
+}
+
+.jimu-rtl .jimu-widget-infographic-setting .infographic-chart-sort .marginLeft13 {
+  margin-right: 13px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .radio-div {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .flex-sb-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .flex-left-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .flex-left-center label {
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .sort-icon {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .axis-tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .asc.selected {
+  background: no-repeat center center url(./images/acs_active.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .asc {
+  background: no-repeat center center url(./images/acs_deactive.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .desc.selected {
+  background: no-repeat center center url(./images/desc_active.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .desc {
+  background: no-repeat center center url(./images/desc_deactive.svg);
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .sort-filed {
+  width: 100%;
+  flex: 0 0 50%;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .sort-div {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* infographic-chart-sort update at 5.4 */
+.jimu-widget-infographic-setting .infographic-chart-sort .down-select-div {
+  flex: 1 0 70%;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-sort .z-axis-container {
+  flex: 0 1 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*  date field for 2 3 mode */
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .format-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .format-div .date-time-format-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 50%;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .format-div .date-time-format-div .date-time-label {
+  width: 30%;
+  flex: 0 0 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .format-div .date-time-format-div .format-select {
+  width: 61%;
+  flex: 0 0 60%;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .tb-radio-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .section-item .lr-radio-label-div {
+  display: flex;
+  align-items: center;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .tb-radio-label {
+  max-width: 80%;
+  font-size: 12px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .tb-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .check-label {
+  max-width: 175px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .dijitRadio {
+  margin: 0px;
+}
+
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .dijitNumberTextBox.dijitSpinner {
+  width: 100%;
+}
+
+/* visible slider bar */
+.jimu-widget-infographic-setting .infographic-chart-dijit-setting .infographic-visible-sliderbar .dijitSliderButtonContainerH {
+  padding: 0px;
+}
+
+/* chart color dijit */
+.infographic-series-style .text-over {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.infographic-series-style .radio-label {
+  max-width: 160px;
+}
+
+.infographic-series-style .hide {
+  display: none !important;
+}
+
+.infographic-series-style .top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.infographic-series-style .flex-lr-balance {
+  flex: 0 0 50%;
+}
+
+.infographic-series-style .single-radio-panel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.infographic-series-style .single-radio-panel.first-radio {
+  margin-top: 7px;
+}
+
+.infographic-series-style .single-radio-panel.second-radio {
+  height: 30px;
+}
+
+.infographic-series-style .single-radio-panel.third-radio {
+  margin-bottom: 7px;
+}
+
+.infographic-series-style .single-radio-panel.third-radio .toggle-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 16px;
+  cursor: pointer;
+}
+
+.infographic-series-style .single-radio-panel.third-radio .toggle-icon-div .toggle-icon {
+  width: 12px;
+  height: 7px;
+  background: no-repeat center center url(./images/custom-color/arrow-up.svg);
+}
+
+.infographic-series-style .single-radio-panel.third-radio .toggle-icon-div:hover .toggle-icon {
+  background: no-repeat center center url(./images/custom-color/arrow-up-hover.svg);
+}
+
+.infographic-series-style .single-radio-panel.third-radio .toggle-icon-div .toggle-icon.closed {
+  background: no-repeat center center url(./images/custom-color/arrow-down.svg);
+}
+
+.infographic-series-style .single-radio-panel.third-radio .toggle-icon-div:hover .toggle-icon.closed {
+  background: no-repeat center center url(./images/custom-color/arrow-down-hover.svg);
+}
+
+.infographic-series-style .radio-single-color-div {
+  align-items: center;
+}
+
+.infographic-series-style .field-colors {
+  width: 100%;
+}
+
+/* infographic-color-opacity */
+.infographic-series-style .field-colors .infographic-series-style-item .field-name-div {
+  max-width: 140px;
+}
+
+.infographic-series-style .field-colors.indentation .infographic-series-style-item .field-name {
+  padding-left: 27px;
+  padding-right: 0;
+}
+
+.jimu-rtl .infographic-series-style .field-colors.indentation .infographic-series-style-item .field-name {
+  padding-right: 27px;
+  padding-left: 0;
+}
+
+.infographic-series-style-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.infographic-series-style-item .flex-balance-low {
+  flex: 0 1 49%;
+}
+
+.infographic-series-style-item .flex-balance-shrink1 {
+  flex: 0 0 49%;
+}
+
+.infographic-series-style-item .field-color-left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.infographic-series-style-item .field-color-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infographic-series-style-item .field-color-right .color {
+  flex: 1 1 auto;
+}
+
+.infographic-series-style-item .opacity-slider {
+  width: 100px;
+  height: 10px;
+  background: #000;
+}
+
+.infographic-series-style-item .opacity {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+.infographic-series-style-item .flex-fill {
+  flex: 0 0 100%;
+}
+
+/* infographic-series-styles */
+.infographic-series-styles {
+  width: 100%;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.infographic-series-styles .field-style-list {
+  width: 100%;
+  min-height: 65px;
+  max-height: 155px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.infographic-series-styles .infographic-series-style-item {
+  margin: 0 auto 10px auto;
+}
+
+.infographic-series-style .custom-colors.indentation {
+  padding-left: 17px;
+  padding-right: 0;
+}
+
+.jimu-rtl .infographic-series-style .custom-colors.indentation {
+  padding-right: 17px;
+  padding-left: 0;
+}
+
+/* infographic-custom-color */
+.infographic-custom-color .text-label {
+  font-size: 12px;
+  color: #282828;
+}
+
+.infographic-custom-color .jimu-color-picker {
+  width: 30px;
+  height: 20px;
+}
+
+.infographic-custom-color .header {
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.jimu-rtl .infographic-custom-color .header {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.infographic-custom-color .header .color-choose {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px 0 10px 0;
+}
+
+.ig-setting-ie11 .infographic-custom-color .header .color-choose .colors-picker {
+  flex: 1 1 55%;
+}
+
+.infographic-custom-color .header .color-choose .colors-picker {
+  flex: 1 1 50%;
+}
+
+.ig-setting-ie11 .infographic-custom-color .header .color-choose .color-text {
+  flex: 1 1 45%;
+}
+
+.infographic-custom-color .header .color-choose .color-text {
+  flex: 1 1 50%;
+}
+
+.infographic-custom-color .header .color-choose .color-text {
+  display: flex;
+  align-items: center;
+}
+
+.infographic-custom-color .bottom {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.jimu-rtl .infographic-custom-color .bottom {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.infographic-custom-color .bottom .add-dispatch {
+  height: 30px;
+}
+
+.infographic-custom-color .bottom .add-dispatch .disptch-div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 30px;
+}
+
+.infographic-custom-color .bottom .add-dispatch .disptch-div .disptch-add-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-size: contain;
+  background: no-repeat center center url(./images/add-icon-deactive.svg);
+}
+
+.infographic-custom-color .bottom .add-dispatch .disptch-div:hover .disptch-add-icon {
+  background: no-repeat center center url(./images/add-icon-active.svg);
+}
+
+.infographic-custom-color .bottom .add-dispatch .disptch-div .disptch-add-text {
+  width: auto;
+  color: #282828;
+  font-style: italic;
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.jimu-rtl .infographic-custom-color .bottom .add-dispatch .disptch-div .disptch-add-text {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.infographic-custom-color .bottom .add-dispatch .disptch-div:hover .disptch-add-text {
+  color: #24B5CC;
+}
+
+.infographic-custom-color .bottom .add-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.infographic-custom-color .bottom .add-action .category-tip {
+  flex: 1 1 auto;
+  width: calc(100% - 270px);
+  max-width: 87px;
+}
+
+.infographic-custom-color .bottom .add-action .add-action-div {
+  width: 270px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.infographic-custom-color .bottom .add-action .select-input {
+  width: 150px;
+}
+
+.infographic-custom-color .bottom .add-action .add-action-div .color-div {
+  width: 30px;
+  height: 20px;
+  margin: auto 3px auto 10px;
+}
+
+.jimu-rtl .infographic-custom-color .bottom .add-action .add-action-div .color-div {
+  margin: auto 10px auto 3px;
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container {
+  width: 25px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container .action-btn {
+  width: 14px;
+  height: 14px;
+  background-size: contain;
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container .action-btn.add-btn {
+  background: no-repeat center center url(./images/custom-color/ensure.svg);
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container:hover .action-btn.add-btn {
+  background: no-repeat center center url(./images/custom-color/ensure-hover.svg);
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container .action-btn.cancel-btn {
+  background: no-repeat center center url(./images/custom-color/delete.svg);
+}
+
+.infographic-custom-color .bottom .add-action .action-button-container:hover .action-btn.cancel-btn {
+  background: no-repeat center center url(./images/custom-color/delete-hover.svg);
+}
+
+.infographic-custom-color .bottom .hide {
+  display: none !important;
+}
+
+.infographic-custom-color .content {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* infographic-custom-color-list */
+.infographic-custom-color-list  .costom-color-list-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.jimu-rtl .infographic-custom-color-list  .costom-color-list-header {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.infographic-custom-color-list  .costom-color-list-header > div {
+  font-size: 12px;
+  color: #282828;
+  font-family: "Avenir Medium";
+}
+
+.infographic-custom-color-list  .costom-color-list-header > div:first-child {
+  width: calc(100% - 220px)
+}
+
+.infographic-custom-color-list  .costom-color-list-header > div:nth-child(2) {
+  width: 166px;
+}
+
+/* infographic-custom-color-item */
+.infographic-custom-color-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 27px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.infographic-custom-color-item.high-light {
+  background: #EFEFEF;
+}
+
+.jimu-rtl .infographic-custom-color-item {
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.infographic-custom-color-item .hide {
+  display: none;
+}
+
+.infographic-custom-color-item .hidden {
+  visibility: hidden;
+}
+
+.infographic-custom-color-item .margin-left-10 {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.jimu-rtl .infographic-custom-color-item .margin-left-10 {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.infographic-custom-color-item  .delete-icon {
+  width: 10px;
+  height: 10px;
+  background: no-repeat center center url(./images/custom-color/delete.svg);
+  cursor: pointer;
+}
+
+.infographic-custom-color-item  .delete-icon:hover {
+  background: no-repeat center center url(./images/custom-color/delete-hover.svg);
+}
+
+.infographic-custom-color-item  .text-container {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 220px);
+  flex: 1 1 calc(100% - 220px);
+  max-width: 154px;
+  height: 27px;
+}
+
+.ig-setting-ff .infographic-custom-color-item  .text-container {
+  max-width: 143px;
+}
+
+.infographic-custom-color-item  .text-container .category-text-div {
+  max-width: 95%;
+}
+
+.infographic-custom-color-item  .label-container {
+  display: flex;
+  align-items: center;
+  max-width: 150px;
+  flex: 0 0 150px;
+}
+
+.infographic-custom-color-item  .label-container .text-div {
+  max-width: 100%;
+}
+
+.infographic-custom-color-item  .label-container .label-part {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: text;
+}
+
+.infographic-custom-color-item  .label-container .label-part .label-div {
+  width: 100%;
+  height: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.infographic-custom-color-item  .label-container .label-part .label-div:hover {
+  background-color: #EFEFEF;
+  cursor: pointer;
+}
+
+.infographic-custom-color-item  .label-container .edit-part {
+  display: flex;
+  align-items: center;
+}
+
+.infographic-custom-color-item  .label-container .edit-part .edit-input {
+  width: 150px;
+  height: 27px;
+}
+
+.infographic-custom-color-item  .label-container .edit-part .dijitTextBox .dijitInputInner {
+  height: 25px;
+  line-height: 25px !important;
+}
+
+.infographic-custom-color-item  .label-container .edit-part .dijitTextBox .dijitInputField {
+  padding: 0 2px;
+  height: 25px;
+}
+
+.infographic-custom-color-item  .action-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70px;
+  flex: 0 0 70px;
+}
+
+.infographic-custom-color-item  .action-container .color-div {
+  width: 30px;
+  height: 20px;
+  margin-right: 13px;
+}
+
+.jimu-rtl .infographic-custom-color-item  .action-container .color-div {
+  margin-right: 0;
+  margin-left: 13px;
+}
+
+.infographic-custom-color-item  .action-container .color-div .jimu-color-picker {
+  width: 30px;
+  height: 20px;
+}

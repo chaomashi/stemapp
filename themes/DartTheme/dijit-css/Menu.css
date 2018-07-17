@@ -1,0 +1,159 @@
+/* Menu 
+
+There are three areas of styling for the Menu:  
+ 
+ 1. The menu 
+ 	There are three types of menus:
+ 	i) Context Menu
+ 	ii) Drop down Menu
+ 	iii) Navigation Menu
+ 	All three types of menus are affected by the .dijitMenu class in which you can set the background-color, padding and border
+ 	.dijitMenu affects the drop down menu in TimeTextBox, Calendar, ComboBox and FilteringSelect
+  .dijitMenuTable - for padding - also affects Select widget 	
+  	
+ 2. The menu bar
+ 	.dijitMenuBar - for border, margins, padding, background-color of the menu bar
+ 	.dijitMenuBar .dijitMenuItem - for padding, text color of menu items in the menu bar (overrides .dijitMenuItem) 
+ 	
+ 3. Menu items - items in the menu.  
+ 	.dijitMenuItem - for color
+ 	.dijitMenuItemHover, .dijitMenuItemSelected - for background-color, border, text color, padding of a menu item or menubar item that has been hovered over or selected	
+ 	.dijitMenuItemActive - for background-color of an active (mousedown) menu item
+	td.dijitMenuItemIconCell - for padding around a  menu item's icon
+	td.dijitMenuItemLabel - for padding around a menu item's label	
+	.dijitMenuSeparatorTop - for border, top border, of the separator
+	.dijitMenuSeparatorBottom - for bottom margin of the separator
+	
+	Styles specific to ComboBox and FilteringSelect widgets: 
+	.dijitComboBoxMenu .dijitMenuItem - for padding and border of a menu item in a ComboBox or FilteringSelect widget's menu
+	.dijitComboBoxMenu .dijitMenuItemSelected- for text color, background-color and border of a menu item in a ComboBox or FilteringSelect widget's menu
+
+*/
+.claro .dijitMenu {
+  background: #4c4c4c;
+  border: 1px solid #7f8183;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+/* so adjoining borders of MenuBar/ComboBox and Menu overlap, avoiding double border */
+  margin: 0;
+  -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+  box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+}
+.claro .dijitMenuTable,
+.claro .dijitComboBoxMenu {
+  padding: 4px 0;
+}
+.claro .dijitComboBoxMenu {
+  margin-left: 0;
+  background-image: none;
+}
+.claro .dijitMenuTable {
+/* this prevents jiggling upon hover of a menu item */
+  border-collapse: separate;
+  border-spacing: 0 0;
+}
+.claro .dijitMenuItem,
+.claro .dijitMenuItem td {
+  color: #f8f8f8;
+  line-height: 20px;
+  padding: 8px !important;
+  border: none !important;
+  white-space: nowrap;
+}
+.claro .dijitMenu .dijitMenuItemHover td,
+.claro .dijitMenu .dijitMenuItemHover {
+  color: #f8f8f8;
+  background: #222;
+}
+.claro .dijitMenu .dijitMenuItemActive td,
+.claro .dijitMenu .dijitMenuItemActive {
+  color: #f8f8f8;
+  background: #222;
+}
+.claro .dijitMenu .dijitMenuItemSelected td,
+.claro .dijitMenu .dijitMenuItemSelected {
+  color: #f8f8f8;
+  background: #222;
+  border: 0 none;
+}
+.claro .dijitMenuSeparatorTop {
+  height: auto;
+  margin-top: 1px; /* prevents spacing above/below separator */
+  border-bottom: 0 none;
+}
+.claro .dijitMenuSeparatorBottom {
+  height: auto;
+  margin-bottom: 1px;
+  border-top: 0 none;
+}
+.claro td.dijitMenuItemIconCell {
+  padding: 4px;
+  margin: 0 0 0 4px;
+}
+.claro .dijitMenuExpand {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: inherit;
+  vertical-align: bottom;
+}
+.claro .dijitMenuExpand:before {
+  content: "\f0da";
+}
+.claro .dijitCheckedMenuItemIconChar {
+  display: none;
+}
+.claro .dijitCheckedMenuItemIcon {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-decoration: inherit;
+  vertical-align: bottom;
+}
+.claro .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon:before {
+  content: "\f00c";
+}
+.claro .dijitMenuPreviousButton,
+.claro .dijitMenuNextButton {
+  font-style: italic;
+}
+.claro .dijitMenuBar {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+.claro .dijitMenuBar .dijitMenuItem {
+  padding: 8px 12px;
+  margin: 0;
+}
+.claro .dijitMenuBar .dijitMenuItemHover {
+  background: #007ac2;
+}
+.claro .dijitMenuBar .dijitMenuItemActive {
+  background: #007ac2;
+}
+.claro .dijitMenuBar .dijitMenuItemSelected,
+.claro .dijitMenuBar .dijitMenuItemHover.dijitMenuItemSelected,
+.claro .dijitMenuBar .dijitMenuItemActive.dijitMenuItemSelected {
+  color: #fff;
+  background: #007ac2;
+}
+.claro .dijitMenuPopup {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.claro .dijitMenuPopup .dijitMenu {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.claro .dijitMenuPopup .dijitMenuItem,
+.claro .dijitMenuPopup .dijitMenuItem td {
+  padding: 8px;
+  border: 0 none;
+  color: #f8f8f8;
+}
+.claro .dijitMenuPopup .dijitMenu .dijitMenuItem .esriTravelModesTypeName{
+  color: #fff;
+}

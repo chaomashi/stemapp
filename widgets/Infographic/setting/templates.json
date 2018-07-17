@@ -1,0 +1,2301 @@
+[{
+	"label": "${name_number}",
+	"name": "number",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 22.02797202797203,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 24.578620260650577,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 26.345431436534902,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 27.0479762748425,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "4"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "4"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "image",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				}
+			}
+		}, {
+			"id": "3",
+			"type": "number",
+			"visible": true,
+			"config": {
+				"indicators": [],
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": "36",
+					"textColor": "#59bad8"
+				},
+				"dataFormat": {
+					"unit": "none",
+					"decimalPlaces": "0",
+					"prefix": "",
+					"suffix": ""
+				}
+			}
+		}, {
+			"id": "4",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_gauge}",
+	"name": "gauge",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 16.724032499803975,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 60.88243002115173,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 22.39353747904432,
+					"activeItemIndex": 0,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "gauge",
+			"visible": true,
+			"config": {
+				"shape": "curved",
+				"min": 0,
+				"max": 1000,
+				"indicators": [],
+				"display": {
+					"backgroundColor": "",
+					"gaugeColor": "",
+					"dataLabels": {
+						"state": true,
+						"textColor": "",
+						"dataRange": true,
+						"targetValue": true
+					},
+					"currentValue": {
+						"state": true,
+						"isRatio": false,
+						"font": {
+							"font": {
+								"fontFamily": "Arial",
+								"bold": false,
+								"italic": false,
+								"underline": false
+							},
+							"fontSize": "24",
+							"textColor": "#59bad8"
+						},
+						"dataFormat": {
+							"unit": "none",
+							"decimalPlaces": "",
+							"prefix": "",
+							"suffix": ""
+						}
+					}
+				}
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_vertical_gauge}",
+	"name": "vertical_gauge",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "row",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"height": 100.00000000000003,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"height": 68.52582283467787,
+					"activeItemIndex": 0,
+					"width": 42.47787610619469,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "column",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"width": 57.52212389380531,
+					"content": [{
+						"type": "stack",
+						"isClosable": true,
+						"reorderEnabled": true,
+						"title": "",
+						"activeItemIndex": 0,
+						"width": 50,
+						"height": 43.90243902439025,
+						"content": [{
+							"type": "component",
+							"isClosable": true,
+							"componentName": "jimu grid",
+							"componentState": {
+								"id": "1"
+							},
+							"reorderEnabled": true,
+							"title": "jimu grid",
+							"id": "1"
+						}]
+					}, {
+						"type": "stack",
+						"isClosable": true,
+						"reorderEnabled": true,
+						"title": "",
+						"activeItemIndex": 0,
+						"height": 56.09756097560976,
+						"content": [{
+							"type": "component",
+							"isClosable": true,
+							"componentName": "jimu grid",
+							"componentState": {
+								"id": "3"
+							},
+							"reorderEnabled": true,
+							"title": "jimu grid",
+							"id": "3"
+						}]
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "gauge",
+			"visible": true,
+			"config": {
+				"shape": "vertical",
+				"min": 0,
+				"max": 1000,
+				"indicators": [],
+				"display": {
+					"backgroundColor": "",
+					"gaugeColor": "",
+					"dataLabels": {
+						"state": true,
+						"textColor": "",
+						"dataRange": true,
+						"targetValue": true
+					},
+					"currentValue": {
+						"state": true,
+						"isRatio": false,
+						"font": {
+							"font": {
+								"fontFamily": "Arial",
+								"bold": false,
+								"italic": false,
+								"underline": false
+							},
+							"fontSize": "12",
+							"textColor": "#59bad8"
+						},
+						"dataFormat": {
+							"unit": "none",
+							"decimalPlaces": "0",
+							"prefix": "",
+							"suffix": ""
+						}
+					}
+				}
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_horizontal_gauge}",
+	"name": "horizontal_gauge",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 21.664847492571706,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 49.61948941847068,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 28.715663088957616,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "gauge",
+			"visible": true,
+			"config": {
+				"shape": "horizontal",
+				"min": 0,
+				"max": 1000,
+				"indicators": [],
+				"display": {
+					"backgroundColor": "",
+					"gaugeColor": "",
+					"dataLabels": {
+						"state": true,
+						"textColor": "",
+						"dataRange": true,
+						"targetValue": true
+					},
+					"currentValue": {
+						"state": true,
+						"isRatio": false,
+						"font": {
+							"font": {
+								"fontFamily": "Arial",
+								"bold": false,
+								"italic": false,
+								"underline": false
+							},
+							"fontSize": "12",
+							"textColor": "#59bad8"
+						},
+						"dataFormat": {
+							"unit": "none",
+							"decimalPlaces": "0",
+							"prefix": "",
+							"suffix": ""
+						}
+					}
+				}
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_pie}",
+	"name": "pie",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 16.782608695652176,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 60.839605407380354,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.37778589696749,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "pie",
+				"innerRadius": 0,
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showDataLabel": false,
+				"dataLabelColor": "",
+				"maxLabels": 100
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_donut}",
+	"name": "donut",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 16.782608695652176,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 60.839605407380354,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.37778589696749,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "pie",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showDataLabel": false,
+				"dataLabelColor": "",
+				"innerRadius": 45,
+				"maxLabels": 100
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_bar}",
+	"name": "bar",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "bar",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_stacked_bar}",
+	"name": "stacked_bar",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "bar",
+				"stack": "normal",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_percentage_stacked_bar}",
+	"name": "percentage_stacked_bar",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "bar",
+				"stack": "percent",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_column}",
+	"name": "column",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "column",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_stacked_column}",
+	"name": "stacked_column",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "column",
+				"stack": "normal",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_percentage_stacked_column}",
+	"name": "percentage_stacked_column",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "column",
+				"stack": "percent",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_line}",
+	"name": "line",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "line",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_area}",
+	"name": "area",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "line",
+				"area": true,
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_stacked_area}",
+	"name": "stacked_area",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "line",
+				"area": true,
+				"stack": "normal",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}, {
+	"label": "${name_percentage_stacked_area}",
+	"name": "percentage_stacked_area",
+	"config": {
+		"layout": {
+			"definition": [{
+				"type": "column",
+				"isClosable": true,
+				"reorderEnabled": true,
+				"title": "",
+				"width": 100,
+				"content": [{
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 15.034420289855072,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "1"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "1"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 62.93746645195921,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "2"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "2"
+					}]
+				}, {
+					"type": "stack",
+					"isClosable": true,
+					"reorderEnabled": true,
+					"title": "",
+					"activeItemIndex": 0,
+					"height": 22.028113258185726,
+					"width": 59.15915915915916,
+					"content": [{
+						"type": "component",
+						"isClosable": true,
+						"componentName": "jimu grid",
+						"componentState": {
+							"id": "3"
+						},
+						"reorderEnabled": true,
+						"title": "jimu grid",
+						"id": "3"
+					}]
+				}]
+			}]
+		},
+		"dijits": [{
+			"id": "1",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "middle"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 16,
+					"textColor": ""
+				},
+				"text": "${titleOfTheInfographic}"
+			}
+		}, {
+			"id": "2",
+			"type": "chart",
+			"visible": true,
+			"config": {
+				"type": "line",
+				"area": true,
+				"stack": "percent",
+				"backgroundColor": "",
+				"showLegend": false,
+				"legendTextColor": "",
+				"showHorizontalAxis": true,
+				"horizontalAxisTextColor": "",
+				"showVerticalAxis": true,
+				"verticalAxisTextColor": ""
+			}
+		}, {
+			"id": "3",
+			"type": "text",
+			"visible": true,
+			"config": {
+				"background": {
+					"backgroundColor": "",
+					"alignment": {
+						"horizontal": "center",
+						"vertical": "top"
+					},
+					"link": ""
+				},
+				"font": {
+					"font": {
+						"fontFamily": "Arial",
+						"bold": false,
+						"italic": false,
+						"underline": false
+					},
+					"fontSize": 12,
+					"textColor": ""
+				},
+				"text": "${description}"
+			}
+		}]
+	}
+}]

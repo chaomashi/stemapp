@@ -1,0 +1,22 @@
+define({
+  "drsSOEURL": "URL poslužitelja pregledavatelja podataka",
+  "chartSection": "Broj isječaka/stupaca na grafikonu",
+  "selectByGeography": "Uključi filtar prema geografskom položaju",
+  "selectUrl": "Sloj usluge za filtar prema geografskom položaju",
+  "selectMapUrl": "Usluga za filtar prema geografskom položaju",
+  "geometryServiceURL": "URL geometrijske usluge",
+  "includeFieldNames": "Odaberi polja",
+  "fieldNames": "Nazivi polja",
+  "lifecyclePhaseFieldName": "LIFECYCLEPHASE",
+  "setSource": "Postavi",
+  "defaultFieldName": "ozbiljnost",
+  "warning": "Neispravan unos",
+  "includeDefaultFieldName": "Mora se odabrati naziv zadanog polja",
+  "selectFieldWarning": "Barem jedno polje mora biti vidljivo",
+  "defaultFieldNotVisible": "Zadano polje mora biti vidljivo",
+  "batchJobCheckGroup": "batchjobcheckgroup",
+  "defaultColumn": "Zadano",
+  "visibleColumn": "Vidljivo",
+  "fieldNameColumn": "Naziv polja na nadzornoj ploči",
+  "aliasColumn": "Alias"
+});

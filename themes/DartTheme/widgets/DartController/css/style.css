@@ -1,0 +1,576 @@
+.dart-controller {
+  position: absolute;
+  bottom: 20px !important;
+  width: 100%;
+  height: 100px !important;
+  white-space: nowrap;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
+  z-index: 101 !important;
+}
+
+.shadow {
+  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#000000')";
+}
+
+.dart-controller-minimized {
+  height: 58px !important;
+}
+
+.dart-controller-title {
+  position: relative;
+  margin: 10px 10px 2px 10px;
+  height: 30px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: helveticaneueultralight;
+  display: block;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.dart-controller-minimized .dart-controller-title {
+  height: 0px;
+  margin: 0px 10px 0px 10px;
+}
+
+.dart-controller-box {
+  position: relative;
+  /*margin: 0px 10px 0px 10px;*/
+  padding: 0px 10px 0px 10px;
+  height: 58px;
+  display: inline-block;
+  width: 100%;
+}
+
+.dart-controller-tools {
+  position: relative;
+  float: left;
+  margin: 12px 5px 12px 0;
+  padding: 0px;
+  width: auto;
+  max-width: 500px;
+  height: 34px;
+  display: inline-block;
+  white-space: nowrap;
+  clear: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.jimu-rtl .dart-controller-tools {
+  position: relative;
+  float: right;
+  margin: 12px 0 12px 5px;
+  padding: 0px;
+  width: auto;
+  max-width: 500px;
+  height: 34px;
+  display: inline-block;
+  white-space: nowrap;
+  clear: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.dart-controller-tools-anim {
+  overflow: hidden;
+}
+
+.dart-controller-tools-collapsed {
+  max-width: 0px;
+  overflow: hidden;
+}
+
+.jimu-rtl .dart-controller-tools-collapsed {
+  max-width: 0px;
+  overflow: hidden;
+}
+
+.dart-controller-nav {
+  float: left;
+  width: 56px;
+  height: 24px;
+  margin: 5px 8px 5px 0px;
+  display: none;
+}
+
+.jimu-rtl .dart-controller-nav {
+  float: right;
+  width: 56px;
+  height: 24px;
+  margin: 5px 0 5px 8px;
+  display: none;
+}
+
+.jimu-widget-zoomslider {
+  width: 56px !important;
+  height: 24px !important;
+  background-color: transparent !important;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.zoom-in {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: transparent !important;
+  background-image: url('images/zoomin.png');
+  color: transparent !important;
+}
+
+.jimu-rtl .zoom-in {
+  right: 0px !important;
+}
+
+.zoom-out {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 24px !important;
+  height: 24px !important;
+  background-color: transparent !important;
+  background-image: url('images/zoomout.png');
+  color: transparent !important;
+}
+
+.jimu-rtl .zoom-out {
+  right: 30px !important;
+}
+
+.dart-controller-home {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 5px 8px 5px 0px;
+  background-image: url('images/home.png');
+  display: none;
+}
+
+.jimu-rtl .dart-controller-home {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin: 5px 0 5px 8px;
+  background-image: url('images/home.png');
+  display: none;
+}
+
+.dart-controller .jimu-widget-homebutton,
+.dart-controller .HomeButton .home,
+.dart-controller .HomeButton .home:active,
+.dart-controller .HomeButton .home:hover {
+  padding: 0px;
+  width: 24px;
+  height: 24px;
+  background: transparent !important;
+}
+
+.dart-controller-locate {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin: 5px 8px 5px 0px;
+  background-image: url('images/locate.png');
+  display: none;
+}
+
+.jimu-rtl .dart-controller-locate {
+  float: right;
+  width: 24px;
+  height: 24px;
+  margin: 5px 0 5px 8px;
+  background-image: url('images/locate.png');
+  display: none;
+}
+
+.dart-controller .jimu-widget-mylocation,
+.dart-controller .jimu-widget-mylocation,
+.dart-controller .jimu-widget-mylocation .place-holder,
+.dart-controller .LocateButton .zoomLocateButton,
+.dart-controller .LocateButton .zoomLocateButton:active,
+.dart-controller .LocateButton .zoomLocateButton:hover {
+  padding: 0px;
+  width: 24px;
+  height: 24px;
+  background: transparent !important;
+}
+
+.dart-controller .jimu-widget-mylocation .place-holder.tracking {
+  background-image: url(images/stop.png) !important;
+}
+
+.dart-controller-extent-navigate {
+  float: left;
+  overflow: hidden;
+  height: 24px;
+  margin: 5px 8px 5px 0px;
+  display: none;
+}
+
+.jimu-rtl .dart-controller-extent-navigate{
+  float: right;
+  margin: 5px 0 5px 8px;
+}
+
+.dart-controller-extent-navigate .jimu-widget-extent-navigate.horizontal .previous{
+  border: none;
+}
+
+.dart-controller-extent-navigate .jimu-widget-extent-navigate.horizontal .next{
+  margin-left: 8px;
+}
+
+.jimu-rtl .dart-controller-extent-navigate .jimu-widget-extent-navigate.horizontal .next{
+  margin-left: 0;
+  margin-right: 8px;
+}
+
+.dart-controller-extent-navigate .jimu-widget-extent-navigate .operation{
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  border-radius: 12px;
+  background: white;
+  color: #646464;
+}
+
+.dart-controller-extent-navigate .jimu-widget-extent-navigate .operation:hover{
+  background-color: white;
+}
+
+.dart-controller-search {
+  float: left;
+  width: auto;
+  height: 34px;
+  display: none;
+}
+
+.jimu-rtl .dart-controller-search {
+  float: right;
+  width: auto;
+  height: 34px;
+  display: none;
+}
+/* Search */
+
+.jimu-widget-search .search-node.default-width-for-openAtStart {
+  width: 250px !important;
+}
+
+.arcgisSearch {
+  width: 250px !important;
+}
+
+.arcgisSearch .searchGroup {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  max-width: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.arcgisSearch .searchBtn {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.arcgisSearch .searchBtn:hover,
+.arcgisSearch .searchBtn:focus,
+.arcgisSearch .searchBtn:active {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  outline: none;
+}
+
+.arcgisSearch .searchGroup .searchInput {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 170px !important;
+  padding: 6px 24px 6px 12px;
+  padding: 6px 6px 6px 6px !important;
+}
+
+.dj_rtl .arcgisSearch .searchGroup .searchInput {
+  float: right;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 170px !important;
+  padding: 6px 24px 6px 12px;
+  padding: 6px 6px 6px 6px !important;
+}
+
+.arcgisSearch .searchClear {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+
+.show-all-results {
+  display: none !important;
+  max-width: 280px;
+  text-overflow: ellipsis;
+}
+
+.arcgisSearch .searchMenu {
+  color: #6e6e6e;
+  font-size: 9pt;
+  max-width: 280px;
+}
+
+.arcgisSearch .searchGroup .searchInput::-webkit-input-placeholder {
+  color: #e6e6e6;
+}
+
+.arcgisSearch .searchGroup .searchInput:-moz-placeholder {
+  color: #e6e6e6;
+}
+
+.arcgisSearch .searchGroup .searchInput::-moz-placeholder {
+  color: #e6e6e6;
+}
+
+.arcgisSearch .searchGroup .searchInput:-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+.searchMenu.suggestionsMenu {
+  height: 126px !important;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*.dart-controller-search .searchMenu.suggestionsMenu {
+  margin-top: -160px;
+}*/
+
+.jimu-widget-search .arcgisSearch .searchMenu {
+  border-radius: 0;
+  color: #c8c8c8;
+  font-size: 12px;
+  padding: 0;
+  left: 0 !important;
+  /*height: 126px !important;*/
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*.dart-controller-search .jimu-widget-search .arcgisSearch .searchMenu {
+  margin-top: -160px;
+}*/
+
+.arcgisSearch .searchMenu li {
+  color: #c8c8c8;
+}
+
+.jimu-widget-search .arcgisSearch .searchMenu li:hover,
+.jimu-widget-search .arcgisSearch .searchMenu li:focus {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.dart-controller-collapse {
+  float: left;
+  height: 58px;
+  width: 10px;
+  margin: 0px 5px 0px 0px;
+  clear: none;
+  cursor: pointer;
+  background-image: url('images/collapse.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.jimu-rtl .dart-controller-collapse {
+  float: right;
+  height: 58px;
+  width: 10px;
+  margin: 0px 0 0px 5px;
+  clear: none;
+  cursor: pointer;
+  background-image: url('images/collapse.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.dart-controller-minimized .dart-controller-collapse {
+  display: none;
+}
+
+.dart-controller-bar {
+  position: relative;
+  height: 58px;
+  overflow: hidden;
+  clear: none;
+  /*float: left;*/
+}
+/*.jimu-rtl .dart-controller-bar {
+  float: right;
+}*/
+
+.dart-controller-minimized .dart-controller-bar {
+  display: none;
+}
+
+.dart-controller-bar-inner {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin-top: 2px;
+  height: 108px;
+  overflow-x: auto;
+}
+
+.dart-controller-container {
+  position: relative;
+  height: 54px;
+  width: auto;
+  overflow: visible;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.icon-node {
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.jimu-rtl .icon-node {
+  float: right;
+  width: 44px;
+  height: 44px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.icon-node-active,
+/*.icon-node:active,
+.icon-node:focus,*/
+.icon-node:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+}
+
+.icon-node img {
+  margin: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+.dart-controller-pages {
+  position: absolute;
+  top: 17px;
+  height: 20px;
+  left: auto;
+  right: 10px;
+  width: 0px;
+  overflow: hidden;
+}
+
+.jimu-rtl .dart-controller-pages {
+  position: absolute;
+  top: 17px;
+  height: 20px;
+  left: 10px;
+  right: auto;
+  width: 0px;
+  overflow: hidden;
+}
+
+.dart-controller-minimized .dart-controller-pages {
+  display: none;
+}
+
+.dart-controller .navigation {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  height: 17px;
+  margin: auto;
+  padding: 0px;
+  display: block;
+  cursor: pointer;
+}
+
+.dart-controller .navigation li {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(images/dot.png);
+}
+
+.dart-controller .navigation li:hover {
+  background: url(images/doton.png);
+}
+
+.dart-controller .navigation li.active {
+  background: url(images/doton.png);
+}
+
+.dart-controller-toggle {
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  margin-left: -15px;
+  width: 30px;
+  height: 12px;
+  background-image: url('images/toggle.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+/* Media Specific - Mobile */
+
+@media only screen and (max-width: 500px) {
+  .dart-controller-box {
+    /*margin: 0px 5px 0px 5px;*/
+    padding: 0px 3px 0px 3px;
+  }
+  .dart-controller-nav {
+    display: none !important;
+  }
+  .dart-controller-extent-navigate {
+    display: none !important;
+  }
+  .dart-controller-title {
+    font-size: 24px;
+  }
+  .jimu-widget-coordinate {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .dart-controller-home {
+    display: none !important;
+  }
+}

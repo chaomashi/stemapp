@@ -1,0 +1,50 @@
+<div class="jimu-widget-suitability-modeler-chart">
+  <div class="header" data-dojo-attach-point="headerNode">
+    <h4 data-dojo-attach-point="promptNode"></h4>
+    <div class="tools-section" data-dojo-attach-point="toolsSection">
+      <span class="working" data-dojo-attach-point="workingNode"></span>
+      <a class="icon icon-polygon"
+        href="javascript:void(0)"
+        data-tool="polygon"
+        data-dojo-attach-point="polygonTool"
+        data-dojo-attach-event="onclick: _activateDrawPolygon"
+        ></a>
+      <a class="icon icon-freehand-polygon"
+        href="javascript:void(0)"
+        data-tool="freehandPolygon"
+        data-dojo-attach-point="freehandPolygonTool"
+        data-dojo-attach-event="onclick: _activateDrawFreehandPolygon"
+        ></a>
+      <a class="icon icon-select-features"
+        href="javascript:void(0)"
+        data-tool="select"
+        data-dojo-attach-point="selectTool"
+        data-dojo-attach-event="onclick: _activateSelect"
+        ></a>
+      <a class="icon icon-pan"
+        href="javascript:void(0)"
+        data-tool="pan"
+        data-dojo-attach-point="panTool"
+        data-dojo-attach-event="onclick: _activatePan"
+        ></a>
+      <a class="clear-button"
+        href="javascript:void(0)"
+        data-dojo-attach-point="clearButton"
+        data-dojo-attach-event="onclick: _clearGraphics"
+        ></a>
+    </div>
+    <div class="select-layer-section" style="clear:both;"
+      data-dojo-attach-point="selectContainer">
+      <select id="${id}_subjectLayerSelect" class="select-layer"
+        data-dojo-type="dijit/form/Select"
+        data-dojo-attach-point="subjectLayerSelect">
+      </select>
+      <div class="info" data-dojo-attach-point="noSubjectLayersNode"></div>
+    </div>
+  </div>
+  <div class="chart-section">
+    <p class="info" data-dojo-attach-point="noModelLayerNode"></p>
+    <div class="chart-div" data-dojo-attach-point="echartDiv"></div>
+    <div data-dojo-attach-point="tableNode"></div>
+  </div>
+</div>

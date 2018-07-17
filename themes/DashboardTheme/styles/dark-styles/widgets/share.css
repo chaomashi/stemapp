@@ -1,0 +1,54 @@
+.jimu-widget-share .shareLink .backBtn,
+.jimu-rtl .jimu-widget-share .shareLink .backBtn{
+  background: url("../images/share/arrow-back.svg") no-repeat;
+  background-position: 50% 50%;
+}
+.jimu-widget-share .shareLink .backBtn:hover,
+.jimu-rtl .jimu-widget-share .shareLink .backBtn:hover {
+  background: url("../images/share/arrow-back_hover.svg") no-repeat;
+  background-position: 50% 50%;
+}
+.jimu-rtl .shareLink .backBtn{
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+.jimu-widget-share .shareLink .optionsRow .markers {
+  background: url("../images/share/marker.svg") no-repeat;
+  background-position: 50% 50%;
+}
+.jimu-widget-share .shareLink .optionsRow .markers:hover {
+  background: url("../images/share/marker_hover.svg") no-repeat;
+  background-position: 50% 50%;
+}
+.jimu-widget-share .shareLink .optionsRow .markers.selected {
+  background: url("../images/share/marker_selected.svg") no-repeat;
+  background-position: 50% 50%;
+}
+.jimu-widget-share .shareLink .email {
+  background: url("../images/share/email.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .email:hover {
+  background: url("../images/share/email_hover.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .facebook {
+  background: url("../images/share/facebook.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .facebook:hover {
+  background: url("../images/share/facebook_hover.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .twitter {
+  background: url("../images/share/twitter.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .twitter:hover {
+  background: url("../images/share/twitter_hover.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .googlePlus {
+  background: url("../images/share/gplus.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .googlePlus:hover {
+  background: url("../images/share/gplus_hover.svg") no-repeat;
+}
+.jimu-widget-share .shareLink .shareLinkOptionsWrapper .optionsRow .shareCheckBoxes {
+  width: 16px;
+  height: 16px;
+}

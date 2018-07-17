@@ -1,0 +1,44 @@
+.jimu-dashboard-panel{
+  position: relative;
+  z-index: 60;
+  overflow: visible;
+}
+
+.jimu-dashboard-panel .title{
+  position: relative;
+  height: 30px;
+  width: 100%;
+  cursor: move;
+}
+
+.jimu-dashboard-panel .title-label{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 30px;
+  position: absolute;
+  left: 20px;
+  right: 72px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.jimu-dashboard-panel.minimized .title-label{
+  display: none;
+}
+
+.jimu-rtl .jimu-dashboard-panel .title-label{
+  right: 48px;
+  left: 96px;
+}
+
+.jimu-dashboard-panel .title .icon-close{
+  font-size: 12px;
+  cursor: pointer;
+  margin: 6px 10px;
+  color: #FFF;
+}
+
+.jimu-dashboard-panel .jimu-panel-content {
+  height: 100%;
+}

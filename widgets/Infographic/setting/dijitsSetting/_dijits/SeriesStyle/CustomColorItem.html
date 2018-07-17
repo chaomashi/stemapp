@@ -1,0 +1,19 @@
+<div>
+	<div  class="text-container">
+		<div data-dojo-attach-point="textDiv" class="category-text-div text-over"></div>
+	</div>
+
+	<div data-dojo-attach-point="labelContainer" class="label-container">
+		<div data-dojo-attach-point="labelPart" class="label-part">
+			<div data-dojo-attach-event="click:_onEditClicked" data-dojo-attach-point="labelDiv" class="label-div text-over" title="${nls.clickToEdit}"></div>
+		</div>
+
+		<div data-dojo-attach-point="editPart" class="edit-part hide">
+			<input class="edit-input" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="intermediateChanges:false" data-dojo-attach-event="blur:_onEditInputBlured" data-dojo-attach-point="editInput" required type="text">
+		</div>
+	</div>
+	<div class="action-container">
+		<div data-dojo-attach-point="colorDiv" class="color-div"></div>
+		<div data-dojo-attach-point="deleteBtn" data-dojo-attach-event="click:_onDeleteClick" class="delete-icon" title="${nls.deleteText}" ></div>
+	</div>
+</div>

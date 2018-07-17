@@ -1,0 +1,76 @@
+/* Styles used by the settingComponents.js utilities */
+
+/* Add via a dropdown or click */
+
+.jimu-widget-public-notification-setting .addTextButton-button {
+  margin: 8px 0;
+  display: inline-block;
+  position: relative;
+  padding-left: 22px;
+  color: #518dca;
+  background: url(images/add_icon.png) no-repeat left;
+  cursor: pointer;
+}
+
+.jimu-rtl .jimu-widget-public-notification-setting .addTextButton-button {
+  padding-left: 0;
+  padding-right: 22px;
+  background-position: right;
+}
+
+.jimu-widget-public-notification-setting .addTextButton-button .addTextButton-menu {
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 16px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #7989a0;
+  z-index: 999;
+}
+
+.jimu-rtl .jimu-widget-public-notification-setting .addTextButton-button .addTextButton-menu {
+  right: 0;
+  left: auto;
+}
+
+.jimu-widget-public-notification-setting .addTextButton-button:hover .addTextButton-menu {
+  display: inline-block;
+}
+
+.jimu-widget-public-notification-setting .addTextButton-menu .addTextButton-item {
+  white-space: nowrap;
+  height: 30px;
+  padding: 0 25px;
+  line-height: 30px;
+}
+
+.jimu-widget-public-notification-setting .addTextButton-menu .addTextButton-item:hover {
+  background: #edf2f5;
+  color: #15a4fa;
+}
+
+/* Fieldset */
+
+.jimu-widget-public-notification-setting .fieldset {
+  height: auto;
+  width: 100%;
+  border: 1px solid #a0acbf;
+  border-radius: 5px;
+  color: #596679;
+  min-width: 0px;
+}
+
+.jimu-ltr .jimu-widget-public-notification-setting .fieldsetLegend {
+  margin-left: 20px;
+}
+.jimu-rtl .jimu-widget-public-notification-setting .fieldsetLegend {
+  margin-right: 20px;
+}
+
+.jimu-widget-public-notification-setting .fieldsetMainContainer {
+  padding: 8px;
+}
+

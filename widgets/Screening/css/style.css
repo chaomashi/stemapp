@@ -1,0 +1,1929 @@
+/*Widget main container starts*/
+
+.esriCTOverridePanelStyle {
+  padding: 0px !important;
+}
+
+
+/*AOI Tab starts*/
+
+.jimu-widget-screening .esriCTTabContainerParentElement {
+  height: 100%;
+}
+
+.jimu-widget-screening .esriCTAOITabParentContainer {
+  height: -moz-calc(100% - 30px);
+  height: -webkit-calc(100% - 30px);
+  height: calc(100% - 30px);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jimu-widget-screening .esriCTReportTabParentContainer {
+  position: relative;
+}
+
+.jimu-widget-screening .esriCTTabLabelMainContainer {
+  width: 100%;
+  height: 29px;
+  line-height: 29px;
+  border-bottom: 1px solid #d9dde0;
+  padding: 0 10px;
+}
+
+.jimu-widget-screening .esriCTAOILabelContainer, .jimu-widget-screening .esriCTReportLabelContainer {
+  float: left;
+  width: calc(99% - 46px);
+}
+
+.esriRtl .jimu-widget-screening .esriCTAOILabelContainer, .esriRtl .jimu-widget-screening .esriCTReportLabelContainer {
+  float: right;
+}
+
+.jimu-widget-screening .esriCTWidgetAndBufferSeparator {
+  border-top: 1px solid #d9dde0;
+  height: 1px;
+  margin: 5px 0 10px 0;
+  clear: both;
+}
+
+.jimu-widget-screening .esriCTAOIWidgetParentContainer {
+  margin-top: 10px;
+}
+
+.jimu-widget-screening .esriCTTabsOverflowText {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+}
+
+.jimu-widget-screening .esriCTZoomToIcon {
+  background-image: url('../images/zoom.png');
+}
+
+.jimu-widget-screening .esriCTZoomToDisableIcon {
+  background-image: url('../images/zoom-disable.png');
+  cursor: not-allowed;
+}
+
+.dart-panel .jimu-widget-screening .esriCTZoomToIcon {
+  background-image: url('../images/zoom-dart-theme.png');
+}
+
+.jimu-widget-screening .esriCTTraverseToolIcons {
+  height: 28px;
+  width: 28px;
+  background-size: 24px 24px;
+  float: right;
+  background-repeat: no-repeat;
+  margin: 0px 0px 0px 20px;
+  background-position: center;
+}
+
+.jimu-widget-screening .esriCTAOIContainers {
+  padding: 8px;
+}
+
+
+/*RTL AOI tab start*/
+
+.esriRtl .jimu-widget-screening .esriCTTraverseToolIcons {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+
+/*RTL AOI tab ends*/
+
+
+/*AOI Tab ends*/
+
+
+/*Reports Tab starts*/
+
+.jimu-widget-screening .esriCTReportsTabPanel {
+  text-align: center;
+}
+
+.jimu-widget-screening .esriCTInvisibleLayer {
+  color: #bdc1c8;
+}
+
+.jimu-widget-screening .esriCTDownloadAndPrintTableContainer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  border-top: 1px solid #d9dde0;
+}
+
+.jimu-widget-screening .esriCTDownloadAndPrintTableRowContainer {
+  float: right;
+}
+
+.jimu-widget-screening .esriCTRefreshContainer {
+  background-image: url('../images/refresh.png');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTDownloadContainer {
+  background-image: url('../images/download.png');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTDownloadBtnDisabled {
+  background-image: url('../images/download-disable.png');
+  cursor: not-allowed;
+}
+
+.dart-panel .jimu-widget-screening .esriCTDownloadContainer {
+  background-image: url('../images/download-disable.png');
+}
+
+.dart-panel .jimu-widget-screening .esriCTDownloadBtnDisabled {
+  background-image: url('../images/download.png');
+}
+
+.jimu-widget-screening .esriCTPrintContainer {
+  background-image: url('../images/print.png');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTPrintBtnDisabled {
+  background-image: url('../images/print-disable.png');
+  cursor: not-allowed;
+}
+
+.dart-panel .jimu-widget-screening .esriCTPrintContainer {
+  background-image: url('../images/print-disable.png');
+}
+
+.dart-panel .jimu-widget-screening .esriCTPrintBtnDisabled {
+  background-image: url('../images/print.png');
+}
+
+.dart-panel .jimu-widget-screening .esriCTRefreshContainer {
+  background-image: url('../images/refresh-grey.png');
+}
+
+.jimu-widget-screening .esriCTPrintContainer .dijitButtonNode {
+  opacity: 0;
+  height: 20px;
+  width: 20px;
+  min-width: 20px !important;
+  /* Overrided in launchpad theme*/
+}
+
+.jimu-widget-screening .esriCTPrintBtnDisabled .dijitButtonNode, .jimu-widget-screening .esriCTPrintBtnDisabled .dijitButtonNode span {
+  cursor: not-allowed;
+}
+
+.jimu-widget-screening .esriCTAnalysisUnitSettingContainer {
+  background: url(../images/analysis-unit-setting.png) no-repeat;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+
+/* For dart theme*/
+
+.dart-panel .jimu-widget-screening .esriCTAnalysisUnitSettingContainer {
+  background: url(../images/analysis-unit-setting-disable.png) no-repeat;
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTAnalysisUnitSettingContainer .dijitButtonNode {
+  opacity: 0;
+  height: 20px;
+  width: 20px;
+  min-width: 20px !important;
+  /* Overrided in launchpad theme*/
+}
+
+.jimu-widget-screening .esriCTUploadShapefileAnalysisTableContainer {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 10px 5px;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileAnalysisTableRowContainer {
+  display: table-row;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileForAnalysisText {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileForAnalysisButtonContainer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileForAnalysisButton {
+  margin-right: 10px;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryReportParentContainer {
+  margin-top: 10px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid #d9dde0;
+}
+
+.jimu-widget-screening .esriCTLayerFieldCheckbox {
+  width: 167px;
+  margin-bottom: 20px;
+  color: #596679;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.jimu-widget-screening .esriCTLayerFieldWithoutMargin {
+  margin-left: 0px !important;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLayerFieldCheckbox {
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.jimu-widget-screening .esriCTSelectFieldReportLabel {
+  margin-bottom: 20px;
+}
+
+.jimu-widget-screening .esriCTSelectFieldParentContainer {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jimu-widget-screening .esriCTNoFieldSelectedContainer {
+  padding: 5px 10px 5px 5px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.jimu-widget-screening .esriCTLayerFieldCheckbox .label {
+  width: 140px;
+}
+
+.LaunchpadTheme .jimu-widget-screening .esriCTLayerFieldCheckbox .label {
+  width: 129px;
+}
+
+.jimu-widget-screening .esriCTInfoDataSeparator {
+  border-bottom: 1px solid #d9dde0;
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTInfoDataSeparator:last-of-type {
+  display: none;
+}
+
+.jimu-widget-screening .esriCTInfoDataMeasurement {
+  text-align: right;
+}
+
+.jimu-widget-screening .esriCTAttrTable {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 5px;
+}
+
+.jimu-widget-screening .esriCTAttrTableHighlighted td {
+  background-color: #E2F0FB;
+}
+
+.dart-panel .jimu-widget-screening .esriCTAttrTableHighlighted td {
+  background-color: #000000;
+}
+
+.jimu-widget-screening .esriCTAttrTable td {
+  padding: 2px;
+  word-wrap: break-word;
+  padding-bottom: 5px;
+}
+
+.jimu-widget-screening .esriCTAttrTable td:first-child {
+  width: 33%;
+}
+
+.jimu-widget-screening .esriCTAttrTable td.esriCTAttrName {
+  color: #888888;
+  padding-right: 5px;
+}
+
+.jimu-widget-screening .esriCTReportsTabInfoData {
+  padding: 0px !important;
+}
+
+
+/*RTL Reports tab start*/
+
+.esriRtl .jimu-widget-screening .esriCTInfoDataMeasurement {
+  text-align: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTImpactSummaryLayerTitle {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTImpactSummaryLayerFieldIcon {
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTImpactSummaryLayerFeatureCount {
+  float: left;
+  padding-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTDownloadContainer {
+  margin-left: 10px;
+  float: right;
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTRefreshContainer {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTDownloadSettingLabel {
+  margin-left: 15px;
+  margin-right: 0px;
+  float: right;
+}
+
+.jimu-popup .title-label {
+  width: calc(100% - 30px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLayerPanelIcon {
+  float: right;
+  margin: 7px 0 7px 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTAreaSettingContainer {
+  float: left;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTPrintContainer {
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTDownloadAndPrintTableRowContainer {
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTAnalysisUnitSettingContainer {
+  float: left;
+}
+
+
+/*RTL Reports tab ends*/
+
+
+/*Reports Tab ends*/
+
+
+/*AOI button starts*/
+
+.jimu-widget-screening .esriCTAOIButtonParentContainer {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #d9dde0;
+  clear: both;
+}
+
+.jimu-widget-screening .esriCTPlacenameButton, .jimu-widget-screening .esriCTDrawToolButton, .jimu-widget-screening .esriCTShapefileButton, .jimu-widget-screening .esriCTCoordinateButton {
+  display: table-cell;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jimu-widget-screening .esriCTDrawToolButton, .jimu-widget-screening .esriCTShapefileButton, .jimu-widget-screening .esriCTCoordinateButton {
+  border-left: 1px solid #d9dde0;
+}
+
+
+/*Jimu rtl mode for AOI tools tab starts*/
+
+.esriRtl .jimu-widget-screening .esriCTDrawToolButton, .esriRtl .jimu-widget-screening .esriCTShapefileButton, .esriRtl .jimu-widget-screening .esriCTCoordinateButton {
+  border-left: none;
+  border-right: 1px solid #d9dde0;
+}
+
+
+/*Jimu rtl mode for AOI tools tab ends*/
+
+.jimu-widget-screening .esriCTPlacenameButton:hover, .jimu-widget-screening .esriCTDrawToolButton:hover, .jimu-widget-screening .esriCTShapefileButton:hover, .jimu-widget-screening .esriCTCoordinateButton:hover {
+  background-color: #d9dde0;
+}
+
+
+/*For dart theme start*/
+
+.dart-panel .jimu-widget-screening .esriCTPlacenameButton:hover, .dart-panel .jimu-widget-screening .esriCTDrawToolButton:hover, .dart-panel .jimu-widget-screening .esriCTShapefileButton:hover, .dart-panel .jimu-widget-screening .esriCTCoordinateButton:hover {
+  background-color: #262626;
+}
+
+.dart-panel .jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/left-arrow-dart-theme.png');
+  background-color: #4c4c4c;
+}
+
+.esriRtl .dart-panel .jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/right-arrow-dart-theme.png');
+}
+
+
+/*For dart theme ends*/
+
+
+/*AOI button ends*/
+
+
+/*----------------------- Styles for search -------------------------*/
+
+.jimu-widget-screening .esriCTSearchOuterContainer {
+  padding: 0px 0px 15px 0px;
+  clear: both;
+}
+
+.jimu-widget-screening .esriCTSearchDiv {
+  float: left;
+  clear: both;
+  margin-right: 10px;
+}
+
+.jimu-widget-screening .esriCTSearchHeader {
+  margin-bottom: 10px;
+}
+
+.jimu-widget-screening .esriCTSearchDiv .arcgisSearch {
+  float: left;
+  width: 100% !important;
+  /*added to fix issue in Dart theme*/
+}
+
+.jimu-widget-screening .esriCTSearchContainer {
+  width: 100%;
+  height: 35px;
+}
+
+.jimu-widget-screening .arcgisSearch .searchGroup .searchInput {
+  width: 170px;
+  padding: 6px 24px 6px 12px !important;
+}
+
+.esriRtl .jimu-widget-screening .arcgisSearch .searchGroup .searchInput {
+  padding: 6px 12px 6px 24px !important;
+}
+
+.jimu-widget-screening .arcgisSearch .searchBtn {
+  padding: 6px;
+}
+
+.jimu-widget-screening .jimu-widget-search .arcgisSearch .searchGroup .searchInputGroup .searchInput {
+  width: auto;
+}
+
+.jimu-widget-screening .esriCTSearchContainer .searchClear {
+  top: 2px !important;
+  /* In Launchpad, when using the Placename search,to prevent the X to clear the search entry overwrites the search box */
+}
+
+
+/*-------------------- End of styles for search panel ---------------------*/
+
+
+/*DrawTools widget starts*/
+
+.jimu-widget-screening .esriCTSelectToolParentDiv {
+  margin-top: 8px;
+  width: 40px;
+}
+
+.jimu-widget-screening .esriCTLayerItems {
+  margin-top: 10px;
+}
+
+.jimu-widget-screening .esriCTLayerPanelOfSelectIcon {
+  display: table-cell;
+  height: 15px;
+  width: 15px;
+  margin: 5px 5px 0 0;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTSelectableLayerTitle {
+  height: 25px;
+  padding-top: 7px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  width: calc(100% - 50px);
+}
+
+.jimu-widget-screening .esriCTLayerPanelCollapseIcon {
+  background-image: url('../images/panel-collapse.png');
+}
+
+.jimu-widget-screening .esriCTLayerPanelExpandIcon {
+  background-image: url('../images/panel-expand.png');
+}
+
+.jimu-widget-screening .esriCTExpandCollapseParentContainer {
+  width: 100%;
+  text-align: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTExpandCollapseParentContainer {
+  text-align: right;
+}
+
+.jimu-widget-screening .esriCTSingleLayerSelectionWarning {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTSingleLayerSelectionWarning {
+  float: left;
+}
+
+
+/*Overriden styles for select tool*/
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select.selected {
+  background-color: #DDDDDD;
+  border: 2px solid #000000;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select:active {
+  background-color: #FFF;
+  border: 1px solid #ccc;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select {
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  cursor: default;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .select-text {
+  display: none;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser {
+  width: 100%;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .draw-item-btn {
+  width: 40px;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select {
+  right: 0;
+}
+
+.esriRtl .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select {
+  left: 0;
+}
+
+.dart-panel .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.dart-panel .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select.selected {
+  background-color: #8a8a8a;
+  border: 2px solid #000000 !important;
+}
+
+.dart-panel .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select:hover {
+  background-color: #8a8a8a !important;
+}
+
+.jimu-widget-screening .esriCTchooseSelection {
+  width: 50%;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLayerPanelOfSelectIcon {
+  float: right;
+  margin: 5px 0px 0 5px;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .draw-item-btn {
+  top: 5px;
+}
+
+.LaunchpadTheme .jimu-widget-screening .esriCTSelectToolParentDiv {
+  margin: 0px 0px 0px 5px;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .draw-item-btn {
+  width: 30px;
+  height: 30px;
+  line-height: 31px;
+}
+
+.LaunchpadTheme .jimu-multiple-layers-featureset-chooser .current-draw-item .btn-select.selected {
+  background-color: #3b8fc4;
+  border-color: #3b8fc4;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select:hover {
+  background-color: #e6e6e6;
+  border-color: #ddd;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select.selected:hover {
+  background-color: #3b8fc4;
+  border-color: #3b8fc4;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item.EXTENT .btn-select .select-icon {
+  background: url("../images/select-tool-black.png") center center no-repeat;
+  left: -2px;
+}
+
+.dart-panel .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item.EXTENT .btn-select .select-icon {
+  background: url("../images/select-tool-white.png") center center no-repeat;
+  left: -2px;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item.EXTENT .btn-select .select-icon {
+  background-image: url('../images/select-tool-gray.png');
+  top: 4px;
+  background-size: 20px;
+}
+
+.LaunchpadTheme .jimu-multiple-layers-featureset-chooser .current-draw-item .btn-select.selected .select-icon {
+  background-image: url('../images/select-tool-white.png') !important;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #000000;
+  cursor: default;
+}
+
+.dart-panel .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #ffffff !important;
+}
+
+.dart-panel .jimu-multiple-layers-featureset-chooser .btn-select:hover {
+  border: 1px solid #ccc !important;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #6d6e70;
+  cursor: default;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select.selected .feature-action {
+  color: #ffffff;
+}
+
+.LaunchpadTheme .jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item .btn-select.selected {
+  line-height: 30px;
+  border-radius: 2px;
+}
+
+
+/* End Overriden styles for select tool */
+
+
+/*DrawTools widget ends*/
+
+
+/*Shapefile widget starts*/
+
+.jimu-widget-screening .esriCTShapefileWidgetContainer {
+  clear: both;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileText {
+  width: 70%;
+  float: left;
+  text-align: center;
+  padding-right: 10px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  /*For Safari*/
+  -webkit-justify-content: center;
+  /*For Safari*/
+  -webkit-align-items: center;
+  /*For Safari*/
+  overflow: hidden;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileButtonDiv {
+  width: 30%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-screening .esriCTUploadShapefileButton {
+  margin-right: 0;
+}
+
+.jimu-widget-screening input[type=file] {
+  width: 23%;
+  float: right;
+  position: absolute;
+  opacity: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.jimu-widget-screening input[type=file]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTUpdateStatus {
+  clear: both;
+  float: right;
+}
+
+
+/*Jimu rtl mode - starts*/
+
+.esriRtl .jimu-widget-screening .esriCTUploadShapefileText {
+  float: right;
+  text-align: right;
+  padding-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTUploadShapefileButtonDiv {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening input[type=file] {
+  width: 24%;
+  right: 215px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTUploadShapefileButton {
+  margin: 0;
+}
+
+
+/*Jimu rtl mode - ends*/
+
+
+/*Shapefile widget ends*/
+
+
+/*Coordinates widget starts*/
+
+.jimu-widget-screening .esriCTCoordinateWidgetContainer {
+  clear: both;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jimu-widget-screening .esriCTSelectStartPointFromSearchDiv {
+  float: left;
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTSelectStartPointFromMapClickText {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.jimu-widget-screening .esriCTOrTextDiv {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.jimu-widget-screening .esriCTLocateImageNode {
+  background: url(../images/locate.png) center no-repeat;
+  background-size: 20px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #57585A;
+  border-radius: 3px;
+}
+
+.dart-panel .jimu-widget-screening .esriCTLocateImageNode {
+  background: url(../images/locate-selected.png) center no-repeat;
+  background-size: 20px;
+}
+
+.jimu-widget-screening .esriCTHighlightLocateIcon {
+  border: 1px solid #d0d0d0;
+}
+
+.jimu-widget-screening .esriCTLatLongInputLabelParentContainer {
+  display: table;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  table-layout: fixed;
+}
+
+.jimu-widget-screening .esriCTLatLongInputLabelChildContainer {
+  display: table-row;
+}
+
+.jimu-widget-screening .esriCTLatitudeLabel {
+  margin-right: 10px;
+}
+
+.jimu-widget-screening .esriCTLatitudeLabel, .jimu-widget-screening .esriCTLongitudeLabel {
+  float: left;
+}
+
+.jimu-widget-screening .esriCTLatitudeLabel, .jimu-widget-screening .esriCTLongitudeLabel, .jimu-widget-screening .esriCTLatTextBox, .jimu-widget-screening .esriCTLongTextBox {
+  display: table-cell;
+  width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.jimu-widget-screening .esriCTLatTextBox {
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+.jimu-widget-screening .esriCTLongTextBox {
+  height: 30px;
+  float: left;
+}
+
+.jimu-widget-screening .esriCTBearingDistanceParentDiv {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTBearingInputTextBox, .jimu-widget-screening .esriCTDistanceInputTextBox {
+  width: 38%;
+  float: left;
+  height: 30px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.jimu-widget-screening .dijitNumberTextBox input.dijitInputInner {
+  text-align: center;
+}
+
+.jimu-widget-screening .esriCTAddNewBearingDistanceIcon {
+  background: url("../images/add.png") center no-repeat;
+  background-size: 20px 20px;
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  float: left;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTLocateIconSelected {
+  background: url(../images/locate-selected.png) center no-repeat;
+  background-color: #57585A;
+  background-size: 20px;
+}
+
+.dart-panel .jimu-widget-screening .esriCTLocateIconSelected {
+  border: 1px solid #fff;
+}
+
+.jimu-widget-screening .esriCTLocateForLatLongText {
+  cursor: pointer;
+  float: left;
+  line-height: 30px;
+  width: 16%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: underline;
+  color: #0000ff;
+  text-align: center;
+}
+
+.jimu-widget-screening .esriCTBearingAndDistanceLabelDiv {
+  padding-top: 10px;
+}
+
+.jimu-widget-screening .esriCTDefaultBearingAndDistanceInputNode {
+  padding-top: 25px;
+}
+
+.jimu-widget-screening .esriCTEnterBearingAndDistanceLabelDiv {
+  float: left;
+  max-width: 88%;
+  margin-right: 5px;
+  line-height: 20px;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsIcon {
+  background: url(../images/settings.png);
+  height: 20px;
+  width: 20px;
+  background-size: 20px 20px;
+  float: right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.dart-panel .jimu-widget-screening .esriCTPlanSettingsIcon {
+  background: url(../images/setting-disable.png);
+  background-size: 20px 20px;
+}
+
+/*RTL of Coordinates widget starts*/
+
+.esriRtl .jimu-widget-screening .esriCTSearchDiv {
+  float: right;
+  margin: 0 0 0 10px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTSelectStartPointFromMapClickText {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLatitudeLabel {
+  float: right;
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLatTextBox {
+  float: right;
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLongitudeLabel {
+  float: right;
+  margin-right: 8px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTLongTextBox {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTEnterBearingAndDistanceLabelDiv {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTGridLabels {
+  float: right;
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTRow .dijitTextBox {
+  float: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTPlanSettingsIcon {
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTDeleteRow, .esriRtl .jimu-widget-screening .esriCTAddRow {
+  float: left;
+  margin: 0 0 0 2px;
+}
+
+
+/*RTL of Coordinates widget ends*/
+
+
+/*Coordinates widget ends*/
+
+
+/*AOI Buffer distance starts*/
+
+.jimu-widget-screening .esriCTAOIBufferChangeParentContainer {
+  clear: both;
+}
+
+.jimu-widget-screening input, .jimu-widget-screening select, .jimu-widget-screening option, .jimu-widget-screening .esriCTAOIBufferContainer {
+  color: #86909c;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer {
+  clear: both;
+  width: 100%;
+  height: 30px;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceTitleContainer {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceLabel {
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jimu-widget-screening .esriCTDistanceTextBox {
+  width: 30%;
+  float: left;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #d9dde0;
+  margin-right: 10px;
+}
+
+.jimu-widget-screening .esriCTDistanceUnit {
+  width: 100%;
+  float: left;
+  height: 30px;
+  border-color: #d9dde0;
+  table-layout: fixed;
+  box-sizing: border-box;
+}
+
+.jimu-widget-screening .dijitSelectFocused {
+  border-color: #51b1fe;
+  box-shadow: 0px 0px 5px #51b1fe;
+}
+
+.jimu-widget-screening .esriCTSelectedTab, .jimu-widget-screening .esriCTSelectedTab:hover {
+  background-color: #8994a1;
+  border: 1px solid #8994a1;
+  color: #fff;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceUnitSelectContainer {
+  float: left;
+  width: calc(70% - 10px);
+}
+
+
+/*Jimu rtl mode - buffer distance and units container starts*/
+
+.esriRtl .jimu-widget-screening .esriCTDistanceTextBox {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.esriRtl .jimu-widget-screening .esriCTDistanceUnit {
+  float: left;
+}
+
+
+/*Jimu rtl mode - buffer distance and units container ends*/
+
+
+/*AOI Buffer distance ends*/
+
+
+/*Overwriting dojo dijit starts*/
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitButtonContents {
+  border-style: none;
+  background-color: #fafafc;
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitArrowButton {
+  background-color: #fafafc;
+  background-image: none;
+  border-color: #fafafc;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitInputField {
+  margin-right: 8px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.claro .jimu-widget-screening .dijitTextBox .dijitInputField .dijitPlaceHolder {
+  line-height: 30px !important;
+  /*with Launchpad theme --to prevent helper placeholder text on coordinates tab is shifted*/
+}
+
+
+/*Dropdown carat icon in rtl mode Start*/
+
+.esriRtl .jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitInputField {
+  margin-right: 0px;
+}
+
+
+/*Dropdown carat icon in rtl mode End*/
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitTextBox .dijitInputInner {
+  text-align: center;
+}
+
+
+/*For Dart theme start*/
+
+.claro .dart-panel .jimu-widget-screening .dijitSelect .dijitReset.dijitButtonNode.dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer {
+  background-image: url(../../../themes/DartTheme/dijit-css/icons/Icon_Dropdown_16.png);
+}
+
+.dart-panel .jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitButtonContents, .dart-panel .jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitArrowButton {
+  background-color: transparent;
+}
+
+.dart-panel .jimu-widget-screening .dijitArrowButtonInner {
+  width: 0px !important;
+}
+
+.dart-panel .arcgisSearch .searchMenu {
+  background-color: #4c4c4c;
+}
+
+.dart-panel .arcgisSearch .searchMenu li:hover, .dart-panel .arcgisSearch .searchMenu li:focus {
+  background-color: #222;
+}
+
+
+/*For Dart theme ends*/
+
+
+/*Overwriting dojo dijit ends*/
+
+
+/*Invalid widget configuration starts*/
+
+.jimu-widget-screening .esriCTErrorMessageMainContainer {
+  padding: 10px;
+}
+
+
+/*Invalid widget configuration ends*/
+
+
+/*Clear AOI Button and Show Reports Button starts*/
+
+.jimu-widget-screening .esriCTClearAOIButton, .jimu-widget-screening .esriCTShowReportsButton {
+  margin: 0 0 0 10px;
+}
+
+.jimu-widget-screening .esriCTShowReportsButton {
+  max-width: 130px;
+}
+
+
+/*Rtl Clear AOI Button and Show Reports Button starts*/
+
+.esriRtl .jimu-widget-screening .esriCTClearAOIButton, .esriRtl .jimu-widget-screening .esriCTShowReportsButton {
+  margin: 0 10px 0 0;
+}
+
+
+/*Rtl mode Clear AOI Button and Show Reports Button starts*/
+
+
+/*Clear AOI Button and Show Reports Button ends*/
+
+
+/*Back button in reports contaier starts*/
+
+.jimu-widget-screening .esriCTBackButtonDiv {
+  max-width: 28%;
+  float: left;
+  cursor: pointer;
+}
+
+.esriRtl .jimu-widget-screening .esriCTBackButtonDiv {
+  float: right;
+}
+
+.jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/left-arrow.png');
+  width: 10px;
+  height: 20px;
+  margin: 6px;
+  background-repeat: no-repeat;
+  background-color: #3e3e3e;
+  background-position: center center;
+  float: left;
+}
+
+.esriRtl .jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/right-arrow.png');
+  float: right;
+}
+
+.jimu-widget-screening .esriCTBackButton {
+  float: left;
+  padding: 8px 2px 0 2px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTBackButton {
+  float: right;
+}
+
+
+/*Back button in reports contaier ends*/
+
+
+/*Coordinate grid starts*/
+
+.jimu-widget-screening .esriCTNewTraverseContainer {
+  width: 100%;
+  display: inline-block;
+}
+
+.jimu-widget-screening .esriCTNewTraverseLabelDiv {
+  display: inline-block;
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTGridEmptyLabel {
+  width: 50px;
+  float: left;
+  text-align: left;
+}
+
+.jimu-widget-screening .esriCTGridLabels {
+  width: 48%;
+  float: left;
+  text-align: left;
+}
+
+.jimu-widget-screening .esriCTTraverseGrid {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+.jimu-widget-screening .esriCTEntryNodeContent {
+  width: 100%;
+  display: table;
+  border-collapse: collapse;
+}
+
+.jimu-widget-screening .dojoDndItemAfter .esriCTSymbolContainer, .jimu-widget-screening .dojoDndItemBefore .esriCTSymbolContainer {
+  background: #E4E4ED !important;
+}
+
+.jimu-widget-screening .esriCTSymbolContainer {
+  border: 1px solid #dedede;
+  width: 50px;
+  height: 30px;
+  padding: 0px 5px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.jimu-widget-screening .esriCTDeleteRow, .jimu-widget-screening .esriCTAddRow {
+  color: #CCC;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 15px;
+  float: right;
+  margin: 0 2px 0 0;
+}
+
+.jimu-widget-screening .esriCTDeleteIcon, .jimu-widget-screening .esriCTAddIcon {
+  cursor: pointer;
+  height: 30px;
+  width: 15px;
+}
+
+.jimu-widget-screening .esriCTAddDisabledIcon {
+  height: 30px;
+  width: 15px;
+}
+
+.jimu-widget-screening .esriCTDeleteIcon {
+  background: url('../images/delete.png') no-repeat center center;
+}
+
+.jimu-widget-screening .esriCTAddIcon {
+  background: url('../images/add.png') no-repeat center center;
+}
+
+.jimu-widget-screening .esriCTAddDisabledIcon {
+  background: url('../images/add-disable.png') no-repeat center center;
+}
+
+.jimu-widget-screening .esriCTTraverseTool {
+  float: left;
+  padding: 5px 5px 0 0;
+  width: calc(100% - 20px);
+}
+
+.jimu-widget-screening .esriCTTraverseToolContainer {
+  float: right;
+}
+
+.jimu-widget-screening .esriCTCollapse {
+  background-image: url('../images/collapse.png');
+}
+
+.jimu-widget-screening .esriCTExpand {
+  background-image: url('../images/expand.png');
+}
+
+.jimu-widget-screening .esriCTRow .dijitTextBox {
+  width: 46%;
+  float: left;
+}
+
+.jimu-widget-screening .esriCTRow .dijitTextBoxHover {
+  border-color: #d9dde0;
+}
+
+.jimu-widget-screening .esriCTRow .dijitTextBoxFocused {
+  border-color: #d9dde0 !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.jimu-widget-screening .dojoDndItem, .jimu-widget-screening .dojoDndItemAnchor, .jimu-widget-screening .dojoDndItemSelected, .jimu-widget-screening .dojoDndContainerOver, .jimu-widget-screening .dojoDndItemOver {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: move;
+}
+
+.jimu-widget-screening .esriCTMapPointParentContainer {
+  display: table;
+}
+
+.jimu-widget-screening .esriCTMapPointChildContainer {
+  display: table-row;
+}
+
+.jimu-widget-screening::-ms-clear {
+  display: none;
+}
+
+
+/*Coordinate grid ends*/
+
+
+/* Plan Settings */
+
+.jimu-widget-screening .esriCTPlanSettingLabel {
+  padding: 10px 10px 10px 0;
+  width: 200px;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsContainer .dijitSelect {
+  width: 200px !important;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsBtnContainer {
+  padding: 10px;
+  text-align: center;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsBtn {
+  max-width: 150px;
+}
+
+.jimu-widget-screening .esriCTEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* End Of Plan Settings */
+
+
+/* Download Settings */
+
+.jimu-widget-screening .esriCTDownloadSettingLabel {
+  margin-right: 15px;
+  width: calc(50% - 18px);
+  float: left;
+  line-height: 30px;
+}
+
+.jimu-widget-screening .esriCTDownloadSettingsContainer .dijitSelect {
+  width: 50% !important;
+}
+
+.jimu-widget-screening .esriCTDownloadSettingsBtnContainer {
+  padding: 10px;
+  text-align: right;
+}
+
+.jimu-widget-screening .esriCTDownloadSettingsBtn {
+  max-width: 150px;
+}
+
+
+/* End of download settings */
+
+
+/* Print Dialog Settings */
+
+.jimu-widget-screening .esriCTPopupSettingsContainer .esriCTPopupSettingLabel {
+  margin-right: 5px;
+  width: calc(50% - 30px);
+  float: left;
+  line-height: 30px;
+}
+
+.jimu-widget-screening .esriCTPopupSettingsContainer .dijitSelect {
+  width: 55% !important;
+}
+
+.jimu-widget-screening .esriCTPopupSettingsContainer .esriCTPopupSettingsBtnContainer {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.jimu-widget-screening .esriCTPopupSettingsContainer .esriCTPrintDialogHint {
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.jimu-widget-screening .esriCTPrintLayoutDropdown .dijitSelectLabel {
+  text-align: left;
+  overflow: hidden;
+  width: 120px;
+}
+
+
+/* RTL of Print Dialog Settings starts */
+
+.esriRtl .jimu-widget-screening .esriCTPopupSettingsContainer .esriCTPopupSettingLabel {
+  float: right;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTPopupSettingsContainer .esriCTPopupSettingsBtnContainer {
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTPrintLayoutDropdown .dijitSelectLabel {
+  text-align: right;
+}
+
+/* RTL of Print Dialog Settings ends */
+
+
+/* End of print dialog settings */
+
+
+/* RTL of download section starts */
+
+.esriRtl .jimu-widget-screening .esriCTDownloadSettingsBtnContainer {
+  text-align: left;
+}
+
+
+/* End of RTL of download section starts */
+
+
+/* Analysis Unit Dialog Setting starts */
+
+
+/* Analysis unit dialog settings */
+
+.jimu-widget-screening .esriCTUnitSettingsContainer .esriCTPopupSettingLabel {
+  margin-right: 5px;
+  width: calc(50% - 30px);
+  float: left;
+  line-height: 30px;
+}
+
+.jimu-widget-screening .esriCTUnitSettingsContainer .esriCTPopupSettingsBtnContainer {
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+.jimu-widget-screening .esriCTUnitSettingsContainer .dijitSelect {
+  width: 55% !important;
+}
+
+.jimu-widget-screening .esriCTUnitSettingsContainer .esriCTPopupSettingsBtnContainer {
+  text-align: right;
+  padding-right: 5px;
+}
+
+.jimu-widget-screening .esriCTAnalysisUnitDropdown .dijitSelectLabel {
+  text-align: left;
+  overflow: hidden;
+  width: 120px;
+}
+
+.jimu-widget-screening .esriCTReportAnalysisUnitSettingsDialogLaunchpadTheme {
+  padding: 5px !important;
+}
+
+
+/* RTL of analysis unit dialog settings starts */
+
+.esriRtl .jimu-widget-screening .esriCTUnitSettingsContainer .esriCTPopupSettingLabel {
+  float: right;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTUnitSettingsContainer .esriCTPopupSettingsBtnContainer {
+  text-align: left;
+  padding: 10px 0 0 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTAnalysisUnitDropdown .dijitSelectLabel {
+  text-align: right;
+}
+
+/* RTL of analysis unit dialog Settings ends */
+
+
+/* End of analysis unit dialog settings */
+
+
+/*Common classes starts*/
+
+.jimu-widget-screening .esriCTFieldDistinctData .esriCTNoData {
+  font-style: italic;
+}
+
+.jimu-widget-screening .esriCTVisible {
+  display: block;
+}
+
+.jimu-widget-screening .esriCTCursorPointer {
+  cursor: pointer;
+}
+
+.jimu-widget-screening .esriCTDisableReportTab {
+  cursor: not-allowed !important;
+}
+
+.jimu-widget-screening .esriCTAOIButtonSelected {
+  background-color: #d9dde0;
+}
+
+.jimu-widget-screening .esriCTDisplayTableCell {
+  display: table-cell;
+}
+
+.jimu-widget-screening .esriCTVisibilityHidden {
+  visibility: hidden;
+}
+
+.jimu-widget-screening .esriCTBoldFont {
+  font-weight: bold;
+}
+
+
+/*Common classes ends*/
+
+
+/*Common dart theme classes starts*/
+
+.dart-panel .jimu-widget-screening .esriCTAOIButtonSelected {
+  background-color: #262626;
+  color: #fff !important;
+}
+
+.claro .dart-panel .dijitTooltipContainer {
+  color: #ffffff !important;
+  background-color: #4c4c4c !important;
+  background-image: -moz-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: -webkit-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: -o-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+}
+
+.claro .dart-panel .dijitSelect .dijitArrowButton {
+  background-color: transparent;
+}
+
+.jimu-popup.esriCTDartPanel.jimu-widget-screening {
+  color: #ffffff !important;
+  background-color: #4c4c4c !important;
+  background-image: -moz-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: -webkit-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: -o-linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+  background-image: linear-gradient(bottom, rgba(76, 76, 76, 0.1) 0px, #4c4c4c 10px) !important;
+}
+
+.esriCTDartPanel .label.jimu-float-leading {
+  color: #ffffff;
+}
+
+.esriCTDartPanel.jimu-popup .title {
+  color: white;
+}
+
+
+/*Common dart theme classes ends*/
+
+.jimu-widget-screening .esriCTRow {
+  clear: both;
+  width: 100%;
+}
+
+
+/*Impact summary report starts*/
+
+.jimu-widget-screening .esriCTImpactSummaryLayerContainer {
+  width: 100%;
+}
+
+.jimu-widget-screening .esriCTLayerTitleAndFieldParentContainer {
+  display: table;
+  width: 100%;
+  clear: both;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 5px 5px 5px;
+  border-bottom: 1px solid #d9dde0;
+  table-layout: fixed;
+}
+
+.jimu-widget-screening .esriCTLayerTitleAndFieldChildContainer {
+  display: table-row;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerTitle {
+  float: left;
+  max-width: calc(100% - 90px);
+  text-align: left;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: table-cell;
+}
+
+.jimu-widget-screening .esriCTLayerTitleOverrideWidth {
+  max-width: calc(100% - 110px);
+}
+
+.jimu-widget-screening .esriCTLayerPanelIcon {
+  display: table-cell;
+  height: 15px;
+  width: 15px;
+  margin: 7px 5px 7px 0;
+  float: left;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+}
+
+.jimu-widget-screening .esriCTLayerPanelCollapse {
+  background-image: url('../images/panel-collapse.png');
+}
+
+.jimu-widget-screening .esriCTLayerPanelExpand {
+  background-image: url('../images/panel-expand.png');
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerFeatureCount {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  display: table-cell;
+  padding-right: 5px;
+  width: 41px;
+  text-align: center;
+}
+
+.jimu-widget-screening .esriCTLoadingIcon {
+  background-image: url('../images/loading-icon.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  margin: 5px 10px;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerMaxRecordHint {
+  background: url(../images/hint.png) center center no-repeat;
+  background-size: 18px 18px;
+  height: 30px;
+  width: 20px;
+  float: right;
+  vertical-align: middle;
+  display: table-cell;
+  margin-right: 5px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTImpactSummaryLayerMaxRecordHint {
+  float: left;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerFieldIcon {
+  background: url(../images/layer-field.png) center center no-repeat;
+  background-size: 18px 18px;
+  height: 30px;
+  width: 20px;
+  float: right;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerFieldIconDisabled {
+  background: url(../images/layer-field-disable.png) center center no-repeat;
+  cursor: not-allowed;
+  background-size: 20px 20px;
+}
+
+.dart-panel .jimu-widget-screening .esriCTImpactSummaryLayerFieldIcon {
+  background: url(../images/layer-field-disable.png) center center no-repeat;
+  background-size: 20px 20px;
+}
+
+.dart-panel .jimu-widget-screening .esriCTImpactSummaryLayerFieldIconDisabled {
+  background: url(../images/layer-field.png) center center no-repeat;
+  background-size: 18px 18px;
+}
+
+.jimu-widget-screening .esriCTLayerDetailCenterText {
+  text-align: center !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerDetailContainer {
+  width: 100%;
+  clear: both;
+  text-align: left;
+  padding: 0 10px 5px 5px;
+  border-bottom: 1px solid #d9dde0;
+  min-height: 30px;
+}
+
+.esriRtl .jimu-widget-screening .esriCTImpactSummaryLayerDetailContainer {
+  text-align: right;
+}
+
+.jimu-widget-screening .esriCTTemplateNode {
+  clear: both;
+}
+
+.jimu-widget-screening .esriCTFieldAlias {
+  clear: both;
+  padding: 5px;
+}
+
+.jimu-widget-screening .esriCTFieldDistinctData {
+  width: 100%;
+  clear: both;
+  padding: 5px 5px 5px 15px;
+}
+
+.jimu-widget-screening .esriCTFieldDistinctData a {
+  word-break: break-all;
+}
+
+.esriRtl .jimu-widget-screening .esriCTFieldDistinctData {
+  padding: 5px 15px 5px 5px;
+}
+
+.jimu-widget-screening .esriCTFieldArea {
+  clear: both;
+  padding: 5px;
+}
+
+.jimu-widget-screening .esriCTUnitAreaContainer {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+.esriRtl .jimu-widget-screening .esriCTUnitAreaContainer {
+  float: left;
+  text-align: left;
+}
+
+
+/*Impact summary report ends*/
+
+.jimu-widget-screening .esriCTHidden {
+  display: none;
+}
+
+
+/* Layer list display starts */
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .layer-name {
+  line-height: 36px;
+  height: 36px;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item {
+  width: 100%;
+  height: 36px;
+  position: relative;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row {
+  height: 36px;
+  position: relative;
+  cursor: pointer;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row>div {
+  display: inline-block;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .selectable-check {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background: url(../images/unchecked.svg) no-repeat center;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .selectable-check:hover {
+  background: url(../images/unchecked_hover.svg) no-repeat center;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .selectable-check.checked {
+  background: url(../images/checked.svg) no-repeat center;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .selectable-check.checked:hover {
+  background: url(../images/checked_hover.svg) no-repeat center;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .layer-name {
+  margin: 0 5px;
+  position: absolute;
+  left: 36px;
+  right: 72px;
+}
+
+.esriRtl .jimu-widget-screening .jimu-widget-screening-selectable-layer-item .layer-row .layer-name {
+  left: 72px;
+  right: 36px;
+}
+
+.jimu-widget-screening .jimu-widget-screening-selectable-layer-item.no-action .layer-row {
+  cursor: default;
+}
+
+
+/*Layer list display ends*/

@@ -1,0 +1,13 @@
+{
+	"generalSettings": {
+		"measurementUnit": "feet",
+		"currency": "$",
+		"roundCostType": "twoDecimalPoint",
+		"projectAreaType": "outline",
+		"bufferDistance": 5
+	},
+	"projectSettings": {},
+	"layerSettings": [],
+	"statisticsSettings": [],
+	"costingInfoSettings": {}
+}

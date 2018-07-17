@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Select</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="8" cy="8" r="8"></circle>
+    </defs>
+    <g id="Bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bookmark_Editable-Card-Edit-Delete" transform="translate(-1095.000000, -211.000000)">
+            <g id="Bookmark" transform="translate(1070.000000, 120.000000)">
+                <g id="Select" transform="translate(20.000000, 86.000000)">
+                    <g transform="translate(5.000000, 5.000000)">
+                        <g id="Check">
+                            <use fill="#68A600" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <circle stroke="#FFFFFF" stroke-width="1" cx="8" cy="8" r="7.5"></circle>
+                        </g>
+                        <polygon id="Shape" fill="#FFFFFF" points="6.8068967 9.63448294 4.15862074 6.98620698 3 8.14482771 6.8068967 11.9517244 12.6000004 6.15862074 11.4413796 5"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

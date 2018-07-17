@@ -1,0 +1,3 @@
+ArcGIS Solutions - September 2016 Release
+This version.txt reflects when the widget code was released. 
+Other parts of the solution (e.g. map document or sample data) may have updated in a later release.

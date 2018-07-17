@@ -1,0 +1,46 @@
+﻿.claro .jimu-widget-smartEditor .esriAttributeInspector .dijitButton .dijitButtonNode,
+.claro .jimu-widget-smartEditor .esriAttributeInspector .dijitDropDownButton .dijitButtonNode,
+.claro .jimu-widget-smartEditor .esriAttributeInspector .dijitComboButton .dijitButtonNode,
+.claro .jimu-widget-smartEditor .esriAttributeInspector .dijitToggleButton .dijitButtonNode {
+    min-width: 20px !important;
+}
+
+.jimu-widget-smartEditor .esriAttributeInspector .atiNavButtons {
+    margin-left: -120px !important;
+}
+
+.widgetIndicator {
+    top: -6px !important;
+}
+
+.jimu-widget-smartEditor .esriAttributeInspector .dijitTextBox {
+    height: 30px !important;
+}
+
+.jimu-widget-smartEditor .dijitTextBox {
+    height: 30px !important;
+}
+
+.drawingOptionsDiv .dijitDropDownButton {
+    text-align: left !important;
+}
+
+.jimu-rtl .drawingOptionsDiv .dijitDropDownButton .dijitButtonNode {
+    text-align: right !important;
+}
+
+.drawingOptionsDiv .dijitDropDownButton .dijitButtonNode {
+    text-align: left !important;
+}
+
+.drawingOptionsDiv .dijitArrowButtonInner:after {
+    display: none !important;
+}
+
+div[dijitpopupparent="drawingTool"] .dijitMenuItemIconCell {
+    width: 10px !important;
+}
+
+.drawingOptionsDiv .dijitButtonText {
+    padding-left: 10px !important;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Number5-Indicators" transform="translate(-1003.000000, -521.000000)" fill-rule="nonzero" fill="#282828">
+            <g id="Pop-up" transform="translate(719.000000, 458.000000)">
+                <g id="Group-6" transform="translate(110.000000, 53.000000)">
+                    <g id="Group-11" transform="translate(164.000000, 0.000000)">
+                        <g id="star" transform="translate(10.000000, 10.000000)">
+                            <polygon id="Shape" points="8 12.2419451 12.944 15.2235294 11.6359843 9.6003451 16 5.81872941 10.2472157 5.32511373 8 0.0235294118 5.75281569 5.32511373 0 5.81872941 4.36401569 9.6003451 3.056 15.2235294"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

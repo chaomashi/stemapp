@@ -1,0 +1,16 @@
+<div>
+    <div class='inputcontainer' data-dojo-attach-point='inputcoordcontainer'>
+        <span class='jimu-widget-subtitle'>${nls.inputLabel}</span>
+    </div>
+    <div class='outputcontainer' data-dojo-attach-point='outputtablecontainer'>
+        <span class='jimu-widget-subtitle' data-dojo-attach-point='outputtablesubtitle'>${nls.outputLabel}</span>
+        <div class='addNewNotationContainer'>
+            <div id='${uid}_ntbtn' 
+                 class='addNewNotation' 
+                 title='${nls.addNewNotation}' 
+                 data-dojo-attach-point='addNewNotation'
+                 data-dojo-attach-event='onclick:addNotation'></div>
+                <div class='addNewNotationLabel'>${nls.addLabel}</div>
+        </div>
+    </div>
+</div>

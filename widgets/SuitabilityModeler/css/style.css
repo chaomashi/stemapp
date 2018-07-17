@@ -1,0 +1,1032 @@
+.jimu-widget-suitability-modeler .jimu-tab3 {
+  height: 92%;
+}
+.jimu-widget-suitability-modeler .weighted-overlay-pane {
+  top: 40px;
+}
+
+.jimu-widget-suitability-modeler .weighted-overlay-pane .jimu-widget-suitability-modeler-chart .header {
+  max-height: 154px;
+}
+
+.jimu-widget-suitability-modeler-chart .header h4 {
+  display: inline-block;
+}
+
+.jimu-widget-suitability-modeler-chart .tools-section {
+  float: right;
+}
+
+.jimu-widget-suitability-modeler-chart .working {
+  display: inline-block;
+  visibility: hidden;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background-image: url(images/LoadingAnimation16_Trans.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jimu-widget-suitability-modeler-chart .select-layer-section {
+  margin-top: 8px;
+  text-align: right;
+  width: 100%;
+}
+
+.jimu-widget-suitability-modeler-chart .select-layer {
+  width: 100%;
+}
+
+.jimu-widget-suitability-modeler-chart p.info {
+  padding: 10px;
+}
+
+.jimu-widget-suitability-modeler-chart .chart-div {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.jimu-widget-suitability-modeler-chart .series-table {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 6px 6px;
+}
+.jimu-widget-suitability-modeler-chart .series-table td {
+  white-space: nowrap;
+}
+.jimu-widget-suitability-modeler-chart .series-table td.num {
+  text-align: right;
+}
+.jimu-widget-suitability-modeler-chart .series-table .color-cell {
+  width: 20px;
+  border-radius: 5px;
+}
+
+.jimu-widget-suitability-modeler-chart .clear-button {
+  margin-left: 6px;
+  margin-right: 6px;
+  text-decoration: none;
+}
+
+.jimu-widget-suitability-modeler-chart .icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 40px;
+  height: 40px;
+  background-size: 24px 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+.jimu-widget-suitability-modeler-chart .icon.selected {
+  border-color: #a3a3a3;
+}
+.jimu-widget-suitability-modeler-chart .icon-polygon {
+  background-image: url("images/chart/draw-polygon.svg");
+}
+.jimu-widget-suitability-modeler-chart .icon-freehand-polygon {
+  background-image: url("images/chart/draw-freehand.png");
+}
+.jimu-widget-suitability-modeler-chart .icon-select-features {
+  background-image: url("images/chart/select-from-layer.svg");
+}
+.jimu-widget-suitability-modeler-chart .icon-pan {
+  background-image: url("images/chart/pan1.svg");
+}
+
+/* ................................................................... */
+
+.jimu-widget-suitability-modeler {
+    position: relative;
+    height: 100%;
+}
+
+.jimu-widget-frame.jimu-container .jimu-widget-suitability-modeler {
+    background: #fff;
+    position: static;
+}
+
+
+/* miscellaneous */
+
+.jimu-widget-suitability-modeler .pull-left {
+    float: left;
+}
+
+.jimu-rtl .jimu-widget-suitability-modeler .pull-left {
+    float: right;
+}
+
+.jimu-widget-suitability-modeler .pull-right {
+    float: right;
+}
+
+.jimu-rtl .jimu-widget-suitability-modeler .pull-right {
+    float: left;
+}
+
+.jimu-widget-suitability-modeler label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+.jimu-widget-suitability-modeler .jimu-input {
+    color: inherit;
+    font-size: 12px;
+}
+
+.jimu-widget-suitability-modeler textarea.jimu-input {
+    min-height: 60px;
+}
+
+.jimu-widget-suitability-modeler .jimu-btn {
+    font-size: 12px;
+    border: 0;
+}
+
+.jimu-widget-suitability-modeler .jimu-btn .esri-icon-left {
+    display: inline-block;
+}
+
+.jimu-rtl .esri-icon-left::before {
+    content: "\e62b";
+}
+
+.jimu-rtl .esri-icon-right-arrow::before {
+    content: "\e65a";
+}
+
+
+/* checkbox */
+
+
+/* make dijit checkbox look consistent with jimu checkbox */
+
+.jimu-widget-suitability-modeler .dijitCheckBox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 2px;
+    background-image: url(images/checkbox_default.png);
+    background-position: 0 0;
+}
+
+.jimu-rtl .jimu-widget-suitability-modeler .dijitCheckBox {
+    margin-left: 2px;
+    margin-right: 0;
+}
+
+.jimu-widget-suitability-modeler .dijitCheckBoxChecked {
+    background-image: url(images/checked_default.png);
+}
+
+.jimu-widget-suitability-modeler .dijitCheckBoxDisabled {
+    background-image: url(images/checkbox_disabled.png);
+}
+
+.jimu-widget-suitability-modeler .dijitCheckBoxCheckedDisabled {
+    background-image: url(images/checked_disabled.png);
+}
+
+
+/* dropdown */
+
+.jimu-widget-suitability-modeler .dijitDropDownButton {
+    margin: 0;
+}
+
+.jimu-widget-suitability-modeler .dijitDropDownButton .dijitButtonNode {
+    background: transparent;
+    border: 0;
+    padding: 4px 0;
+    color: #196fa6;
+    font-weight: bold;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.jimu-widget-suitability-modeler .dijitDropDownButton .dijitButtonNode .dijitButtonContents {
+    border-color: transparent;
+}
+
+.jimu-widget-suitability-modeler .dijitDropDownButton .dijitButtonNode .dijitInputField {
+    padding: 0 5px;
+}
+
+.jimu-widget-suitability-modeler .dijitDropDownButton .dijitButtonNode .dijitArrowButton {
+    background: transparent;
+    border: 0;
+}
+
+.jimu-widget-suitability-modeler .dijitDropDownButton .dijitButtonNode.dijitSelectFocused .dijitArrowButton {
+    padding: 0;
+}
+
+.jimu-widget-suitability-modeler .dijitArrowButtonInner {
+    background-image: none;
+}
+
+.jimu-widget-suitability-modeler .dijitArrowButtonInner:after {
+    content: "\e681";
+    font-family: 'CalciteWebCoreIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.weighted-overlay-model-designer-popup {
+    padding: 0;
+    margin-left: -15px;
+}
+
+.jimu-rtl .weighted-overlay-model-designer-popup {
+    margin-left: -auto;
+    margin-right: -15px;
+}
+
+.weighted-overlay-model-designer-popup .dijitTooltipConnector {
+    display: none;
+}
+
+.weighted-overlay-model-designer-popup .dijitTooltipContainer {
+    padding: 10px;
+    border-color: #ccc;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.weighted-overlay-model-designer-popup.dijitMenuPopup {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.weighted-overlay-model-designer-popup .dijitMenu {
+    border-color: #ccc;
+}
+
+.weighted-overlay-model-designer-popup .dijitMenu .dijitMenuItem td {
+    padding: 10px 5px;
+    border: 0;
+}
+
+.weighted-overlay-model-designer-popup .dijitMenu .dijitMenuItemHover td, .weighted-overlay-model-designer-popup .dijitMenu .dijitMenuItemActive td, .weighted-overlay-model-designer-popup .dijitMenu .dijitMenuItemSelected td {
+    background-color: #f4f4f4;
+    background-image: none;
+}
+
+.weighted-overlay-model-designer-popup .dijitMenu .dijitSelectSelectedOption td, .weighted-overlay-model-designer-popup .dijitMenu .dijitSelectSelectedOption.dijitMenuItemHover td, .weighted-overlay-model-designer-popup .dijitMenu .dijitSelectSelectedOption.dijitMenuItemSelected td {
+    background-color: #196fa6;
+    background-image: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.weighted-overlay-model-designer-popup .dijitMenu .dijitMenuItem td .dijitMenuExpand {
+    display: none;
+}
+
+/* layout */
+
+.weighted-overlay-widget, .weighted-overlay-pane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.weighted-overlay-pane {
+    -webkit-transition: left 0.3s ease-out;
+    transition: left 0.3s ease-out;
+}
+
+.jimu-rtl .weighted-overlay-pane {
+    -webkit-transition-property: right;
+    transition-property: right;
+}
+
+.weighted-overlay-widget {}
+
+
+/* layout: header */
+
+.weighted-overlay-pane .header {
+    border-bottom: 1px solid #e7e7e7;
+    background: #f8f8f8;
+    padding: 15px;
+    max-height: 54px;
+    position: relative;
+}
+
+.weighted-overlay-pane .header .bullet-number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    background-color: #0079c1;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.jimu-rtl .weighted-overlay-pane .header .bullet-number {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.weighted-overlay-pane .header h4 {
+    font-family: "Avenir Heavy";
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.weighted-overlay-pane .header .slider-toggle {
+    line-height: 24px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.weighted-overlay-pane .header .slider-toggle:hover {
+    opacity: 1;
+}
+
+
+/* layout: body */
+
+.weighted-overlay-pane .body {
+    padding: 0;
+    position: absolute;
+    top: 54px;
+    width: 100%;
+    bottom: 50px;
+    overflow: auto;
+    z-index: 1;
+    -webkit-transition: top, 0.2s, ease;
+    transition: top, 0.2s, ease;
+}
+
+
+/* layout: footer */
+
+.weighted-overlay-pane .footer {
+    width: 100%;
+    padding: 10px 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.width-smaller-than-350 .weighted-overlay-pane .footer .jimu-btn {
+    min-width: 0;
+}
+
+.width-smaller-than-350 .weighted-overlay-pane .footer .jimu-btn .jimu-btn-text {
+    display: none;
+}
+
+.weighted-overlay-pane .footer .btn-execute {
+    width: 100%;
+    text-align: center;
+}
+
+.weighted-overlay-pane .footer .btn-execute.jimu-btn {
+    background-color: #59A700;
+    color: #fff;
+}
+
+.weighted-overlay-pane .footer .btn-execute.jimu-btn.jimu-state-disabled {
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.weighted-overlay-pane .footer .btn-execute:hover {
+    background-color: #417505;
+}
+
+.weighted-overlay-pane .footer .btn-execute:active {
+    background-color: #59A700;
+}
+
+.weighted-overlay-pane .footer .btn-execute .esri-icon-right-arrow {
+    display: inline-block;
+}
+
+.transparency-container {
+    background-color: #efefef;
+    border-bottom: 1px solid #e7e7e7;
+    position: absolute;
+    top: 54px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease 0.1s;
+    transition: opacity 0.2s ease 0.1s;
+}
+
+.transparency-slider-show>.panel-heading {
+    padding-bottom: 55px;
+    position: relative;
+}
+
+.transparency-slider-show .transparency-container {
+    opacity: 1;
+}
+
+.transparency-slider-show .modeler-transparency-slider {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.transparency-slider-show.weighted-overlay-pane .body {
+    top: 96px;
+}
+
+
+/* select layers view */
+
+.weighted-overlay-select-layers {
+    z-index: 1;
+}
+
+
+/* select layers view: layer selector */
+
+.weighted-overlay-layer-selector {
+    padding: 10px 15px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.weighted-overlay-layer-selector:hover, .weighted-overlay-layer-selector:active {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.weighted-overlay-layer-selector label {
+    display: block;
+    font-weight: 500;
+    vertical-align: middle;
+    white-space: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.weighted-overlay-layer-selector .icon-button {
+    display: inline-block;
+    color: #808080;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0px 3px;
+    cursor: pointer;
+}
+
+.weighted-overlay-layer-selector .icon-button:hover {
+    color: #000;
+}
+
+.weighted-overlay-layer-selector .icon-button i {
+    line-height: 20px;
+}
+
+.weighted-overlay-layer-selector .btn-group .btn-switch-toggle {
+    margin: 8px 3px;
+    height: 14px;
+    width: 24px;
+}
+
+.weighted-overlay-layer-selector .btn-group .btn-switch-toggle::before {
+    height: 10px;
+    width: 10px;
+}
+
+.weighted-overlay-layer-selector .btn-group .btn-switch-toggle.checked::before {
+    right: 12px;
+}
+
+.jimu-rtl .weighted-overlay-layer-selector .btn-group .btn-switch-toggle.checked::before {
+    left: 12px;
+    right: auto;
+}
+
+.modeler-color-ramp {
+    vertical-align: top;
+    display: block;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.modeler-color-ramp .modeler-color-ramp-colors {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.modeler-color-ramp .modeler-color-ramp-color {
+    display: inline-block;
+    width: 5px;
+    height: 8px;
+    margin-bottom: 2px;
+}
+
+.layer-visibility {
+    display: none;
+}
+
+
+/* design mode view */
+
+.weighted-overlay-design-model {
+    z-index: 2;
+}
+
+.weighted-overlay-design-model [class^="col-"], .weighted-overlay-design-model [class*=" col-"] {
+    padding: 0;
+}
+
+
+/* design mode view :layer editors */
+
+.weighted-overlay-layer-editors {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    top: 0;
+    overflow-y: auto;
+}
+
+
+/* layer editors view: row */
+
+.weighted-overlay-layer-editor .layer-row {
+    padding: 10px 15px;
+}
+
+.weighted-overlay-layer-editor .layer-row--title {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.weighted-overlay-layer-editor .layer-row--title label {
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.weighted-overlay-layer-editor .layer-row--value {
+    color: #808080;
+}
+
+.weighted-overlay-layer-editor .layer-row--value .dijitTextBox {
+    width: 5em;
+    text-align: center;
+    margin: 0;
+}
+
+.weighted-overlay-layer-editor .layer-row--value-mark {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+}
+
+.weighted-overlay-layer-editor .layer-row--value .dijitTextBox .dijitValidationContainer {
+    display: none;
+}
+
+.weighted-overlay-layer-editor .layer-row .sliders-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("images/sliders.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.weighted-overlay-layer-editor .layer-row .sliders-button:hover, .weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+    background-image: url("images/sliders_hover.png");
+}
+
+.weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+    position: relative;
+}
+
+.weighted-overlay-layer-editor.is-open .layer-row .sliders-button::before {
+    content: "\e609";
+    font-family: 'CalciteWebCoreIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+    color: #000;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    margin-left: -6px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .weighted-overlay-layer-editor .layer-row .sliders-button {
+        background-image: url("images/sliders@2x.png");
+        background-size: 16px;
+    }
+    .weighted-overlay-layer-editor .layer-row .sliders-button:hover, .weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+        background-image: url("images/sliders_hover@2x.png");
+        background-size: 16px;
+    }
+}
+
+
+/* layer editors view: ranges */
+
+.remap-ranges-editor {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 3px solid #0079c1;
+    padding: 10px 15px;
+}
+
+.jimu-rtl .remap-ranges-editor {
+    border-left: 0;
+    border-right: 3px solid #0079c1;
+}
+
+.remap-ranges-editor .dijitTextBox {
+    float: right;
+    width: 3em;
+    margin-left: 5px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.jimu-rtl .remap-ranges-editor .dijitTextBox {
+    float: left;
+    margin-left: 16px;
+    margin-right: 5px;
+}
+
+.remap-ranges-editor .dijitTextBox .dijitValidationContainer {
+    display: none;
+}
+
+.remap-ranges-editor .dijitInputField {
+    padding: 5px 0;
+}
+
+.remap-ranges-editor .dijitNumberTextBox .dijitInputInner {
+    text-align: center;
+}
+
+.remap-ranges-editor-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.remap-ranges-editor-table>tbody>tr>td {
+    padding-bottom: 10px;
+}
+
+.reclass-range-editor .reclass-range-editor-label {
+    width: 60%;
+    color: #596679;
+    font-weight: 500;
+    font-size: smaller;
+    padding-right: 5px;
+}
+
+.jimu-rtl .reclass-range-editor .reclass-range-editor-label {
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+.reclass-range-editor .dijitSlider {
+    width: 100%;
+    min-width: 80px;
+    margin: 0 5px;
+}
+
+.width-smaller-than-350 .reclass-range-editor .dijitSlider {
+    min-width: 100px;
+}
+
+.modeler-transparency-slider {
+    display: none;
+    margin: 15px;
+}
+
+.alert-danger {
+    background-color: #f3ded7;
+    border-top: 1px solid #e4a793;
+    border-bottom: 1px solid #e4a793;
+}
+
+.alert-success {
+    background-color: #ddeedb;
+    border-top: 1px solid #9bc19c;
+    border-bottom: 1px solid #9bc19c;
+}
+
+.weight-pct-total {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-bottom: 24px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.weight-pct-total .weight-pct-label {
+    float: left;
+}
+
+.jimu-rtl .weight-pct-total .weight-pct-label {
+    float: right;
+}
+
+.weight-pct-total .weight-pct-total-wrapper {
+    float: right;
+}
+
+.jimu-rtl .weight-pct-total .weight-pct-total-wrapper {
+    float: left;
+}
+
+
+/* save model view */
+
+.weighted-overlay-save-panel {
+    background-color: rgba(255, 255, 255, 0.65);
+    z-index: 3;
+}
+
+.jimu-widget-suitability-modeler-save-model {
+    background: #fff;
+    height: auto;
+    margin: 10px;
+    position: static;
+    width: auto;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);*/
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.show-panel-animated .jimu-widget-suitability-modeler-save-model {
+    -webkit-animation-name: fade-in-top;
+    animation-name: fade-in-top;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+.hide-panel-animated .jimu-widget-suitability-modeler-save-model {
+    -webkit-animation-name: fade-out-top;
+    animation-name: fade-out-top;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.jimu-widget-suitability-modeler-save-model .header {
+    border-top: 2px solid #24b5cc;
+}
+
+.jimu-widget-suitability-modeler-save-model .body {
+    position: static;
+}
+
+.jimu-widget-suitability-modeler-save-model .footer {
+    position: static;
+    text-align: right;
+}
+
+.jimu-rtl .jimu-widget-suitability-modeler-save-model .footer {
+    text-align: left;
+}
+
+.jimu-widget-suitability-modeler-save-model .row {
+    padding: 10px 15px;
+}
+
+.jimu-widget-suitability-modeler-save-model .row .lbl {
+    display: inline-block;
+    width: 100px;
+}
+
+.jimu-widget-suitability-modeler-save-model .row .jimu-input {
+    width: 100%;
+}
+
+.jimu-widget-suitability-modeler-save-model .folder-select-dropdown {
+    width: 55%;
+}
+
+.jimu-widget-suitability-modeler-save-model .action-bar {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.jimu-rtl .jimu-widget-suitability-modeler-save-model .action-bar {
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.jimu-widget-suitability-modeler-save-model .action-bar .message {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.BoxTheme .jimu-widget-suitability-modeler .jimu-btn {
+    min-width: 0;
+}
+
+.DartTheme select {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.DartTheme .jimu-widget-frame.jimu-container .jimu-widget-suitability-modeler {
+    background-color: transparent;
+}
+
+.DartTheme .weighted-overlay-pane .header {
+    background-color: transparent;
+}
+
+.DartTheme .weighted-overlay-pane .header {
+    padding: 10px 0;
+    border-bottom-color: transparent;
+}
+.DartTheme .jimu-widget-suitability-modeler {
+    margin: -10px;
+}
+
+.DartTheme .weighted-overlay-layer-selector {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.DartTheme .weighted-overlay-layer-selector .icon-button:hover {
+    color: #fff;
+}
+
+.DartTheme .weighted-overlay-layer-editor .layer-row .sliders-button:hover,
+.DartTheme .weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+    background-image: url("images/sliders_hover_white.png");
+}
+
+.DartTheme .transparency-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 0;
+}
+
+.DartTheme .remap-ranges-editor {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+
+.DartTheme .weighted-overlay-pane .footer {
+    padding: 0;
+}
+
+.DartTheme .weighted-overlay-save-panel {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.DartTheme .jimu-widget-suitability-modeler-save-model {
+    background-color: #646464;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    overflow: auto;
+}
+
+.DartTheme .jimu-widget-suitability-modeler-save-model .header,
+.DartTheme .jimu-widget-suitability-modeler-save-model .footer {
+    padding: 5px 10px;
+}
+
+.DartTheme .alert-danger {
+    background-color: #622721;
+    border-top-color: #843117;
+    border-bottom-color: #843117;
+}
+
+.DartTheme .alert-success {
+    background-color: #285328;
+    border-top-color: #376e37;
+    border-bottom-color: #376e37;
+}
+
+.LaunchpadTheme .jimu-widget-suitability-modeler .dijitArrowButtonInner:after {
+  content: none;
+}
+
+.LaunchpadTheme .model-colormap {
+  margin-top: -5px;
+}
+
+.LaunchpadTheme .weighted-overlay-model-designer-popup {
+  margin: 0;
+}
+
+.TabTheme .jimu-widget-sidebar-controller .weighted-overlay-pane .footer {
+  padding: 0;
+}
+
+.TabTheme .jimu-widget-sidebar-controller .jimu-widget-suitability-modeler-save-model .footer {
+  padding: 5px;
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .DartTheme .weighted-overlay-layer-editor .layer-row .sliders-button:hover,
+    .DartTheme .weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+        background-image: url("images/sliders_hover_white@2x.png");
+    }
+}
+
+@-webkit-keyframes fade-in-top {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fade-in-top {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@-webkit-keyframes fade-out-top {
+    from {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+    }
+}
+
+@keyframes fade-out-top {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -50px, 0);
+    }
+}

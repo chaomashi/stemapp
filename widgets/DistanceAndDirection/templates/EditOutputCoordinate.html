@@ -1,0 +1,24 @@
+<div>
+    <span class='jimu-widget-subtitle'>${nls.setCoordFormatStringMessage}</span>
+    <div class="controlContainer">
+        <select style="width:80px" name="test" data-dojo-type='dijit/form/Select' data-dojo-attach-point="frmtSelect">
+            <option value="DD">${nls.ddLabel}</option>
+            <option value="DDM">${nls.ddmLabel}</option>
+            <option value="DMS">${nls.dmsLabel}</option>
+            <option value="GARS">${nls.garsLabel}</option>
+            <option value="GEOREF">${nls.georefLabel}</option>
+            <option value="MGRS">${nls.mgrsLabel}</option>
+            <option value="USNG">${nls.usngLabel}</option>
+            <option value="UTM">${nls.utmLabel}</option>
+            <option value="UTM (H)">${nls.utmhLabel}</option>
+        </select>
+        <input type ="text" data-dojo-attach-point="frmtVal" class="jimu-input"></input>
+        <div class='settingsContainer' data-dojo-attach-point="prefixContainer">
+            <div data-dojo-attach-point='addSignChkBox'  data-dojo-type='jimu/dijit/CheckBox'>${nls.prefixMessage}</div>
+        </div>
+    </div>
+    <div class="btnContainer">
+        <div data-dojo-attach-point="applyButton" class='jimu-btn'>${nls.common.ok}</div>
+        <div data-dojo-attach-point="cancelButton" class='jimu-btn'>${nls.common.cancel}</div>        
+    </div>
+</div>

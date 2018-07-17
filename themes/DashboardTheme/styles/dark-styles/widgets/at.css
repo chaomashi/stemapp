@@ -1,0 +1,82 @@
+.jimu-widget-attributetable, .jimu-widget-attributetable-main,
+.jimu-widget-attributetable .dgrid-header,
+.jimu-widget-attributetable-feature-table-footer{
+  background-color: #222;
+}
+.jimu-widget-attributetable .dgrid-row-even{
+  background-color: #222;
+}
+.jimu-widget-attributetable .dgrid-row-odd {
+  background-color: #333;
+}
+.jimu-widget-attributetable .dgrid-row:hover{
+  background-color:#666;
+}
+.jimu-widget-attributetable .dgrid-column-selectionHandle.selection-handle-column{
+  background-color: #222;
+}
+.jimu-widget-attributetable .dijitToggleButton.dijitToggleButtonChecked .dijitButtonText{
+  color: white;
+}
+
+.claro .jimu-widget-attributetable .dijitToolbar{
+  border-bottom: 1px solid #666;
+}
+
+.claro .jimu-widget-attributetable .dijitTabContainerTop-tabs .dijitTab{
+  background: transparent;
+}
+
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table > .dijit.dijitToolbar{
+  background-image: none;
+}
+
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table > .dijit.dijitToolbar > .dijitButtonHover > .dijitButtonNode{
+  background: #444 !important;
+}
+
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table > .dijitToolbar > .dijitToggleButtonChecked > .dijitButtonNode{
+  border: none;
+}
+
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table .dijitButtonHover .dijitButtonNode,
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table .dijitDropDownButtonHover .dijitButtonNode,
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table .dijitComboButton .dijitButtonNodeHover,
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table .dijitComboButton .dijitDownArrowButtonHover,
+.claro .jimu-widget-attributetable .jimu-widget-attributetable-feature-table .dijitToggleButtonHover .dijitButtonNode{
+  border-color: transparent;
+}
+
+.claro .jimu-widget-attributetable .dojoDndItemOver{
+  background: #444 !important;
+}
+
+.claro .jimu-widget-attributetable .dojoDndItemOver{
+  border-color: transparent;
+}
+
+.claro .jimu-widget-attributetable .dijitToolbar .dijitButtonHover .dijitButtonNode,
+.claro .jimu-widget-attributetable .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.claro .jimu-widget-attributetable .dijitToolbar .dijitToggleButtonHover .dijitButtonNode{
+  background: #444 !important;
+}
+
+.jimu-widget-attributetable .dgrid-cell{
+  border-right-color: #666;
+}
+
+.jimu-widget-attributetable .dgrid-row .dgrid-cell{
+  border-right-color: #666;
+}
+
+.jimu-widget-attributetable .dgrid-column-selectionHandle.selection-handle-column{
+  border-bottom: 1px solid #666 !important;
+}
+
+.jimu-widget-attributetable .dgrid-cell a{
+  color: white;
+}
+
+.jimu-widget-attributetable .dgrid-hider-menu{
+  background-color: #343434;
+}

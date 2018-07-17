@@ -1,0 +1,73 @@
+{
+  "name": "BillboardTheme",
+  "label": "Billboard Theme",
+  "platform": "HTML",
+  "panels": [
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "Default style",
+      "styleColor": "#2e3641"
+    },
+    {
+      "name": "purple",
+      "description": "Purple style",
+      "styleColor": "#856d9c"
+    },
+    {
+      "name": "blue",
+      "description": "Blue style",
+      "styleColor": "#2f70e4"
+    },
+    {
+      "name": "turquoise",
+      "description": "Turquoise style",
+      "styleColor": "#2d95a0"
+    },
+    {
+      "name": "green",
+      "description": "Green style",
+      "styleColor": "#6db8ac"
+    },
+    {
+      "name": "orange",
+      "description": "Orange style",
+      "styleColor": "#edbd35"
+    },
+    {
+      "name": "red",
+      "description": "Red style",
+      "styleColor": "#e83428"
+    },
+    {
+      "name": "pink",
+      "description": "Pink style",
+      "styleColor": "#fe6960"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the default layout"
+    },
+    {
+      "name": "layout1",
+      "description": "this is layout1"
+    },
+    {
+      "name": "layout2",
+      "description": "this is layout2"
+    },
+    {
+      "name": "layout3",
+      "description": "this is layout3"
+    }
+  ],
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri R&D Center Beijing",
+  "description": "",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

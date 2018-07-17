@@ -1,0 +1,48 @@
+<div>
+  <!--Search source setting hint text -->
+  <div class="esriCTHint" style="width: 99%">
+    ${nls.searchSourceSetting.searchSourceSettingTitleHintText}
+  </div>
+  <!--Add Search Source Label and click-->
+  <div class="esriCTDropdownButton" role="button">
+    <div>
+      <span> ${nls.searchSourceSetting.addSearchSourceLabel}</span>
+    </div>
+    <ul class="esriCTDropdownMenu" role="menu" data-dojo-attach-point="menuItemClickNode">
+      <li class="esriCTDropdownItem" type="query">${nls.searchSourceSetting.featureLayerLabel}</li>
+      <li class="esriCTDropdownItem" type="locator">${nls.searchSourceSetting.geocoderLabel}</li>
+    </ul>
+  </div>
+ <!--Add Search Source Label and click-->
+  <div class="esriCTSources" data-dojo-attach-point="searchSources">
+    <div class="esriCTSourceList jimu-float-leading">
+      <div data-dojo-attach-point="sourceList" style="100%"></div>
+    </div>
+    <div class="esriCTSourceSetting jimu-float-trailing" data-dojo-attach-point="sourceSettingNode"></div>
+  </div>
+  <div>
+     <!--General setting: Label-->
+    <div class="esriCTlabel esriCTGeneralSettingLabelStyle">
+      ${nls.searchSourceSetting.generalSettingLabel}
+    </div>
+    <!--General setting: All Place Holder Label-->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTlabel esriCTLabelContainer" title="${nls.searchSourceSetting.allPlaceholderLabel}">
+        ${nls.searchSourceSetting.allPlaceholderLabel}
+      </div>
+      <div class="esriCTLayerField" style="width: 72%;">
+        <div data-dojo-attach-point="allPlaceholder" style="width: 100%;" data-dojo-type="dijit/form/TextBox" trim="true">
+        </div>
+         <!--General setting: All Place Holder Hint-->
+        <div class="esriCTHint">
+          ${nls.searchSourceSetting.allPlaceholderHintText}
+        </div>
+      </div>
+    </div>
+     <!--General setting: Checkbox-->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabelFont " data-dojo-attach-point="showInfoWindowOnSelectNode">
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+define({
+  "_widgetLabel": "Nadzorna ploča za pregledavatelja",
+  "spatialFilterSelection": "Filtriraj rezultate po geografskom položaju",
+  "drawSelectionArea": "Nacrtajte područje za prikaz rezultata na karti",
+  "currentSelection": "Prikaži rezultate samo u trenutačnom obuhvatu karte",
+  "censusBlockGroup": "Prikaži rezultate po geografskom položaju",
+  "noSpatialFilter": " Nemojte upotrijebiti prostorni filtar",
+  "reviewerSessionFilter": "Filtriraj rezultate prema sesiji pregledavatelja",
+  "selectAttributeFilters": "Odaberite informacije za prikaz",
+  "phaseFieldName": "lifecyclephase",
+  "statusFieldName": "lifecyclestatus",
+  "allSessions": "Sve sesije",
+  "dashboardTab": "Nadzorna ploča",
+  "filtersTab": "Postavke",
+  "noResults": "Nema rezultata",
+  "resultsBy": "Rezultati prema: ",
+  "reviewed": "Pregled",
+  "corrected": "Ispravak",
+  "verified": "Provjera",
+  "OtherCategory": "Ostalo",
+  "backButton": "Natrag"
+});

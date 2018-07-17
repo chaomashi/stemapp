@@ -1,0 +1,102 @@
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitButtonContents {
+  background-color: #222;
+}
+
+.jimu-widget-screening .esriCTBufferDistanceLabelTextBoxContainer .dijitSelect .dijitArrowButton {
+  background-color: #222;
+  background-image: inherit;
+  border-color: inherit;
+}
+
+.jimu-widget-screening .esriCTAOIButtonSelected {
+  background-color: #333;
+}
+
+.jimu-widget-screening .esriCTPlacenameButton:hover,
+.jimu-widget-screening .esriCTDrawToolButton:hover,
+.jimu-widget-screening .esriCTShapefileButton:hover,
+.jimu-widget-screening .esriCTCoordinateButton:hover {
+  background-color: #666;
+}
+
+.jimu-widget-screening .esriCTDownloadContainer {
+  background-image: url('../images/download-disable.png');
+}
+
+.jimu-widget-screening .esriCTDownloadBtnDisabled {
+  background-image: url('../images/download.png');
+}
+
+.jimu-widget-screening .esriCTPrintContainer {
+  background-image: url('../images/print-disable.png');
+}
+
+.jimu-widget-screening .esriCTPrintBtnDisabled {
+  background-image: url('../images/print.png');
+}
+
+.jimu-widget-screening .esriCTZoomToIcon {
+  background-image: url('../images/zoom-dart-theme.png');
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select {
+  background-color: #666;
+}
+
+.jimu-widget-screening .esriCTPlacenameButton:hover,
+.jimu-widget-screening .esriCTDrawToolButton:hover,
+.jimu-widget-screening .esriCTShapefileButton:hover,
+.jimu-widget-screening .esriCTCoordinateButton:hover {
+  background-color: #262626;
+}
+
+.jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/left-arrow-dart-theme.png');
+  background-color: #222;
+}
+
+.jimu-rtl .jimu-widget-screening .esriCTBackButtonIcon {
+  background-image: url('../images/right-arrow-dart-theme.png');
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item.EXTENT .btn-select .select-icon {
+  background: url("../images/select-tool-white.png") center center no-repeat;
+  left: -2px;
+}
+
+.jimu-widget-screening .esriCTLocateImageNode {
+  background: url("../images/locate-selected.png") center no-repeat;
+  background-size: 20px;
+}
+
+.jimu-widget-screening .esriCTLocateIconSelected {
+  border: 1px solid #fff;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerFieldIcon {
+  background: url(../images/layer-field-disable.png) center center no-repeat;
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTImpactSummaryLayerFieldIconDisabled {
+  background: url(../images/layer-field.png) center center no-repeat;
+  background-size: 18px 18px;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select.selected {
+  background-color: #666;
+  border: 1px solid #666;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .current-draw-item.pressed{
+  background-color: #666;
+  color: white;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .draw-item-btn .current-draw-item {
+  border: 1px solid #666;
+}
+
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .draw-item-btn .current-draw-item.pressed {
+  border: none;
+}

@@ -1,0 +1,78 @@
+.jimu-widget-analysis {
+    width: 100%;
+    height: 100%;
+}
+
+.jimu-widget-analysis .btn32:hover {
+    background-color: #262626;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jimu-widget-analysis .analysis-tab {
+    overflow-y: auto;
+}
+
+.jimu-widget-analysis .btn32 {
+    float: left;
+    width: 88px;
+    height: 32px;
+    padding: 0;
+    color: #ffffff;
+    background-color: #2a8aff;
+    border-radius: 2px;
+    display: block;
+    margin-right: 5px;
+    cursor: pointer;
+    line-height: 33px;
+    margin-top: 10px
+}
+
+.jimu-widget-analysis .btn-ana {
+    float: left;
+    width: 50px;
+    height: 32px;
+    padding: 0;
+    color: #ffffff;
+    background-color: #2a8aff;
+    border-radius: 2px;
+    display: block;
+    margin-right: 5px;
+    cursor: pointer;
+    line-height: 33px;
+    margin-top: 10px
+}
+
+.jimu-widget-analysis .btn-ana-clear {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 12px;
+}
+
+.jimu-widget-analysis .result-table {
+    position: relative;
+    height: 300px;
+}
+
+.jimu-widget-analysis .btn-img {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.jimu-widget-analysis .btn-font {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.jimu-widget-analysis .result-tab {
+    width: 100%;
+}
+
+.jimu-widget-analysis .remove-btn {
+    margin-bottom: 10px;
+}
+
+.jimu-widget-analysis .about-container {
+    width: 300px;
+    height: 50px;
+}

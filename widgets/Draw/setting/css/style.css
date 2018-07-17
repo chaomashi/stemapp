@@ -1,0 +1,43 @@
+.jimu-widget-draw-setting .add-with-icon{
+  margin-top:8px;
+  margin-bottom:3px;
+}
+
+.jimu-widget-draw-setting .jimu-tab{
+  position: static;
+}
+
+.jimu-widget-draw-setting .jimu-tab>.jimu-viewstack{
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  height: auto;
+}
+
+.jimu-widget-draw-setting .jimu-viewstack>.view{
+  height: auto;
+}
+
+.jimu-widget-draw-setting .tip{
+  color: #000;
+  font-size: 14px;
+}
+
+.jimu-widget-draw-setting .add-with-icon.jimu-state-disabled{
+  color: #ccc;
+  cursor: default;
+}
+
+.jimu-widget-draw-setting .jimu-simple-table .simple-table-cell .normal-text-div{
+  color: #000;
+  font-size: 14px;
+}
+
+/*temp for select overlap issue#12515*/
+.claro .jimu-widget-draw-setting .dijitSelectLabel,
+.claro .jimu-widget-draw-setting .dijitTextBox .dijitInputInner,
+.claro .jimu-widget-draw-setting .dijitValidationTextBox .dijitValidationContainer{
+  max-height: 21px;
+}

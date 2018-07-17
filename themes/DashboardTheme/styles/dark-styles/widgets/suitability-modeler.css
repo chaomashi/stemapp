@@ -1,0 +1,113 @@
+/*.weighted-overlay-pane .header,
+.weighted-overlay-pane .body,
+.weighted-overlay-pane .footer {
+  background: #222222;
+}
+
+.weighted-overlay-pane .footer .btn-execute.jimu-btn {
+  background-color: #666;
+  color: #fff;
+}
+
+.weighted-overlay-pane .footer .btn-execute.jimu-btn.jimu-state-disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.weighted-overlay-pane .footer .btn-execute:hover {
+  background-color: #333;
+}
+
+.weighted-overlay-pane .footer .btn-execute:active {
+  background: #666;
+  border: 2px solid #999999;
+  border-radius: 2px;
+}
+
+
+*/
+
+select {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.jimu-widget-frame.jimu-container .jimu-widget-suitability-modeler {
+    background-color: transparent;
+}
+
+.weighted-overlay-pane .header {
+    background-color: transparent;
+}
+.weighted-overlay-pane .header {
+    border-bottom-color: #000;
+}
+.weighted-overlay-pane .body {
+    bottom: 55px;
+}
+.jimu-widget-suitability-modeler {
+    margin: -10px;
+}
+
+.weighted-overlay-layer-selector {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.weighted-overlay-layer-selector .icon-button:hover {
+    color: #fff;
+}
+
+.weighted-overlay-layer-editor .layer-row .sliders-button:hover,
+.weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+    background-image: url("../images/SuitabilityModeler/sliders_hover_white.png");
+}
+
+.transparency-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 0;
+}
+
+.remap-ranges-editor {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 0;
+}
+
+.reclass-range-editor .reclass-range-editor-label {
+    color: #fff;
+}
+
+.weighted-overlay-save-panel {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.jimu-widget-suitability-modeler-save-model {
+    background-color: #646464;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    overflow: auto;
+}
+
+.alert-danger {
+    background-color: #622721;
+    border-top-color: #843117;
+    border-bottom-color: #843117;
+}
+
+.alert-success {
+    background-color: #285328;
+    border-top-color: #376e37;
+    border-bottom-color: #376e37;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) {
+    .weighted-overlay-layer-editor .layer-row .sliders-button:hover,
+    .weighted-overlay-layer-editor.is-open .layer-row .sliders-button {
+        background-image: url("../images/SuitabilityModeler/sliders_hover_white@2x.png");
+    }
+}

@@ -1,0 +1,33 @@
+.jimu-widget-onscreen-icon{
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.jimu-widget-onscreen-icon.jimu-state-selected{
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.jimu-on-screen-widget-panel>.jimu-panel-title{
+  background-color: #fff;
+  border-bottom: 1px solid #cdcdcd;
+  color: #fff;
+  box-shadow: 0 0 0 !important;
+}
+
+.jimu-on-screen-widget-panel>.jimu-panel-title>.close-btn{
+  background: url(../../jimu.js/css/images/white_close_default.png) no-repeat center center;
+}
+
+.jimu-widget-zoomslider{
+  background-color: transparent !important;
+}
+
+.jimu-widget-zoomslider.vertical .zoom-in{
+  margin-bottom: 2px;
+  border-bottom: 0;
+}
+
+.jimu-widget-zoomslider.vertical .zoom{
+  border-radius: 4px !important;
+}

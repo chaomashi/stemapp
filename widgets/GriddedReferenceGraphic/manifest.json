@@ -1,0 +1,20 @@
+{
+  "name": "GriddedReferenceGraphic",
+  "label": "Gridded Reference Graphic",
+  "platform": "HTML",
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "Esri",
+  "description": "Gridded Reference Graphic Widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "keepConfigAfterMapSwithched": true,
+    "supportMultiInstance": false,
+    "hasVersionManager": false,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true
+  }
+}

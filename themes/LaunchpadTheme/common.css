@@ -1,0 +1,97 @@
+@import url("panels/LaunchpadPanel/style.css");
+
+/**********About Edit Widget*************/
+.jimu-widget-edit .templatePicker {
+	bottom: 92px;
+}
+
+.jimu-widget-edit-infoWindow .esriAttributeInspector .dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer {
+  position: static !important;
+  height: 30px !important;
+}
+/**********End Edit Widget*************/
+/**********Start FullScreen Widget*************/
+.jimu-widget-fullScreen{
+  border-radius: 50%;
+}
+.jimu-widget-fullScreen .fullScreen{
+  width: 40px;
+  height: 40px;
+  line-height: 32px;
+  padding-top: 4px;
+  background-image: none;
+  background-color: #fff;
+  color: #333;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 0.5px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.2);
+}
+/**********End FullScreen Widget*************/
+/**********Start timeSilder Widget*************/
+.jimu-widget-timeslider .slider-content .dijitSlider .dijitSliderImageHandle{
+  /*background: #fff;*/
+  -webkit-box-shadow: 0 0 0 0 transparent;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+.jimu-widget-fullScreen:not(.jimu-main-background) .fullScreen {
+  background-color: #fff;
+}
+/**********End timeSilder Widget*************/
+
+/**********Start Emergency Response Guide Widget*************/
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH,
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  top: -4px;
+  background: #fff;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #333;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+.jimu-widget-ERG .dijitSliderImageHandle.dijitSliderImageHandleH:after {
+  display: none;
+}
+.claro .jimu-widget-ERG .dijitSlider .dijitSliderProgressBarH,
+.claro .jimu-widget-ERG .dijitSlider .dijitSliderBumperH.dijitSliderLeftBumper{
+  border-color: #333;
+  background-color: #333;
+}
+.jimu-widget-ERG table.dijit.dijitReset.dijitSliderH.dijitSlider tr:nth-child(2) td:nth-child(2) {
+  background-color: #333 !important; /**`!important` is to cover an inline-style**/
+}
+/**********End Emergency Response Guide Widget*************/
+
+/**********Start Gridded Reference Graphic*************/
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH,
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  top: -4px;
+  background: #fff;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #333;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH:after {
+  display: none;
+}
+.claro .jimu-widget-GRGDrafter .dijitSlider .dijitSliderProgressBarH,
+.claro .jimu-widget-GRGDrafter .dijitSlider .dijitSliderBumperH.dijitSliderLeftBumper{
+  border-color: #333;
+  background-color: #333;
+}
+.jimu-widget-GRGDrafter table.dijit.dijitReset.dijitSliderH.dijitSlider tr:nth-child(2) td:nth-child(2) {
+  background-color: #333 !important; /**`!important` is to cover an inline-style**/
+}
+.jimu-widget-GRGDrafter .dijitSlider {
+    width: calc(100% - 220px);
+}
+.jimu-widget-GRGDrafter .jimu-tab >.control >.tab.jimu-state-selected {
+  border-top: 0;
+}
+/**********End Gridded Reference Graphic*************/

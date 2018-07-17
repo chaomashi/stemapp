@@ -1,0 +1,35 @@
+<div>
+  <div class="esriCTDrawBoxLabel">${nls.drawToolWidget.useDrawToolForAOILabel}</div>
+  <div class="esriCTDrawToolIconsParentDiv" data-dojo-attach-point="drawToolIconsParentDiv">
+  </div>
+  <div class="esriCTSelectToolParentDiv" data-dojo-attach-point="selectToolParent">
+    <div class="esriCTSelectToolDiv" data-dojo-attach-point="selectToolDiv">
+    </div>
+  </div>
+  <div class="esriCTWidgetAndBufferSeparator" data-dojo-attach-point="seperatorAfterSelect">
+  </div>
+  <div class="esriCTParentDivOfChooseSymbol" data-dojo-attach-point="parentDivOfChooseSymbol">
+    <div class="esriCTExpandCollapseParentContainer">
+      <div class="esriCTLayerPanelOfSelectIcon esriCTLayerPanelExpandIcon" data-dojo-attach-point="layerSectionIcon">
+      </div>
+      <div class="esriCTSelectableLayerTitle esriCTEllipsis" data-dojo-attach-point="impactSummaryLayerTitle" title="${nls.drawToolWidget.chooseLayerTitle}">
+        ${nls.drawToolWidget.chooseLayerTitle}
+      </div>
+      <div class="esriCTImpactSummaryLayerMaxRecordHint esriCTHidden esriCTCursorPointer" data-dojo-attach-point="singleLayerSelectionWarning"
+        title="${nls.drawToolWidget.layerSelectionWarningTooltip}">
+      </div>
+    </div>
+    <div data-dojo-attach-point="entireLayerParentContainer" class="esriCTHidden">
+      <div class="jimu-widget-screening-selectable-layer-item no-action">
+        <div class="layer-row">
+          <div class="selectable-check checked" title="${nls.drawToolWidget.selectAllLayersText}" data-dojo-attach-point="selectAllLayers">
+          </div>
+          <div class="layer-name jimu-ellipsis" title="${nls.drawToolWidget.selectAllLayersText}">${nls.drawToolWidget.selectAllLayersText}</div>
+        </div>
+      </div>
+      <div class="layer-nodes" data-dojo-attach-point="layerItemsNode">
+        <div class="esriCTLayerItems"></div>
+      </div>
+    </div>
+  </div>
+</div>

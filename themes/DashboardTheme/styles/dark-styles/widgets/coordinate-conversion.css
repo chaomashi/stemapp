@@ -1,0 +1,339 @@
+.jimu-widget-cw {
+    overflow: hidden;
+}
+
+.jimu-widget-cw .jimu-input {
+    border: 1px solid #999999;
+    font-size: 12px;
+    height: 30px;
+    background-color: transparent;
+    /*background: white;*/
+    /*color: #d9dde0;*/
+    padding: 5px;
+    margin: 0;
+    border-radius: 2px;
+}
+
+.jimu-widget-cw .jimu-widget-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.39px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+
+.jimu-widget-cw .addNewNotationContainer {
+    display: inline-flex;
+    /*float: right;*/
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.jimu-widget-cw .addNewNotationContainer .addNewNotation {
+    background: url('../images/CoordinateConversion/add_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+}
+
+.jimu-widget-cw .addNewNotationContainer .addNewNotation:hover {
+    background: url('../images/CoordinateConversion/add_white_hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.jimu-widget-cw .addNewNotationContainer .addNewNotationLabel {
+    /*color: #7f7f7f;*/
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.jimu-widget-cw .addNewNotationContainer .addNewNotationLabel:hover {
+    color: #FFFFFF;
+}
+
+.jimu-widget-cw textarea {
+    font-family: 'Avenir Medium';
+    font-size: 12px;
+    resize: none;
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 14px;
+    margin: 0;
+    letter-spacing: 0px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.jimu-widget-cw textarea:active {
+    border: 1px solid #FFFFFF;
+}
+
+.jimu-widget-cw .inputcontainer {
+    margin: 3px;
+    width: 100%;
+    padding: 6px;
+}
+
+.jimu-widget-cw .coordNameContainer {
+    margin-bottom: 6px;
+}
+
+.jimu-widget-cw .outputcontainer {
+    margin: 3px;
+    width: 310px;
+    padding: 6px;
+}
+
+.jimu-widget-cw .coordinateContainer {
+    padding-top: 5px;
+    width: 95%;
+}
+
+.jimu-widget-cw .outputCoordinateContainer {
+    margin: 0 3px;
+    width: 100%;
+    padding: 0 6px;
+}
+
+.jimu-widget-cw .coordarea {
+    height: 0px;
+    overflow: hidden;
+}
+
+.jimu-widget-cw .cpbtn {
+    display: inline-block;
+    background: url('../images/CoordinateConversion/copy_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 14px;
+    height: 16px;
+}
+
+.jimu-widget-cw .settingBtn {
+    display: inline-block;
+    background: url('../images/CoordinateConversion/settings_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+}
+
+.jimu-widget-cw .settingBtn:hover {
+    background: url('../images/CoordinateConversion/settings_white_hover.png');
+}
+
+
+.jimu-widget-cw .cpbtn:hover {
+    background: url('../images/CoordinateConversion/copy_white_hover.png');
+}
+
+.jimu-widget-cw .zoomBtn {
+    display: inline-block;
+    background: url('../images/CoordinateConversion/zoom_to_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15.4px;
+    height: 15.2px;
+}
+
+.jimu-widget-cw .zoomBtn:hover {
+    background: url('../images/CoordinateConversion/zoom_to_white_hover.png');
+}
+
+.jimu-widget-cw .expandBtn {
+    display: inline-block;
+    background: url('../images/CoordinateConversion/arrow-right_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 5px;
+    height: 10px;
+    vertical-align: text-top;
+}
+
+.jimu-widget-cw .expandBtn:hover {
+    background: url('../images/CoordinateConversion/arrow-right_white_hover.png');
+}
+
+.jimu-widget-cw .collapseBtn {
+    display: inline-block;
+    background: url('../images/CoordinateConversion/arrow-down_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 10px;
+    height: 5px;
+    vertical-align: text-top;
+}
+
+.jimu-widget-cw .collapseBtn:hover {
+    background: url('../images/CoordinateConversion/arrow-down_white_hover.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-cw .crdfrmtlabel {
+    display: inline-block;
+    height: 16px;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 100px;
+    padding-left: 5px;
+}
+
+.jimu-widget-cw .coordfrmt {
+    width:50%;
+}
+
+.jimu-widget-cw .coordformat {
+    display: inline-flex;
+    align-items: center;
+    /*margin-bottom: 4px;*/
+}
+
+.jimu-widget-cw .crds {
+    display: inline-block;
+    width: 130px;
+    margin-right: 10px;
+}
+
+.jimu-widget-cw .coordarea.expanded {
+    margin-top: 0px;
+}
+
+.jimu-widget-cw .coordarea.collapsed {
+
+}
+
+.jimu-widget-cw .coordactions {
+    display:inline-block;
+    padding-left: 10px;
+
+}
+
+.jimu-widget-cw .add-with-icon {
+    display: inline-block;
+    height: 40px;
+    line-height:40px;
+    /*color: #000000;*/
+    padding-right: 5px;
+}
+
+  .jimu-widget-cw .add-with-icon.coordLabel {
+      width: 75px;
+      color: #FFFFFF;
+  }
+
+.jimu-widget-cw .add-output {
+    margin-bottom: 7px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.jimu-widget-cw .add-output-coordinate-icon {
+    background-image: url('../images/CoordinateConversion/add_white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jimu-widget-cw .add-output-coordinate-icon:hover {
+    background-image: url('../images/CoordinateConversion/add_white_hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jimu-widget-cw .add-output-coordinate-label {
+    font-size: 14px;
+    /*color: #518dca;*/
+    margin-left: 10px;
+    /* line-height: 24px; */
+    display: inline-block;
+    height: 100%;
+    text-decoration: underline;
+}
+
+.jimu-widget-cw .line-separator {
+    height: 2px;
+    border-bottom: 1px solid #666666;
+    width: 320px;
+    margin-top: 3px;
+}
+
+/**
+ * Coordinate Format Dialog
+ **/
+
+.formatInput {
+    width: 200px;
+    height: 40px;
+    opacity: 0.99;
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: #FFFFFF;
+    padding-left: 4px;
+}
+
+.selectFormat {
+    width: 160px;
+    height: 40px;
+    opacity: 0.99;
+    background-color: transparent;
+    border: 1px solid #999999;
+    color: #FFFFFF;
+    padding-left: 4px;
+}
+
+.selectFormat option {
+    background-color: #222222;
+}
+
+.btnContainer {
+    text-align: right;
+    margin-top: 6px;
+    padding-right: 10px;
+}
+
+.settingsContainer {
+    margin-top: 6px;
+}
+
+.controlContainer {
+    margin-top: 6px;
+}
+
+.formatText {
+    font-size: 12px;
+    letter-spacing: 0.39px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+

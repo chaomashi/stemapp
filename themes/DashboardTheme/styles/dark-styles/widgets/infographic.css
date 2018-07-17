@@ -1,0 +1,7 @@
+.ig-chart-setting-dlg .toggle.toggle-on {
+  background: no-repeat center left url(../images/Infographic/toggle_on_dart.svg);
+}
+
+.ig-chart-setting-dlg .toggle.toggle-off {
+  background: no-repeat center left url(../images/Infographic/toggle_off_dart.svg);
+}

@@ -1,0 +1,87 @@
+<div>
+  <!--Coordinates parent container-->
+  <div class="esriCTCoordinatesParentDiv">
+    <!--Select start point from Search dijit div-->
+    <div class="esriCTSelectStartPointFromSearchDiv" data-dojo-attach-point="selectStartPointFromSearchDiv">
+      <div class="esriCTSearchOuterContainer">
+        <div class="esriCTSearchHeader">
+          ${nls.coordinatesWidget.selectStartPointFromSearchText}
+        </div>
+        <div class="esriCTSearchContainer">
+          <div class="esriCTSearchDiv">
+            <div data-dojo-attach-point="searchWidgetContainerCoordinatesTab">
+            </div>
+          </div>
+          <!--Locate icon for start point node-->
+          <div class="esriCTLocateImageNode" title="${nls.coordinatesWidget.locateByMapClickText}" data-dojo-attach-point="locateStartPointIcon">
+          </div>
+        </div>
+      </div>
+      <!--Select start point from latitude and longitude div-->
+      <div class="esriCTLatLongInputLabelParentContainer">
+        <div class="esriCTLatLongInputLabelChildContainer">
+          <div class="esriCTLatitudeLabel">
+            ${nls.common.latitude}
+          </div>
+          <div class="esriCTLongitudeLabel">
+            ${nls.common.longitude}
+          </div>
+        </div>
+        <div>
+          <!--Latitude textbox-->
+          <input class="esriCTLatTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point='latitudeTextBox' placeholder="${nls.common.latitude}"
+            required/>
+          <!--Longitude textbox-->
+          <input class="esriCTLongTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point='longitudeTextBox' placeholder="${nls.common.longitude}"
+            required/>
+          <!--Locate for lat long text-->
+          <div class="esriCTLocateForLatLongText" title="${nls.coordinatesWidget.locateText}" data-dojo-attach-point="locateLatAndLong">
+            ${nls.coordinatesWidget.locateText}
+          </div>
+        </div>
+      </div>
+      <!-- Traverse grid container-->
+      <div class="esriCTNewTraverseContainer" data-dojo-attach-point="traverseGridMainContainer">
+        <div class="esriCTBearingDistanceParentDiv">
+          <!--Enter bearing and distance label parent div-->
+          <div class="esriCTEnterBearingAndDistanceLabelDiv">
+            ${nls.coordinatesWidget.enterBearingAndDistanceLabel}
+          </div>
+          <div class="esriCTPlanSettingsIcon" data-dojo-attach-point="planSettingIcon" title="${nls.coordinatesWidget.planSettingTooltip}">
+          </div>
+        </div>
+        <!-- Traverse grid title-->
+        <div class="esriCTNewTraverseLabelDiv">
+          <div class="esriCTGridLabels esriCTEllipsis" title="${nls.traverseSettings.bearingLabel}">
+            ${nls.traverseSettings.bearingLabel}
+          </div>
+          <div class="esriCTGridLabels esriCTEllipsis" title="${nls.traverseSettings.lengthLabel}">
+            ${nls.traverseSettings.lengthLabel}
+          </div>
+        </div>
+        <!-- Traverse grid items-->
+        <div class="esriCTTraverseGrid" data-dojo-attach-point="traverseGrid">
+        </div>
+        <!-- Traverse grid initial entry row-->
+        <div class="esriCTEntryNodeContent esriCTRow" data-dojo-attach-point="traverseEntryNode">
+          <div data-dojo-attach-point="bearingNode" data-dojo-type="dijit/form/ValidationTextBox" required>
+          </div>
+          <div data-dojo-attach-point="lengthNode" data-dojo-type="dijit/form/ValidationTextBox" required>
+          </div>
+          <div class="esriCTAddRow">
+            <div class="esriCTAddDisabledIcon" data-dojo-attach-point="addButton" title="${nls.traverseSettings.addButtonTitle}">
+            </div>
+          </div>
+        </div>
+        <!-- Traverse grid tools container-->
+        <div class="esriCTTraverseTool">
+          <div class="esriCTTraverseToolContainer">
+            <!-- Expand/Collapse grid tool-->
+            <div class="esriCTHidden  esriCTTraverseToolIcons esriCTCollapse esriCTCursorPointer" title="${nls.planSettings.collapseGridTooltipText}"
+              data-dojo-attach-point="expandCollapseNode">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

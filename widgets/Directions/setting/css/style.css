@@ -1,0 +1,126 @@
+.jimu-widget-directions-setting{
+	font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.jimu-widget-directions-setting .title{
+	display:inline-block;
+	font-size: 16px;
+	font-weight:bold;
+	margin:10px 0 5px 0px;
+}
+
+.jimu-widget-directions-setting > table > tbody > tr > td{
+  padding:5px 0;
+}
+
+.jimu-widget-directions-setting .route-td{
+	padding-left: 10px;
+}
+
+.jimu-widget-directions-setting .jimu-ellipsis{
+	white-space: normal;
+}
+
+.jimu-rtl .jimu-widget-directions-setting .route-td{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.jimu-widget-directions-setting .locator-td{
+	padding-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-directions-setting .locator-td{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.jimu-widget-directions-setting .travelmodes-td{
+	padding-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-directions-setting .travelmodes-td{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.jimu-widget-directions-setting .trafficlayer-td{
+	padding-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-directions-setting .trafficlayer-td{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.jimu-widget-directions-setting .auto-complete-td span{
+	margin-left: 10px;
+}
+
+.jimu-rtl .jimu-widget-directions-setting .auto-complete-td span{
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+
+.jimu-widget-directions-setting .searchResults.arcgisSearch{
+	position: relative;
+}
+
+.jimu-widget-directions-setting .arcgisSearch{
+	width: 220px;
+}
+
+.jimu-widget-directions-setting .arcgisSearch .searchMenu {
+	position: absolute;
+}
+.jimu-widget-directions-setting .arcgisSearch .searchMenu.searchResultsMenu{
+	width: 220px !important;
+}
+.jimu-widget-directions-setting .arcgisSearch .showNoResults .noResultsMenu{
+	height: 122px;
+}
+.jimu-widget-directions-setting .arcgisSearch .hasValue.showNoResults .noResultsMenu{
+	display: block !important;
+}
+
+.jimu-widget-directions-setting .arcgisSearch .searchGroup .searchInput{
+	width:145px;
+	border-radius: 0;
+	border-left: 6px green solid;
+}
+.jimu-widget-directions-setting .end-search .arcgisSearch .searchGroup .searchInput{
+	border-left: 6px red solid;
+}
+.jimu-rtl .jimu-widget-directions-setting .arcgisSearch .searchGroup .searchInput{
+	border-left: none;
+	border-right: 6px green solid;
+}
+.jimu-rtl .jimu-widget-directions-setting .end-search .arcgisSearch .searchGroup .searchInput{
+	border-left: none;
+	border-right: 6px red solid;
+}
+
+.jimu-widget-directions-setting .arcgisSearch .searchBtn{
+	border-radius: 0;
+	border-left: 0;
+	padding: 6px;
+}
+.jimu-rtl .jimu-widget-directions-setting .arcgisSearch .searchBtn{
+	border-right: 0;
+	border-left: 1px solid #57585A;
+}
+
+.jimu-widget-directions-setting .arcgisSearch .searchClear{
+	display: none;
+}
+
+.jimu-widget-directions-setting .hide{
+	display: none;
+}
+
+.jimu-widget-directions-setting .preset-des-error{
+	color:red;
+}
+

@@ -1,0 +1,373 @@
+<div style="width: 100%;height: 100%;">
+  <div class="esriCTMainConfigurationContainer">
+    <div class="esriCTTabDiv" data-dojo-attach-point="tabContainer">
+      <!--Analysis tab contents-->
+      <div data-dojo-attach-point="analysisTabNode" class="esriCTTabNode">
+        <!--Add Layers section -->
+        <div class="esriCTTabContainer row">
+          <div>
+            <div data-dojo-attach-point="selectAnalysisLayerLabel" class="esriCTSelectAnalysisLayerLabel">
+              ${nls.analysisTab.selectAnalysisLayerLabel}
+            </div>
+            <div data-dojo-attach-point="btnAddLayer" class="esriCTBtnAddSection">
+              <span class="esriCTBtnAddIcon"></span>
+              <span class="esriCTBtnAddLabel">${nls.analysisTab.addLayerLabel}</span>
+            </div>
+            <div class="esriCTHidden esriCTNoLayersOrFieldsForAnalysisLabel" data-dojo-attach-point="lblNoValidLayers">
+              ${nls.analysisTab.noValidLayersForAnalysis}
+            </div>
+          </div>
+          <div class="esriCTHint">${nls.analysisTab.addLayersHintText}
+          </div>
+          <div class="esriCTAddLayerTableNode" data-dojo-attach-point="addLayerTableNode"></div>
+        </div>
+        <!--Add Layers section end-->
+        <div class="esriCTTabContainer row">
+          <!--AOI Tools section-->
+          <fieldset class="esriCTFieldSet">
+            <legend class="esriCTFieldSetLegend">
+              ${nls.analysisTab.aoiToolsLegendLabel}</legend>
+            <div class="esriCTFieldsetMainContainer" data-dojo-attach-point="aoiToolsSection">
+              <div class="esriCTFieldsetContainer">
+                <div class="esriCTAnalysisAOIToolsDescriptionLabel esriCTEllipsis">
+                  ${nls.analysisTab.aoiToolsDescriptionLabel}
+                </div>
+                <div class="esriCTInputsSection">
+                  <!--Place Name section starts-->
+                  <div class="esriCTAOIToolsOptions">
+                    <div class="esriCTFieldSetOptionsContainer">
+                      <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox" data-dojo-attach-point="placeNameCheckBox">
+                      </div>
+                      <div class="esriCTFieldsLabel esriCTEllipsis">
+                        ${nls.analysisTab.placenameLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="placeNameTextBox" trim="true"
+                      required="true">
+                    </div>
+                  </div>
+                  <!--Place Name section ends-->
+                  <!--Draw Tool section starts-->
+                  <div class="esriCTAOIToolsOptions">
+                    <div class="esriCTFieldSetOptionsContainer">
+                      <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox" data-dojo-attach-point="drawToolCheckBox">
+                      </div>
+                      <div class="esriCTFieldsLabel esriCTEllipsis">
+                        ${nls.analysisTab.drawToolsLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="drawToolTextBox" trim="true"
+                      required="true">
+                    </div>
+                  </div>
+                  <!--Draw Tool section ends-->
+                  <!--Upload Shapfile section starts-->
+                  <div class="esriCTAOIToolsOptions">
+                    <div class="esriCTFieldSetOptionsContainer">
+                      <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox" data-dojo-attach-point="uploadShapefileCheckBox">
+                      </div>
+                      <div class="esriCTFieldsLabel esriCTEllipsis">
+                        ${nls.analysisTab.uploadShapeFileLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="uploadShapeFileTextBox"
+                      trim="true" required="true">
+                    </div>
+                  </div>
+                  <!--Upload Shapfile section ends-->
+                </div>
+                <div class="esriCTInputsSection">
+                  <!--Co-ordinates section starts-->
+                  <div class="esriCTAOIToolsOptions">
+                    <div class="esriCTFieldSetOptionsContainer">
+                      <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox" data-dojo-attach-point="coordinatesCheckBox">
+                      </div>
+                      <div class="esriCTFieldsLabel esriCTEllipsis">
+                        ${nls.analysisTab.coordinatesLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="coordinatesTextBox" trim="true"
+                      required="true">
+                    </div>
+                  </div>
+                  <!--Co-ordinates section ends-->
+                  <!--Traverses Units section starts-->
+                  <div class="esriCTTraverseUnits">
+                    <div class="esriCTDropDownContainer">
+                      <select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="traverseUnitsNode">
+                              <option value="uSSurveyFeet" selected="selected">${nls.units.uSSurveyFeet}</option>
+                              <option value="meters">${nls.units.meters}</option>
+                       </select>
+                    </div>
+                    <div class="esriCTHint">
+                      ${nls.analysisTab.coordinatesDrpDwnHintText}
+                    </div>
+                  </div>
+                  <!--Traverses Units section ends-->
+                  <!--Traverse Direction Units section starts-->
+                  <div class="esriCTTraverseUnits esriCTTraverseDirectionUnits">
+                    <div class="esriCTDropDownContainer">
+                      <select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="traverseDirectionUnitsNode">
+                              <option value="decimalDegree" selected="selected">${nls.units.decimalDegree}</option>
+                              <option value="degreeMinuteSeconds">${nls.units.degreeMinuteSeconds}</option>
+                       </select>
+                    </div>
+                    <div class="esriCTHint">
+                      ${nls.analysisTab.coordinatesBearingDrpDwnHintText}
+                    </div>
+                  </div>
+                  <!--Traverse Direction Units section ends-->
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <!--AOI Tools section ends-->
+          <!--Allow Uploading shapefiles section starts-->
+          <div class="esriCTTabContainer row">
+            <div class="esriCTFieldsetMainContainer" data-dojo-attach-point="uploadShapefileSection">
+              <!--upload shapefile options section starts-->
+              <div class="esriCTFieldSetOptionsContainer esriCTAllowShapeFileOption">
+                <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox" data-dojo-attach-point="allowUploadShapefileCheckBox">
+                </div>
+                <div class="esriCTFieldsLabel esriCTEllipsis">
+                  ${nls.analysisTab.allowShapefilesUploadLabel}
+                </div>
+              </div>
+              <div class="esriCTHint">
+                ${nls.analysisTab.allowShapefilesUploadLabelHintText}
+              </div>
+              <!--upload shapefile options section ends-->
+
+              <!--layer analysis options section starts-->
+              <div class="esriCTFieldSetOptionsContainer esriCTAllowShapeFileOption">
+                <div data-dojo-type="jimu/dijit/CheckBox" class="jimu-checkbox esriCTCheckBox"
+                data-dojo-attach-point="allowVisibleLayerAnalysisCheckBox">
+                </div>
+                <div class="esriCTFieldsLabel esriCTEllipsis">
+                  ${nls.analysisTab.allowVisibleLayerAnalysisLabel}
+                </div>
+              </div>
+              <div class="esriCTHint">
+                ${nls.analysisTab.allowVisibleLayerAnalysisHintText}
+              </div>
+              <!--layer analysis options section ends-->
+
+              <!--Area units options section starts-->
+              <!-- <div class="esriCTAreaUnitsMainContainer"> -->
+              <div class="esriCTFieldSetOptionsContainer esriCTAllowShapeFileOption">
+                <div class="esriCTAreaUnitsLabel">
+                  ${nls.analysisTab.areaUnitsLabel}
+                </div>
+                <div class="esriCTAreaUnitsDropDownContainer">
+                  <select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="areaUnitsDropDown">
+                    <option selected="selected" value="Feet">${nls.units.feetUnit}</option>
+                    <option value="Miles">${nls.units.milesUnit}</option>
+                    <option value="Meters">${nls.units.metersUnit}</option>
+                    <option value="Kilometers">${nls.units.kilometersUnit}</option>
+                    <option value="Hectares">${nls.units.hectaresUnit}</option>
+                  </select>
+                </div>
+              </div>
+              <!-- </div> -->
+              <!--units options section ends-->
+
+
+              <!--max feature for analysis starts-->
+              <div class="esriCTMaxFeatureForAnalysisMainDiv">
+                <div class="esriCTMaxFeatureForAnalysisLabel">
+                  ${nls.analysisTab.maxFeatureForAnalysisLabel}
+                </div>
+
+                <div class="esriCTMaxFeatureInputDiv">
+                  <div class="esriCTMaxFeatureInputParentContainer">
+                    <div class="esriCTMaxFeatureTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="maxFeatureCountTextBox"
+                      trim="true" required="true">
+                    </div>
+                  </div>
+                  <div class="esriCTMaxFeatureHint esriCTHint">
+                    ${nls.analysisTab.maxFeatureForAnalysisHintText}
+                  </div>
+                </div>
+
+              </div>
+              <!--max feature for analysis ends-->
+
+
+              <!--search tolerance-->
+              <div class="esriCTMaxFeatureForAnalysisMainDiv" data-dojo-attach-point="toleranceSection">
+                <div class="esriCTMaxFeatureForAnalysisLabel" data-dojo-attach-point="searchToleranceLabel">
+                </div>
+
+                <div class="esriCTMaxFeatureInputDiv">
+                  <div class="esriCTMaxFeatureTextBox esriCTTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="searchToleranceTextBox"
+                    trim="true" required="true">
+                  </div>
+                  <div class="esriCTMaxFeatureHint esriCTHint">
+                    ${nls.analysisTab.searchToleranceHint}
+                  </div>
+                </div>
+
+
+              </div>
+              <!--search tolerance ends-->
+
+
+            </div>
+          </div>
+          <!--Allow Uploading shapefiles section ends-->
+        </div>
+      </div>
+      <!--Analysis tab contents end-->
+      <!--Download tab contents-->
+      <div data-dojo-attach-point="downloadTabNode" class="esriCTTabNode">
+      </div>
+      <!--Download tab contents end-->
+      <!--General tab contents-->
+      <div data-dojo-attach-point="generalTabNode" class="esriCTTabNode">
+        <div class="esriCTTabContainer row">
+          <!--Tab Labels Fieldset starts-->
+          <fieldset class="esriCTFieldSet">
+            <legend class="esriCTFieldSetLegend">${nls.generalTab.tabLabelsLegend}</legend>
+            <!--Tab Label Fieldset Content Section starts-->
+            <div class="esriCTFieldsetMainContainer" data-dojo-attach-point="tabLabelsSection">
+              <div class="esriCTFieldsetContainer">
+                <div class="esriCTInputsSection">
+                  <!--AOI Tab label section starts-->
+                  <div class="esriCTGeneralFieldSetOptions">
+                    <div class="esriCTGeneralFieldSetOptionsContainer">
+                      <div class="esriCTBufferSettingsFieldsLabel esriCTEllipsis">
+                        ${nls.generalTab.AOITabLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="aoiTabTextBox" trim="true"
+                      required="true">
+                    </div>
+                  </div>
+                  <!--AOI Tab label section ends-->
+                  <!--Reports Tab label section starts-->
+                  <div class="esriCTGeneralFieldSetOptions">
+                    <div class="esriCTGeneralFieldSetOptionsContainer">
+                      <div class="esriCTBufferSettingsFieldsLabel esriCTEllipsis">
+                        ${nls.generalTab.ReportTabLabel}
+                      </div>
+                    </div>
+                    <div class="esriCTTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="reportsTabTextBox" trim="true"
+                      required="true">
+                    </div>
+                  </div>
+                  <!--Reports Tab label section ends-->
+                </div>
+              </div>
+            </div>
+            <!--Tab Label Fieldset Content Section starts-->
+          </fieldset>
+          <!--Tab Labels Fieldset ends-->
+          <!--Buffer Settings Fieldset starts-->
+          <fieldset class="esriCTFieldSet">
+            <legend class="esriCTFieldSetLegend">${nls.generalTab.bufferSettingsLegend}</legend>
+            <!--Buffer Settings Fieldset Content Section starts-->
+            <div class="esriCTFieldsetMainContainer" data-dojo-attach-point="bufferSettingsSection">
+              <div class="esriCTFieldsetContainer">
+                <!--Default Buffer Settings section starts-->
+                <div class="esriCTInputsSection">
+                  <!--Default Buffer Distance section starts-->
+                  <div class="esriCTGeneralFieldSetOptions">
+                    <div class="esriCTGeneralFieldSetOptionsContainer">
+                      <div class="esriCTBufferSettingsFieldsLabel esriCTEllipsis">
+                        ${nls.generalTab.defaultBufferDistanceLabel}
+                      </div>
+                      <div class="esriCTTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="defaultBufferDistanceTextBox"
+                        trim="true" required="true">
+                      </div>
+                    </div>
+                  </div>
+                  <!--Default Buffer Distance section ends-->
+                  <!--Buffer Units section starts-->
+                  <div class="esriCTGeneralFieldSetOptions">
+                    <div class="esriCTGeneralFieldSetOptionsContainer">
+                      <div class="esriCTBufferSettingsFieldsLabel esriCTEllipsis">
+                        ${nls.generalTab.defaultBufferUnitsLabel}
+                      </div>
+                      <div class="esriCTGeneralDropDownContainer">
+                        <select class="esriCTDropBox" data-dojo-type="dijit/form/Select" data-dojo-attach-point="defaultBufferUnitsNode">
+                          <option value="UNIT_FOOT">${nls.units.feet}</option>
+                          <option value="UNIT_STATUTE_MILE">${nls.units.miles}</option>
+                          <option value="UNIT_KILOMETER">${nls.units.kilometers}</option>
+                          <option value="UNIT_METER">${nls.units.meters}</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Buffer Units section ends-->
+                </div>
+                <!--Default Buffer Settings section ends-->
+                <!--Buffer Symbology section starts-->
+                <div class="esriCTInputsSection">
+                  <div class="esriCTGeneralFieldSetOptions esriCTGeneralBufferSymbologyContainer">
+                    <div class="esriCTGeneralFieldSetOptionsContainer">
+                      <div class="esriCTInputsSection">
+                        <div class="esriCTGeneralSymbologyLabel esriCTEllipsis">
+                          ${nls.generalTab.aoiBufferSymbologyLabel}
+                        </div>
+                        <div class="esriCTPreviewField" data-dojo-attach-point="aoiSymbolNode">
+                        </div>
+                        <div class="esriCTHint esriCTGeneraBufferSymbologylHint">
+                          ${nls.generalTab.generalBufferSymbologyHint}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Buffer Symbology section starts-->
+              </div>
+            </div>
+            <!--Tab Label Fieldset Content Section starts-->
+          </fieldset>
+          <!--Buffer Settings Fieldset ends-->
+          <!--AOI Graphics Symbology Fieldset starts-->
+          <fieldset class="esriCTFieldSet">
+            <legend class="esriCTFieldSetLegend">
+              ${nls.generalTab.aoiGraphicsSymbologyLegend}</legend>
+            <!--AOI Graphics Symbology Fieldset Content Section starts-->
+            <div class="esriCTFieldsetMainContainer">
+              <div class="esriCTFieldsetContainer">
+                <div class="esriCTHint">
+                  ${nls.generalTab.aoiGraphicsSymbologyHint}
+                </div>
+                <!--AOI Point Symbology section starts-->
+                <div class="esriCTInputsSection">
+                  <div class="esriCTGeneralSymbologyLabel esriCTEllipsis">
+                    ${nls.generalTab.pointSymbologyLabel}
+                  </div>
+                  <div class="esriCTPreviewField" data-dojo-attach-point="pointSymbolNode">
+                  </div>
+                </div>
+                <div class="esriCTInputsSection">
+                  <div class="esriCTGeneralSymbologyLabel esriCTEllipsis">
+                    ${nls.generalTab.lineSymbologyLabel}
+                  </div>
+                  <div class="esriCTPreviewField" data-dojo-attach-point="lineSymbolNode">
+                  </div>
+                </div>
+                <div class="esriCTInputsSection">
+                  <div class="esriCTGeneralSymbologyLabel esriCTEllipsis">
+                    ${nls.generalTab.polygonSymbologyLabel}
+                  </div>
+                  <div class="esriCTPolygonPreview" data-dojo-attach-point="polygonSymbolNode">
+                  </div>
+                </div>
+                <!--AOI Point Symbology section ends-->
+              </div>
+            </div>
+            <!--AOI Graphics Symbology Fieldset Content Section ends-->
+          </fieldset>
+          <!--AOI Graphics Symbology Fieldset ends-->
+        </div>
+      </div>
+      <!--General tab contents end-->
+      <!-- Search Source Settings tab -->
+      <div class="esriCTTabNode" data-dojo-attach-point="searchSourceTabNode">
+      </div>
+    </div>
+  </div>
+</div>

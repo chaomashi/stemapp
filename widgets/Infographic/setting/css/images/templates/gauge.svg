@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="100px" viewBox="0 0 120 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Gauge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ChooseATemplate-UI" transform="translate(-435.000000, -319.000000)">
+            <g id="Gauge" transform="translate(435.000000, 319.000000)">
+                <rect id="Rectangle-Copy" fill="#FFFFFF" x="0" y="0" width="120" height="100"></rect>
+                <g id="Group-14" transform="translate(25.000000, 13.000000)">
+                    <g id="Gauge" transform="translate(10.000000, 18.000000)">
+                        <path d="M2.01548462,34.8505066 C0.718318241,31.8277567 0,28.4977644 0,25 C0,11.1928813 11.1928813,0 25,0 C38.8071187,0 50,11.1928813 50,25 C50,28.4977644 49.2816818,31.8277567 47.9845154,34.8505066 L40.6294705,31.6983445 C41.5115436,29.6428745 42,27.3784798 42,25 C42,15.6111593 34.3888407,8 25,8 C15.6111593,8 8,15.6111593 8,25 C8,27.3784798 8.4884564,29.6428745 9.37052954,31.6983445 L2.01548462,34.8505066 Z" id="Combined-Shape" fill="#DEDEDE"></path>
+                        <path d="M2.01548462,34.8505066 C0.718318241,31.8277567 0,28.4977644 0,25 C0,11.1928813 11.1928813,0 25,0 C32.7994898,0 39.7647774,3.57164397 44.349512,9.16858108 L38.1576682,14.2346351 C35.0400486,10.4287179 30.303653,8 25,8 C15.6111593,8 8,15.6111593 8,25 C8,27.3784798 8.4884564,29.6428745 9.37052954,31.6983445 L2.01548462,34.8505066 Z" id="Combined-Shape" fill="#24B5CC"></path>
+                        <polygon id="Path-9" fill="#B3B3B3" transform="translate(29.717514, 21.029727) rotate(-310.000000) translate(-29.717514, -21.029727) " points="28.7175144 27.5297269 29.7175144 12.5297269 30.7175144 27.5297269 29.7175144 29.5297269"></polygon>
+                    </g>
+                    <path d="M0,65 L70,65 L70,67 L0,67 L0,65 Z M15,72 L55,72 L55,74 L15,74 L15,72 Z" id="Combined-Shape" fill="#DEDEDE"></path>
+                    <path d="M17,0 L23,0 L23,6 L17,6 L17,0 Z M27,0 L33,0 L33,6 L27,6 L27,0 Z M37,0 L43,0 L43,6 L37,6 L37,0 Z M47,0 L53,0 L53,6 L47,6 L47,0 Z" id="Combined-Shape" fill="#DEDEDE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

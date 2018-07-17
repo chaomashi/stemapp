@@ -1,0 +1,177 @@
+/* for direction dijit */
+.arcgisSearch .searchGroup .searchInput{
+  background: #222;
+  /*border-bottom: 1px solid #222;*/
+  color: white;
+}
+.arcgisSearch .searchMenu{
+  background-color: #333;
+  color: white;
+}
+.arcgisSearch .searchMenu li:hover, .arcgisSearch .searchMenu li:focus{
+  background-color: #666;
+}
+
+/*directions*/
+.simpleDirections .esriDirectionsButton{
+  background-color: #999;
+  border: none;
+}
+.simpleDirections .esriDirectionsPressedButton, .simpleDirections .esriDirectionsPressedButton:hover {
+  background-color: #999;
+  border: 2px solid #FFFFFF;
+}
+
+.simpleDirections .esriResultsContainer{
+  background-color: #999;
+}
+
+/***********about editor*******************/
+.templatePicker {
+  border-color: #666;
+  border-radius: 0;
+}
+.templatePicker * {
+  background-color: transparent !important;
+}
+
+.esriTemplatePicker * {
+  border: none !important;
+}
+
+.templatePicker .dojoxGridMasterMessages {
+  color: #666;
+}
+
+.claro .templatePicker .dijitToolbar {
+  padding: 5px 0;
+  background: transparent !important;
+  background-image: none !important;
+  background-color: #c1c1c1 !important;
+  border: none !important;
+}
+
+.claro .templatePicker .dijitToolbar .dijitButtonHover .dijitButtonNode,
+.claro .templatePicker .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode,
+.claro .templatePicker .dijitToolbar .dijitToggleButtonHover .dijitButtonNode,
+.claro .templatePicker .dijitToolbar .dijitComboButtonHover .dijitButtonNode {
+  background-image: none !important;
+  background-color: #262626;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.templatePicker .grid .dojoxGridRowOver .dojoxGridCell {
+  color: #cccccc !important;
+}
+
+.templatePicker .grid .dojoxGridCellFocus {
+  border: none !important;
+}
+
+  /****about inspector****/
+
+.esriAttributeInspector .dijitTextBox{
+  background-color: #333 !important;
+  border: none;
+}
+
+.esriAttributeInspector .dijitTextBoxHover{
+  background-color: #666 !important;
+  background-image: none;
+  /*border:1px solid #ccc !important;*/
+}
+
+
+.esriAttributeInspector .dijitTextBoxFocused {
+  background-color: #666 !important;
+}
+
+.esriAttributeInspector .dijitButton .dijitButtonNode {
+  border: 1px solid #ccc !important;
+  background-color: #4c4c4c !important;
+  color: #fff !important;
+}
+
+.esriAttributeInspector .atiButton.disable .dijitButtonNode{
+  background-color: #aaa !important;
+  color: #4c4c4c !important;
+}
+/*
+.esriAttributeInspector .dijitTextBoxFocused.dijitTextBoxHover {
+  background-color: #222 !important;
+}
+*/
+.esriAttributeInspector .dijitTextBoxFocused .dijitInputContainer {
+  background: transparent;
+}
+
+.jimu-widget-edit .esriDrawingToolbar {
+  background: #666;
+}
+/***********editor end*******************/
+
+.simpleDirections .esriLinkButton {
+  color: #FFF;
+}
+
+.simpleDirections .esriDirectionsDDLArrow {
+  border-top-color: #FFF;
+}
+
+/*measurement*/
+.esriMeasurement .esriToggleButton .dijitButtonNode {
+  color: #FFF;
+}
+
+/*popup*/
+.esriPopup .contentPane,
+.esriPopup .actionsPane,
+.esriPopup .pointer,
+.esriPopup .outerPointer {
+  background: #222;
+  color: #FFF;
+  /*padding-right: 10px;*/
+}
+
+.esriPopup a {
+  color: #ccc;
+}
+
+.esriPopup a:hover {
+  color: #fff;
+}
+
+/*popup mobile*/
+.esriMobileInfoView {
+  background: #222;
+  color: #FFF;
+}
+
+.esriMobileInfoView .esriMobileInfoViewItem {
+  color: #fff;
+}
+
+/*search*/
+.arcgisSearch .searchBtn {
+  background-color: #222;
+  color: #CCC;
+}
+
+.arcgisSearch .searchBtn:hover,
+.arcgisSearch .searchBtn:focus {
+  background-color: #333;
+}
+
+.arcgisSearch .searchClear {
+  background-color: #666;
+}
+
+/*image measurement*/
+.esriImageServiceMeasureButtonContainer, .esriMeasureButton, .esriMeasureButton .dijitButtonNode,
+.esriImageServiceMeasure .dijitDropDownButton .dijitButtonNode{
+  background-color: #222;
+}
+
+.claro .esriSignInDialog .dijitDialogPaneContentArea {
+  width: 215px;
+}

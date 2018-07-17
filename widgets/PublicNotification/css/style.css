@@ -1,0 +1,214 @@
+.jimu-widget-public-notification .search-controls {
+  height: 34px;
+}
+
+.jimu-widget-public-notification .search-node {
+  height: 34px;
+}
+
+.jimu-widget-public-notification .esriCTSelectLocationDiv {
+  margin: 0px 0px 0px 2px;
+  float: right;
+  min-width: 34px;
+}
+
+.jimu-widget-public-notification .imgBtnCell {
+  width: 34px;
+}
+
+.jimu-widget-public-notification .imgBtn {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #57585A;
+  border-radius: 4px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.jimu-widget-public-notification .focusableItem:focus {
+  border-color: rgb(81,177,254);
+  box-shadow: rgb(81,177,254) 0px 0px 5px 0px;
+  outline-color: rgb(77,144,254);
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchBtn {
+  padding: 6px;
+}
+
+.jimu-widget-public-notification table {
+  width: 100%;
+}
+
+
+
+.jimu-widget-public-notification {
+  min-height: 32px;
+}
+.jimu-widget-public-notification .search-node.default-width-for-openAtStart {
+  width: 274px;
+}
+
+.jimu-widget-public-notification .result-item-selected {
+  background: #eee;
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchBtn {
+  padding: 6px;
+}
+.jimu-widget-public-notification .arcgisSearch .searchBtn:hover,
+.jimu-widget-public-notification .arcgisSearch .searchBtn:focus {
+  background-color: #485566;
+  color: white;
+}
+
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchToggle {
+  float: left;
+}
+
+.jimu-rtl .jimu-widget-public-notification.use-absolute .arcgisSearch .searchToggle {
+  float: right;
+}
+
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchInputGroup {
+  position: absolute;
+  top: 0;
+  width: auto;
+  left: 34px;
+  right: 34px;
+}
+
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchInputGroup form {
+  overflow: hidden;
+  z-index: 0;
+  position: relative;
+}
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchInputGroup .searchClear {
+  z-index: 0;
+}
+
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchExpandContainer {
+  float: none;
+}
+
+.jimu-widget-public-notification.use-absolute .arcgisSearch .searchSubmit {
+  float: right;
+}
+
+.jimu-rtl .jimu-widget-public-notification.use-absolute .arcgisSearch .searchSubmit {
+  float: left;
+}
+
+.jimu-widget-public-notification .arcgisSearch .show-all-results {
+  position: absolute;
+  height: 25px;
+  color: #686868;
+  line-height: 25px;
+  display: none;
+  width: 237px;
+  margin: auto;
+  background-color: #fff;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchMenu {
+  border-radius: 0;
+  color: #686868;
+  font-size: 12px;
+  padding: 0;
+  top: 33px;
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchMenu li.active {
+  background-color: #d9dde0;
+  color: #686868;
+  font-size: 14px;
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchMenu li {
+  padding: 0 12px;
+  line-height: 25px;
+}
+
+.jimu-widget-public-notification .arcgisSearch .searchMenu .menuHeader {
+  background-color: #d9dde0;
+  color: #686868;
+  font-size: 14px;
+  min-height: 30px;
+  padding: 0 12px;
+  line-height: 30px;
+}
+
+.jimu-widget-public-notification .section {
+  clear: both;
+  padding-bottom: 12px;
+}
+
+.jimu-widget-public-notification .entryFullWidth {
+  margin: 4px;
+  height: 30px;
+}
+
+.jimu-widget-public-notification .distance {
+  width: calc(100% - 126px); /* width of .unitsSelect + 6px gap */
+  width: 49%;
+}
+
+.jimu-widget-public-notification .unitsSelect {
+  float: right;
+  width: 120px;
+  width: 49%;
+}
+
+.jimu-widget-public-notification .hidden {
+  display: none;
+}
+
+.jimu-widget-public-notification .sourceInputsSection {
+  position: relative;
+}
+
+.jimu-widget-public-notification .scrim {
+  position: absolute;
+  background-color: transparent;
+  z-index: 10;
+}
+
+/* single source */
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .searchExpandContainer {
+  float: none;
+  width: calc(100% - 22px);
+}
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .searchInputGroup {
+  width: calc(100% - 12px);
+}
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .searchGroup .searchInput {
+  width: calc(100% - 13px);
+  padding: 6px;
+}
+
+/* multiple sources */
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .hasMultipleSources .searchExpandContainer {
+  float: none;
+  width: calc(100% - 10px);
+}
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .hasMultipleSources .searchInputGroup {
+  width: calc(100% - 58px);
+}
+.jimu-widget-public-notification .searchDijitFillsContainer .arcgisSearch .hasMultipleSources .searchInput {
+  width: calc(100% - 12px);
+  padding: 6px;
+}
+
+
+.jimu-widget-public-notification #numAddresseesFound {
+  margin-left: 5px;
+  margin-bottom: 12px;
+}
+
+.jimu-widget-public-notification .progressbar {
+  display: none;
+  margin-top: 40px;
+}

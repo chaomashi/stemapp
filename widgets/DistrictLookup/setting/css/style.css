@@ -1,0 +1,774 @@
+.jimu-widget-districtlookup-setting .esriCTMainContainer
+{
+    width: 100%;
+    height: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTFullHeight
+{
+    height: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTTabNode
+{
+    margin-top: 20px;
+    height: calc(100% - 20px);
+}
+
+.jimu-widget-districtlookup-setting .esriCTHint
+{
+    margin: 5px 5px 10px 0;
+    float: left;
+    font-size: 12px;
+    color: #a0acbf;
+    font-style: oblique;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLabelHintContainer
+{
+    width: 25%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .esriCTHidden
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup-setting .esriCTCheckBox
+{
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTHintInline
+{
+    line-height: 30px;
+}
+
+.jimu-widget-districtlookup-setting .jimu-tab3
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+.jimu-widget-districtlookup-setting .jimu-viewstack
+{
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+
+/* Remove close button from textbox in IE */
+input[type=text]::-ms-clear
+{
+    display: none;
+}
+/*-----------------------Styles for layer selector-------------------------*/
+.jimu-widget-districtlookup-setting .esriCTSelectedLayersDiv
+{
+    max-height: 200px;
+    min-height: 60px;
+    overflow: auto;
+    width: 88%;
+    float: left;
+    border: 1px solid #d2dae2;
+    background: #e3ecf2;
+    margin-right: 10px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSetButton
+{
+    float: right;
+    margin-top: 12PX;
+    max-width: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTURLSetButton {
+    line-height: 30px;
+    float: right;
+    max-width: 70px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerListItem
+{
+    height: 30px;
+    color: #7989a0;
+    padding: 0px 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    background-color: #e3ecf2 !important;
+    font-size: 14px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLabelContainer
+{
+    width: 45%;
+    float: left;
+}
+.jimu-widget-districtlookup-setting .esriCTlabel
+{
+    width: 25%;
+    padding: 5px 10px 5px 0px;
+    word-break: break-all;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;    
+    min-width: 250px;
+    color: #596679;
+    font-size: 14px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTFullWidth
+{
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerChooserLabel
+{
+    min-width: 300px;
+}
+
+.jimu-widget-districtlookup-setting .row
+{
+    clear: both;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerContainer
+{
+    width: 100%;
+    float: left;
+    margin: 0px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerField
+{
+    width: 73%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerChooserField
+{
+    width: 55%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .dijitValidationTextBoxLabel
+{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+
+.jimu-widget-districtlookup-setting .esriCTLayerSelectorDiv
+{
+    height: 135px;
+    overflow-y: auto;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerChooserContainer
+{
+    width: 99%;
+    float: left;
+    margin: 10px 0 0 5px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLayerListNode
+{
+    height: 62px;
+    border: 1px solid #ccc;
+    background-color: #F0F0F0;
+    overflow: auto;
+}
+
+.jimu-widget-districtlookup-setting .esriCTGeometryTypeIcon
+{
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    margin: 9px 2px 0px 10px;
+    float: left;
+}
+/*override layerchooser style to fix text overflow if layer name is to large*/
+.jimu-widget-districtlookup-setting .jimu-layer-chooser-from-map-withdropbox .layer-name
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 18px 0px 9px;
+}
+/*End override layerchooser style*/
+
+/*---------------------End of styles for layer selector--------------------*/
+
+/*-----------------------Styles for route layer chooser-----------------------*/
+
+.jimu-widget-districtlookup-setting .esriCTSetRouteURL
+{
+    width: 88%;
+    float: left;
+    border: 1px solid #d2dae2;
+    background: #e3ecf2;
+    margin-right: 10px;
+}
+
+.jimu-widget-districtlookup-setting .buttonsDiv .jimu-popup .button-container
+{
+    padding: 0px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTFloatLeading
+{
+    margin-right: 10px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTServiceUrlDiv
+{
+    float: left;
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTRouteLayersDiv
+{
+    float: left;
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTItemSelectDiv
+{
+    margin-top: 10px;
+    float: left;
+    height: 450px;
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTExampleUrl
+{
+    float: left;
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTRouteListDiv
+{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 360px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+.jimu-widget-districtlookup-setting .esriCTAgolRouteListDiv
+{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: 450px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSearchRadio
+{
+    float: left;
+    width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .serviceUrlContainer
+{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTServiceLable
+{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-districtlookup-setting .esriCTServiceField
+{
+    width: 85%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSetServiceURL
+{
+    float: left;
+    width: 85%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTBtnEllipsis
+{
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jimu-widget-districtlookup-setting .urlButton
+{
+    line-height: 30px;
+}
+/*-----------override tree css----------------------*/
+.claro .dijitTreeRowFocused
+{
+    background-repeat: repeat;
+}
+
+/* expando (open/closed) icon */
+.claro .dijitTreeExpando
+{
+    background-position: -93px -10px;
+    display: none; /* for dijitTreeExpandoOpened */
+}
+
+.claro .dijitTreeExpando: :first-child
+{
+    display: block;
+    background-position: -35px 0;
+}
+
+/*----------------End of styles for route layer chooser-----------------------*/
+/*----------------styles for symbol chooser node-----------------------*/
+
+.jimu-widget-districtlookup-setting .esriCTSymbolChooserNode
+{
+    text-align: center;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTColorChooserNode
+{
+    text-align: center;
+    cursor: pointer;
+    min-width: 80px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTColorChooserNode .jimu-color-picker
+{
+    display:inline-block;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSymbolPreviewText
+{
+    padding-right: 5px;
+    color: #596679;
+    font-size: 14px;
+    max-width: 130px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.jimu-widget-districtlookup-setting .esriCTPreviewField
+{
+    width: 25%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .esriCTPreviewHintField
+{
+    width: 70%;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSymbolPreviewField
+{
+    width: 35%;
+    min-width: 250px;
+    float: left;
+    margin-left: 10px;
+}
+
+table
+{
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSymbolPreviewHintField
+{
+    width: 50%;
+    line-height: 20px;
+    margin-left: 5px;
+    float: right;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSymbolChooserContainer
+{
+     height: calc(100% - 50px);
+     overflow: auto;
+ }
+/*----------------End of styles for symbol chooser node-----------------------*/
+
+/* claro CSS overridden for font style of input fields */
+
+.claro .dijitTextBox, .claro .dijitSelect
+{
+    color: #7989a0;
+    background-color: #fafafc;
+    border: 1px solid #d2dae2;
+}
+
+.dj_webkit .claro .dijitTextBox .dijitInputInner
+{
+    color: #7989a0;
+}
+
+.claro .dijitSelectDisabled, .claro .dijitTextBoxDisabled, .claro .dijitTextBoxDisabled .dijitInputContainer
+{
+    background-color: #e3ecf2;
+}
+
+.claro .dijitSelect .dijitInputField
+{
+    background-color: #fafafc !important;
+    color: #7989a0;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.claro .dijitTextBox, .claro .dijitSelect
+{
+    border-color: #d2dae2;
+}
+
+.claro .dijitSelect .dijitArrowButton
+{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-districtlookup-setting .dijitSelect .dijitButtonContents
+{
+    border-style: none none none none;
+    background-color: #fafafc;
+}
+
+/*------------------------Search Source-----------------------------------------*/
+.jimu-widget-districtlookup-setting .esriCTDropdownButton
+{
+  margin: 8px 0;
+  display: inline-block;
+  position: relative;
+  padding-left: 16px;
+  color: #518dca;
+  background: url(../images/add_icon.png) no-repeat left;
+  cursor: pointer;
+}
+
+.jimu-widget-districtlookup-setting .esriCTDropdownButton .esriCTDropdownMenu
+{
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 18px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #7989a0;
+  z-index: 999;
+}
+
+.jimu-rtl .jimu-widget-districtlookup-setting .esriCTDropdownButton .esriCTDropdownMenu
+{
+  right: 0;
+  left: auto;
+}
+
+.jimu-widget-districtlookup-setting .esriCTDropdownButton:hover .esriCTDropdownMenu
+{
+  display: inline-block;
+}
+
+.jimu-widget-districtlookup-setting .esriCTDropdownMenu .esriCTDropdownItem
+{
+  white-space: nowrap;
+  height: 30px;
+  padding: 0 25px;
+  line-height: 30px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTDropdownMenu .esriCTDropdownItem:hover
+{
+  background: #edf2f5;
+  color: #15a4fa;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSources
+{
+  height: 366px;
+}
+.jimu-widget-districtlookup-setting .esriCTSourcesExtraHeight
+{
+  height: 516px !important;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSourceList
+{
+  width: 270px;
+  height: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSourceSetting
+{
+  width: 660px;
+  position: relative;
+}
+
+.jimu-widget-districtlookup-setting .source-table,
+.jimu-widget-districtlookup-setting .general-setting-table
+{
+  width: 100%;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSearchSourceLayerField
+{
+    width: 70%;
+}
+.jimu-widget-districtlookup-setting .esriCTSearchSourceLabel
+{
+    width: 25%;
+    min-width: 182px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTLocalSearchLabel
+{
+    margin-left: 22px;
+    width: 24%;
+    min-width: 146px;
+}
+.jimu-widget-districtlookup-setting .esriCTLocalSearchRadiusUnit
+{
+    line-height: 30px;
+    float: right;
+}
+
+ .jimu-widget-districtlookup-setting .esriCTSearchSourceLabelFont
+ {
+    font-size: 14px;
+    color: #596679;
+ }
+
+.jimu-widget-districtlookup-setting .esriCTLayerSource
+{
+    width: 80% !important;
+}
+
+.jimu-widget-districtlookup-setting .esriCTsearchFieldsSelector
+{
+  display: inline-block;
+  margin: 6px 0;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: url(../images/selector.png) no-repeat center;
+
+}
+
+.jimu-widget-districtlookup-setting .esriCTSearchSourceURLField
+{
+    width: 76%;
+    float: left;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSearchSourceLayer
+{
+    width: 82% !important;
+}
+
+.jimu-widget-districtlookup-setting .esriCTURLWidthLabel
+{
+    width: 145px;
+    min-width: 145px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTSearchDetailsSection
+{
+    width: 175px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTGeneralSettingLabelStyle
+{
+    font-weight: bold;
+}
+
+
+.jimu-widget-districtlookup-query-source-setting .esriCTSearchSourceFieldCheckbox
+{
+    width: 167px;
+    margin-bottom: 20px;
+    color: #596679;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.jimu-widget-districtlookup-query-source-setting .esriCTSearchSourceFieldCheckbox .label
+{
+    width: 140px;
+}
+
+.jimu-widget-districtlookup-setting .esriCTErrorMessage
+{
+    color: #e84b4b;
+}
+
+.jimu-widget-districtlookup-setting .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell
+{
+    cursor: pointer;
+}
+
+/*------------------------Search Source-----------------------------------------*/
+
+/* claro CSS overridden for font style of input fields */
+/*start CSS override for RTL*/
+.esriRtl .jimu-widget-districtlookup-setting .esriCTHint
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTPreviewHintField
+{
+    margin-right: 10px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTlabel
+{
+    padding: 5px 0px 5px 10px;
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSelectedLayersDiv
+{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTPreviewField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTGeometryTypeIcon
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSetButton
+{
+    float: left;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSetRouteURL
+{
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTURLSetButton
+{
+    float: left;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSymbolPreviewField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTLabelHintContainer
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSymbolPreviewText
+{
+    padding: 0 0 0 5px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTServiceLable
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSetServiceURL
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTLayerChooserField
+{
+    float: right;
+}
+.esriRtl .jimu-widget-districtlookup-setting .esriCTLayerField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTLayerChooserContainer
+{
+    float: none;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSymbolPreviewHintField
+{
+    margin-right: 5px;
+    float: left;
+    margin-left: 0px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTCheckBox
+{
+    float: right;
+    margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTFloatLeading
+{
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTDropdownButton
+{
+
+  padding-right: 16px;
+  background: url(../images/add_icon.png) no-repeat right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTSearchSourceURLField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup-setting .esriCTLocalSearchRadiusUnit
+{
+    float: left;
+}
+/*end CSS override for RTL*/

@@ -1,0 +1,19 @@
+<div>
+  <div class="layer-row">
+    <div class="layer-row--value pull-right">
+      <input class="${baseClass}-weight" type="text"
+        data-dojo-type="dijit/form/NumberTextBox"
+        data-dojo-attach-point="weightNode"
+        data-dojo-attach-event="onChange:_onWeightChange,onKeyUp:_onWeightChange,onMouseUp:_onFocus,onBlur:_onBlur"
+        data-dojo-props="constraints: {max: 100, min: 0, round:0},required:true"
+      /><span class="layer-row--value-mark">&#37;</span>
+    </div>
+    <div class="layer-row--title" data-dojo-attach-point="layerNode" >
+      <i class="sliders-button pull-right" data-dojo-attach-point="iconNode"></i>
+      <label class="${baseClass}-label" data-dojo-attach-point="labelNode"></label>
+    </div>
+  </div>
+  <div data-dojo-attach-point="remapRangesEditorWrapper">
+    <div data-dojo-attach-point="remapRangesEditorContainer"></div>
+  </div>
+</div>

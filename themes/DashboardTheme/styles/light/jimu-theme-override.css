@@ -1,0 +1,33 @@
+.jimu-widget-onscreen-icon,
+.jimu-widget-placeholder {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 36px !important;
+  height: 36px !important;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  opacity: 1;
+}
+
+.jimu-widget-onscreen-icon img {
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+}
+
+.jimu-widget-placeholder .inner {
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  line-height: 36px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: transparent;
+  color: #FFF;
+}
+
+.jimu-widget-frame.jimu-container{
+  padding-bottom: 0;
+}

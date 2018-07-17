@@ -1,0 +1,63 @@
+@import url("../common.css");
+
+.jimu-widget-infographic {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-infographic .chart-setting {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  background: no-repeat center center url(images/chart-setting.svg);
+  z-index: 1;
+}
+
+.jimu-rtl .jimu-widget-infographic .chart-setting {
+  left: 0;
+  right: auto;
+}
+
+.ig-chart-setting-dlg .jimu-leading-margin10 {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.jimu-rtl .ig-chart-setting-dlg .jimu-leading-margin10 {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.ig-chart-setting-dlg .textOverFlow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ig-chart-setting-dlg .flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.ig-chart-setting-dlg .label {
+  width: 120px;
+}
+
+.ig-chart-setting-dlg .toggle {
+  width: 38px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.ig-chart-setting-dlg .toggle.toggle-on {
+  background: no-repeat center left url(./images/toggle_on_light.svg);
+}
+
+.ig-chart-setting-dlg .toggle.toggle-off {
+  background: no-repeat center left url(./images/toggle_off_light.svg);
+}

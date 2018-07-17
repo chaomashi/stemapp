@@ -1,0 +1,256 @@
+@import url('./ChartLayout.css');
+/*------------------------- Styles for widget panel -----------------------*/
+.esriCTMainContainer
+{
+    min-width: 222px;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+}
+
+.esriCTResultsPanel
+{
+    margin: 10px 0px;
+    border-top: 1px solid #161616;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100% - 65px);
+}
+
+.esriCTResultContent
+{
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+}
+
+.esriCTOverridePanelStyle
+{
+    padding: 14px 0px !important;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTAccordionContainer
+{
+    width: 100%;
+    border: 1px solid #DDDDDD;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTHidden
+{
+    display: none;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTWidgetErrorNode
+{
+    color: Red;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTFullHeight
+{
+    height: 100%;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTChartRow
+{
+    background-color: #FCFCFC;
+    position: relative;
+    border-bottom: 1px solid #DDDDDD;
+    color: black;
+    cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTChartTitle
+{
+    line-height: 40px;
+    padding-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTChartContent
+{
+    background-color: #FFF;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTChartSelected
+{
+    font-weight: bold;
+    background-color: #DDDDDD;
+}
+.jimu-widget-RelatedTableCharts .esriCTChartHighlighted
+{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSelectedChartBorder
+{
+    border-left: 5px solid;
+}
+
+/*-------------------- End of styles for widget panel ---------------------*/
+
+/*----------------------- Styles for search panel -------------------------*/
+
+.jimu-widget-RelatedTableCharts .esriCTSearchOuterContainer
+{
+
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSearchHeader
+{
+    padding: 0px 0px 10px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTImgButtons
+{
+    cursor: pointer;
+    width: 32px;
+    height: 34px;
+    border: 1px solid #57585A;
+    border-radius: 4px;
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTOrDiv
+{
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSearchDiv
+{
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSearchDiv .arcgisSearch
+{
+    float: left;
+    width: 100% !important;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts .esriCTSearchDiv
+{
+    float: right;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSearchContainer
+{
+    width: 100%;
+    height: 35px;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchGroup .searchInput
+{
+    width: 170px;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchBtn
+{
+    padding: 6px;
+}
+
+.jimu-widget-search .arcgisSearch .searchGroup .searchInputGroup .searchInput
+{
+    width: auto;
+}
+
+/*Set location*/
+
+.jimu-widget-RelatedTableCharts .esriCTSelectLocationDiv
+{
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts .esriCTSelectLocationDiv
+{
+    margin: 0px 0px 10px 0px;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSelectLocation
+{
+    background-image: url("../images/select-location.png");
+}
+
+.jimu-widget-RelatedTableCharts .esriCTSelectLocationActive
+{
+    background-image: url("../images/select-location-active.png");
+    background-color: #57585A;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTImgButtons
+{
+    cursor: pointer;
+    width: 32px;
+    height: 34px;
+    border: 1px solid #57585A;
+    border-radius: 4px;
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*Set location*/
+
+
+/*-------------------- End of styles for search panel ---------------------*/
+
+.jimu-widget-RelatedTableCharts-layout .esriCTLayoutContent
+{
+    width: 100%;
+    background-color: #FFF;
+    margin: 0px;
+    border: none;
+}
+
+.jimu-widget-RelatedTableCharts-layout .esriCTChartContainer
+{
+    width: calc(100% - 2px);
+    margin: 10px 1px;
+}
+
+.esriCTDisabledRow
+{
+    cursor: not-allowed !important;
+    color: #838383 !important;
+}
+
+/* start CSS for RTL*/
+.esriRtl .jimu-widget-RelatedTableCharts .esriCTSelectedChartBorder
+{
+    border-right: 5px solid;
+    border-left: 0px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts .esriCTChartTitle
+{
+    padding-right: 10px;
+}
+/* end  CSS for RTL*/
+.esriCTMapTooltip
+{
+    width: 100px;
+    word-wrap: break-word;
+    border: 1px solid #7EABCD;
+    background-color: white;
+    padding: 5px;
+    font-size: 9pt;
+    z-index: 9999;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}

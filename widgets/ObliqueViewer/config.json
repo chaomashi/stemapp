@@ -1,0 +1,14 @@
+{
+  "ObliqueViewer": {
+    "layerTitle": "",
+    "azimuthAngle" : 0,
+    "azimuthField": "",
+    "searchRadius": 0,
+    "searchUnit": "meters",
+    "elevationField": "",
+    "rasterInfoFields": [],
+    "showThumbnail": true,
+    "autoSync": true,
+    "showDistanceTools": false
+  }
+}

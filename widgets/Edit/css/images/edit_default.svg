@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Edit_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="specification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="spec" transform="translate(-541.000000, -349.000000)" fill="#000000">
+            <g id="Select" transform="translate(75.000000, 310.000000)">
+                <g id="Select_n">
+                    <path d="M466,51.6222222 L466,55 L469.377778,55 L479.155556,45.1333333 L475.777778,41.7555556 L466,51.6222222 L466,51.6222222 Z M481.733333,42.5555556 C482.088889,42.2 482.088889,41.6666667 481.733333,41.3111111 L479.688889,39.2666667 C479.333333,38.9111111 478.8,38.9111111 478.444444,39.2666667 L476.844444,40.8666667 L480.222222,44.2444444 L481.733333,42.5555556 L481.733333,42.5555556 Z" id="Edit_normal"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

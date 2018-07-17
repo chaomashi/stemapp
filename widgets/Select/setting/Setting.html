@@ -1,0 +1,54 @@
+<div>
+  <div class="config-section">
+    <div class="label">${nls.chooseSelectingTools}</div>
+    <div data-dojo-attach-point="drawingToolsContainer" class="drawing-tools-container jimu-draw-box" data-dojo-attach-event="onclick:_onDrawingToolsContainerClicked">
+      <div class="draw-item point-icon" data-geotype="POINT">
+        <div class="draw-item-icon"></div>
+      </div>
+      <div class="draw-item polyline-icon" data-geotype="POLYLINE">
+        <div class="draw-item-icon"></div>
+      </div>
+      <div class="draw-item extent-icon" data-geotype="EXTENT">
+        <div class="draw-item-icon"></div>
+      </div>
+      <div class="draw-item circle-icon" data-geotype="CIRCLE">
+        <div class="draw-item-icon"></div>
+      </div>
+      <div class="draw-item polygon-icon" data-geotype="POLYGON">
+        <div class="draw-item-icon"></div>
+      </div>
+      <div class="draw-item freehand-polygon-icon" data-geotype="FREEHAND_POLYGON">
+        <div class="draw-item-icon"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="config-section inline">
+    <div class="label">${nls.setSelectionColor}</div>
+    <div data-dojo-attach-point="colorPicker" data-dojo-type="jimu/dijit/ColorPickerButton">
+    </div>
+  </div>
+  <div class="config-section">
+    <div class="label">${nls.selectionMode}</div>
+    <div class="option">
+      <input name="selectionMode" type="radio" data-dojo-attach-point="partialMode"
+            data-dojo-attach-event="onclick: _onSelectPartialMode" class="jimu-radio-btn"/>
+      <label>${nls.partiallyWithin}</label>
+    </div>
+    <div class="option">
+      <input name="selectionMode" type="radio" data-dojo-attach-point="whollyMode"
+            data-dojo-attach-event="onclick: _onSelectWhollyMode" class="jimu-radio-btn"/>
+      <label>${nls.whollyWithin}</label>
+    </div>
+  </div>
+  <div class="config-section">
+    <div data-dojo-attach-point="exportCheckBoxDiv"></div>
+  </div>
+  <div class="config-section">
+    <div data-dojo-attach-point="runtimeLayersCheckBoxDiv"></div>
+  </div>
+  <div class="config-section">
+    <div class="label">${nls.layerToSelect}</div>
+    <div class="layer-chooser" data-dojo-attach-point="layerChooserDiv"></div>
+  </div>
+</div>

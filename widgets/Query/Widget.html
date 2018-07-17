@@ -1,0 +1,42 @@
+<div>
+  <div class="jimu-widget-normal query-widget-content">
+    <div class="query-tab-header" data-dojo-attach-point="tabHeader" data-dojo-attach-event="onclick:_onTabHeaderClicked">
+      <div class="query-tab-item jimu-ellipsis jimu-float-leading selected" data-dojo-attach-point="taskQueryItem" title="${labelTasks}">${labelTasks}</div>
+      <div class="query-tab-item jimu-ellipsis jimu-float-trailing" data-dojo-attach-point="resultQueryItem" title="${labelResults}">${labelResults}</div>
+    </div>
+    <div class="query-tabs-container">
+      <div class="query-tab-view task-tab-view selected" data-dojo-attach-point="taskTabView">
+        <div data-dojo-attach-point="taskList" class="task-list">
+            <div data-dojo-attach-point="tasksNode" class="tasks">
+              <div class="execute-tip not-visible">${nls.executeQueryTip}</div>
+              <div class="tasks-table-container">
+                <table data-dojo-attach-event="onclick:_onTaskListClicked"
+                cellpadding="0" cellspacing="0" class="list-table tasks-table" onselectstart="return false;">
+                  <colgroup>
+                    <col width="40px"></col>
+                    <col width="auto"></col>
+                  </colgroup>
+                  <tbody data-dojo-attach-point="tasksTbody"></tbody>
+                </table>
+              </div>
+            </div>
+            <div data-dojo-attach-point="noQueryTipSection" class="no-query-tip">${nls.noTask}</div>
+        </div>
+        <div data-dojo-attach-point="taskSettingContainer" class="task-setting-container">
+        </div>
+      </div>
+
+      <div class="query-tab-view result-tab-view" data-dojo-attach-point="resultTabView">
+        <div class="result-section" data-dojo-attach-point="resultSection">
+          <div class="single-result-details" data-dojo-attach-point="singleResultDetails"></div>
+          <div class="resultlayers-select-div" data-dojo-attach-point="resultLayersSelectDiv">
+            <div data-dojo-type="dijit/form/Select" data-dojo-attach-point="resultLayersSelect" class="restrict-select-width" style="width:100%;" data-dojo-attach-event="change:_onResultLayerSelectChanged"></div>
+          </div>
+        </div>
+        <div class="no-result-section" data-dojo-attach-point="noresultSection">${nls.noResult}</div>
+      </div>
+    </div>
+  </div>
+
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

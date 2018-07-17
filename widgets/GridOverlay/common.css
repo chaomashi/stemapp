@@ -1,0 +1,288 @@
+/*.grid-overlay-setting input {
+  margin-left: 10px;
+}*/
+
+/*added, need to clean up*/
+
+.grid-overlay-setting .grid-overlay-setting-style table {
+  color: #333333;
+  width: 300px;
+  border-collapse: collapse;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style th {
+  font-size: 13.5px;
+  text-align: center;
+  color: #000000;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style tr {
+  background-color: #ffffff;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style td {
+  padding: 8px;
+}
+
+.grid-overlay-setting .settings-section {
+  padding-bottom: 0px;
+}
+
+.grid-overlay-setting .settings-section tr {
+  vertical-align: middle;
+}
+
+.grid-overlay-setting .settings-section>tbody>tr>td:first-child {
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.grid-overlay-setting .settings-section>tbody>tr:nth-child(2n) {
+  padding-left: 5px;
+  font-size: 12px;
+  letter-spacing: 0.33px;
+}
+
+.grid-overlay-setting .settings-section>tbody>tr:nth-child(2n+1) {
+  width: 100px;
+  font-size: 14px;
+  letter-spacing: 0.39px;
+}
+
+.grid-overlay-setting .font-size,
+.line-size {
+  width: 70px;
+  font-style: normal;
+}
+
+.grid-overlay-setting .grid-overlay-setting-color-picker {
+  width: 70px;
+}
+
+.grid-overlay-setting .grid-overlay-setting-color-picker-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+
+.grid-overlay-setting .grid-overlay-setting-interval-width {
+  border-color: #000;
+  border-style: hidden solid solid solid;
+  border-width: 1px;
+  height: 10px;
+  margin: auto;
+}
+
+.grid-overlay-setting .grid-overlay-setting-style-map {
+  width: 500px;
+  height: 100%;
+  float: left;
+}
+
+.grid-overlay-setting .grid-overlay-setting-slider {
+  width: 200px;
+}
+
+.grid-overlay-setting .grid-overlay-setting-slider-value {
+  width: 50px;
+}
+
+.grid-overlay-setting .neo {
+  float: left;
+  height: 100%;
+  width: 440px;
+  overflow-y: hidden;
+  margin-right: 5px;
+}
+
+.grid-overlay-setting .sectionTitle {
+  color: #353535;
+  letter-spacing: 0.39px;
+  padding-bottom: 7px;
+}
+
+.grid-overlay-setting .sliderValue {
+  font-size: 14px;
+  color: #353535;
+  letter-spacing: 0.39px;
+}
+
+.grid-overlay-setting .gridPlacementSection {
+  width: 80%;
+  margin: auto;
+  display: inline-flex;
+}
+
+.grid-overlay-setting .verticalLineSection {
+  width: 80%;
+  margin: auto;
+  display: inline-flex;
+}
+
+.grid-overlay-setting .image-labels {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+.grid-overlay-setting .horizontalLabel {
+  background: url('./images/Horizontal.png');
+}
+
+.grid-overlay-setting .horizontalLabelClicked {
+  background: url('./images/Horizontal_selected.png');
+  border: 1px solid #008B9C;
+}
+
+.grid-overlay-setting .horizontalLabel:hover {
+  background: url('./images/Horizontal_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .verticalLabel {
+  background: url('./images/Vertical.png');
+}
+
+.grid-overlay-setting .verticalLabelClicked {
+  background: url('./images/Vertical_selected.png');
+  border: 1px solid #008B9C;
+}
+
+.grid-overlay-setting .verticalLabel:hover {
+  background: url('./images/Vertical_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .upperLeftLabel {
+  background: url('./images/Upper_Left.png');
+}
+
+.grid-overlay-setting .upperLeftLabelClicked,
+.upperLeftLabel:hover {
+  background: url('./images/Upper_Left_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .upperRightLabel {
+  background: url('./images/Upper_Right.png');
+}
+
+.grid-overlay-setting .upperRightLabelClicked,
+.upperRightLabel:hover {
+  background: url('./images/Upper_Right_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .lowerLeftLabel {
+  background: url('./images/Lower_Left.png');
+}
+
+.grid-overlay-setting .lowerLeftLabelClicked,
+.lowerLeftLabel:hover {
+  background: url('./images/Lower_Left_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .lowerRightLabel {
+  background: url('./images/Lower_Right.png');
+}
+
+.grid-overlay-setting .lowerRightLabelClicked,
+.lowerRightLabel:hover {
+  background: url('./images/Lower_Right_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .centerLabel {
+  background: url('./images/Center.png');
+}
+
+.grid-overlay-setting .centerLabelClicked,
+.centerLabel:hover {
+  background: url('./images/Center_selected.png');
+  border: 1px solid #008B9C;
+  cursor: pointer;
+}
+
+.grid-overlay-setting .table-options ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.grid-overlay-setting .jimu-checkbox {
+  margin-right: 20px;
+  width: 100%;
+}
+
+.grid-overlay-setting .switch-toggle-group {
+  padding: 5px;
+}
+
+.grid-overlay-setting .switch-toggle-group .checkbox-inline {
+  padding-left: 36px;
+  vertical-align: top;
+}
+
+.grid-overlay-setting .switch-toggle-group .switch-toggle.dijitCheckBox {
+  margin-left: -36px;
+}
+
+.grid-overlay-setting .switch-toggle.dijitCheckBox {
+  height: 16px;
+  width: 28px;
+  border: 0 none;
+  background: #adadad;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.grid-overlay-setting .switch-toggle.dijitCheckBox:before {
+  content: "";
+  background: #f8f8f8;
+  position: absolute;
+  padding: 0;
+  height: 12px;
+  width: 12px;
+  left: auto;
+  right: 14px;
+  top: 2px;
+  z-index: 1;
+  -webkit-transition: right 0.3s;
+  -moz-transition: right 0.3s;
+  -o-transition: right 0.3s;
+  transition: right 0.3s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.grid-overlay-setting .switch-toggle.dijitCheckBox input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.grid-overlay-setting .switch-toggle.dijitCheckBox.dijitCheckBoxChecked {
+  background: #50ad4e;
+}
+
+.grid-overlay-setting .switch-toggle.dijitCheckBox.dijitCheckBoxChecked:before {
+  right: 2px;
+}

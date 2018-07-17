@@ -1,0 +1,45 @@
+<div style="height: 100%; width: 100%">
+  <div class="esriCTContentSection">
+    <div class="esriCTCostEquationTitle">
+      ${nls.workBench.costEquationTitle}
+    </div>
+    <div data-dojo-attach-point="costEquationEditorNode">
+      <div>
+        <div>
+          <div class="esriCTEditCostEquationLabel esriCTFullWidth esriCTEllipsis"  title="${nls.workBench.geographyTitle}">
+            ${nls.workBench.geographyTitle}</div>
+          <div class="esriCTEditCostEquationInput esriCTFullWidth">
+            <div class="esriCTFullWidth" data-dojo-type="dijit/form/TextBox" disabled=true data-dojo-attach-point="geographyValue">
+            </div>
+          </div>
+          <div class="esriCTEditCostEquationLabel esriCTFullWidth esriCTEllipsis"  title="${nls.workBench.scenarioTitle}">
+            ${nls.workBench.scenarioTitle}</div>
+          <div class="esriCTEditCostEquationInput esriCTFullWidth">
+            <div class="esriCTFullWidth" data-dojo-type="dijit/form/Select" data-dojo-attach-point="scenarioValue">
+            </div>
+          </div>
+          <div class="esriCTEditCostEquationLabel esriCTFullWidth esriCTEllipsis" title="${nls.workBench.newCostEquationTitle}">
+            ${nls.workBench.newCostEquationTitle}</div>
+          <div class="esriCTEditCostEquationInput esriCTFullWidth" data-dojo-attach-point="newCostEquationParent">
+            <div class=="esriCTFullWidth" style="min-height:70px;" spellcheck="false" data-dojo-type="dijit/form/Textarea" data-dojo-attach-point="newCostEquationValue" required="true">
+            </div>
+          </div>
+           <div class="esriCTEditCostEquationLabel esriCTFullWidth esriCTEllipsis"  title="${nls.workBench.defaultCostEquationTitle}">
+            ${nls.workBench.defaultCostEquationTitle}</div>
+          <div class="esriCTEditCostEquationInput esriCTFullWidth">
+            <div class=="esriCTFullWidth" style="min-height:70px;" spellcheck="false" disabled=true  data-dojo-type="dijit/form/Textarea" data-dojo-attach-point="defaultCostEquationValue">
+            </div>
+          </div>
+        </div>
+        <div class="esriCTFullWidth">
+          <div class="esriCTHint" data-dojo-attach-point="costEquationHint">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="esriCTPageFooter">
+    <div class="jimu-btn esriCTEllipsis" data-dojo-attach-point="okButton">${nls.common.ok}</div>
+    <div class="jimu-btn esriCTEllipsis" data-dojo-attach-point="cancelButton">${nls.common.cancel}</div>
+  </div>
+</div>

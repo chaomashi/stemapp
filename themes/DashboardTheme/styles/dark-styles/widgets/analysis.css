@@ -1,0 +1,38 @@
+.jimu-widget-analysis .execute-tip,
+.jimu-widget-analysis .tool-name {
+  color: #FFF;
+}
+
+.jimu-widget-analysis .tools-table-tr.even {
+  background-color: #222;
+}
+.jimu-widget-analysis .tools-table-tr.odd{
+  background-color: #333;
+}
+
+.jimu-widget-analysis .tools-table-tr.disabled{
+  background-color: #000;
+  border-bottom: none;
+}
+
+.jimu-widget-analysis .tools-table-tr:hover{
+  background: #666;
+}
+
+.jimu-widget-analysis .tools-table-tr.disabled:hover{
+  background-color: #000;
+}
+
+.jimu-widget-analysis .tools-table-tr.disabled .tool-name {
+  color: #686868;
+}
+
+.jimu-widget-analysis .esriAnalysis .esriAnalysisSubmitButton.dijitButton>span.dijitButtonNode,
+.jimu-widget-analysis .esriAnalysis .dijitButton.calcite > span.dijitButtonNode {
+  background: #666;
+}
+
+.jimu-widget-analysis .esriAnalysis .esriAnalysisSubmitButton.dijitButtonHover>span.dijitButtonNode,
+.jimu-widget-analysis .esriAnalysis .dijitButton.calcite.dijitButtonHover>span.dijitButtonNode{
+  background: #333;
+}

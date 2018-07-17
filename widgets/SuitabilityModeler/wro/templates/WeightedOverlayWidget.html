@@ -1,0 +1,56 @@
+<div>
+  <div data-dojo-attach-point="tabsNode"></div>
+  <div class="weighted-overlay-pane weighted-overlay-select-layers"
+    data-dojo-attach-point="selectLayersViewNode">
+    <div class="header" data-dojo-attach-point="selectLayersViewHeader">
+      <span role="button" class="slider-toggle pull-right"
+        data-dojo-attach-point="transparentSliderToggle"
+        data-dojo-attach-event="onclick: showHideTransparencySlider"
+        >${i18n.wro.transparency}&nbsp;<span class="esri-icon-down"></span>
+      </span>
+      <h4><span class="bullet-number">1</span>${i18n.wro.selectLayersCaption}</h4>
+    </div>
+    <div data-dojo-attach-point="selectLayersView" class="body"></div>
+    <div class="footer">
+      <button type="button" class="jimu-btn btn-execute jimu-state-disabled"
+        data-dojo-attach-point="designModelButton"
+        data-dojo-attach-event="onclick:_onShowModelClicked"
+        >${i18n.wro.designModel}&nbsp;<span class="esri-icon-right-arrow"></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="weighted-overlay-pane weighted-overlay-design-model" style="left: 100%"
+    data-dojo-attach-point="designModelViewNode">
+    <div data-dojo-attach-point="designModelView"></div>
+    <div class="footer">
+      <button type="button" class="jimu-btn jimu-btn-vacation btn-back pull-left"
+        data-dojo-attach-event="onclick:_onShowLayersClicked" >
+        <span class="esri-icon-left"></span>
+        <span class="jimu-btn-text">${i18n.wro.selectLayers}</span>
+      </button>
+      <div class="btn-group-spacer"></div>
+      <div class="btn-group pull-right">
+        <button type="button" class="jimu-btn jimu-state-disabled"
+          data-dojo-attach-point="runModelButton"
+          data-dojo-attach-event="onclick:_onRunClick">${i18n.general.save}</button>
+        <button type="button" class="jimu-btn jimu-state-disabled"
+          data-dojo-attach-point="saveAsButton"
+          data-dojo-attach-event="onclick:_onSaveAsClick">${i18n.general.saveAs}</button>
+        <button type="button" class="jimu-btn"
+          data-dojo-attach-point="clearModelButton"
+          data-dojo-attach-event="onclick:_onClearClick">${i18n.general.clear}</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="weighted-overlay-pane weighted-overlay-chart-container"
+    data-dojo-attach-point="chartViewNode">
+    <div data-dojo-attach-point="chartNode"></div>
+  </div>
+
+  <div class="weighted-overlay-pane weighted-overlay-save-panel"
+    style="display:none;" data-dojo-attach-point="savePanelNode">
+  </div>
+
+</div>

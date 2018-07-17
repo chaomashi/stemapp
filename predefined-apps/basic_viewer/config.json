@@ -1,0 +1,444 @@
+{
+  "theme": {
+    "name": "DartTheme",
+    "styles": [
+      "default",
+      "purple",
+      "pink",
+      "green",
+      "blue",
+      "turquoise",
+      "orange",
+      "red"
+    ],
+    "version": "2.8"
+  },
+  "portalUrl": "",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Basic Viewer",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "",
+  "links": [
+    {
+      "label": "Esri",
+      "url": "http://www.esri.com"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/DartTheme/widgets/DartController/Widget",
+        "position": {
+          "left": 0,
+          "right": 0,
+          "bottom": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "themes_DartTheme_widgets_DartController_Widget_24"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "widgets_OverviewMap_Widget_25"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "visible": false,
+        "position": {
+          "left": 10,
+          "bottom": 1,
+          "zIndex": 200,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "widgets_Scalebar_Widget_26"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "visible": false,
+        "position": {
+          "right": 10,
+          "bottom": -2,
+          "zIndex": 200,
+          "relativeTo": "map"
+        },
+        "version": "2.8",
+        "id": "widgets_Coordinate_Widget_27"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "visible": false,
+        "version": "2.8",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_28"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.8",
+        "id": "widgets_Splash_Widget_29"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": ""
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/DartTheme/panels/DartPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.8",
+        "id": "widgets_LayerList_Widget_17"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.8",
+        "id": "widgets_Legend_Widget_16"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/BasemapGallery/Widget",
+        "id": "widgets_BasemapGallery_Widget_21"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/Bookmark/Widget",
+        "id": "widgets_Bookmark_Widget_19"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/Measurement/Widget",
+        "id": "widgets_Measurement_Widget_22"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/Draw/Widget",
+        "id": "widgets_Draw_Widget_23"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/Print/Widget",
+        "id": "widgets_Print_Widget_20"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/About/Widget",
+        "id": "widgets_About_Widget_18"
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/Search/Widget",
+        "id": "widgets_Search_Widget_33",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "isPreconfiguredInTheme": true,
+        "id": "widgets_ZoomSlider_Widget_30",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/HomeButton/Widget",
+        "id": "widgets_HomeButton_Widget_31",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "version": "2.8",
+        "uri": "widgets/MyLocation/Widget",
+        "id": "widgets_MyLocation_Widget_32",
+        "position": {
+          "relativeTo": "map"
+        }
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.8",
+  "templateConfig": {
+    "configurationSettings": [
+      {
+        "category": "Attribute",
+        "fields": [
+          {
+            "type": "string",
+            "fieldName": "app_title",
+            "label": "App Title",
+            "tooltip": "",
+            "stringFieldOption": "textbox",
+            "placeHolder": "title",
+            "fieldPath": "app_title"
+          }
+        ],
+        "categoryName": "Attribute"
+      },
+      {
+        "category": "My Location widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_MyLocation_Widget_32]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[11]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_MyLocation_Widget_32"
+      },
+      {
+        "category": "Search widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Search_Widget_33]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[8]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Search_Widget_33"
+      },
+      {
+        "category": "Layer List widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_LayerList_Widget_17]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[0]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_LayerList_Widget_17"
+      },
+      {
+        "category": "Legend widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Legend_Widget_16]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[1]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Legend_Widget_16"
+      },
+      {
+        "category": "Basemap Gallery widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_BasemapGallery_Widget_21]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[2]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_BasemapGallery_Widget_21"
+      },
+      {
+        "category": "Bookmark widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Bookmark_Widget_19]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[3]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Bookmark_Widget_19"
+      },
+      {
+        "category": "Measurement widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Measurement_Widget_22]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[4]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Measurement_Widget_22"
+      },
+      {
+        "category": "Draw widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Draw_Widget_23]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[5]_visible"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Draw_Widget_23"
+      },
+      {
+        "category": "Print widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_Print_Widget_20]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[6]_visible"
+          },
+          {
+            "type": "string",
+            "fieldName": "app_widgetPool_widgets[widgets_Print_Widget_20]_config_defaultAuthor",
+            "label": "Default Author",
+            "tooltip": "",
+            "stringFieldOption": "textbox",
+            "placeHolder": "Author",
+            "fieldPath": "app_widgetPool_widgets[6]_config_defaultAuthor"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_Print_Widget_20"
+      },
+      {
+        "category": "About widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetPool_widgets[widgets_About_Widget_18]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetPool_widgets[7]_visible"
+          },
+          {
+            "type": "string",
+            "fieldName": "app_widgetPool_widgets[widgets_About_Widget_18]_config_about_aboutContent",
+            "label": "Content",
+            "tooltip": "",
+            "stringFieldOption": "richtext",
+            "placeHolder": "aboutContent",
+            "fieldPath": "app_widgetPool_widgets[7]_config_about_aboutContent"
+          }
+        ],
+        "categoryName": "widgetPoolWidget_widgets_About_Widget_18"
+      },
+      {
+        "category": "Splash widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetOnScreen_widgets[widgets_Splash_Widget_29]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetOnScreen_widgets[5]_visible"
+          },
+          {
+            "type": "string",
+            "fieldName": "app_widgetOnScreen_widgets[widgets_Splash_Widget_29]_config_splash_splashContent",
+            "label": "Content",
+            "tooltip": "",
+            "stringFieldOption": "richtext",
+            "placeHolder": "splashContent",
+            "fieldPath": "app_widgetOnScreen_widgets[5]_config_splash_splashContent"
+          }
+        ],
+        "categoryName": "ScreenWidget_widgets_Splash_Widget_29"
+      },
+      {
+        "category": "Attribute Table widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetOnScreen_widgets[widgets_AttributeTable_Widget_28]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetOnScreen_widgets[4]_visible"
+          }
+        ],
+        "categoryName": "ScreenWidget_widgets_AttributeTable_Widget_28"
+      },
+      {
+        "category": "Scalebar widget",
+        "fields": [
+          {
+            "type": "boolean",
+            "fieldName": "app_widgetOnScreen_widgets[widgets_Scalebar_Widget_26]_visible",
+            "label": "Visible",
+            "tooltip": "",
+            "fieldPath": "app_widgetOnScreen_widgets[2]_visible"
+          }
+        ],
+        "categoryName": "ScreenWidget_widgets_Scalebar_Widget_26"
+      }
+    ],
+    "values": {
+      "app_title": "",
+      "app_widgetPool_widgets[widgets_MyLocation_Widget_32]_visible": true,
+      "app_widgetPool_widgets[widgets_Search_Widget_33]_visible": true,
+      "app_widgetPool_widgets[widgets_LayerList_Widget_17]_visible": true,
+      "app_widgetPool_widgets[widgets_Legend_Widget_16]_visible": true,
+      "app_widgetPool_widgets[widgets_BasemapGallery_Widget_21]_visible": true,
+      "app_widgetPool_widgets[widgets_Bookmark_Widget_19]_visible": true,
+      "app_widgetPool_widgets[widgets_Measurement_Widget_22]_visible": true,
+      "app_widgetPool_widgets[widgets_Draw_Widget_23]_visible": true,
+      "app_widgetPool_widgets[widgets_Print_Widget_20]_visible": true,
+      "app_widgetPool_widgets[widgets_Print_Widget_20]_config_defaultAuthor": "",
+      "app_widgetPool_widgets[widgets_About_Widget_18]_visible": true,
+      "app_widgetPool_widgets[widgets_About_Widget_18]_config_about_aboutContent": "",
+      "app_widgetOnScreen_widgets[widgets_Splash_Widget_29]_visible": false,
+      "app_widgetOnScreen_widgets[widgets_Splash_Widget_29]_config_splash_splashContent": "",
+      "app_widgetOnScreen_widgets[widgets_AttributeTable_Widget_28]_visible": false,
+      "app_widgetOnScreen_widgets[widgets_Scalebar_Widget_26]_visible": false
+    }
+  }
+}

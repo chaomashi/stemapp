@@ -1,0 +1,186 @@
+<div style="height:100%; overflow:hidden;">
+	<div data-dojo-attach-point="widgetMainContainer" style="height: 100%">
+		<div class="esriCTTabContainerParentElement" data-dojo-attach-point="tabContainerParentElement">
+			<div class="esriCTTabLabelMainContainer">
+				<div data-dojo-attach-point="aoiLabelContainer" class="esriCTAOILabelContainer esriCTTabsOverflowText"></div>
+				<div data-dojo-attach-point="reportLabelContainer" class="esriCTReportLabelContainer esriCTTabsOverflowText esriCTHidden"></div>
+				<!-- Zoom tool-->
+				<div title="${nls.zoomToLocationTooltipText}" class="esriCTTraverseToolIcons esriCTZoomToDisableIcon" data-dojo-attach-point="zoomToNode">
+				</div>
+			</div>
+			<!--AOI Tab-->
+			<div class="esriCTAOITabParentContainer" data-dojo-attach-point="aoiTabParentContainer">
+				<!--AOI Buttons-->
+				<div class="esriCTAOIButtonParentContainer" data-dojo-attach-point="aoiButtonParentContainer">
+					<div class="esriCTPlacenameButton esriCTCursorPointer esriCTHidden" data-dojo-attach-point="placenameButton" title="${config.placenameButtonText}">
+						${config.placenameButtonText}
+					</div>
+					<div class="esriCTDrawToolButton esriCTCursorPointer esriCTHidden" data-dojo-attach-point="drawToolsButton" title="${config.drawToolsButtonText}">
+						${config.drawToolsButtonText}
+					</div>
+					<div class="esriCTShapefileButton esriCTCursorPointer esriCTHidden" data-dojo-attach-point="shapefileButton" title="${config.shapefileButtonText}">
+						${config.shapefileButtonText}
+					</div>
+					<div class="esriCTCoordinateButton esriCTCursorPointer esriCTHidden" data-dojo-attach-point="coordinatesButton" title="${config.coordinatesButtonText}">
+						${config.coordinatesButtonText}
+					</div>
+				</div>
+				<!--AOI Widgets-->
+				<div class="esriCTAOIWidgetParentContainer" data-dojo-attach-point="aoiWidgetParentContainer">
+					<div class="esriCTPlacenameWidgetContainer esriCTHidden" data-dojo-attach-point="placenameWidgetContainer">
+						<!-- Placename widget container -->
+					</div>
+					<div class="esriCTDrawToolWidgetContainer esriCTHidden" data-dojo-attach-point="drawToolWidgetContainer">
+						<!-- Draw Tool widget container -->
+					</div>
+					<div class="esriCTShapefileWidgetContainer esriCTHidden" data-dojo-attach-point="shapefileWidgetContainer">
+						<!-- Shapefile widget container -->
+					</div>
+					<div class="esriCTCoordinateWidgetContainer esriCTHidden" data-dojo-attach-point="coordinateWidgetContainer">
+						<!-- Coordinates widget container -->
+					</div>
+				</div>
+				<!--Widget & Buffer separator-->
+				<div class="esriCTWidgetAndBufferSeparator" data-dojo-attach-point="FeetWidgetAndBufferSeparator"></div>
+
+
+				<!--AOI Buffer distance-->
+				<div class="esriCTAOIBufferChangeParentContainer" data-dojo-attach-point="aoiBufferChangeParentContainer">
+
+					<!-- Buffer distance (optional) -->
+					<div class="esriCTBufferDistanceTitleContainer">
+						${nls.bufferDistanceAndUnit.bufferInputTitle}
+					</div>
+					<!-- Show results within -->
+					<div class="esriCTBufferDistanceLabel">
+						${nls.bufferDistanceAndUnit.bufferInputLabel}
+					</div>
+				</div>
+
+				<div class="esriCTBufferDistanceLabelTextBoxContainer">
+					<div class="esriCTBufferDistanceTextBoxContainer" data-dojo-attach-point="bufferDistanceTextBoxContainer">
+						<!-- Buffer distance textbox -->
+						<input class="esriCTDistanceTextBox" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="bufferDistanceTextBox"
+						 required="true" />
+					</div>
+					<div class="esriCTBufferDistanceUnitSelectContainer" data-dojo-attach-point="bufferDistanceUnitSelectContainer">
+						<!-- Buffer unit dropdown -->
+						<select class="esriCTDistanceUnit" data-dojo-attach-point="bufferDistanceUnit" data-dojo-type="dijit/form/Select">
+                <option value="UNIT_STATUTE_MILE">
+                  ${nls.units.miles}
+                </option>
+                <option value="UNIT_KILOMETER">
+                  ${nls.units.kilometers}
+                </option>
+                <option value="UNIT_FOOT">
+                  ${nls.units.feet}
+                </option>
+                <option value="UNIT_METER">
+                  ${nls.units.meters}
+                </option>
+              </select>
+					</div>
+				</div>
+
+
+				<!--Buffer & Clear AOI Button separator-->
+				<div class="esriCTWidgetAndBufferSeparator" data-dojo-attach-point="FeetWidgetAndBufferSeparator"></div>
+
+				<!--Clear AOI Button-->
+				<div class="esriCTClearAOIButtonDiv">
+					<div data-dojo-attach-point="clearAOIButton" class="jimu-btn jimu-float-trailing esriCTClearAOIButton jimu-state-disabled"
+					 title="${nls.clearAOIButtonLabel}">
+						${nls.clearAOIButtonLabel}
+					</div>
+				</div>
+
+				<!--Report Button-->
+				<div class="esriCTShowReportsButtonDiv">
+					<div data-dojo-attach-point="showReportsButton" class="jimu-btn jimu-float-trailing esriCTShowReportsButton jimu-state-disabled esriCTEllipsis"
+					 title="${config.reportTabText}">
+						${config.reportTabText}
+					</div>
+				</div>
+
+
+			</div>
+			<!--Report Tab-->
+			<div class="esriCTReportTabParentContainer esriCTHidden" data-dojo-attach-point="reportTabParentContainer">
+				<div class="esriCTBackButtonDiv esriCTHidden" data-dojo-attach-point="backButtonDiv">
+					<div class="esriCTBackButtonIcon" data-dojo-attach-point="backButtonIconDiv"></div>
+					<div class="esriCTBackButton" data-dojo-attach-point="backButton" title="${nls.common.back}">${nls.common.back}</div>
+				</div>
+				<div class="esriCTReportsTabPanel" data-dojo-attach-point="reportsTabPanel">
+					<!--AOI Area-->
+					<div class="esriCTUnitAreaContainer" data-dojo-attach-point="unitAreaContainer">
+						<div class="esriCTHidden esriCTAOIContainers" data-dojo-attach-point="aoiFeetUnitAreaContainer">
+						</div>
+						<div class="esriCTHidden esriCTAOIContainers" data-dojo-attach-point="aoiMilesUnitAreaContainer">
+						</div>
+						<div class="esriCTHidden esriCTAOIContainers" data-dojo-attach-point="aoiMetersUnitAreaContainer">
+						</div>
+						<div class="esriCTHidden esriCTAOIContainers" data-dojo-attach-point="aoiKilometersUnitAreaContainer">
+						</div>
+						<div class="esriCTHidden esriCTAOIContainers" data-dojo-attach-point="aoiHectaresUnitAreaContainer">
+						</div>
+					</div>
+					<!--AOI Area-->
+					<!--Download & Print Icons-->
+					<div class="esriCTDownloadAndPrintTableContainer" data-dojo-attach-point="downloadAndPrintTableContainer">
+						<div class="esriCTDownloadAndPrintTableRowContainer">
+							<div>
+								<div class="esriCTRefreshContainer" title="${nls.reportsTab.refreshBtnTooltip}" data-dojo-attach-point="refreshReportBtn">
+								</div>
+								<div class="esriCTDownloadContainer" title="${nls.reportsTab.downloadButtonTooltip}" data-dojo-attach-point="downloadReportBtn">
+								</div>
+								<div class="esriCTPrintContainer" title="${nls.reportsTab.printButtonTooltip}" data-dojo-attach-point="printIconButton" data-dojo-type="dijit/form/DropDownButton">
+									<div data-dojo-type="dijit/TooltipDialog" style="width: 325px;" data-dojo-attach-point="printDialog">
+										<div class="esriCTPopupSettingsContainer">
+											<div class="esriCTEllipsis esriCTPopupSettingLabel">${nls.reportsTab.printLayoutLabelText}</div>
+											<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="printLayoutSelect" class="esriCTPrintLayoutDropdown"></select>
+											<div class="esriCTPrintDialogHint">${nls.reportsTab.printDialogHint}</div>
+											<div class="esriCTPopupSettingsBtnContainer">
+												<button type="submit" class="esriCTEllipsis jimu-btn esriCTDownloadSettingsBtn" title="${nls.reportsTab.printBtnText}" data-dojo-attach-point="printActionButton">${nls.reportsTab.printBtnText}</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="esriCTAnalysisUnitSettingContainer" title="${nls.reportsTab.analysisUnitButtonTooltip}" data-dojo-attach-point="analysisUnitButton"
+								 data-dojo-type="dijit/form/DropDownButton">
+									<div data-dojo-type="dijit/TooltipDialog" style="width: 325px;" data-dojo-attach-point="analysisUnitDialog">
+										<div class="esriCTUnitSettingsContainer">
+											<div class="esriCTEllipsis esriCTPopupSettingLabel" title="${nls.reportsTab.analysisUnitLabelText}">${nls.reportsTab.analysisUnitLabelText}</div>
+											<select data-dojo-type="dijit/form/Select" data-dojo-attach-point="analysisUnitSelect" class="esriCTAnalysisUnitDropdown">
+												<option selected="selected" value="Feet" title="${nls.reportsTab.feetUnit}">${nls.reportsTab.feetUnit}</option>
+												<option value="Miles" title="${nls.reportsTab.milesUnit}">${nls.reportsTab.milesUnit}</option>
+												<option value="Meters" title="${nls.reportsTab.metersUnit}">${nls.reportsTab.metersUnit}</option>
+												<option value="Kilometers" title="${nls.reportsTab.kilometersUnit}">${nls.reportsTab.kilometersUnit}</option>
+												<option value="Hectares" title="${nls.reportsTab.hectaresUnit}">${nls.reportsTab.hectaresUnit}</option>
+											</select>
+											<div class="esriCTPopupSettingsBtnContainer">
+												<button type="submit" class="esriCTEllipsis jimu-btn esriCTDownloadSettingsBtn" title="${nls.reportsTab.analysisCloseBtnText}"
+												 data-dojo-attach-point="analysisUnitActionButton">${nls.reportsTab.analysisCloseBtnText}</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Download & Print Icons-->
+					<!--Impact summary report-->
+					<div class="esriCTImpactSummaryReportParentContainer" data-dojo-attach-point="impactSummaryReportContainer"></div>
+					<!--Impact summary report-->
+					<!--Upload shapefile to include in analysis-->
+					<div class="esriCTUploadShapefileAnalysisTableContainer esriCTHidden" data-dojo-attach-point="uploadShapefileAnalysisTableContainer">
+					</div>
+					<!--Upload shapefile to include in analysis-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="esriCTErrorMessageMainContainer esriCTHidden" data-dojo-attach-point="errorMessageMainContainer"> ${nls.invalidConfiguration}
+	</div>
+	<div data-dojo-attach-point="iframeContainer" class="esriCTHidden">
+	</div>
+</div>

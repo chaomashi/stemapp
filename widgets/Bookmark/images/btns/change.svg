@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>change</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1252.000000, -961.000000)">
+        <g id="change" transform="translate(1252.000000, 961.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Shape" transform="translate(5.888889, 5.888889) rotate(-90.000000) translate(-5.888889, -5.888889) translate(1.888889, 0.888889)">
+                <path d="M2.22222222,0 L0,2.22222222 L1.66666667,2.22222222 L1.66666667,6.11111111 L2.77777778,6.11111111 L2.77777778,2.22222222 L4.44444444,2.22222222 L2.22222222,0 Z M6.11111111,7.77777778 L6.11111111,3.88888889 L5,3.88888889 L5,7.77777778 L3.33333333,7.77777778 L5.55555556,10 L7.77777778,7.77777778 L6.11111111,7.77777778 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

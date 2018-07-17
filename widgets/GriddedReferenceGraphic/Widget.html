@@ -1,0 +1,612 @@
+<div class="GRGDrafterMainContainer GRGDrafterFullHeight" data-dojo-attach-point="mainNode">
+    <div class="GRGDrafterFullHeight GRGDrafterFullWidth" data-dojo-attach-point="widgetMainNode">        
+        <!---------------------
+          Main Page Node
+        ---------------------->        
+        <div class="esirCTMainPage" data-dojo-attach-point="mainPageNode">
+            <!-- Create From Area -->
+            <div class="GRGDrafterMainPageRowBlock"> 
+                <div class="GRGDrafterMainPageRow">
+                    <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer" 
+                      title="${nls.newGRGFromAreaButtonLabel}" data-dojo-attach-point="newGRGAreaButton">
+                    </div>
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis SubTitle" title="${nls.newGRGFromAreaButtonLabel}">
+                        ${nls.newGRGFromAreaButtonLabel}
+                    </div>                
+                </div>
+              
+                <!-- Create From Area Options -->
+                <div class="controlGroupHidden" data-dojo-attach-point="fromAreaContainer">
+                    <!-- Define by size -->
+                    <div class="GRGDrafterMainPageRowItem">
+                        <div class="GRGDrafterButtonIcon GRGDrafterNewGRGByDimension GRGDrafterPointer"></div>
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.newGRGBySizeButtonLabel}">
+                            ${nls.newGRGBySizeButtonLabel}
+                        </div>
+                        <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer GRGFloatRight" 
+                          title="${nls.newGRGBySizeButtonLabel}" data-dojo-attach-point="newAreaGRGBySizeButton">
+                        </div>
+                    </div>
+                    <!-- Define from reference system -->
+                    <div class="GRGDrafterMainPageRowItem">
+                        <div class="GRGDrafterButtonIcon GRGDrafterNewGRGByRefSystemButton GRGDrafterPointer"></div>
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.newGRGFromRefSystemButtonLabel}">
+                            ${nls.newGRGFromRefSystemButtonLabel}
+                        </div>
+                        <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer GRGFloatRight" 
+                          title="${nls.newGRGFromRefSystemButtonLabel}" data-dojo-attach-point="newAreaGRGFromRefSystemButton">
+                        </div>
+                    </div>                    
+              </div>
+            </div>
+            <!-- Create From Point -->
+            <div class="GRGDrafterMainPageRowBlock">            
+                <div class="GRGDrafterMainPageRow">
+                    <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer" 
+                      title="${nls.newGRGFromPointButtonLabel}" data-dojo-attach-point="newGRGPointButton">
+                    </div>
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis SubTitle" title="${nls.newGRGFromPointButtonLabel}">
+                        ${nls.newGRGFromPointButtonLabel}
+                    </div>
+                </div>
+
+                <!-- Create From Point Options -->
+                <div class="controlGroupHidden" data-dojo-attach-point="fromPointContainer">
+                    <!-- Define by size -->
+                    <div class="GRGDrafterMainPageRowItem">
+                        <div class="GRGDrafterButtonIcon GRGDrafterNewGRGByDimension GRGDrafterPointer"></div>
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.newGRGBySizeButtonLabel}">
+                            ${nls.newGRGBySizeButtonLabel}
+                        </div>
+                        <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer GRGFloatRight" 
+                          title="${nls.newGRGBySizeButtonLabel}" data-dojo-attach-point="newPointGRGBySizeButton">
+                        </div>
+                    </div>
+                    <!-- Define from reference system -->
+                    <div class="GRGDrafterMainPageRowItem">
+                        <div class="GRGDrafterButtonIcon GRGDrafterNewGRGByRefSystemButton GRGDrafterPointer"></div>
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.newGRGFromRefSystemButtonLabel}">
+                            ${nls.newGRGFromRefSystemButtonLabel}
+                        </div>
+                        <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer GRGFloatRight" 
+                            title="${nls.newGRGFromRefSystemButtonLabel}" data-dojo-attach-point="newPointGRGFromRefSystemButton">
+                        </div>
+                    </div>
+                    <!-- Define from reference system -->
+                    <div class="GRGDrafterMainPageRowItem">
+                        <div class="GRGDrafterButtonIcon GRGDrafterNewGRGByTimeButton GRGDrafterPointer"></div>
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.newGRGByTimeLabel}">
+                            ${nls.newGRGByTimeLabel}</div>
+                        <div class="GRGDrafterMainButtonIcon GRGNewRightButton GRGDrafterPointer GRGFloatRight"" 
+                          title="${nls.newGRGByTimeLabel}" data-dojo-attach-point="newPointGRGFromTimeButton">
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div> 
+       
+        <!---------------------
+          GRG From Area By Size Node
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgAreaBySizePageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgAreaBySizePanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGAreaBySizeTitle}">
+                  ${nls.newGRGAreaBySizeTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgAreaBySizeSettingsButton"></div>
+                <!-- GRG Area Form -->
+                <div class="GRGDrafterPanelRow">                  
+                  <!-- Draw GRG Area Tool -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRowPaddingTop20" data-dojo-attach-point="grgAreaBySizeDrawContainer">
+                    <div class="GRGDrafterFullWidth">
+                      <div>
+                        <div class="GRGDrafterDoubleButtonLabel GRGDrafterEllipsis" title="${nls.newGRGAreaBySizeDefineAreaLabel}">${nls.newGRGAreaBySizeDefineAreaLabel}</div>                        
+                        <div title="${nls.addGRGAreaPolygonToolTip}" class="jimu-icon polygonBtn" data-dojo-attach-point="grgAreaBySizeDrawPolygonIcon"></div>
+                        <div title="${nls.addGRGAreaExtentToolTip}" class="jimu-icon extentBtn" data-dojo-attach-point="grgAreaBySizeDrawExtentIcon"></div>                        
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Set number of cells checkbox -->
+                  <div class="GRGDrafterFullWidthAndPadding">
+                    <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="setNumberRowsColumns" checked="false" />
+                    <label data-dojo-attach-point="interactiveLabel">${nls.numberRowsColumnsLabel}</label>                
+                  </div>                  
+                  <!-- Nummber of Cells Horizontal and Vertical -->
+                  <div class="GRGDrafterHalfWidthContainer" data-dojo-attach-point="numberOfCellsContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsHorizontal}">${nls.numberOfCellsHorizontal}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="cellHorizontal" value="10" disabled='true'></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsVertical}">${nls.numberOfCellsVertical}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="cellVertical" value="10" disabled='true'></input>                      
+                    </div>
+                  </div>
+                  <!-- GRG Cell Width & Height -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <!-- GRG Cell Width -->
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellWidth}">${nls.cellWidth}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0,places:2},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          required: true,
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgAreaBySizeCellWidth" value="1000" disabled='true'></input>
+                    </div>
+                    <!-- GRG Cell Height -->
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellHeight}">${nls.cellHeight}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0,places:2},
+                        invalidMessage:"${nls.invalidNumberMessage}",          
+                        required: true,
+                        rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgAreaBySizeCellHeight" value="1000" disabled='true'></input>
+                    </div>
+                  </div>
+                  <!-- Rotation -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.rotation}">${nls.rotation}</div>
+                        <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox"  data-dojo-props='constraints:{min:-89.9,max:89.9,places:1},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          required: true,
+                          rangeMessage:"${nls.gridAngleInvalidRangeMessage}"' data-dojo-attach-point="grgAreaBySizeRotation" value="0" disabled='true'></input>  
+                    </div> 
+                  </div>   
+                  <!-- Create & Clear GRG Buttons -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthLeft">
+                      <div class='jimu-btn' data-dojo-attach-point='grgAreaBySizeCreateGRGButton'>${nls.createGRGBtn}</div>
+                    </div>
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='grgAreaBySizeClearGRGButton'>${nls.clearGRGBtn}</div>
+                    </div>
+                  </div> 
+               </div>
+            </div>
+        </div>
+        
+        <!---------------------
+          GRG From Area By Reference System
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgAreaByRefSystemPageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgAreaByRefSystemPanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGAreaByRefSystemTitle}">
+                  ${nls.newGRGAreaByRefSystemTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgAreaByRefSystemSettingsButton"></div>
+                <!-- GRG Area Form -->
+                <div class="GRGDrafterPanelRow">
+                  <!-- Draw GRG Area Tool -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRowPaddingTop20">
+                    <div class="GRGDrafterFullWidth" data-dojo-attach-point="grgAreaByRefSystemDrawContainer">
+                      <div>
+                      <div class="GRGDrafterButtonLabel GRGDrafterEllipsis" title="${nls.newGRGAreaBySizeDefineAreaLabel}">${nls.newGRGAreaBySizeDefineAreaLabel}</div>
+                      <div title="${nls.addGRGAreaExtentToolTip}" class="jimu-icon extentBtn" data-dojo-attach-point="grgAreaByRefSystemDrawIcon"></div>
+                      </div>
+                    </div>
+                  </div>            
+                  <!-- Grid Size DropDown -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.gridSize}">${nls.gridSize}</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" data-dojo-attach-point="grgAreaByRefSystemGridSize">
+                        <option value="UTM" selected="selected">${nls.UTMZoneandBand}</option>
+                        <option value="100000">${nls.100000m}</option>
+                        <option value="10000">${nls.10000m}</option>
+                        <option value="1000">${nls.1000m}</option>
+                        <option value="100">${nls.100m}</option>
+                        <option value="10">${nls.10m}</option>
+                      </select>
+                  </div>                  
+                  <!-- Clip Grid to GRG Area Toggle -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow" >
+                    <div>
+                      <div class="GRGDrafterToggleLabel GRGDrafterEllipsis" title="${nls.clipGrid}">${nls.clipGrid}</div>
+                      <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="grgAreaByRefSystemClipToggle" checked="false" />
+                    </div>
+                  </div>                  
+                  <!-- Label Format-->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="grgAreaByRefSystemLabelFormat">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.labelFormat}">${nls.labelFormat}</div>
+                      <input class="jimu-input textInput" style="width: calc(100% - 20px)" data-dojo-attach-point="grgAreaByRefLabelFormat" value="Z"></input>
+                      <div  title="${nls.helpIconTooltip}" class="jimu-icon helpBtn"></div>                          
+                  </div>                  
+                  <!-- Create & Clear GRG Buttons -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthLeft">
+                      <div class='jimu-btn' data-dojo-attach-point='grgAreaByRefSystemCreateGRGButton'>${nls.createGRGBtn}</div>
+                    </div>
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='grgAreaByRefSystemClearGRGButton'>${nls.clearGRGBtn}</div>
+                    </div>
+                  </div>
+                </div>                                                   
+            </div>
+          </div>
+        
+        <!---------------------
+          GRG From Area From Non Standard Grid
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgAreaFromNonStandardPageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgAreaByNonStandardPanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGAreaFromNonStandardTitle}">
+                  ${nls.newGRGAreaFromNonStandardTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgAreaByNonStandardSettingsButton"></div>
+                <!-- GRG Area Form -->
+                <div class="GRGDrafterPanelRow">
+                  <!-- GRG Layer Name -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="Area GRG by Reference System">Area GRG from Non Standard Grid To Do</div>
+                  </div>                  
+                </div>
+            </div>
+        </div>
+        
+        <!---------------------
+          GRG From Point by Size Node
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgPointBySizePageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgPointBySizePanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGPointBySizeTitle}">
+                  ${nls.newGRGPointBySizeTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgPointBySizeSettingsButton"></div>
+                <!-- GRG Point Form -->
+                <div class="GRGDrafterPanelRow">                  
+                  <!-- Draw GRG Point Coordinate Input -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" style="width: 100%" title="${nls.coordInputLabel}" data-dojo-attach-point="grgPointBySizeCoordInputLabel">${nls.coordInputLabel}</div>                      
+                        <div>
+                          <input class="jimu-input textInput" style="width: 100%" data-dojo-attach-point="newGRGPointBySizeOriginCoords" />                        
+                          <div  title="${nls.formatIconTooltip}" class="jimu-icon settingBtn" data-dojo-attach-point="grgPointBySizeCoordFormatButton"></div>
+                          <div title="${nls.addPointToolTip}" class="jimu-icon editBtn" data-dojo-attach-point="grgPointBySizeAddPointBtn"></div>
+                        </div>  
+                  </div>                        
+                  <!-- Nummber of Cells Horizontal and Vertical -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsHorizontal}">${nls.numberOfCellsHorizontal}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointBySizeCellHorizontal" value="5"></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsVertical}">${nls.numberOfCellsVertical}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointBySizeCellVertical" value="5"></input>                      
+                    </div>
+                  </div>
+                  <!-- GRG Cell Width & Height -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <!-- GRG Cell Width -->
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellWidth}">${nls.cellWidth}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          required: true,
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointBySizeCellWidth" value="1000" ></input>
+                    </div>
+                    <!-- GRG Cell Height -->
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellHeight}">${nls.cellHeight}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0},
+                        invalidMessage:"${nls.invalidNumberMessage}",          
+                        required: true,
+                        rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointBySizeCellHeight" value="1000"></input>
+                    </div>
+                  </div>
+                  <!-- Grid Angle -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                  <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.gridAngle}">${nls.gridAngle}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox"  data-dojo-props='constraints:{min:-89.9,max:89.9,places:1},
+                        invalidMessage:"${nls.invalidNumberMessage}",
+                        required: true,
+                        rangeMessage:"${nls.gridAngleInvalidRangeMessage}"' data-dojo-attach-point="gridAnglePoint" value="0"></input>  
+                  </div>
+                  <!-- Create & Clear GRG Buttons -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthLeft">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointBySizeCreateGRGButton'>${nls.createGRGBtn}</div>
+                    </div>
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointBySizeClearGRGButton'>${nls.clearGRGBtn}</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+               
+        <!---------------------
+          GRG From Point By Reference System
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgPointByRefSystemPageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgPointByRefSystemPanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGPointByRefSystemTitle}">
+                  ${nls.newGRGPointByRefSystemTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgPointByRefSystemSettingsButton"></div>
+                <!-- GRG Point Form -->
+                <div class="GRGDrafterPanelRow">
+                  <!-- Draw GRG Point Coordinate Input -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" style="width: 100%" title="${nls.coordInputLabel}" data-dojo-attach-point="grgPointByRefSystemCoordInputLabel">${nls.coordInputLabel}</div>                      
+                        <div>
+                          <input class="jimu-input textInput" data-dojo-attach-point="newGRGPointByRefSystemOriginCoords" />                        
+                          <div  title="${nls.formatIconTooltip}" class="jimu-icon settingBtn" data-dojo-attach-point="grgPointByRefSystemCoordFormatButton"></div>
+                          <div title="${nls.addPointToolTip}" class="jimu-icon editBtn" data-dojo-attach-point="grgPointByRefSystemAddPointBtn"></div>
+                        </div>  
+                  </div>
+                  <!-- Grid Size DropDown -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.gridSize}">${nls.gridSize}</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" data-dojo-attach-point="grgPointByRefSystemGridSize">
+                        <option value="UTM" selected="selected">${nls.UTMZoneandBand}</option>
+                        <option value="100000">${nls.100000m}</option>
+                        <option value="10000">${nls.10000m}</option>
+                        <option value="1000">${nls.1000m}</option>
+                        <option value="100">${nls.100m}</option>
+                        <option value="10">${nls.10m}</option>
+                        </select>
+                  </div>
+                  <!-- Nummber of Cells Horizontal and Vertical -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsHorizontal}">${nls.numberOfCellsHorizontal}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByRefCellHorizontal" value="5"></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsVertical}">${nls.numberOfCellsVertical}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByRefCellVertical" value="5"></input>                      
+                    </div>
+                  </div>
+                  <!-- Label Format-->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="grgPointByRefSystemLabelFormat">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.labelFormat}">${nls.labelFormat}</div>
+                      <input class="jimu-input textInput" style="width: calc(100% - 20px)" data-dojo-attach-point="grgPointByRefLabelFormat" value="Z"></input>
+                      <div  title="${nls.helpIconTooltip}" class="jimu-icon helpBtn"></div>
+                  </div>
+                  <!-- Create & Clear GRG Buttons -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthLeft">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointByRefSystemCreateGRGButton'>${nls.createGRGBtn}</div>
+                    </div>
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointByRefSystemClearGRGButton'>${nls.clearGRGBtn}</div>
+                    </div>
+                  </div>                  
+                </div>
+            </div>
+        </div>
+        
+        <!---------------------
+          GRG From Point By Time and Speed
+        ---------------------->
+        
+        <div class="GRGDrafterFullHeight GRGDrafterHidden" data-dojo-attach-point="grgPointByTimePageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterNewGRGHeader">
+                <!-- Back to Main Menu Icon -->
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="grgPointByTimeBackButton">
+                    <div class="GRGDrafterItemLeftArrow"></div>
+                </div>
+                <!-- Panel Title -->
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.newGRGPointByTimeTitle}">
+                  ${nls.newGRGPointByTimeTitle}
+                </div>
+                <!-- Settings Icon -->
+                <div class="GRGDrafterSettingsIcon GRGDrafterPointer" title="${nls.settingsTitle}" data-dojo-attach-point="grgPointByTimeSettingsButton"></div>
+                <!-- GRG Point Form -->
+                <div class="GRGDrafterPanelRow">
+                  <!-- Draw GRG Point Coordinate Input -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" style="width: 100%" title="${nls.coordInputLabel}" data-dojo-attach-point="grgPointByTimeCoordInputLabel">${nls.coordInputLabel}</div>                      
+                        <div>
+                          <input class="jimu-input textInput" data-dojo-attach-point="newGRGPointByTimeOriginCoords" />                        
+                          <div  title="${nls.formatIconTooltip}" class="jimu-icon settingBtn" data-dojo-attach-point="grgPointByTimeCoordFormatButton"></div>
+                          <div title="${nls.addPointToolTip}" class="jimu-icon editBtn" data-dojo-attach-point="grgPointByTimeAddPointBtn"></div>
+                        </div>  
+                  </div>
+                  
+                  <!-- Time -->
+                  <div class="GRGDrafterHalfWidthContainer" data-dojo-attach-point="timeContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.time}">${nls.time}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:2},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeTime" value="1" disabled='false'></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="">&nbsp;</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" data-dojo-attach-point="grgPointByTimeTimeUnits">
+                          <option value="3600" selected="selected">${nls.hours}</option>
+                          <option value="60">${nls.minutes}</option>
+                          <option value="1">${nls.seconds}</option>
+                        </select>                      
+                    </div>
+                  </div>
+                  
+                  <!-- Rate -->
+                  <div class="GRGDrafterHalfWidthContainer" data-dojo-attach-point="rateContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.rate}">${nls.rate}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:2},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeRate" value="10" disabled='false'></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="">&nbsp;</div>
+                      <select style="width: 100%" data-dojo-type="dijit/form/Select" data-dojo-attach-point="grgPointByTimeRateUnits">
+                        <option value="0.3048;1">${nls.ftPerSec}</option>
+                        <option value="0.3048;3600">${nls.ftPerHour}</option>
+                        <option value="1000;1">${nls.kmPerSec}</option>
+                        <option value="1000;3600" selected="selected">${nls.kmPerHour}</option>
+                        <option value="1;1">${nls.mPerSec}</option>
+                        <option value="1;3600">${nls.mPerHour}</option>
+                        <option value="1609.344;1">${nls.miPerSec}</option>
+                        <option value="1609.344;3600">${nls.miPerHour}</option>
+                        <option value="1852;1">${nls.nMPerSec}</option>
+                        <option value="1852;3600">${nls.nMPerHour}</option>
+                      </select>                      
+                    </div>
+                  </div>
+                  
+                  <!-- Set number of cells checkbox -->
+                  <div class="GRGDrafterFullWidthAndPadding">
+                    <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="setNumberRowsColumnsTime" checked="true" />
+                    <label data-dojo-attach-point="interactiveLabel">${nls.numberRowsColumnsLabel}</label>                
+                  </div>                  
+                  <!-- Number of Cells Horizontal and Vertical -->
+                  <div class="GRGDrafterHalfWidthContainer" data-dojo-attach-point="numberOfCellsContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsHorizontal}">${nls.numberOfCellsHorizontal}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeCellHorizontal" value="10" disabled='false'></input>
+                    </div>
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis"  title="${nls.numberOfCellsVertical}">${nls.numberOfCellsVertical}</div>
+                      <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:1,places:0},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeCellVertical" value="10" disabled='false'></input>                      
+                    </div>
+                  </div>
+                  <!-- GRG Cell Width & Height -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <!-- GRG Cell Width -->
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                        <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellWidth}">${nls.cellWidth}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0,places:2},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          required: true,
+                          rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeCellWidth" value="1000" disabled='true'></input>
+                    </div>
+                    <!-- GRG Cell Height -->
+                    <div class="GRGDrafterHalfWidthRight GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.cellHeight}">${nls.cellHeight}</div>
+                        <input class="jimu-input dijitNumberTextBox" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props='constraints:{min:0,places:2},
+                        invalidMessage:"${nls.invalidNumberMessage}",          
+                        required: true,
+                        rangeMessage:"${nls.invalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeCellHeight" value="1000" disabled='true'></input>
+                    </div>
+                  </div>
+                  <!-- Rotation -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterHalfWidthLeft GRGDrafterSettingRow">
+                      <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.rotation}">${nls.rotation}</div>
+                        <input class="jimu-input textInput" style="width: 100%" data-dojo-type="dijit/form/NumberTextBox"  data-dojo-props='constraints:{min:-89.9,max:89.9,places:1},
+                          invalidMessage:"${nls.invalidNumberMessage}",
+                          required: true,
+                          rangeMessage:"${nls.gridAngleInvalidRangeMessage}"' data-dojo-attach-point="grgPointByTimeRotation" value="0" disabled='false'></input>  
+                    </div> 
+                  </div>
+                  
+                  <!-- Create & Clear GRG Buttons -->
+                  <div class="GRGDrafterHalfWidthContainer">
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthLeft">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointByTimeCreateGRGButton'>${nls.createGRGBtn}</div>
+                    </div>
+                    <div class="GRGDrafterBtnContainer GRGDrafterHalfWidthRight">
+                      <div class='jimu-btn' data-dojo-attach-point='grgPointByTimeClearGRGButton'>${nls.clearGRGBtn}</div>
+                    </div>
+                  </div>                  
+                </div>
+            </div>
+        </div>
+                
+        <!---------------------
+          Settings
+        ---------------------->
+        
+        <div class="GRGDrafterHidden GRGDrafterFullHeight" data-dojo-attach-point="settingsPageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterSettingHeader">
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="gridSettingsPanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow">
+                    </div>
+                </div>
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.settingsTitle}">
+                    ${nls.settingsTitle}
+                </div>
+            </div>
+            <div class="GRGDrafterSettingsNode" data-dojo-attach-point="gridSettingsNode"></div>            
+        </div>
+        
+        <!---------------------
+          Publish
+        ---------------------->
+        
+        <div class="GRGDrafterHidden GRGDrafterFullHeight" data-dojo-attach-point="publishPageNode">
+            <div class="GRGDrafterFullWidth GRGDrafterSettingHeader">
+                <div class="GRGDrafterBackButton GRGDrafterPointer" title="${nls.common.back}" data-dojo-attach-point="publishPanelBackButton">
+                    <div class="GRGDrafterItemLeftArrow">
+                    </div>
+                </div>
+                <div class="GRGDrafterTitleDiv GRGDrafterEllipsis" title="${nls.publishTitle}">
+                    ${nls.publishTitle}
+                </div>
+                <div class="GRGDrafterPanelRow">                
+                  <!-- GRG Layer Name -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+                    <div class="GRGDrafterInputLabel GRGDrafterEllipsis" title="${nls.GRGLayerName}">${nls.GRGLayerName}</div>
+                      <input class="jimu-input textInput" style="width: 100%;" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="addGRGNameArea"
+                        data-dojo-props="regExp:'[a-zA-Z0-9_]*', invalidMessage:'${nls.invalidGRGLayerName}', missingMessage:'${nls.missingGRGLayerName}'" required="true"></input>
+                  </div>
+                  <!-- Publish GRG Button -->                  
+                  <div class="GRGDrafterBtnContainer">
+                      <div class='jimu-btn' data-dojo-attach-point='grgAreaBySizePublishGRGButton'>${nls.publishGRGBtn}</div>                    
+                  </div>
+                  <!-- Show Labels Toggle -->
+                  <div class="GRGDrafterFullWidth GRGDrafterSettingRow" >
+                    <div>
+                      <div class="GRGDrafterToggleLabel GRGDrafterEllipsis" title="${nls.gridSettings.showLabels}">${nls.gridSettings.showLabels}</div>
+                      <input class="switch-toggle" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="settingsShowLabelsToggle" checked="true" />
+                    </div>
+                  </div>        
+                  <!-- Publishing Message -->
+                  <div class="GRGDrafterPublishMessage" data-dojo-attach-point="publishMessage"></div>
+                </div>  
+            </div>             
+        </div>        
+    </div>    
+</div>

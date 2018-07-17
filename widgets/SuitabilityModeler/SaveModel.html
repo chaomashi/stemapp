@@ -1,0 +1,43 @@
+<div>
+  <div class="header">
+    <h4>${i18n.saveModel.save}</h4>
+  </div>
+  <div class="body">
+    <div class="row">
+      <span class="lbl"><label for="${id}_title">${i18n.saveModel.title}<label></span>
+      <input id="${id}_title" type="text" class="jimu-input" data-dojo-attach-point="titleNode"></input>
+    </div>
+    <div class="row">
+      <span class="lbl"><label for="${id}_summary">${i18n.saveModel.summary}<label></span>
+      <input id="${id}_summary" type="text" class="jimu-input" data-dojo-attach-point="summaryNode"></input>
+    </div>
+    <div class="row">
+      <span class="lbl"><label for="${id}_description">${i18n.saveModel.description}<label></span>
+      <textarea id="${id}_description" class="jimu-input" data-dojo-attach-point="descriptionNode"></textarea>
+    </div>
+    <div class="row">
+      <span class="lbl"><label for="${id}_title">${i18n.saveModel.tags}<label></span>
+      <input id="${id}_tags" type="text" class="jimu-input" value="weightedOverlayModel, geodesign"
+        data-dojo-attach-point="tagsNode"></input>
+    </div>
+    <div class="row" data-dojo-attach-point="folderDiv">
+      <span class="lbl"><label for="${id}_folderSelect">${i18n.saveModel.folder}<label></span>
+      <select id="${id}_folderSelect" class="folder-select-dropdown"
+        data-dojo-attach-point="folderSelect">
+      </select>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="message" data-dojo-attach-point="messageNode"></div>
+    <button data-dojo-attach-point="okButton"
+      class="jimu-btn"
+      data-dojo-attach-event="onClick: okClicked"
+      >${i18n.saveModel.save}
+    </button>
+    <button data-dojo-attach-point="cancelButton"
+      class="jimu-btn"
+      data-dojo-attach-event="onClick: cancelClicked"
+      >${i18n.general.cancel}
+    </button>
+  </div>
+</div>

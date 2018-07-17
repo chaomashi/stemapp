@@ -1,0 +1,34 @@
+{
+  "grg": {
+    "cellFill": {
+      "color": "#ffffff",
+      "transparency": 1
+    },
+    "cellOutline": {
+      "color": "#000080",
+      "transparency": 0
+    },
+    "cellShape": "default",
+    "cellUnits": "meters",
+    "gridOrigin": "center",
+    "font": {
+      "font": {
+        "fontFamily": "Arial",
+        "bold": true,
+        "italic": false,
+        "underline": false
+      },
+      "fontSize": "12",
+      "textColor": "#000000",
+      "haloSize": "1",
+      "haloColor": "#ffffff",
+      "haloOn": true,
+      "labelTransparency": 0
+    },
+    "labelType": "alphaNumeric",
+    "labelDirection": "horizontal",
+    "labelOrigin": "lowerLeft",
+    "referenceSystem": "MGRS",
+    "lockSettings": false
+  }
+}

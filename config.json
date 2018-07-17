@@ -1,0 +1,309 @@
+{
+  "theme": {
+    "name": "FoldableTheme"
+  },
+  "portalUrl": "",
+  "useportal": false,
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "ArcGIS Web Application",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "logo": "images/app-logo.png",
+  "keepAppState": true,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "/proxy.js"
+  },
+  "isWebTier": false,
+  "geometryService": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "ArcGIS Online",
+      "url": "//www.arcgis.com"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        }
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25
+        }
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5
+        }
+      },
+      {
+        "label": "Select a basemap",
+        "uri": "widgets/BasemapGallery/Widget",
+        "position": {
+          "left": 55,
+          "top": 45
+        }
+      },
+      {
+        "label": "Measure",
+        "uri": "widgets/Measurement/Widget",
+        "position": {
+          "left": 105,
+          "top": 45
+        }
+      },
+      {
+        "label": "Query",
+        "uri": "widgets/Query/Widget",
+        "position": {
+          "left": 155,
+          "top": 45
+        }
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45
+        }
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45
+        }
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1
+        }
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "inPanel": false,
+        "position": {
+          "left": 7,
+          "top": 75
+        }
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "inPanel": false,
+        "position": {
+          "left": 7,
+          "top": 110
+        }
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        }
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        }
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "visible": true,
+        "position": {
+          "top": 5,
+          "left": 7
+        }
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 150,
+          "left": 7
+        }
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "right": 8,
+          "top": 8
+        }
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "mapOptions": {
+      "extent": {
+        "xmin": -179.99999,
+        "ymin": -89.99999,
+        "xmax": 179.99999,
+        "ymax": 89.99999,
+        "spatialReference": {
+          "wkid": 4326
+        }
+      },
+      "spatialReference": {}
+    },
+    "basemaps": [
+      {
+        "label": "ESRI_StreetMap_World_2D",
+        "type": "tiled",
+        "url": "https://server.arcgisonline.com/arcgis/rest/services/ESRI_StreetMap_World_2D/MapServer",
+        "visible": true,
+        "icon": ""
+      }
+    ],
+    "id": "map",
+    "portalUrl": "http://Calhoun.maps.arcgis.com/",
+    "operationallayers": [
+      {
+        "label": "2017江苏省电子地图",
+        "type": "tiled",
+        "url": "http://218.2.231.245/mapjs2/rest/services/MapJS/js_sldt_2017/MapServer",
+        "visible": true,
+        "icon": ""
+      },{
+        "label": "2017江苏省地图注记",
+        "type": "tiled",
+        "url": "http://218.2.231.245/mapjs2/rest/services/MapJS/js_slzj_2017/MapServer",
+        "visible": true,
+        "icon": ""
+      },
+      {
+        "label": "2017江苏影像图",
+        "type": "tiled",
+        "url": "http://218.2.231.245/mapjs2/rest/services/MapJS/js_yxdt_2017/MapServer",
+        "visible": false,
+        "icon": ""
+      },
+      {
+        "label": "2016江苏影像注记",
+        "type": "tiled",
+        "url": "http://218.2.231.245/mapjs2/rest/services/MapJS/js_yxzj_2016/MapServer",
+        "visible": false,
+        "icon": ""
+      },
+      {
+        "label": "土地利用现状2016",
+        "type": "tiled",
+        "url": "http://172.24.19.181:6080/arcgis/rest/services/TDLY/TDLY_2016_2K/MapServer",
+        "visible": false,
+        "icon": ""
+      }
+    ]
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5
+      }
+    },
+    "widgets": [
+      {
+        "label": "incidentAnalysis",
+        "uri": "widgets/IncidentAnalysis/Widget"
+      },
+      {
+        "label": "图斑分析",
+        "uri": "widgets/IntersectAnalysis/Widget"
+      },
+      {
+        "label": "Bookmark",
+        "uri": "widgets/Bookmark/Widget"
+      },
+      {
+        "label": "Legend",
+        "uri": "widgets/Legend/Widget"
+      },
+      {
+        "label": "LayerList",
+        "uri": "widgets/LayerList/Widget"
+      },
+      {
+        "label": "Edit",
+        "uri": "widgets/Edit/Widget"
+      },
+      {
+        "label": "Draw",
+        "uri": "widgets/Draw/Widget"
+      },
+      {
+        "label": "Print",
+        "uri": "widgets/Print/Widget"
+      },
+      {
+        "label": "Chart",
+        "uri": "widgets/Chart/Widget"
+      },
+      {
+        "label": "Directions",
+        "uri": "widgets/Directions/Widget"
+      },
+      {
+        "uri": "widgets/Geoprocessing/Widget"
+      },
+      {
+        "label": "Share",
+        "uri": "widgets/Share/Widget"
+      }
+    ]
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          }
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          }
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.8"
+}

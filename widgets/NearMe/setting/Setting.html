@@ -1,0 +1,276 @@
+﻿<div class="esriCTMainContainer" style="width: 100%; height: 100%;">
+    <div data-dojo-attach-point="tabDiv" class="esriCTFullHeight">
+         <!-- Search Source Settings tab -->
+         <div class="esriCTSearchTabNode" data-dojo-attach-point="searchSourceTabNode" class="esriCTFullHeight">
+         </div>
+        <!-- Search Settings tab -->
+        <div class="esriCTSearchTabNode" data-dojo-attach-point="searchTabNode" class="esriCTFullHeight">
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" data-dojo-attach-point="colorPickerLabelNode" title="${nls.searchSetting.fontColorLabel}">
+                    ${nls.searchSetting.fontColorLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTColorPickerNode" data-dojo-attach-point="colorPickerNode">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTFontColorLabelHint">
+                        ${nls.searchSetting.fontColorHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer jimu-state-disabled" data-dojo-attach-point="addLayersLabelNode"
+                    title="${nls.layerSelector.selectLayerLabel}">
+                    ${nls.layerSelector.selectLayerLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTSelectedLayersDiv" data-dojo-attach-point="layerListNode">
+                    </div>
+                    <div class="esriCTAddLayerButton jimu-btn jimu-float-trailing" title="${nls.layerSelector.addLayerButton}"
+                        data-dojo-attach-point="addLayerButton">
+                        ${nls.layerSelector.addLayerButton}</div>
+                    <div class="esriCTHint">
+                        ${nls.layerSelector.layerSelectionHint}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" data-dojo-attach-point="setLocationCheckBoxLabelNode" title="${nls.searchSetting.showToolToSelectLabel}">
+                   ${nls.searchSetting.showToolToSelectLabel}
+                </div>
+                 <div class="esriCTLayerField">
+                    <div class="esriCTCheckBox" checked="false" data-dojo-type="jimu/dijit/CheckBox"
+                            data-dojo-attach-point="setLocationCheckBoxNode">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.showToolToSelectHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" title="${nls.searchSetting.searchLayerResultLabel}">
+                    ${nls.searchSetting.searchLayerResultLabel}
+                </div>
+                <div class="esriCTLayerField ">
+                    <div data-dojo-type="jimu/dijit/CheckBox" class="esriCTCheckBox" data-dojo-attach-point="searchLayerResultNode">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.searchLayerResultHint}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" title="${nls.searchSetting.bufferVisibilityLabel}">
+                    ${nls.searchSetting.bufferVisibilityLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTCheckBox" checked="false" data-dojo-type="jimu/dijit/CheckBox"
+                        data-dojo-attach-point="bufferVisibiliyCheckBox">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.bufferVisibilityHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row" data-dojo-attach-point="bufferColorSetting"
+                class="esriCTHidden">
+                <div class="esriCTlabel" title="${nls.searchSetting.bufferColorLabel}">
+                    ${nls.searchSetting.bufferColorLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTPreviewField" data-dojo-attach-point="polygonSymbolNode">
+                    </div>
+                    <div class="esriCTHint esriCTPreviewHintField">
+                        ${nls.searchSetting.bufferColorHintText}</div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer" title="${nls.searchSetting.defaultBufferDistanceLabel}">
+                    ${nls.searchSetting.defaultBufferDistanceLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-attach-point="defaultBufferDistanceNode" style="width: 100%;" data-dojo-type="dijit/form/NumberTextBox"
+                        trim="true" required="true">
+                    </div>
+                    <div class="esriCTHint">
+                        ${nls.searchSetting.defaultBufferHintLabel}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer" title="${nls.searchSetting.maxBufferDistanceLabel}">
+                    ${nls.searchSetting.maxBufferDistanceLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-attach-point="maxBufferDistanceNode" style="width: 100%;" data-dojo-type="dijit/form/NumberTextBox"
+                        trim="true" required="true">
+                    </div>
+                    <div class="esriCTHint">
+                        ${nls.searchSetting.maxBufferHintLabel}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer" title="${nls.searchSetting.bufferDistanceUnitLabel}">
+                    ${nls.searchSetting.bufferDistanceUnitLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <select style="width: 100%;" data-dojo-attach-point="selectBufferUnitNode" data-dojo-type="dijit/form/Select">
+                        <option value="miles">${nls.units.miles.displayText}</option>
+                        <option value="kilometers">${nls.units.kilometers.displayText}</option>
+                        <option value="meters">${nls.units.meters.displayText}</option>
+                        <option value="feet">${nls.units.feet.displayText}</option>
+                    </select>
+                    <div class="esriCTHint">
+                        ${nls.searchSetting.bufferUnitLabel}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer" title="${nls.searchSetting.maxResultCountLabel}">
+                    ${nls.searchSetting.maxResultCountLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-attach-point="maxResultCountNode" style="width: 100%;" data-dojo-type="dijit/form/NumberTextBox"
+                        trim="true">
+                    </div>
+                    <div class="esriCTHint">
+                        ${nls.searchSetting.maxResultCountHintLabel}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel"  title="${nls.searchSetting.geoDesicParamLabel}">${nls.searchSetting.geoDesicParamLabel}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTCheckBox" checked="false" data-dojo-type="jimu/dijit/CheckBox"
+                        data-dojo-attach-point="geoDesicCheckBoxNode">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.geoDesicParamHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" data-dojo-attach-point="graphicLocationPointSymbolLabelNode"
+                    title="${nls.searchSetting.selectGraphicLocationSymbol}">
+                    ${nls.searchSetting.selectGraphicLocationSymbol}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTPreviewField" data-dojo-attach-point="pointSymbolNode">
+                    </div>
+                    <div class="esriCTHint esriCTSymbolPreviewHintField">
+                        ${nls.searchSetting.graphicLocationSymbolHintText}</div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel esriCTLabelContainer">
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTPreviewField" data-dojo-attach-point="addressLocationPolygonSymbolNode" title="${nls.searchSetting.addressLocationPolygonHintText}">
+                    </div>
+                    <div class="esriCTHint esriCTSymbolPreviewHintField">
+                        ${nls.searchSetting.addressLocationPolygonHintText}</div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel">
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTPreviewField" data-dojo-attach-point="polylineSymbolNode" title="${nls.searchSetting.addressLocationPolylineHintText}">
+                    </div>
+                    <div class="esriCTHint esriCTSymbolPreviewHintField">
+                        ${nls.searchSetting.addressLocationPolylineHintText}</div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" title="${nls.searchSetting.zoomToSelectedFeature}">
+                    ${nls.searchSetting.zoomToSelectedFeature}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-type="jimu/dijit/CheckBox" class="esriCTCheckBox" data-dojo-attach-point="zoomToSelectedFeature"
+                        class="jimu-checkbox">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.zoomToSelectedFeatureHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" title="${nls.searchSetting.intersectSearchLocation}">
+                    ${nls.searchSetting.intersectSearchLocation}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-type="jimu/dijit/CheckBox" class="esriCTCheckBox" data-dojo-attach-point="intersectSearchLocation"
+                        class="jimu-checkbox">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.intersectSearchLocationHintText}
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTLayerContainer row">
+                <div class="esriCTlabel" title="${nls.searchSetting.enableProximitySearch}">
+                    ${nls.searchSetting.enableProximitySearch}
+                </div>
+                <div class="esriCTLayerField">
+                    <div data-dojo-type="jimu/dijit/CheckBox" class="esriCTCheckBox" data-dojo-attach-point="enableProximitySearch"
+                        class="jimu-checkbox">
+                    </div>
+                    <div class="esriCTHint esriCTHintInline esriCTHintLeftMargin esriCTCheckboxHint">
+                        ${nls.searchSetting.enableProximitySearchHintText}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Direction Settings tab -->
+        <div class="esriCTDirectionTabNode" data-dojo-attach-point="directionTabNode">
+            <div class="esriCTLayerContainer row esriCTHidden" data-dojo-attach-point="routeSettingsNode">
+                <div class="esriCTlabel esriCTLabelContainer" data-dojo-attach-point="routeServiceLabelNode"
+                    title="${nls.routeSetting.routeServiceUrl}">
+                    ${nls.routeSetting.routeServiceUrl}
+                </div>
+                <div class="esriCTLayerField">
+                    <div class="esriCTSetRouteURL" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="routeServiceURLNode"
+                        trim="true" required="true" disabled>
+                    </div>
+                    <div class="esriCTURLSetButton jimu-btn jimu-float-trailing jimu-leading-margin1"
+                        data-dojo-attach-point="onSetBtnClickNode" title="${nls.routeSetting.buttonSet}">
+                        ${nls.routeSetting.buttonSet}</div>
+                    <div class="esriCTHint">
+                        ${nls.routeSetting.routeServiceUrlHintText}
+                    </div>
+                </div>
+                <div class="esriCTLayerContainer row">
+                    <div class="esriCTlabel" data-dojo-attach-point="directionLengthUnitLabelNode" title="${nls.routeSetting.directionLengthUnit}">
+                        ${nls.routeSetting.directionLengthUnit}
+                    </div>
+                    <div class="esriCTLayerField">
+                        <select style="width: 100%;" data-dojo-attach-point="directionLengthUnitNode" data-dojo-type="dijit/form/Select">
+                            <option value="miles">${nls.units.miles.displayText}</option>
+                            <option value="kilometers">${nls.units.kilometers.displayText}</option>
+                        </select>
+                    </div>
+                    <div class="esriCTHint esriCTMargin">
+                        ${nls.routeSetting.unitsForRouteHintText}
+                    </div>
+                </div>
+                <div class="esriCTLayerContainer row">
+                    <div class="esriCTlabel" data-dojo-attach-point="routeSymbolLabelNode" title="${nls.routeSetting.selectRouteSymbol}">
+                        ${nls.routeSetting.selectRouteSymbol}
+                    </div>
+                    <div class="esriCTLayerField">
+                        <div class="esriCTSymbolPreviewField" data-dojo-attach-point="routeSymbolNode">
+                        </div>
+                        <div class="esriCTHint esriCTSymbolPreviewHintField">
+                            ${nls.routeSetting.routeSymbolHintText}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="esriCTHidden esriCTLayerContainer row" data-dojo-attach-point="routingDisabledMsg">
+                ${nls.routeSetting.routingDisabledMsg}</div>
+        </div>
+        <!-- Symbology Settings tab -->
+        <div data-dojo-attach-point="symbologyTabNode" class="esriCTTabNode"></div>
+        <!-- Filters Settings tab -->
+        <div data-dojo-attach-point="filterTabNode" class="esriCTTabNode"></div>
+    </div>

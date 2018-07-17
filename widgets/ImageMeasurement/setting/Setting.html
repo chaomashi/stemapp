@@ -1,0 +1,49 @@
+<div style="width:100%;height:100%;">
+  <div class="settings-section" data-dojo-attach-point="searchesSection">
+    <table class="setting-table input-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="first">${nls.layerSelect}:</td>
+          <td class="second">
+            <select style="margin: 0 10px;" data-dojo-attach-point="mapLayerSelect" data-dojo-type="dijit/form/Select">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="first">${nls.displayOperationSelect}:</td>
+          <td class="second">
+            <select style="margin: 0 10px;" data-dojo-attach-point="displayOperationSelect" data-dojo-type="dojox/form/CheckedMultiSelect" multiple="true">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="first">${nls.angularUnitSelect}:</td>
+          <td class="second">
+            <select style="margin: 0 10px;" data-dojo-attach-point="angularUnitSelect" data-dojo-type="dijit/form/Select">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="first">${nls.linearUnitSelect}:</td>
+          <td class="second">
+            <select style="margin: 0 10px;" data-dojo-attach-point="linearUnitSelect" data-dojo-type="dijit/form/Select">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="first">${nls.areaUnitSelect}:</td>
+          <td class="second">
+            <select style="margin: 0 10px;" data-dojo-attach-point="areaUnitSelect" data-dojo-type="dijit/form/Select">
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input data-dojo-attach-point="popupCheckbox" data-dojo-type="dijit/form/CheckBox"/>
+          <label  style="margin: 0 15px;" >${nls.displayMeasureResultInPopup}</label></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div data-dojo-attach-point="errorSection">
+  </div>
+</div>

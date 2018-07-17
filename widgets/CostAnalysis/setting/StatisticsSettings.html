@@ -1,0 +1,25 @@
+<div class="esriCTTabNode">
+    <div class="esriCTTabContainer row">
+        <div>
+            <!--Add New Statistics button-->
+            <div class="esriCTStatisticsContainer" data-dojo-attach-point="btnAddStatisticsNodeWrapper">
+                <div data-dojo-attach-point="btnAddStatisticsNode" class="esriCTBtnStatisticsAddSection">
+                    <span class="esriCTBtnAddStatisticsIcon"></span>
+                    <span class="esriCTBtnStatisticsAddLabel"> ${nls.statisticsSettings.addStatisticsLabel}</span>
+                </div>
+            </div>
+            <div class="esriCTAddLayerTableNode" data-dojo-attach-point="statisticsLayerTableNode"></div>
+            <div class="esriCTHidden esriCTNoEditableLayersAvailable" data-dojo-attach-point="noEditableLayersAvailable">
+                ${nls.costingInfo.noEditableLayersAvailable}
+            </div>
+        </div>
+    </div>
+    <!--Add/delete/reorder buttons-->
+    <div class="esriCTStatisticsButtonParentDiv">
+        <div class="esriCTAddStatisticsIcon esriCTStatisticsButtons" data-dojo-attach-point="btnAddNode" title="${nls.statisticsSettings.addNewStatisticsText}"></div>
+        <div class="esriCTDeleteStatisticsIcon esriCTStatisticsButtons" data-dojo-attach-point="btnCrossNode"
+            title="${nls.statisticsSettings.deleteStatisticsText}"></div>
+        <div class="esriCTStatisticsUpIcon esriCTStatisticsButtons" data-dojo-attach-point="btnUpNode" title="${nls.statisticsSettings.moveStatisticsUpText}"></div>
+        <div class="esriCTStatisticsDownIcon esriCTStatisticsButtons" data-dojo-attach-point="btnDownNode" title="${nls.statisticsSettings.moveStatisticsDownText}"></div>
+    </div>
+</div>

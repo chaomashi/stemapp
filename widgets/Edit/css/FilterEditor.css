@@ -1,0 +1,35 @@
+.jimu-widget-FilterEditor {
+}
+
+.jimu-widget-FilterEditor .flDropDown {
+    width: 100%;
+    -webkit-appearance: menulist-button;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #b9b9b9;
+    color: #838383;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.jimu-widget-FilterEditor .searchtextbox {
+    border: 1px solid #b9b9b9;
+    color: #838383;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 1px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.jimu-widget-FilterEditor .searchtextbox:focus {
+    border: 1px solid #838383;
+}
+
+.jimu-widget-FilterEditor .searchtextbox:hover {
+    border: 1px solid #838383;
+}
+
+.jimu-widget-FilterEditor .jimu-input {
+    font-size: 12px;
+    height: auto;
+}

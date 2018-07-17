@@ -1,0 +1,301 @@
+@import url("panels/MobilePanel/style.css");
+@import url("panels/OnScreenPanel/style.css");
+
+#map {
+	position: relative !important;
+  background-color: rgb(238, 238, 238);
+  overflow: hidden;
+  min-width: 1px;
+  min-height: 1px;
+  left: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  padding: 0px;
+  z-index: auto;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.jimu-dnd-layout {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.jimu-edit-layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.jimu-dnd-layout.modify-btn {
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: auto;
+  height: 48px;
+  line-height: 48px;
+  cursor: pointer;
+  z-index: 110;
+  background-color: rgba(102,102,102,0.3);
+  border: none;
+  font-size: 14px;
+}
+
+.jimu-rtl .jimu-dnd-layout.modify-btn {
+  left: 20px;
+  right: auto;
+}
+
+.jimu-dnd-layout.modify-btn > div {
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  margin: 6px;
+  height: 36px;
+  line-height: 36px;
+  cursor: pointer;
+  padding: 0 24px;
+  color: #FFF;
+  background-image: linear-gradient(90deg, #FF6400 1%, #FF9A19 98%);
+  border: none;
+}
+
+.jimu-dnd-layout.modify-btn > div:hover
+{
+  background-color: #CC6600;
+  background-image: none;
+}
+
+.jimu-dnd-layout.modify-btn .feature-action{
+  color: #FFF;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.jimu-rtl .jimu-dnd-layout.modify-btn .feature-action{
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.layout-actionbar .jimu-btn {
+  background: #0D93AF;
+  border-radius: 0;
+  height: 40px;
+  margin-top: 25px;
+  line-height: 40px;
+  padding: 0 24px;
+}
+
+.layout-actionbar .jimu-btn-vacation {
+  background: transparent;
+  border-radius: 0;
+  height: 40px;
+  margin-top: 25px;
+  line-height: 40px;
+  color: #979797;
+  border: 1px solid #979797;
+  cursor: pointer;
+  min-width: 70px;
+  display: inline-block;
+  padding: 0 15px;
+  text-align: center;
+  padding: 0 24px;
+  font-size: 14px;
+}
+
+.layout-actionbar .jimu-btn-vacation:hover {
+  background: #0D93AF;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+}
+
+.layout-actionbar .save-btn,
+.layout-actionbar .add-btn,
+.layout-actionbar .cancel-btn {
+  height: 36px;
+  line-height: 36px;
+}
+
+.layout-actionbar .save-btn
+{
+  background-image: linear-gradient(90deg, #0D93AF 0%, #1EC5D8 100%);
+  border-radius: 100px;
+  border: none;
+}
+
+.layout-actionbar .save-btn:hover
+{
+  background-color: #0C839C;
+  background-image: none;
+}
+
+.layout-actionbar .add-btn
+{
+  background-image: linear-gradient(90deg, #FF7912 1%, #FFB250 96%);
+  border-radius: 100px;
+  border: none;
+}
+
+.layout-actionbar .add-btn:hover
+{
+  background-color: #CC6600;
+  background-image: none;
+}
+
+.layout-actionbar .cancel-btn {
+  border-radius: 100px;
+}
+
+.layout-actionbar .cancel-btn:hover
+{
+  background-color: #0C839C;
+}
+
+.layout-actionbar .save-btn
+ {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.jimu-edit-layout .layout-container {
+  width: 100%;
+  height: calc(100% - 80px);
+}
+
+.jimu-edit-layout .lm_item_container > .lm_dragmask,
+.jimu-edit-layout .lm_item_container > .lm_dragmask .lm_drag_handler {
+  display: block !important;
+}
+
+.jimu-edit-layout .lm_item_container > .lm_dragmask .lm_drag_handler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: move;
+}
+
+.jimu-edit-layout .layout-actionbar {
+  width: 100%;
+  height: 80px;
+  background: #444444;
+}
+
+/* Customize golden layout style*/
+.lm_header .lm_tab{
+  font-family: "Avenir Light" !important;
+}
+.jimu-edit-layout .lm_header .lm_tabs .lm_close_tab,
+.jimu-edit-layout .lm_header .lm_controls .lm_maximise {
+  display: none !important;
+}
+
+.jimu-dnd-layout .lm_controls .lm_close,
+.jimu-dnd-layout .lm_close_tab {
+  display: none !important;
+}
+
+.jimu-dnd-layout .lm_header .lm_tabdropdown_list {
+  z-index: 105;
+}
+
+.jimu-dnd-layout.config .lm_splitter .lm_drag_handle {
+  cursor: default;
+}
+
+.jimu-edit-layout .lm_header {
+  cursor: pointer;
+}
+
+.lm_header.no-tabs > .lm_tabs{
+  display: none;
+}
+
+.lm_stack.highlight .lm_stack_highlight {
+  display: block;
+  background-color: rgba(232, 75, 75, 0.4);
+  border: 2px solid #e84b4b;
+  z-index: 105;
+}
+
+.lm_content {
+  position: relative;
+}
+
+.lm_content .jimu-panel {
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-dnd-layout.config .lm_content .tip {
+  display: block;
+}
+
+.lm_content .tip {
+  position: relative;
+  top: 50%;
+  margin: -70px 10px 0 10px;
+  display: none;
+}
+
+.lm_content .tip .idx {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #666666;
+  border-radius: 45px;
+  text-align: center;
+  color: #666;
+  font-size: 36px;
+  margin: 15px auto;
+  line-height: 90px;
+}
+
+.lm_content .tip .label {
+  color: #666;
+  text-align: center;
+}
+
+.jimu-edit-layout .maptip {
+  position: relative;
+  top: 50%;
+  margin: -18px 10px 0 10px;
+  text-align: center;
+  color: #666;
+  font-size: 36px;
+}
+
+.jimu-rtl .lm_header .lm_tab {
+  float: right;
+}
+
+.jimu-rtl .lm_header .lm_controls {
+  left: 3px;
+  right: auto;
+}
+
+.jimu-rtl .lm_header .lm_controls>li {
+  float: right;
+}
+
+.jimu-rtl .lm_header .lm_tabdropdown_list {
+  right: auto;
+  left: 0;
+}
+
+.jimu-ismobile .jimu-widget-attributetable {
+  z-index: 200 !important;
+}

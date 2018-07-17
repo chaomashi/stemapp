@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Rename</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bookmark_Editable-List-Edit" transform="translate(-1368.000000, -180.000000)">
+            <g id="Bookmark" transform="translate(1070.000000, 120.000000)">
+                <g id="Button" transform="translate(20.000000, 60.000000)">
+                    <g id="Rename" transform="translate(278.000000, 0.000000)">
+                        <rect id="Path" stroke="#999999" stroke-width="1.5" x="0.75" y="4.75" width="14.5" height="6.5" rx="1"></rect>
+                        <path d="M6.00079346,14.5 L8,14.5 C8,14.5 9,14.5 9,13.5 L9,2.5 C9,2.5 9,1.5 8,1.5 C7,1.5 6.00079346,1.5 6.00079346,1.5 L6,1.13686838e-13 L8,1.13686838e-13 C9.1045695,1.13686838e-13 10,0.894513756 10,1.99406028 L10,14.0059397 C10,15.1072288 9.09908032,16 7.99095304,16 L6.00079346,16 C6.00052897,16 6.00079346,14.5 6.00079346,14.5 Z M13.9992065,14.5 C13.9992065,14.5 13.999471,16 13.9992065,16 L12.009047,16 C10.9009197,16 10,15.1072288 10,14.0059397 L10,1.99406028 C10,0.894513756 10.8954305,0 12,0 L14,0 L13.9992065,1.5 C13.9992065,1.5 13,1.5 12,1.5 C11,1.5 11,2.5 11,2.5 C11,2.5 11,12.8442927 11,13.5 C11,14.5 12,14.5 12,14.5 L13.9992065,14.5 Z" id="Path" fill="#999999" transform="translate(10.000000, 8.000000) scale(-1, 1) translate(-10.000000, -8.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

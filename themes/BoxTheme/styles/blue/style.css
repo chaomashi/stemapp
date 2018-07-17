@@ -1,0 +1,26 @@
+.box-bgcolor {
+  background-color: #2d70e4;
+}
+
+.box-simple-panel {
+  background-color: #ffffff;
+}
+
+.esriSimpleSlider {
+  text-align: center;
+  color: #ffffff;
+  background-color: #2d70e4;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.jimu-widget-zoomslider,
+.jimu-widget-homebutton,
+.jimu-widget-mylocation,
+.jimu-widget-extent-navigate,
+.jimu-widget-fullScreen .fullScreen {
+  background-color: #2d70e4;
+}
+.esriPopup .titlePane {
+  background-color: #2d70e4;
+}

@@ -1,0 +1,419 @@
+
+/*------------------------- Styles for widget panel -----------------------*/
+.esriCTPolligPlaceContainer
+{
+    min-width: 222px;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.esriCTPollingPlaceContentPanel
+{
+    padding: 15px 0px !important;
+}
+
+.jimu-widget-districtlookup .esriCTHidden
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .esriCTWidgetErrorNode
+{
+    color: Red;
+}
+.jimu-widget-districtlookup .esriCTFullHeight
+{
+    height: 100%;
+}
+/*-------------------- End of styles for widget panel ---------------------*/
+
+/*----------------------- Styles for search panel -------------------------*/
+
+.jimu-widget-districtlookup .esriCTSearchOuterContainer
+{
+    padding: 0px 20px 15px 20px;
+    clear: both;
+}
+
+.jimu-widget-districtlookup .esriCTSearchHeader
+{
+    padding: 0px 0px 10px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.jimu-widget-districtlookup .esriCTSearchDiv
+{
+    float: left;
+    clear: both;
+}
+
+.jimu-widget-districtlookup .esriCTSearchDiv .arcgisSearch
+{
+    float: left;
+    width: 100% !important; /*added to fix issue in Dart theme*/
+}
+
+.jimu-widget-districtlookup .esriCTSearchContainer
+{
+    width: 100%;
+    height: 35px;
+}
+
+.jimu-widget-districtlookup .arcgisSearch .searchGroup .searchInput
+{
+    width: 170px;
+}
+
+.jimu-widget-districtlookup .arcgisSearch .searchBtn
+{
+    padding: 6px;
+}
+
+.jimu-widget-search .arcgisSearch .searchGroup .searchInputGroup .searchInput
+{
+    width: auto;
+}
+
+/*-------------------- End of styles for search panel ---------------------*/
+
+/*----------------------- Styles for result panel -------------------------*/
+
+.jimu-widget-districtlookup .esriCTFisrtInfoContentDiv
+{
+    padding-bottom: 15px;
+}
+
+.jimu-widget-districtlookup .esriCTInformationPanel
+{
+    margin-top: 10px;
+}
+.jimu-widget-districtlookup .esriCTListPanel
+{
+    height: calc(100% - 65px);
+    overflow-y: auto;
+}
+.jimu-widget-districtlookup .esriCTResultsPanel
+{
+    height: calc(100% - 61px);
+}
+.jimu-widget-districtlookup .esriCTResultsPanelOverrideHeight
+{
+    height: calc(100% - 95px);
+}
+
+.jimu-widget-districtlookup .esriCTInfoContent
+{
+    margin: 0px;
+}
+
+.jimu-widget-districtlookup .esriCTDirectionPanel
+{
+    padding: 20px;
+}
+
+.jimu-widget-districtlookup .esriCTlistOfResultPanel
+{
+    width: calc(100% - 12px);
+    height: 36px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 35px;
+    padding: 0px 10px 0 0;
+    float: left;
+}
+
+.jimu-widget-districtlookup .esriCTItemLeftArrow
+{
+    background-image: url('../images/left-arrow.png');
+    float: left;
+    height: 20px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-color: Gray;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.jimu-widget-districtlookup .esriCTItemRighttArrow
+{
+    background-image: url('../images/right-arrow.png');
+    background-repeat: no-repeat;
+    background-color: Gray;
+    height: 20px;
+    width: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.jimu-widget-districtlookup .esriCTBackButtonText
+{
+    margin-left: 51px;
+    font-weight: bold;
+}
+
+.jimu-widget-districtlookup .esriCTBackButton
+{
+    height: 35px;
+    width: 100%;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.jimu-widget-districtlookup .esriCTTopBorder
+{
+    border-top: 1px solid #464646;
+}
+
+.jimu-widget-districtlookup .esriCTMiddleBorder
+{
+    border-bottom: 1px solid #D8D8D8;
+    width: 100%;
+    float: left;
+    padding: 0 20px;
+}
+/*--------------------End of styles for result panel ----------------------*/
+
+/*--------------------- Select location from map css ---------------------*/
+
+.jimu-widget-districtlookup .esriCTSelectLocationDiv
+{
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+.jimu-widget-districtlookup .esriCTSelectLocation
+{
+    background-image: url("../images/select-location.png");
+}
+
+.jimu-widget-districtlookup .esriCTSelectLocationActive
+{
+    background-image: url("../images/select-location-active.png");
+    background-color: #57585A;
+}
+
+.jimu-widget-districtlookup .esriCTImgButtons
+{
+    cursor: pointer;
+    width: 32px;
+    height: 34px;
+    border: 1px solid #57585A;
+    border-radius: 4px;
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/*----------------- End select location from map css ----------------------*/
+
+/*-----------------Styles to override tab container css--------------------*/
+
+.jimu-widget-districtlookup .jimu-tab > .jimu-viewstack
+{
+    top: 0px;
+    position: relative;
+    height: calc(100% - 30px);
+    -webkit-overflow-scrolling: touch;
+    min-height: 80px;
+    overflow: auto;
+}
+
+.jimu-widget-districtlookup .dijitContentPane
+{
+    overflow: hidden;
+    padding: 20px;
+}
+/*------------End of styles to override tab container css------------------*/
+
+/*------------------Styles to override Direction dijit css-----------------*/
+.jimu-widget-districtlookup .esriResultsLoading
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .simpleDirections .esriStopsContainer
+{
+    height: 0px;
+    margin: 0px;
+}
+
+.jimu-widget-districtlookup .simpleDirections .esriSearchSourceContainer
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .getDirectionsBtnContainer
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .esriStopsTableContainer
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .esriStopsButtons
+{
+    display: none;
+}
+
+.jimu-widget-districtlookup .simpleDirections .savePrintBtnContainer
+{
+    position: relative;
+    top: 15px;
+    left: 90%;
+    margin: 0px;
+    z-index: 1;
+}
+
+.jimu-launchpad-panel .jimu-widget-districtlookup .simpleDirections .savePrintBtnContainer
+{
+     top: 10px;
+}
+
+.jimu-launchpad-panel .jimu-widget-districtlookup .simpleDirections .esriStopsGetDirectionsContainer{
+    padding-top: 0;
+    margin: 0px 10px;
+}
+
+.jimu-widget-districtlookup .simpleDirections
+{
+    margin-top: 20px;
+}
+
+.jimu-widget-districtlookup .simpleDirections .esriResultsSummary
+{
+    padding: 0 40px;
+}
+
+.jimu-widget-districtlookup .simpleDirections .esriResultsLoading .esriResultsContainer
+{
+    display: none;
+}
+/*---------------End of styles to override Direction dijit css-------------*/
+
+/*-------------------Styles for popup attachments---------------------------*/
+
+.jimu-widget-districtlookup .esriCTThumbnailContainer
+{
+    margin: 2px;
+}
+
+.jimu-widget-districtlookup .esriCTAttachmentHeader
+{
+    margin: 2px;
+    word-wrap: break-word;
+    color: #888888;
+}
+
+.jimu-widget-districtlookup .esriCTAttachmentHolder
+{
+    margin: 5px;
+    float: left;
+    width: auto;
+    height: 60px;
+}
+
+.jimu-widget-districtlookup .esriCTAttachmentImg
+{
+    cursor: pointer;
+}
+
+.jimu-widget-districtlookup .esriCTImageLoader
+{
+    cursor: default;
+    display: block;
+    background-position: center center;
+    background-image: url(../images/list-loader.gif);
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 60px;
+}
+
+.jimu-widget-districtlookup .esriCTAutoHeight
+{
+    height: auto;
+}
+
+.jimu-widget-districtlookup .esriCTNoAttachmentsFoundMsg
+{
+    margin: 2px;
+}
+
+/*Added to hide editor info from popupinfo*/
+.jimu-widget-districtlookup .esriCTResultsPanel .editSummarySection
+{
+    display: none;
+}
+
+/* override bottom padding otherwise scrollbar is shown in case of media content with multiple medias configured */
+.jimu-widget-districtlookup .mediaSection
+{
+    padding-bottom: 10px;
+    clear: both;
+}
+/* override display to hide the breaks in popup sections */
+.jimu-widget-districtlookup .esriViewPopup .break
+{
+    display: none;
+}
+
+/*Added class for map tooltip*/
+.esriCTMapTooltip
+{
+    width: 100px;
+    word-wrap: break-word;
+    border: 1px solid #7EABCD;
+    background-color: white;
+    padding: 5px;
+    font-size: 9pt;
+    z-index: 9999;
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/*------------------End of styles for popup attachments--------------------*/
+
+/*--------------------------------RTL Starts---------------------------------*/
+
+.esriRtl .jimu-widget-districtlookup .esriCTItemLeftArrow
+{
+    background-image: url('../images/right-arrow.png');
+    float: right;
+    margin-right: 22px;
+}
+
+.esriRtl .jimu-widget-districtlookup .esriCTItemRighttArrow
+{
+    background-image: url('../images/left-arrow.png');
+}
+
+.esriRtl .jimu-widget-districtlookup .esriCTlistOfResultPanel
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup .simpleDirections .savePrintBtnContainer
+{
+    left: 0px;
+    right: 90%;
+}
+
+.esriRtl .jimu-widget-districtlookup .esriCTSearchDiv
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-districtlookup .esriCTSelectLocationDiv
+{
+ margin: 0px 0px 10px 0px;
+ float: left;
+}
+
+/*-------------------------------RTL Ends----------------------------------------*/
+

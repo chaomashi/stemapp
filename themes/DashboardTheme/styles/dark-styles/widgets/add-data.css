@@ -1,0 +1,76 @@
+.jimu-widget-add-data .search-pane .search-bar.main-search-bar,
+.jimu-widget-add-data .search-pane .search-bar-secondary,
+.jimu-widget-add-data .search-pane .item-card .item-card-inner,
+.jimu-widget-add-data .search-pane-content,
+.jimu-widget-add-data .secondary-pane,
+.jimu-widget-add-data .add-url-pane-container,
+.jimu-widget-add-data .add-file-pane .drop-area{
+  background-color: #222;
+}
+
+.jimu-widget-add-data .search-pane .item-card .item-card-inner{
+  border-color: #222;
+}
+
+.jimu-widget-add-data .search-box2 .search-textbox{
+  background: #222;
+  border: 1px solid #999;
+  color: #ccc;
+}
+.jimu-widget-add-data-footer{
+  background: #222;
+  color: #ccc;
+}
+
+.jimu-widget-add-data.width-medium .scope-placeholder,
+.jimu-widget-add-data.width-small .scope-placeholder {
+  color: #FFF;
+}
+
+.jimu-widget-add-data .dijitSelect,
+.jimu-widget-add-data .dijitDropDownButton .dijitButtonNode {
+  color: #FFF;
+}
+
+.jimu-widget-add-data a,
+.add-url-pane a {
+  color: #FFF;
+}
+
+.jimu-widget-add-data .search-pane .item-card div.info{
+  color: #ccc;
+}
+.jimu-widget-add-data .search-pane .item-card h3.title{
+  color: white;
+}
+.jimu-widget-add-data .add-url-pane .url-textbox{
+  color: white;
+}
+.jimu-widget-add-data .add-url-pane .examples{
+  color: #ccc;
+}
+.add-data-widget-layers .add-data-layerlist--container{
+  background-color: #222;
+}
+.jimu-widget-add-data.width-small .search-pane .item-card .item-card-inner{
+  border-bottom-color: #333;
+}
+.jimu-widget-add-data-footer{
+  border-top-color: #333;
+}
+.jimu-widget-add-data .search-pane .search-bar-separator{
+  border-bottom-color: #333;
+}
+.jimu-widget-add-data .search-pane{
+  background-color: #333;
+}
+
+.jimu-widget-add-data.width-medium .filter-wrapper.show,
+.jimu-widget-add-data.width-medium .btn-group.show,
+.jimu-widget-add-data.width-small .filter-wrapper.show,
+.jimu-widget-add-data.width-small .btn-group.show{
+  background-color: #333;
+}
+.jimu-widget-add-data.width-medium .btn-group.show .btn:hover, .jimu-widget-add-data.width-small .btn-group.show .btn:hover {
+  background-color: #666;
+}

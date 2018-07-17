@@ -1,0 +1,34 @@
+<div>
+	<label>${nls.configText}</label>
+	<div class="widget-intro" data-dojo-attach-point="widgetIntro"></div>
+	<div class="layer-Mapping-Block" data-dojo-attach-point="layerMappingBlock" id="layerMappingBlock"></div>
+	<div class="jimu-btn layer-Mapping-Block-add" data-dojo-attach-point="layerMappingBlockAdd" data-dojo-attach-event="click:createGroupBlock" title="${nls.buttons.addNewGroupTip}">${nls.buttons.addNewGroup}</div>
+	<hr>
+	<div>
+		<table width="90%">
+			<tr>
+				<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkSimpleMode" data-dojo-props="value:true,checked:false"/></td>
+				<td title="${nls.inputs.simpleModeTip}">${nls.inputs.simpleMode}</td>
+				<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkOptionsMode" data-dojo-props="value:true,checked:false"/></td>
+				<td title="${nls.inputs.optionsModeTip}">${nls.inputs.optionsMode}</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkWebmapAppendMode" data-dojo-props="value:true,checked:true"/></td>
+				<td title="${nls.inputs.webmapAppendModeTip}">
+					<select data-dojo-attach-point="slAppendChoice" data-dojo-type="dijit/form/Select">
+					    <option value="OR">${nls.inputs.webmapAppendModeAny}</option>
+					    <option value="AND">${nls.inputs.webmapAppendModeAll}</option>
+					</select>
+				</td>
+				<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkZoomMode" data-dojo-props="value:true,checked:true"/></td>
+				<td title="${nls.zoomTo} ${nls.allFeaturesTip}">${nls.zoomTo}</td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkPersistOnClose" data-dojo-props="value:true,checked:false"/></td>
+				<td title="${nls.inputs.persistOnClose}">${nls.inputs.persistOnClose}</td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</div>

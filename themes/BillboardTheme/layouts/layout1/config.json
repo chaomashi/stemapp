@@ -1,0 +1,92 @@
+{
+  "widgetOnScreen": {
+    "widgets": {
+      "widgets/FullScreen/Widget": {
+        "visible": false,
+        "position": {
+          "right": 8,
+          "bottom": 55
+        }
+      },
+      "ph_8": {
+        "position": {
+          "top": 10,
+          "right": 15
+        }
+      },
+      "ph_9": {
+        "position": {
+          "top": 10,
+          "right": 60
+        }
+      },
+      "ph_10": {
+        "position": {
+          "top": 10,
+          "right": 105
+        }
+      },
+      "ph_11": {
+        "position": {
+          "top": 10,
+          "right": 150
+        }
+      },
+      "ph_12": {
+        "position": {
+          "top": 10,
+          "right": 195
+        }
+      }
+    }
+  },
+
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 15,
+            "bottom": 25
+          }
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 15,
+            "bottom": 5
+          }
+        },
+        "ph_8": {
+          "position": {
+            "left": 60,
+            "top": 53
+          }
+        },
+        "ph_9": {
+          "position": {
+            "left": 105,
+            "top": 53
+          }
+        },
+        "ph_10": {
+          "position": {
+            "left": 150,
+            "top": 53
+          }
+        },
+        "ph_11": {
+          "position": {
+            "left": 195,
+            "top": 53
+          }
+        },
+        "ph_12": {
+          "position": {
+            "left": 240,
+            "top": 53
+          }
+        }
+      }
+    }
+  }
+}

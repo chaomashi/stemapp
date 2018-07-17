@@ -1,0 +1,15 @@
+.jimu-widget-dsc-setting>div{
+  margin-top: 10px;
+}
+
+.jimu-widget-dsc-setting .title{
+  font-weight: bold;
+}
+
+.jimu-widget-dsc-setting .ds, .jimu-widget-dsc-setting .field{
+  cursor: pointer;
+}
+
+.jimu-widget-dsc-setting .selected{
+  background-color: yellow;
+}

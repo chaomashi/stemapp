@@ -1,0 +1,16 @@
+.jimu-main-background,
+.jimu-widget-homebutton,
+.jimu-widget-mylocation,
+.jimu-widget-onscreen-icon,
+.jimu-widget-onscreen-icon.jimu-state-selected,
+.jimu-widget-zoomslider .zoom,
+.jimu-widget-homebutton .HomeButton .home,
+.jimu-widget-mylocation .place-holder,
+.jimu-widget-extent-navigate .operation,
+.jimu-widget-fullScreen .fullScreen {
+  background-color: #e83428;
+}
+.esriPopup .titlePane,
+.jimu-on-screen-widget-panel .jimu-panel-title.jimu-main-background {
+  background-color: #e83428;
+}

@@ -1,0 +1,99 @@
+<div>
+  <div class="source-url-section">
+    <table class="source-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="first">
+            <span class="source-label">${nls.locatorUrl}</span>
+          </td>
+          <td class="second">
+            <div data-dojo-attach-point="locatorUrl" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="required:true,trim:true,disabled:true,style:{width:'100%'}"></div>
+          </td>
+          <td class="third">
+            <span title="${nls.set}" class="jimu-btn" data-dojo-attach-event="click:_onSetLocatorUrlClick">${nls.set}</span>
+          </td>
+        </tr>
+        <tr>
+          <td class="first"></td>
+          <td class="second">
+            <span data-dojo-attach-point="messageNode" class="tip"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="source-details-section" data-dojo-attach-point="detailsSection">
+    <table class="source-table" cellspacing="0">
+      <tbody>
+        <tr>
+          <td class="first">${nls.locatorName}</td>
+          <td class="second">
+            <input type="text" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-point="locatorName" data-dojo-attach-event="Blur: _onLocatorNameBlur"
+                   placeHolder="${nls.locatorName}"
+                   required="true" data-dojo-props='style:{width:"100%"}' />
+          </td>
+        </tr>
+        <tr class="hide-country-code-row country-code-row" data-dojo-attach-point="countryCodeRow">
+          <td class="first">${nls.countryCode}</td>
+          <td class="second">
+            <input type="text" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="countryCode"
+            data-dojo-attach-event="Blur:_onCountryCodeBlur"
+            placeHolder="${nls.eg} USA,CHN" data-dojo-props='style:{width:"97%"}'/>
+            <a class="jimu-float-trailing" target="_blank" href="https://developers.arcgis.com/rest/geocode/api-reference/geocode-coverage.htm" style="line-height:30px;">?</a>
+            <span class="tip">${nls.countryCodeHint}</span>
+          </td>
+        </tr>
+
+        <tr class="hide-country-code-row country-code-row" data-dojo-attach-point="minCandidateScoreRow">
+          <td class="first">${nls.minCandidateScore}</td>
+          <td class="second">
+            <input type="text" data-dojo-type="dijit/form/NumberTextBox" data-dojo-attach-point="minCandidateScore"
+                   data-dojo-attach-event="Blur:_onMinCandidateScoreBlur"
+                   placeHolder="${nls.eg} 90" data-dojo-props="style:{width:'97%'}, constraints:{min:0,max:100}, invalidMessage:'${nls.requiresInteger0100}'"/>
+            <span class="tip">${nls.minCandidateScoreHint}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>  
+  </div>
+
+  <div class="source-fields-section">
+    <table class="fields-table" cellspacing="0">
+      <colgroup>
+        <col width="55%"></col>
+        <col width="45%"></col>
+      </colgroup>
+      <tbody>
+        <tr>
+
+          <td colspan="1">
+            <div>
+              <div class="field-option-label" data-dojo-attach-point="enableSingleField"></div>
+              <div data-dojo-attach-point="editSingleFields" class="edit-fields" title="${nls.configureSingleFields}"></div>
+            </div>
+          </td>
+
+          <td colspan="1">
+            <div>
+              <div class="source-edit-fields field-option-label" data-dojo-attach-point="enableMultiField" title="${nls.configureMultiFields}"></div>
+              <div data-dojo-attach-point="editMultiFields" class="edit-fields"></div>
+              <div data-dojo-attach-point="noFields" class="display-none no-fields-alert" title="${nls.noFields}"></div>
+            </div>
+          </td>
+
+        </tr>
+        <tr>
+          <td colspan="1">
+            <span class="tip">${nls.singleFieldHint}</span>
+          </td>
+
+          <td colspan="1">
+            <span class="tip">${nls.multiFieldHint}</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

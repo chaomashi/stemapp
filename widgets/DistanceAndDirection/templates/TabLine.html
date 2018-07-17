@@ -1,0 +1,92 @@
+<div class="tabPanel" data-dojo-attach-point="lineContainer">
+    <div class="controls">
+        <div class="controlGroup">
+            <label>${nls.fromLabel}</label>
+            <div class="controlItem">
+              <select data-dojo-attach-point="lineTypeDD" style="width: 225px" data-dojo-type="dijit/form/Select">
+                <option value="DistAndBearing">${nls.distanceBearingLabel}</option>
+                <option selected="selected" value="Points">${nls.pointsLabel}</option>
+              </select>
+          </div>
+        </div>
+        <div class="controlGroup" data-dojo-attach-point="startDiv">
+            <label data-dojo-attach-point="lineStartPointLabel">${nls.startPointLabel}</label>
+            <div class="controlItem">
+              <input class="jimu-input coordInput"
+                data-dojo-attach-point="startPointCoordsLine">
+              </input>
+              <div class="controlItem paddedLeft" data-dojo-attach-point="addPointBtnStartDiv">
+                <div class='add-with-icon'>
+                  <span title="${nls.formatInputLabel}" class="jimu-icon settingBtn" data-dojo-attach-point="coordinateFormatButtonStart"></span>
+                </div>
+                <div class='add-with-icon'>
+                  <div title="${nls.addPointLabel}" class="drawPointBtn" data-dojo-attach-point="addPointBtnStart"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="controlGroup">
+            <input class="interactive-checkbox" type="checkbox" data-dojo-attach-point="interactiveLine" />
+            <label data-dojo-attach-point="interactiveLabel">${nls.createLineInteractively}</label>
+        </div>
+        <div class="controlGroup endPt">
+          <label data-dojo-attach-point="lineEndPointLabel">${nls.endPointLabel}</label>
+          <div class="controlItem">
+            <input class="jimu-input coordInput"
+              data-dojo-attach-point="endPointCoordsLine">
+            </input>
+            <div class="controlItem paddedLeft" data-dojo-attach-point="addPointBtnEndDiv">
+                <div class='add-with-icon'>
+                  <span title="${nls.formatInputLabel}" class="jimu-icon settingBtn" data-dojo-attach-point="coordinateFormatButtonEnd"></span>
+                </div>
+                <div class='add-with-icon'>
+                  <div title="${nls.addPointLabel}" class="drawPointBtn" data-dojo-attach-point="addPointBtnEnd"></div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="controlGroup">
+          <label>${nls.lengthLabel}</label>
+          <div class="controlItem" data-dojo-attach-point="lengthInputDiv">
+            <input
+              style="width: 150px"
+              data-dojo-type='dijit/form/NumberTextBox'
+              required="true" value="1000" data-dojo-props="
+              constraints: {min: 1, max: 40030000}"
+              data-dojo-attach-point="lengthInput"
+              data-dojo-attach-event="keyup: checkValidInputs">
+            </input>
+            <select style="width: 100px" class="controlSpace noResize" data-dojo-type="dijit/form/Select" data-dojo-attach-point="lengthUnitDD">
+              <option value="feet">${nls.units.feet}</option>
+              <option value="kilometers">${nls.units.kilometers}</option>
+              <option value="miles">${nls.units.miles}</option>
+              <option value="meters" selected="selected">${nls.units.meters}</option>
+              <option value="nautical-miles">${nls.units.nauticalMiles}</option>
+              <option value="yards">${nls.units.yards}</option>
+            </select>
+          </div>
+        </div>
+        <div class="controlGroup">
+          <label>${nls.angleLabel}</label>
+          <div class="controlItem" data-dojo-attach-point="angleInputDiv">
+            <input data-dojo-type="dijit/form/NumberTextBox"
+              style="width: 150px"
+              required="true"
+              value="0"
+              data-dojo-props="
+                constraints: {min: 0, max: 360}"
+              data-dojo-attach-point="angleInput"
+              data-dojo-attach-event="onChange: checkValidInputs">
+            </input>
+            <select style="width: 100px" class="controlSpace" data-dojo-type="dijit/form/Select" data-dojo-attach-point="angleUnitDD">
+              <option value="degrees">${nls.degreesLabel}</option>
+              <option value="mils">${nls.milsLabel}</option>
+            </select>
+          </div>
+        </div>
+        <div class="buttonContainer">
+            <div class='jimu-btn jimu-state-disabled' data-dojo-attach-point='okButton' data-dojo-attach-event="onclick: okButtonClicked">${nls.common.ok}</div>
+            <div class='jimu-btn' data-dojo-attach-point='clearGraphicsButton' data-dojo-attach-event="onclick: clearGraphics">${nls.clearGraphicsLabel}</div>
+        </div>
+    </div>
+</div>

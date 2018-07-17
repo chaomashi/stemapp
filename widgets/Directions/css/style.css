@@ -1,0 +1,178 @@
+.jimu-widget-locator .simpleGeocoder .esriGeocoder {
+  border: 1px solid #666;
+}
+.jimu-widget-locator .simpleGeocoder .esriGeocoderResults{
+  border: 1px solid #666;
+}
+
+.dj_rtl .jimu-widget-directions .simpleDirections .arcgisSearch .searchGroup .searchInput{
+  width: 100%;
+  box-sizing: border-box;
+  height: 34px;
+  line-height: 34px;
+  padding: 6px 4px;
+  border-radius: 4px;
+  border-left: 1px solid #57585A !important;
+}
+
+.dj_rtl .simpleDirections .esriDirectionsTabButton{
+  border-left: 1px solid #A6A6A6;
+}
+
+.jimu-widget-directions input[type="text"]::-ms-clear{
+    display:none;
+}
+
+/*.dart-theme*/
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsContainer {
+    background: transparent
+}
+
+.dart-theme.jimu-widget-directions .dijitReset.dijitMenuItemLabel .esriTravelModesTypeName,
+.dart-theme.jimu-widget-directions .esriTravelModesTypeName{
+  color:#a0a0a0;
+}
+.dart-theme.jimu-widget-directions .dijitHover .esriTravelModesTypeName{
+  color:#FFF;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteInfo {
+  color: #a0a0a0;
+}
+
+.dart-theme.jimu-widget-directions .startTimeMenu{
+  background: #333333;
+  border: 1px solid #999999;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteZoom:hover,
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteZoom:focus{
+  background: #444;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsGetDirections,
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsClearDirections {
+  background: #666;
+  color: #fff;
+  height: 36px;
+  line-height: 25px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsGetDirections{
+  margin: 5px 0;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsClearDirections{
+  margin: 5px 10px;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsGetDirections:hover {
+    background-color: #333 !important;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .arcgisSearch .searchGroup .searchInput{
+  border-bottom: 1px solid #666;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriDirectionsTabButton:not(:first-child){
+  margin: 0 10px;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriDirectionsPressedButton{
+  background-color: #FFF !important;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .LocateButton .zoomLocateButton{
+  background-image: url(../images/dartTheme/location.svg);
+  background-size: contain;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsReverse{
+  background: url(../images/dartTheme/reverse.svg) no-repeat 5px center;
+  background-size: contain;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsReverse:hover{
+  background: url(../images/dartTheme/reverse_hover.svg) no-repeat 5px center;
+  background-size: contain;
+}
+
+.dart-theme.jimu-widget-directions .esriOptionsCheckboxes{
+  color:#fff;
+}
+
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary{
+  background-color: #444;
+  color: #fff;
+}
+
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsOptionsMenu,
+.dart-theme.jimu-widget-directions .simpleDirections .departAtContainer.departAtContainerVisible{
+  background-color: #444;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriStopsOptionsEnabled .esriStopsOptionsOpen{
+  background-color: #666;
+}
+
+.dart-theme.jimu-widget-directions .esriLinkButton.startTimeMenuButton.departAtButton {
+    background-color: #444;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary .esriImpedanceCost,
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary .esriOtherCosts,
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary .esriTrafficLabelNone,
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary .esriImpedanceCostHr,
+.dart-theme.jimu-widget-directions .simpleDirections .esriResultsSummary .esriImpedanceCostMin{
+  color:#FFF !important;
+}
+.dart-theme.jimu-widget-directions .esriRouteTextColumn .esriRouteLength{
+  color:#FFF !important;
+  background-color: #444;
+}
+
+.dart-theme.jimu-widget-directions .esriDMTUnknown .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTStraight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTBearLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTBearRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTSharpLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTSharpRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTUTurn .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTFerry .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTRoundabout .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTHighwayMerge .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTHighwayExit .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTHighwayChange .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTForkCenter .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTForkLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTForkRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTripItem .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTEndOfFerry .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTRampRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTRampLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnLeftRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnRightLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnRightRight .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTTurnLeftLeft .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTPedestrianRamp .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTElevator .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTEscalator .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTStairs .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTDoorPassage .esriRouteIcon{
+  background-color: #999;
+  background-position-y: 4px;
+  border-radius: 2px;
+}
+
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteInfo .esriRouteText{
+  color:#FFF;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteInfo strong{
+ color:#999;
+}
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteIconColumn,
+.dart-theme.jimu-widget-directions .simpleDirections .esriRouteTextColumn{
+  border-bottom: 1px solid #444;
+}
+/*
+.dart-theme.jimu-widget-directions .esriDMTStop .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTDepart .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTStopOrigin .esriRouteIcon,
+.dart-theme.jimu-widget-directions .esriDMTStopDestination .esriRouteIcon */

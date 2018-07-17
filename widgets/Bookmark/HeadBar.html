@@ -1,0 +1,29 @@
+<div>
+	<div class="header">
+		<div data-dojo-attach-point="editableBtns" class="editable-btns">
+			<div data-dojo-attach-point="addBtn" class="add hide" title="${nls.labelBookmarkName}">${nls.addBtn}</div>
+		</div>
+
+		<div class="oper-btns">
+			<div data-dojo-attach-point="filter" class="filter-container hide">
+				<div class="filter-input">
+					<div data-dojo-attach-point="filterInput" data-dojo-type="dijit/form/ValidationTextBox"
+						placeHolder="${nls.searchBookmark}" required="false"></div>
+					<div class="search" data-dojo-attach-point="filterBtn" title="${nls.searchBookmark}"></div>
+				</div>
+			</div>
+			<!--<div data-dojo-attach-point="commonFunBtns" class="common-fun-btns">
+				<div data-dojo-attach-point="syncBtn" class="head-btns sync-btn" title="${nls.syncTip}"></div>
+				<div data-dojo-attach-point="backToInitBtn" class="head-btns back-to-init hide" title=""></div>-->
+			<div data-dojo-attach-point="displayMode" class="display-mode">
+				<div data-dojo-attach-point="cardsBtn" class="head-btns cards hide" title="${nls.cardsTips}"></div>
+				<div data-dojo-attach-point="listBtn" class="head-btns list hide" title="${nls.listTips}"></div>
+			</div>
+		</div>
+		<!--<div data-dojo-attach-point="editBtns" class="edit-btns">
+				<div data-dojo-attach-point="renameBtn" class="head-btns rename" title="rename"></div>
+				<div data-dojo-attach-point="deleteBtn" class="head-btns delete" title="delete"></div>
+			</div>
+		</div>-->
+	</div>
+</div>

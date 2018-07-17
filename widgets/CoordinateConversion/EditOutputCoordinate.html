@@ -1,0 +1,29 @@
+<div>
+    <span class='formatText'>${nls.editCoordinateDialogTitle}</span>
+    <div class="controlContainer">
+        <select tabindex=1 class="selectFormat" name="test" data-dojo-attach-point="frmtSelect">
+            <option value="DD">${nls.DD}</option>
+            <option value="DDM">${nls.DDM}</option>
+            <option value="DMS">${nls.DMS}</option>
+            <option value="GARS">${nls.GARS}</option>
+            <option value="GEOREF">${nls.GEOREF}</option>
+            <option value="MGRS">${nls.MGRS}</option>
+            <option value="USNG">${nls.USNG}</option>
+            <option value="UTM">${nls.UTM}</option>
+            <option value="UTM (H)">${nls.UTM_H}</option>
+        </select>
+
+        <input tabindex=2 type ="text" data-dojo-attach-point="frmtVal" class="formatInput"></input>
+        
+        <div class='settingsContainer' data-dojo-attach-point="prefixContainer">
+            <!--<div data-dojo-attach-point='addDirChkBox' data-dojo-props='checked:true' data-dojo-type='jimu/dijit/CheckBox'>Add "N,S,E,W" suffix based on latitude/longitude</div>-->
+            <input data-dojo-attach-point='addSignChkBox' type="checkbox" />
+            <label class="formatText">${nls.posNegPrefixLabel}</label>
+        </div>
+
+    </div>
+    <div class="btnContainer">
+        <div tabindex=3 data-dojo-attach-point="applyButton" class='jimu-btn'>${nls.applyButtonLabel}</div>
+        <div tabindex=4 data-dojo-attach-point="cancelButton" class='jimu-btn'>${nls.cancelButtonLabel}</div>
+    </div>
+</div>

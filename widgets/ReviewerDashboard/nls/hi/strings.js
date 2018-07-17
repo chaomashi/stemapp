@@ -1,0 +1,22 @@
+define({
+  "_widgetLabel": "समीक्षक डैशबोर्ड",
+  "spatialFilterSelection": "भूगोल अनुसार परिणामों को फिल्टर करें",
+  "drawSelectionArea": "मानचित्र पर एक परिणाम चयन क्षेत्र बनाएं",
+  "currentSelection": "परिणाम केवल वर्तमान मानचित्र सीमा में ही दिखाएँ",
+  "censusBlockGroup": "भूगोल अनुसार परिणाम दिखाएँ",
+  "noSpatialFilter": " किसी स्पेशियल फिल्टर का प्रयोग ना करें",
+  "reviewerSessionFilter": "समीक्षक सत्र अनुसार परिणाम फ़िल्टर करें",
+  "selectAttributeFilters": "प्रदर्शित करने के लिए जानकारी का चयन करें",
+  "phaseFieldName": "जीवनचक्र चरण",
+  "statusFieldName": "जीवनचक्र स्थिति",
+  "allSessions": "सभी सत्र",
+  "dashboardTab": "डैशबोर्ड",
+  "filtersTab": "सेटिंग्स",
+  "noResults": "कोई परिणाम नहीं मिला",
+  "resultsBy": "परिणाम अनुसार: ",
+  "reviewed": "समीक्षा करें",
+  "corrected": "सुधार करें",
+  "verified": "सत्यापन",
+  "OtherCategory": "अन्य",
+  "backButton": "पीछे जाएँ"
+});

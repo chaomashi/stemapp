@@ -1,0 +1,31 @@
+.jimu-widget-share-setting {
+  font-size: 14px;
+}
+
+.jimu-widget-share-setting .title{
+  font-size: 16px;
+}
+
+.jimu-widget-share-setting .row {
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.jimu-widget-share-setting .cb {
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.jimu-widget-share-setting .cb-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jimu-widget-share-setting .hide {
+  display: none
+}
+
+.jimu-widget-share-setting .use-org {
+  margin-top: 30px;
+}

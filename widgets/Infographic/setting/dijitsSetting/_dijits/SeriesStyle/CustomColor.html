@@ -1,0 +1,34 @@
+<div>
+
+   <div class="header">
+      <div class="color-choose">
+         <div class="text-label color-text text-over" title="${nls.colorSchema}">${nls.colorSchema}</div>
+         <div data-dojo-attach-point="colorsPickerDiv" class="colors-picker"></div>
+      </div>
+   </div>
+
+   <div data-dojo-attach-point="content" class="content"></div>
+
+   <div class="bottom">
+      <div data-dojo-attach-point="dispatchAdd" class="add-dispatch">
+        <div class="disptch-div" data-dojo-attach-event="click:_onAddCategoryClick" title="${nls.addCategory}">
+           <div class="disptch-add-icon"></div>
+           <div class="disptch-add-text">${nls.addCategory}</div>
+        </div>
+      </div>
+      <div data-dojo-attach-point="actionAdd" class="add-action hide">
+        <div class="category-tip textOverFlow" title="${nls.category}">${nls.category}</div>
+
+        <div data-dojo-attach-point="addActionDiv" class="add-action-div">
+            <div data-dojo-attach-point="colorDiv" class="color-div"></div>
+            <div class="action-button-container" data-dojo-attach-event="click:_onDoAddClick" title="${nls.ok}">
+               <div class="action-btn add-btn"></div>
+            </div>
+            <div class="action-button-container" data-dojo-attach-event="click:_onCancelClick" title="${nls.cancel}">
+               <div class="action-btn cancel-btn"></div>
+            </div>
+        </div>
+       
+      </div>
+   </div>
+</div>

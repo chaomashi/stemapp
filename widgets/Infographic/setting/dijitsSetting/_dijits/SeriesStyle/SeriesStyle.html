@@ -1,0 +1,40 @@
+<div style="width: 100%;flex: 0 0 100%;">
+
+	<div style="margin-bottom: 5px" class="top">
+		<div class="flex-lr-balance title">${nls.chartColor}</div>
+      <div data-dojo-attach-point="singleColorDiv" style="width:100%;"></div>
+	</div>
+
+	<div data-dojo-attach-point="radioPanel" class="radio-panel">
+		<div data-dojo-attach-point="firstRadio" class="single-radio-panel first-radio">
+		   <input data-dojo-attach-point="useLayerSymbolRadio" data-dojo-attach-event="change:_onLayerSymbolRadioChanged" type="radio" name="chartColor" data-dojo-type="dijit/form/RadioButton">
+   		<label class="marginleft10 text-over radio-label" title="${nls.useLayerSymbology}">${nls.useLayerSymbology}</label>
+		</div>
+
+      <div data-dojo-attach-point="secondRadio" class="single-radio-panel second-radio">
+         <div class="single-radio-panel flex-lr-balance">
+            <input data-dojo-attach-point="setColorRadio" type="radio" name="chartColor" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-event="change:_onSeriesColorRadioChanged">
+            <label data-dojo-attach-point="setColorLabel" class="marginleft10 text-over radio-label" title="${nls.setColor}">${nls.setColor}</label>
+         </div>
+
+         <div data-dojo-attach-point="radioSingleColorDiv" class="radio-single-color-div flex-lr-balance"></div>
+      </div>
+		
+      <div data-dojo-attach-point="thirdRadio" class="single-radio-panel third-radio">
+         <div class="single-radio-panel flex-lr-balance">
+            <input data-dojo-attach-point="customColorRadio" type="radio" name="chartColor" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-event="change:_onCustomColorRadioChange">
+            <label class="marginleft10 text-over radio-label" title="${nls.customColorByCategory}">${nls.customColorByCategory}</label>
+         </div>
+
+         <div data-dojo-attach-event="click:_onCustomToggleButtonClicked" data-dojo-attach-point="toggleIconDiv" class="toggle-icon-div flex-lr-balance">
+            <div data-dojo-attach-point="toggleIcon" class="toggle-icon"></div>
+         </div>
+      </div>
+
+	</div>
+
+   <div data-dojo-attach-point="fieldColors" class="field-colors"></div>
+
+   <div data-dojo-attach-point="customColors" class="custom-colors indentation"></div>
+
+</div>

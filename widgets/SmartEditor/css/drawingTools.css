@@ -1,0 +1,181 @@
+﻿.seToolbarIcon {
+    background-image: url(../images/toolbar_icons.png);
+    width: 16px;
+    height: 16px;
+}
+
+.sePointIcon {
+    background-position: 0px 0px;
+}
+
+.sePointIconDisabled {
+    background-position: -16px 0px;
+}
+
+.sePolylineIcon {
+    background-position: -34px 0px;
+}
+
+.sePolylineIconDisabled {
+    background-position: -50px 0px;
+}
+
+.sePolygonIcon {
+    background-position: -69px 0px;
+}
+
+.sePolygonIconDisabled {
+    background-position: -84px 0px;
+}
+
+.seFreehandPolylineIcon {
+    background-position: -101px 0px;
+}
+
+.seFreehandPolylineIconDisabled {
+    background-position: -118px 0px;
+}
+
+.seFreehandPolygonIcon {
+    background-position: -135px 0px;
+}
+
+.seFreehandPolygonIconDisabled {
+    background-position: -152px 0px;
+}
+
+.seRectangleIcon {
+    background-position: -339px 0px;
+}
+
+.seTriangleIcon {
+    background-position: -356px 0px;
+}
+
+.seEllipseIcon {
+    background-position: -373px 0px;
+}
+
+.seCircleIcon {
+    background-position: -390px 0px;
+}
+
+.seArrowIcon {
+    background-position: -407px 0px;
+}
+
+.seArrowDownIcon {
+    background-position: -424px 0px;
+}
+
+.seArrowLeftIcon {
+    background-position: -441px 0px;
+}
+
+.seArrowUpIcon {
+    background-position: -458px 0px;
+}
+
+.seNewSelectionIcon {
+    background-position: -237px 0px;
+}
+
+.seAddToSelectionIcon {
+    background-position: -254px 0px;
+}
+
+.seRemoveFromSelectionIcon {
+    background-position: -271px 0px;
+}
+
+.seClearSelectionIcon {
+    background-position: -288px 0px;
+}
+/* dropdown */
+
+.drawingOptionsDiv .dijitDropDownButton {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+    .drawingOptionsDiv .dijitDropDownButton .dijitButtonNode {
+        background: transparent;
+        border: 1px solid #7EABCD;
+        padding: 4px;
+        margin-top: 2px;
+        font-weight: bold;
+        box-shadow: none;
+        border-radius: 4px;
+        text-align: left;
+        width: 100%;
+    }
+
+.jimu-rtl .drawingOptionsDiv .dijitDropDownButton .dijitButtonNode {
+    text-align: right;
+}
+
+.drawingOptionsDiv .dijitDropDownButton .dijitButtonNode .dijitButtonContents {
+    border-color: transparent;
+}
+
+.drawingOptionsDiv .dijitDropDownButton .dijitButtonNode .dijitInputField {
+    padding: 0 5px;
+}
+
+.drawingOptionsDiv .dijitDropDownButton .dijitButtonNode .dijitArrowButton {
+    background: transparent;
+    border: 0;
+}
+
+/*.drawingOptionsDiv .dijitMenuItemLabel {
+    text-align: left;
+}
+
+.jimu-rtl .drawingOptionsDiv .dijitMenuItemLabel {
+    text-align: right;
+}
+
+.drawingOptionsDiv .dijitReset .dijitMenuItemIconCell {
+    text-align: left;
+    width: 20px;
+}
+
+.jimu-rtl .drawingOptionsDiv .dijitReset .dijitMenuItemIconCell {
+    text-align: right;
+    width: 20px;
+}*/
+
+
+.drawingOptionsDiv .dijitDropDownButton .dijitButtonNode.dijitSelectFocused .dijitArrowButton {
+    padding: 0;
+}
+
+.drawingOptionsDiv .dijitDownArrowButton {
+    position: relative;
+}
+
+.drawingOptionsDiv .dijitArrowButtonInner {
+    position: absolute;
+    right: 8px;
+    top: 3px;
+    background-image: none;
+}
+
+
+    .drawingOptionsDiv .dijitArrowButtonInner:after {
+        content: "\e681";
+        font-family: 'CalciteWebCoreIcons' !important;
+        speak: none;
+        font-style: normal;
+        font-weight: bold;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+div[dijitpopupparent="drawingTool"] .dijitMenuItemIconCell {
+    width: 20px;
+}

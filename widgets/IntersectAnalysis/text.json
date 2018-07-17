@@ -1,0 +1,46 @@
+[
+  {
+    number: '010',
+    label: '基本农田保护区'
+  },
+  {
+    number: '020',
+    label: '一般农地区'
+  },
+  {
+    number: '030',
+    label: '城镇建设用地区'
+  },
+  {
+    number: '040',
+    label: '村镇建设用地区'
+  },
+  {
+    number: '050',
+    label: '独立工矿用地区'
+  },
+  {
+    number: '060',
+    label: '风景旅游用地区'
+  },
+  {
+    number: '070',
+    label: '生态环境安全控制区'
+  },
+  {
+    number: '080',
+    label: '自然与文化遗产保护区'
+  },
+  {
+    number: '090',
+    label: '林业用地区'
+  },
+  {
+    number: '100',
+    label: '牧业用地区'
+  },
+  {
+    number: '990',
+    label: '其他用地区'
+  }
+]

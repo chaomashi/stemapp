@@ -1,0 +1,32 @@
+<div class="style-selector">
+  <div class="setting-items dataFormat clearFix" data-dojo-attach-point="unit">
+    <div class="label-position jimu-float-leading" title="${nls.unit}">${nls.unit}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <div class="jimu-float-trailing" data-dojo-attach-point="unitWapper" style="width: 100%;">
+        <select data-dojo-type="dijit/form/Select" data-dojo-props='style:{width:"100%"}' data-dojo-attach-point="unitSelect"></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="setting-items decimal clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.decimalPlaces}">${nls.decimalPlaces}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <input type="text" data-dojo-type="dijit/form/NumberSpinner" required="false"
+        placeHolder="" data-dojo-props="constraints: {min:0, max:9},intermediateChanges: true" data-dojo-attach-point="decimalPlacesText"/>
+    </div>
+  </div>
+  <div class="setting-items prefix clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.prefix}">${nls.prefix}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <input type="text" data-dojo-type="dijit/form/ValidationTextBox" required="false"
+        placeHolder="" data-dojo-attach-point="prefixText"/>
+    </div>
+  </div>
+  <div class="setting-items suffix clearFix">
+    <div class="label-position jimu-float-leading" title="${nls.suffix}">${nls.suffix}</div>
+    <div class="setting-wapper jimu-float-trailing">
+      <input type="text" data-dojo-type="dijit/form/ValidationTextBox" required="false"
+        placeHolder="" data-dojo-attach-point="suffixText"/>
+    </div>
+  </div>
+</div>

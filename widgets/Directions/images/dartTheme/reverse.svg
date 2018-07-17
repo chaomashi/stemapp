@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>order</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Widget" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark-Theme" transform="translate(-120.000000, -4812.000000)" fill="#666666">
+            <g id="order" transform="translate(120.000000, 4812.000000)">
+                <path d="M11,14 L11,7 L9,7 L9,14 L6,14 L10,18 L14,14 L11,14 L11,14 Z M4,0 L0,4 L3,4 L3,11 L5,11 L5,4 L8,4 L4,0 L4,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

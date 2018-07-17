@@ -1,0 +1,29 @@
+.jimu-widget-screening .jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #000000;
+}
+
+.jimu-widget-screening .esriCTPlanSettingsIcon {
+  background: url(../images/settings.png);
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTRefreshContainer {
+  background-image: url(../images/refresh.png);
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTAnalysisUnitSettingContainer {
+  background: url(../images/analysis-unit-setting.png) no-repeat;
+  background-size: 20px 20px;
+}
+
+.jimu-widget-screening .esriCTLayerFieldCheckbox {
+  color: #596679;
+}
+
+.jimu-widget-screening .esriCTAttrTable td.esriCTAttrName {
+  color: #888888;
+}
+.jimu-widget-screening .esriCTAttrTableHighlighted td {
+  background-color: #E2F0FB;
+}

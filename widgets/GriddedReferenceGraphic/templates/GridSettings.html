@@ -1,0 +1,97 @@
+﻿<div>       
+    <div class="tabs" data-dojo-attach-point="tabsContainer">
+      <!-- Grid Settings Tab --> 
+      <div class="content-tab" data-dojo-attach-point="gridTab">
+        
+        <!-- Grid Shape -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="gridShapeContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.cellShape}">
+                ${nls.gridSettings.cellShape}</div>
+            <select data-dojo-attach-point="cellShape" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Units -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="gridUnitsContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.cellUnits}">
+                ${nls.gridSettings.cellUnits}</div>
+            <select data-dojo-attach-point="cellUnits" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Grid Origin -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="gridOriginContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.gridOrigin}">
+                ${nls.gridSettings.gridOrigin}</div>
+            <select data-dojo-attach-point="gridOrigin" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Reference System -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="gridRefSystemContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis labelLeft" title="${nls.gridSettings.gridReferenceSystem}">
+                ${nls.gridSettings.gridReferenceSystem}</div>
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis labelRight" title="${nls.gridSettings.gridDatum}">
+                ${nls.gridSettings.gridDatum}</div>
+            <select data-dojo-attach-point="referenceSystem" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Cell Outline Color -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+          <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.cellOutline}">
+                ${nls.gridSettings.cellOutline}</div>
+          <div class="colorPicker" data-dojo-attach-point="cellOutlineColorPicker"></div>
+        </div>
+        
+        <!-- Cell fill Color -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow">
+          <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.cellFill}">
+                ${nls.gridSettings.cellFill}</div>
+          <div class="colorPicker" data-dojo-attach-point="cellFillColorPicker"></div>
+        </div>
+      </div>
+      
+      <!-- Label Settings Tab -->
+      <div class="content-tab" data-dojo-attach-point="labelTab">  
+        <!-- Label Start Position Selector -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="labelStartPositionContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.labelStartPosition}">
+                ${nls.gridSettings.labelStartPosition}</div>
+            <select data-dojo-attach-point="labelStartPosition" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Labelling Style without Reference System -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="labelStyleContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.labelType}">
+                ${nls.gridSettings.labelType}</div>
+            <select data-dojo-attach-point="labelType" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Labelling Style with Reference System -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="labelStyleWithRefSysContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.labelType}">
+                ${nls.gridSettings.labelType}</div>
+            <select data-dojo-attach-point="labelTypeWithRefSys" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Labelling direction -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="labelDirectionContainer">
+            <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.gridSettings.labelDirection}">
+                ${nls.gridSettings.labelDirection}</div>
+            <select data-dojo-attach-point="labelDirection" style="width: 100%" data-dojo-type="dijit/form/Select">
+            </select>
+        </div>
+        
+        <!-- Font Settings -->
+        <div class="GRGDrafterFullWidth GRGDrafterSettingRow" data-dojo-attach-point="fontSettingsContainer">
+          <div class="GRGDrafterDropdownLabel GRGDrafterEllipsis" title="${nls.labelStyle}">
+                ${nls.labelStyle}</div>
+          <div data-dojo-attach-point="fontSettingNode"></div>
+        </div>        
+      </div>  
+    </div>
+</div>

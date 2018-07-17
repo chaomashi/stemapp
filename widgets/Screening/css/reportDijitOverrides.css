@@ -1,0 +1,68 @@
+.esriCTSectionTitle {
+  color: #000;
+  background-color: transparent;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  font-weight: normal;
+  margin: 20px 0px 10px 0px;
+}
+
+.esriCTTable th {
+  background-color: #c6d9ec;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+.esriCTHTMLData {
+  height: 103px;
+}
+
+.esrCTAOIInfoDiv {
+  position: absolute;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.esriAOITitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  width: 60%;
+}
+
+.esriCTAOIArea {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.esriCTUnableToAnalyzeText {
+  margin: 10px;
+  font-style: italic;
+}
+
+.esriCTPrintLocaleDateDiv {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.esriCTLocaleDateInputTitle {
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 0px;
+}
+
+
+/* As Screening report has html element for AOI info,
+reduce the width of the img so that it will fit in first page*/
+
+.esriCTReportMapImg {
+  max-width: 85%;
+  margin: 0;
+}
+
+.esriCTReportLandscapeMapImg {
+  max-width: 75%;
+}

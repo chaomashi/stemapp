@@ -1,0 +1,62 @@
+﻿<div style="width: 100%; height: 100%;">
+    <div class="public-search-radios esriCTSearchRadio" data-dojo-attach-point="routeSearch">
+        <input data-dojo-attach-point="organizationRadio" checked type="radio" name="routeSearchRadio"
+            class="esriCTFloatLeading portal-public-radio routeSearchRadio jimu-radio-btn" id="org_Radio">
+        <label data-dojo-attach-point="organizationLabel" class="esriCTFloatLeading portal-public-label"
+            for="org_Radio" style="cursor: pointer;">
+            ${nls.networkServiceChooser.arcgislabel}</label>
+        <input data-dojo-attach-point="inputRouteURLRadio" type="radio" name="routeSearchRadio"
+            class="esriCTFloatLeading online-public-radio routeSearchRadio jimu-radio-btn" id="route_URL_Radio">
+        <label data-dojo-attach-point="inputRouteURLLabel" class="esriCTFloatLeading online-public-label"
+            for="route_URL_Radio" style="cursor: pointer;">
+            ${nls.networkServiceChooser.serviceURLabel}</label>
+    </div>
+    <div data-dojo-attach-point="itemSelectDiv" class="esriCTItemSelectDiv">
+    </div>
+    <div data-dojo-attach-point="serviceUrlDiv" class="esriCTServiceUrlDiv esriCTHidden">
+        <div class="serviceUrlContainer row">
+            <div class="esriCTServiceLable" title="${nls.networkServiceChooser.routeURL}">
+                ${nls.networkServiceChooser.routeURL}
+            </div>
+            <div class="esriCTServiceField">
+                <div class="esriCTSetServiceURL" data-dojo-type="dijit/form/ValidationTextBox" trim="true" required="true"
+                    data-dojo-attach-point="serviceURL">
+                </div>
+                <div class="jimu-btn jimu-float-trailing jimu-leading-margin1 urlButton esriCTBtnEllipsis jimu-state-disabled"
+                    title="${nls.networkServiceChooser.validateRouteURL}" data-dojo-attach-point="validateRouteURL">
+                    ${nls.networkServiceChooser.validateRouteURL}</div>
+            </div>
+        </div>
+        <div class="esriCTExampleUrl row">
+            <div class="esriCTServiceLable" title=" ${nls.networkServiceChooser.exampleText}">
+                ${nls.networkServiceChooser.exampleText}
+            </div>
+            <div class="esriCTServiceField">
+                <div class="esriCTHint esriCTNetworkChooserHint">
+                    <div class="esriCTExampleUrl">
+                        ${nls.networkServiceChooser.hintRouteURL1}</div>
+                    <div class="esriCTExampleUrl">
+                        ${nls.networkServiceChooser.hintRouteURL2}</div>
+                </div>
+            </div>
+        </div>
+        <div data-dojo-attach-point="routeLayerList" class="esriCTRouteListDiv">
+        </div>
+    </div>
+    <div data-dojo-attach-point="agolRouteLayerList" class="esriCTAgolRouteListDiv esriCTHidden">
+    </div>
+    <div data-dojo-attach-point="buttonsDiv" class="buttonsDiv">
+        <div class="button-container button-container-absolute" style="padding: 0px;">
+            <div class="jimu-btn jimu-float-trailing jimu-leading-margin1" data-dojo-attach-point="cancelButton">
+                ${nls.common.cancel}</div>
+            <div class="jimu-btn jimu-float-trailing jimu-leading-margin1 jimu-state-disabled"
+                data-dojo-attach-point="okButton">
+                ${nls.common.ok}</div>
+            <div class="jimu-btn jimu-float-trailing next jimu-state-disabled" data-dojo-attach-point="btnNext">
+                ${nls.common.next}</div>
+            <div class="jimu-btn jimu-float-trailing back esriCTHidden" data-dojo-attach-point="btnBack"
+                data-dojo-attach-event="onclick:_onBtnBackClicked">
+                ${nls.common.back}</div>
+        </div>
+    </div>
+</div>

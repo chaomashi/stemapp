@@ -1,0 +1,16 @@
+{
+  "name": "GeoLookup",
+  "label": "Geo Lookup",
+  "platform": "HTML",
+  "version": "2.8",
+  "wabVersion": "2.8",
+  "author": "ESRI",
+  "description": "A Web Application Builder Widget allowing for custom lookup of a local .csv file from defined polygon feature services.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "supportMultiInstance": false,
+    "keepConfigAfterMapSwitched": false,
+    "hasVersionManager": true
+  }
+}

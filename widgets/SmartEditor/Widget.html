@@ -1,0 +1,42 @@
+<div style="width:100%; height:100%; min-width:280px;min-width:240px;">
+    <!--<div class="widgetActive widgetIndicator" id="widgetActiveIndicator" data-dojo-attach-point="widgetActiveIndicator"></div>-->
+    <div class="templatePickerMainDiv">
+
+        <div id="templatePickerDiv" class="templatePickerDiv" data-dojo-attach-point="templatePickerDiv">
+            <div data-dojo-attach-point="templateTitle">
+
+            </div>
+            <div class="spacer"></div>
+        </div>
+        <div class="drawingOptionsDiv">
+            <div data-dojo-attach-point="drawingOptionsDiv">
+            </div>
+        </div>
+        <br />
+
+        <div class="autoSaveOptionDiv">
+            <div>
+                <input id="autoSaveSwitch" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="change:_toggleRunTimeAutoSave" checked="true"
+                />
+                <label id="lblAutoSave" for="autoSaveSwitch">${nls.autoSaveEdits}</label>
+            </div>
+        </div>
+        <div id="presetFieldsTableDiv" class="presetFieldsTableDiv" data-dojo-attach-point="presetFieldsTableDiv">
+            <div class=" spacer"></div>
+            <div>
+                <input id="savePresetValueSwitch" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-event="change:_setPresetValue" />
+                <label for="savePresetValueSwitch">${nls.usePresetValues}</label>
+            </div>
+            <div class="spacer"></div>
+            <div class="presetFieldsTable" data-dojo-attach-point="presetFieldsTableNode"></div>
+            <div class="spacer"></div>
+        </div>
+
+    </div>
+    <div class="attributeInspectorMainDiv" style="display:none">
+        <div data-dojo-attach-point="mainContainer" style="max-height : calc(100% - 30px); overflow:auto"></div>
+        <div class="footerButton">
+            <div data-dojo-attach-point="cancelButton" class="cancelButton jimu-btn">${nls.back}</div>
+        </div>
+        <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+    </div>

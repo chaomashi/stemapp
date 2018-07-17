@@ -1,0 +1,910 @@
+@import url('../../css/ChartLayout.css');
+/*-----------------------Common Styles-------------------------*/
+.jimu-widget-RelatedTableCharts-setting .esriCTHint
+{
+    margin: 5px 5px 10px 0;
+    float: left;
+    font-size: 12px;
+    color: #a0acbf;
+    font-style: oblique;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTHintInline
+{
+    line-height: 24px;
+}
+
+.esriCTHidden
+{
+    display: none;
+}
+
+.esriCTFullHeight
+{
+    height: 100%;
+}
+
+/*-----------------------End Common Styles-------------------------*/
+
+/*-----------------------Styles for setting-----------------------*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTListContainer
+{
+    width: 270px;
+    height: 100%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTHover
+{
+    cursor: pointer;
+}
+
+
+.jimu-widget-RelatedTableCharts-setting .esriCTListContent
+{
+    height: calc(100% - 70px);
+    width: 100%;
+    top: 10px;
+    bottom: 5px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingsContainer
+{
+    overflow: auto;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTViewLayoutButton {
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartSettingsContainer
+{
+    width: calc( 100% - 300px);
+    float: right;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLayoutContainer
+{
+    height: calc(100% - 40px);
+    width: 100%;
+    overflow: auto;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartTabNode
+{
+    margin-top: 20px;
+    height:92%;
+    /* height: calc(100% - 20px); */
+}
+
+.jimu-widget-RelatedTableCharts-setting .jimu-viewstack
+{
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+/*-----------------------End styles for setting-----------------------*/
+
+
+/*-----------------------Styles for chart setting-----------------------*/
+.jimu-widget-RelatedTableCharts-setting .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell
+{
+    cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartSettingsNode
+{
+    height: calc(100% - 40px);
+    width: 100%;
+    overflow: auto;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTmainContainer
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartColorMargin
+{
+    margin: 0px 0px 10px 0px;
+    clear: both;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSingleColorContainer
+{
+    margin-bottom: 3px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartColorWidth
+{
+    width: 227px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartColorHeight
+{
+    height: 30px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartTitleInput
+{
+    width: 62%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTColorPicker
+{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTCursorPointer
+{
+    cursor: pointer;
+}
+
+.dijitRadio input, .jimu-widget-RelatedTableCharts-setting .esriCTCursorPointer
+{
+    cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartTypeEllipsis
+{
+    min-width: 80px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1px;
+    color: #7989a0;
+    font-size: 14px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartColorEllipsis
+{
+    min-width: 140px;
+    width: 140px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1px;
+    color: #7989a0;
+    font-size: 14px;
+}
+
+  .jimu-widget-RelatedTableCharts-setting .esriCTChartTitleDivContainer{
+    overflow: hidden;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartSettingLabel
+{
+    float: left;
+    padding: 5px 10px 5px 0px;
+    width: 18%;
+    min-width: 18%;
+    font-size: 14px;
+    color: #596679;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartDescriptionLabel{
+    width:100%;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartDescription
+{
+    width: 100%;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTFieldInput
+{
+    width: 77%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLeftAlign
+{
+    float: left;
+    padding-top: 5px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTControlWidth
+{
+    width: 100%;
+}
+
+.jimu-widget-RelatedTableCharts-setting .fieldColorPicker
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTColorByFieldContainer
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTChartTypeDiv
+{
+    float: left;
+    width: 70%;
+    margin-left: 25%;
+    max-height: 230px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTColorByFieldContainer .jimu-simple-table
+{
+    max-height: 230px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTPolarChartSection .jimu-simple-table
+{
+    max-height: 230px;
+    width: 95%;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTMarginRight
+{
+    float: left;
+    margin-right: 40px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTCheckBox
+{
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+/* Start for the RTF */
+.jimu-widget-RelatedTableCharts-setting .dijitInline
+{
+    margin-top: 2px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .editorDescriptionContainer
+{
+    width: 95%;
+}
+
+.jimu-widget-RelatedTableCharts-setting .editor-container .dijitFontNameCombo
+{
+    margin-left: 19px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .editor-container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.jimu-widget-RelatedTableCharts-setting .jimu-image-chooser
+{
+    right: inherit !important;
+}
+.jimu-widget-RelatedTableCharts-setting .editor-container .uploaderInsideNode embed
+{
+    display: none;
+}
+/* End for the RTF */
+
+/*Start Field Selector*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTFieldSelectorDiv
+{
+    margin-left: 10px;
+    margin-top: 6px;
+    float: left;
+}
+
+/*End Field Selector*/
+
+
+/*CSS Chart Theme Selector*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeSelectorDiv
+{
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeChart
+{
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeItem
+{
+    padding: 2px 2px 8px 10px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeItem:hover
+{
+    background-color: #edf2f5;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeName
+{
+    float: left;
+    line-height: 24px;
+    white-space: nowrap;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+    color: #7989a0;
+}
+
+div.chart
+{
+    width: 24px;
+    height: 24px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTThemeChooserList
+{
+    position: absolute;
+    top: 30px;
+    overflow: auto;
+    max-height: 186px;
+    background-color: #FFFFFF;
+    border: 1px solid #aaaaaa;
+    width: 232px;
+    z-index: 1;
+    background-color: #fafafc;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTselectedItemNode
+{
+    height: 30px;
+    line-height: 36px;
+    width: 100%;
+    border: solid 1px #d2dae2;
+    cursor: pointer;
+    background-color: #fafafc;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropSelect
+{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropSelect .jimu-icon-down-arrow-8
+{
+    position: relative;
+    left: 9px;
+    top: 1px;
+}
+
+/*End Chart Theme Selector*/
+
+
+.jimu-widget-RelatedTableCharts-setting .esriCTFieldRow
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*-----------------------End styles for chart setting-----------------------*/
+
+/*-----------------------Styles for layer chooser-----------------------*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLabelContainer
+{
+    width: 45%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTlabel
+{
+    width: 45%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    padding-left: 0px;
+    min-width: 330px;
+    color: #596679;
+}
+
+.jimu-widget-RelatedTableCharts-setting .row
+{
+    clear: both;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLayerField
+{
+    width: 53%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLayerSelectorDiv
+{
+    height: 135px;
+    overflow-y: auto;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLayerChooserContainer
+{
+    width: 99%;
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+/*override layerchooser style to fix text overflow if layer name is to large*/
+.jimu-widget-RelatedTableCharts-setting .jimu-layer-chooser-from-map-withdropbox .layer-name
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 18px 0px 9px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .dijitValidationTextBoxLabel
+{
+    max-width: 232px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+
+/*-----------------------End Styles for layer chooser-----------------------*/
+/*-----------------------Styles for General Setting-----------------------*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingFieldset
+{
+    width: 99%;
+    top: 10px;
+    height: 100%;
+    border: 1px solid #D2DAE2;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingLegend
+{
+    margin-left: 10px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingComponentsDiv
+{
+    height: 100%;
+    margin: 4px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGraphicLocationSymbolMainDiv, .jimu-widget-RelatedTableCharts-setting .esriCTRefreshIntervalMainDiv, .jimu-widget-RelatedTableCharts-setting .esriCTShowLocationMainDiv
+{
+    height: 40%;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLocationSymbolLabelMainDiv, .jimu-widget-RelatedTableCharts-setting .esriCTRefreshIntervalLabelMainDiv, .jimu-widget-RelatedTableCharts-setting .esriCTShowLocationLabelMainDiv
+{
+    float: left;
+    width: 40%;
+    margin: 25px 0px 10px 10px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLocationSymbolIconDiv, .jimu-widget-RelatedTableCharts-setting .esriCTRefreshIntervalTxtBxDiv, .jimu-widget-RelatedTableCharts-setting .esriCTShowLocationChkBxDiv
+{
+    float: right;
+    width: 40%;
+    margin: 35px 10px 10px 0px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLocationSymbolIcon
+{
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting table
+{
+    border-spacing: 0;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingLabel
+{
+    color: #596679;
+}
+
+/*----------------styles for symbol chooser node-----------------------*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSymbolChooserNode
+{
+    text-align: center;
+    cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSymbolPreviewText
+{
+    padding-right: 5px;
+    word-break: break-all;
+    width: 59px;
+    height: 100%;
+    color: #7989a0;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSymbolChooserContainer
+{
+    height: calc(100% - 50px);
+    overflow: auto;
+}
+/*----------------End of styles for symbol chooser node-----------------------*/
+
+/*-----------------------End Styles for General Setting-----------------------*/
+
+/*------------------------Search Source-----------------------------------------*/
+
+.jimu-widget-RelatedTableCharts-setting .esriCTURLSetButton 
+{
+    line-height: 30px;
+    margin: 0 0 0 10px;
+    float: right;
+    max-width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropdownButton
+{
+  margin: 8px 0;
+  display: inline-block;
+  position: relative;
+  padding-left: 16px;
+  color: #518dca;
+  background: url(../images/add_icon.png) no-repeat left;
+  cursor: pointer;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropdownButton .esriCTDropdownMenu
+{
+  position: absolute;
+  display: none;
+  list-style-type: none;
+  top: 18px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #7989a0;
+  z-index: 999;
+}
+
+.jimu-rtl .jimu-widget-RelatedTableCharts-setting .esriCTDropdownButton .esriCTDropdownMenu
+{
+  right: 0;
+  left: auto;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropdownButton:hover .esriCTDropdownMenu
+{
+  display: inline-block;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropdownMenu .esriCTDropdownItem
+{
+  white-space: nowrap;
+  height: 30px;
+  padding: 0 25px;
+  line-height: 30px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTDropdownMenu .esriCTDropdownItem:hover
+{
+  background: #edf2f5;
+  color: #15a4fa;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSources
+{
+  height: 366px;
+}
+.jimu-widget-RelatedTableCharts-setting .esriCTSourcesExtraHeight
+{
+  height: 516px !important;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSourceList
+{
+  width: 270px;
+  height: 100%;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSourceSetting
+{
+  width: 660px;
+  position: relative;
+}
+
+.jimu-widget-RelatedTableCharts-setting .source-table,
+.jimu-widget-RelatedTableCharts-setting .general-setting-table
+{
+  width: 100%;
+}
+
+.jimu-widget-RelatedTableCharts-setting  .jimu-simple-table .simple-table-field, .jimu-simple-table .simple-table-cell
+{
+    cursor: pointer;
+}
+.jimu-widget-RelatedTableCharts-setting .esriCTSearchSourceLayerField
+{
+    width: 70%;
+}
+.jimu-widget-RelatedTableCharts-setting .esriCTSearchSourceLabel
+{
+    width: 25%;
+    min-width: 182px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLocalSearchLabel
+{
+    margin-left: 22px;
+    width: 24%;
+    min-width: 146px;
+}
+.jimu-widget-RelatedTableCharts-setting .esriCTLocalSearchRadiusUnit
+{
+    line-height: 30px;
+    float: right;
+}
+
+ .jimu-widget-RelatedTableCharts-setting .esriCTSearchSourceLabelFont
+ {
+    font-size: 14px;
+    color: #596679;
+ }
+
+.jimu-widget-RelatedTableCharts-setting .esriCTLayerSource
+{
+    width: 80% !important;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTsearchFieldsSelector
+{
+  display: inline-block;
+  margin: 6px 0;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: url(../images/selector.png) no-repeat center;
+
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSearchSourceURLField
+{
+    width: 76%;
+    float: left;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSearchSourceLayer
+{
+    width: 84% !important;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTURLWidthLabel
+{
+    width: 145px;
+    min-width: 145px;
+    font-size: 14px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTSearchDetailsSection
+{
+    width: 175px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTGeneralSettingLabelStyle
+{
+    font-weight: bold;
+}
+
+.jimu-widget-RelatedTableCharts-query-source-setting .esriCTSearchSourceFieldCheckbox
+{
+    width: 167px;
+    margin-bottom: 20px;
+    color: #596679;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.jimu-widget-RelatedTableCharts-query-source-setting .esriCTSearchSourceFieldCheckbox .label
+{
+    width: 140px;
+}
+
+.jimu-widget-RelatedTableCharts-setting .esriCTErrorMessage
+{
+    color: #e84b4b;
+}
+
+/*------------------------Search Source-----------------------------------------*/
+
+
+
+/* claro CSS overridden for font style of input fields */
+
+.claro .dijitTextBox .dijitInputInner, .claro .dijitTextBox, .claro .dijitSelect, .claro .dijitSelect .dijitInputField, .claro .dijitInputContainer
+{
+    color: #7989a0;
+    background-color: #fafafc;
+    font-size: 14px;
+    border-color: #d2dae2;
+}
+
+.claro .dijitMenuItem
+{
+    color: #7989a0;
+}
+/* claro CSS overridden for font style of input fields */
+
+/* new CSS overridden for input fields */
+.jimu-widget-RelatedTableCharts-setting .esriCTChartChartTypeDiv
+{
+    margin-bottom: 6px !important;
+}
+/* new CSS overridden for input fields */
+
+/* claro CSS overriden for select dropdown*/
+
+.claro .dijitSelect .dijitArrowButton
+{
+    background-color: #fafafc;
+    background-image: none;
+    border-color: #fafafc;
+}
+
+.jimu-widget-RelatedTableCharts-setting .dijitSelect .dijitButtonContents
+{
+    border-style: none none none none;
+    background-color: #fafafc;
+}
+
+.claro .dijitSelect .dijitInputField
+{
+    margin-right: 8px;
+}
+/* claro CSS override for select dropdown */
+
+/* CSS override for RTL*/
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTDropSelect .jimu-icon-down-arrow-8
+{
+    right: 9px;
+}
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTThemeChart
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTThemeItem
+{
+    padding: 2px 10px 8px 2px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTThemeName
+{
+    float: right;
+    margin-right: 10px;
+}
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTColorPicker
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTThemeSelectorDiv
+{
+    float: right;
+}
+
+.esriRtl .claro .dijitSelect .dijitInputField
+{
+    margin-left: 8px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTHint
+{
+    margin: 5px 0px 10px 5px;
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTChartSettingsContainer
+{
+    float:left;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTListContainer
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTChartSettingLabel
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTFieldInput
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTMarginRight
+{
+    float: right;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTLeftAlign
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTlabel
+{
+    float: right;
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTLayerField
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTLayerChooserContainer
+{
+    float: none;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTLocationSymbolLabelMainDiv, .esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTRefreshIntervalLabelMainDiv, .esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTShowLocationLabelMainDiv
+{
+    float: right;
+    margin: 25px 10px 10px 0px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTGraphicLocationSymbolMainDiv, .esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTRefreshIntervalMainDiv, .esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTShowLocationMainDiv
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTLocationSymbolIcon
+{
+    float: right;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTCheckBox
+{
+    float: right;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTChartTypeDiv
+{
+    float: right;
+    margin-right: 25%;
+    margin-left: 0px;
+}
+
+.esriRtl .jimu-widget-RelatedTableCharts-setting .esriCTViewLayoutButton 
+{
+    float: right;
+}
+/* End CSS override for RTL*/

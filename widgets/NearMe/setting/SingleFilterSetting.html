@@ -1,0 +1,37 @@
+<div>
+	<table>
+		<colgroup>
+			<col width="100"></col>
+			<col width="auto"></col>
+		</colgroup>
+		<tbody>
+			<tr class="esriCTFilterLabel">
+				<td>${jimuNls.common.layer}</td>
+				<td data-dojo-attach-point="layerTd"></td>
+			</tr>
+			<tr class="esriCTFilterLabel">
+				<td>${jimuNls.common.title}</td>
+				<td>
+					<div data-dojo-attach-point="nameTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-event="change:_onNameTextBoxChanged" data-dojo-props='required:true,trim:true' style="width:100%;"></div>
+				</td>
+			</tr>
+			<tr class="esriCTFilterLabel">
+				<td>${jimuNls.common.icon}</td>
+				<td>
+					<div class="click-picker" data-dojo-attach-event="click:_onImageChooserDivClicked">
+						<div data-dojo-type="jimu/dijit/ImageChooser" data-dojo-attach-point="imageChooser" data-dojo-props="cropImage:true,showSelfImg:true,goldenWidth:16,goldenHeight:16,format:['image/gif','image/png','image/jpeg']" class="jimu-float-leading" style="width:16px;height:16px;"></div>
+						<div class="separator jimu-float-leading"></div>
+						<div class="jimu-icon jimu-icon-down-arrow-8 jimu-float-leading"></div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" data-dojo-attach-point="tdUseMapFilter"></td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="margin-top:10px;" >
+		<div class="esriCTFilterLabel">${nls.filterSetting.filterExpression}</div>
+		<div data-dojo-attach-point="filterDiv" class="filter-div"></div>
+	</div>
+</div>

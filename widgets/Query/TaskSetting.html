@@ -1,0 +1,37 @@
+<div>
+  <table class="top">
+    <tr>
+      <td class="first-td">
+        <div class="back-arrow" data-dojo-attach-event="onclick:_onBtnParamsBackClicked"></div>
+      </td>
+      <td class="second-td">
+        <div class="task-name jimu-ellipsis" data-dojo-attach-point="taskNameDiv"></div>
+      </td>
+      <td class="third-td"></td>
+    </tr>
+  </table>
+  <div class="params-container" data-dojo-attach-point="paramsContainer">
+    <div class="not-visible" data-dojo-attach-point="noFilterTip">${nls.noAttributeSpatialFilterTip}</div>
+    <div class="attributes-section" data-dojo-attach-point="attributesSectionDiv">
+      <div class="first-stress attribute-filter-label">${nls.queryCriteira}</div>
+      <div class="sql-div jimu-widget-note" data-dojo-attach-point="sqlDiv"></div>
+    </div>
+    <div class="spatial-section" data-dojo-attach-point="spatialSectionDiv">
+      <div class="spearator not-visible" data-dojo-attach-point="spatialSpearator"></div>
+      <div class="first-stress spatial-filter-label">${nls.spatialFilter}</div>
+      <div class="spatial-filter-tip" data-dojo-attach-point="spatialFilterTip"></div>
+      <select data-dojo-type="dijit/form/Select" data-dojo-attach-point="spatialTypeSelect" data-dojo-attach-event="change:_onSpatialTypeSelectChanged" class="restrict-select-width" style="width:100%;box-sizing:border-box;"></select>
+      <div class="spatial-filter-content" data-dojo-attach-point="spatialFilterContent">
+        <div class="drawing-section" data-dojo-attach-point="drawingSection"></div>
+        <div class="features-section" data-dojo-attach-point="featuresSection">
+          <div class="relationship-section">
+            <div class="second-stress relationship-tip">${nls.spatialRelationship}</div>
+            <select data-dojo-attach-point="relationshipSelect" data-dojo-type="dijit/form/Select" class="restrict-select-width relationship-select" style="width:100%;box-sizing:border-box;"></select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jimu-btn btn-execute" data-dojo-attach-point="btnExecute" data-dojo-attach-event="onclick:_onBtnApplyClicked">${nls.apply}</div>
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

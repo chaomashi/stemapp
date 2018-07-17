@@ -1,0 +1,31 @@
+<div class="layout">
+  <div class="title">${nls.displayBookmarksAs}</div>
+
+  <div class="content verticalCenter">
+    <div type="checkbox" checked="false" class="checkbox"
+      data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="layoutCards_checkBox"></div>
+    <div class="label verticalCenter" data-dojo-attach-point="layoutCards" title="${nls.cardsTips}">
+      <div class="layout-btns">
+        <div class="cards"></div>
+      </div>
+      ${nls.cards}
+      <div data-dojo-attach-point="cardsDefaultSetting" class="default-setting transparent">
+        <div data-dojo-attach-point="cards_makeAsDefault" class="set-default hide" title="${nls.makeAsDefault}">${nls.makeAsDefault}</div>
+        <div data-dojo-attach-point="cards_default" class="default hide" title="${nls.default}">${nls.default}</div>
+      </div>
+    </div>
+
+    <div type="checkbox" checked="false" class="checkbox"
+      data-dojo-type="jimu/dijit/CheckBox" data-dojo-attach-point="layoutList_checkBox"></div>
+    <div class="label verticalCenter" data-dojo-attach-point="layoutList" title="${nls.listTips}">
+      <div class="layout-btns">
+        <div class="list"></div>
+      </div>
+      ${nls.list}
+      <div data-dojo-attach-point="listDefaultSetting" class="default-setting transparent">
+        <div data-dojo-attach-point="list_makeAsDefault" class="set-default hide" title="${nls.makeAsDefault}">${nls.makeAsDefault}</div>
+        <div data-dojo-attach-point="list_default" class="default hide" title="${nls.default}">${nls.default}</div>
+      </div>
+    </div>
+  </div>
+</div>

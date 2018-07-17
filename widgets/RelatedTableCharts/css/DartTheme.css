@@ -1,0 +1,38 @@
+﻿
+.jimu-widget-RelatedTableCharts .esriCTAccordionContainer *
+{
+    color: #000000 !important;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu
+{
+    color: #c8c8c8 !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu li:hover, .jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu li:focus
+{
+    background-color: #686868 !important;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu li.active
+{
+    background-color: #d9dde0 !important;
+    color: #000000 !important;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu li
+{
+    padding: 0 12px;
+    line-height: 25px;
+}
+
+.jimu-widget-RelatedTableCharts .arcgisSearch .searchMenu .menuHeader
+{
+    background-color: #d9dde0 !important;
+    color: #686868 !important;
+}
+
+.jimu-widget-RelatedTableCharts .esriCTResultsPanel {
+    border-top: 1px solid #ffffff;
+}

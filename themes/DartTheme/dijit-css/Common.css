@@ -1,0 +1,137 @@
+/* Text Inputs: [TextBox | DateTextBox | CurrencyTextBox | ValidationTextBox | ...] | TextArea
+ * Mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitTextBox
+ * 		.dijitInputField - container that wraps "dijitInputInner" or "dijitPlaceHolder"
+ *
+ * 2. Textbox input
+ * 		.dijitInputInner
+ * 		.dijitPlaceHolder
+ *
+ * 3. States - Hover, Focused, Disabled, Error, Error while Focused e.g.
+ * 		.dijitTextBoxHover
+ * 		.dijitTextBoxFocused
+ * 		.dijitTextBoxDisabled
+ *      .dijitTextBoxError
+ *      .dijitTextBoxErrorFocused
+ *
+*/
+/***********************
+ * Text Inputs 
+ ***********************/
+.claro .dijitTextBox,
+.claro .dijitInputInner {
+  color: #f8f8f8;
+  line-height: 20px;
+}
+.claro .dijitTextBox {
+  background-color: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.5) !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  -o-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  -ms-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.claro .dijitTextArea {
+  padding: 2px 8px 4px;
+}
+.claro .dijitTextBox .dijitInputField {
+  padding: 2px 8px;
+  margin: 0;
+}
+.claro .dijitSelect.btn-primary,
+.claro .dijitComboBox.btn-primary,
+.claro .dijitSpinner.btn-primary {
+  border-color: #007ac2;
+}
+.claro .dijitSelect.btn-success,
+.claro .dijitComboBox.btn-success,
+.claro .dijitSpinner.btn-success {
+  border-color: #35ac46;
+}
+.claro .dijitSelect.btn-info,
+.claro .dijitComboBox.btn-info,
+.claro .dijitSpinner.btn-info {
+  border-color: #00b9f2;
+}
+.claro .dijitSelect.btn-warning,
+.claro .dijitComboBox.btn-warning,
+.claro .dijitSpinner.btn-warning {
+  border-color: #f89927;
+}
+.claro .dijitSelect.btn-danger,
+.claro .dijitComboBox.btn-danger,
+.claro .dijitSpinner.btn-danger {
+  border-color: #da4d1e;
+}
+.claro .dijitSelect.btn-inverse,
+.claro .dijitComboBox.btn-inverse,
+.claro .dijitSpinner.btn-inverse {
+  border-color: #2b2e34;
+}
+.claro .dijitTextBox .dijitInputInner,
+.claro .dijitValidationTextBox .dijitValidationContainer,
+.claro .dijitTextBox .dijitInputField .dijitPlaceHolder {
+  padding: 2px 8px;
+  background-color: transparent;
+  border: none;
+}
+.claro .dijitTextBoxHover {
+  border: 1px solid rgba(255,255,255,0.75) !important;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  -ms-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+.claro .dijitTextBoxFocused {
+  background-color: rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.75) !important;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15) inset;
+  -webkit-transition-duration: 0.1s;
+  -moz-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  -ms-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+.claro .dijitTextBoxFocused .dijitInputContainer {
+  background-color: transparent;
+  border: none !important;
+}
+.claro .dijitTextBoxDisabled {
+  background: #f5f5f5;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.65;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+}
+.claro .dijitTextBoxError,
+.claro .dijitTextBoxError .dijitButtonNode {
+  border: 1px solid #da4d1e;
+}
+.claro .dijitTextBoxErrorFocused,
+.claro .dijitTextBoxErrorFocused .dijitButtonNode {
+  border: 1px solid #b94119;
+}
+.claro .dijitValidationTextBoxError .dijitValidationContainer {
+  color: #c6542d;
+  width: 24px;
+  height: 24px;
+  background-image: url("icons/warning.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.claro .dijitValidationTextBoxError .dijitValidationIcon {
+  display: none;
+}
+.dj_gecko .dijitInputInner {
+  height: 20px;
+}

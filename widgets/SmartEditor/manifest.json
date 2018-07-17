@@ -1,0 +1,19 @@
+{
+    "name": "SmartEditor",
+    "platform": "HTML",
+    "version": "2.8",
+    "version": "2.8",
+    "author": "Esri, Inc.",
+    "description": "Widget designed to improve editing by providing data validation and ability to set values and apply them to each edit.",
+    "copyright": "Esri, Inc.",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0",
+    "properties": {
+        "keepConfigAfterMapSwitched": false,
+        "supportMultiInstance": false,
+        "hasVersionManager": true
+    },
+    "featureActions": [{
+    "name": "SmartEditor",
+    "uri": "SmartEditorFeatureAction"
+  }]
+}

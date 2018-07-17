@@ -1,0 +1,43 @@
+.jimu-widget-InfoSummary .rec,
+.jimu-widget-InfoSummary .legendOn {
+  background: #222;
+  color: #FFF;
+}
+
+.jimu-widget-InfoSummary .lightThemeColor {
+  color: #FFF;
+}
+
+.jimu-widget-InfoSummary .active {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.jimu-widget-InfoSummary .recIcon {
+  border: 3px solid rgba(255,255,255,1);
+}
+
+.jimu-widget-InfoSummary .featureItem:hover {
+  background-color: #333;
+}
+
+.jimu-widget-InfoSummary .expand {
+  background-color: #666;
+}
+
+.jimu-widget-InfoSummary .expandUp {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.jimu-widget-InfoSummary .expandDown {
+  border-bottom: 1px solid #ccc;
+}
+
+.jimu-widget-InfoSummary .rec:hover .expandUp {
+  background-color: #666;
+}
+
+.jimu-widget-InfoSummary .rec:hover .expandDown {
+  background-color: #666;
+}

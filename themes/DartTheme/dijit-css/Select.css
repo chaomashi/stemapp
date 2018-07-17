@@ -1,0 +1,165 @@
+/* Select | Combobox
+ * And minor style for DateTextBox | MultiSelect
+ *
+ * Styling Select mainly includes:
+ *
+ * 1. Containers
+ *	Select:
+ * 		.dijitSelect
+ * 		.dijitButtonContents
+ *	Combobox:
+ *		.dijitComboBox
+ *
+ * 2. Arrow Button
+ * 		.dijitArrowButton
+ * 		.dijitArrowButtonInner
+ *		.dijitComboBox .dijitButtonNode
+ *
+ * 3. Menu
+ * 		.dijitSelectMenu
+ *
+ * 4. States - Hover, Active, Focused, Disabled, e.g.
+ *
+ *	Select: Hover, Active, Focused, Disabled
+ * 		.dijitSelectHover
+ * 		.dijitSelectFocused
+ * 		.dijitSelectDisabled
+ *
+ *	Combobox: Hover, Focused (Open), Disabled
+ *		.dijitComboBox .dijitDownArrowButtonHover
+ *		.dijitComboBoxOpenHover .dijitButtonNode
+ *		.dijitComboBoxDisabled .dijitButtonNode
+ *
+ */
+.claro .dijitSelect .dijitArrowButtonInner,
+.claro .dijitComboBox .dijitArrowButtonInner {
+  margin: 0;
+  width: 0;
+  height: 0;
+}
+.claro .dijitSelect {
+  background-color: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.5);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  table-layout: fixed;
+}
+.claro .dijitSelect .dijitButtonContents,
+.claro .dijitSelect .dijitArrowButton {
+  padding: 0;
+  border: 0;
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+.claro .dijitSelect .dijitButtonContents {
+  padding: 2px 8px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.claro .dijitSelect .dijitInputField {
+  line-height: 20px;
+  padding: 0;
+}
+.claro .dijitComboBox .dijitArrowButtonInner {
+    border: none;
+}
+.claro .dijitSelect .dijitArrowButton {
+  width: 24px;
+  background: #4c4c4c;
+  background-image: url("icons/Icon_Dropdown_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-left: 1px solid #7f8183;
+}
+.claro .dijitSelectFocused {
+  border: 1px solid #7f8183;
+}
+.claro .dijitSelectDisabled {
+  cursor: default;
+  opacity: 0.65;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+}
+.claro .dijitComboBox .dijitButtonNode {
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  line-height: 20px;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  cursor: pointer;
+  border-color: #d0d0d0;
+  background: #f5f5f5;
+  /*background: -webkit-linear-gradient(#f5f5f5, #f5f5f5);
+  background: -moz-linear-gradient(#f5f5f5, #f5f5f5);
+  background: -o-linear-gradient(#f5f5f5, #f5f5f5);
+  background: -ms-linear-gradient(#f5f5f5, #f5f5f5);
+  background: linear-gradient(#f5f5f5, #f5f5f5);*/
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  background-image: url("icons/Icon_Dropdown_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.claro .dijitComboBoxOpenHover .dijitButtonNode,
+.claro .dijitComboBox .dijitDownArrowButtonHover {
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+  background-color: #e1e1e1;
+  /*background: -webkit-linear-gradient(#f6f6f6, #e1e1e1);
+  background: -moz-linear-gradient(#f6f6f6, #e1e1e1);
+  background: -o-linear-gradient(#f6f6f6, #e1e1e1);
+  background: -ms-linear-gradient(#f6f6f6, #e1e1e1);
+  background: linear-gradient(#f6f6f6, #e1e1e1);*/
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.claro .dijitComboBoxDisabled .dijitButtonNode {
+  cursor: default;
+  opacity: 0.65;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+}
+.claro .dijitToolbar .dijitComboBox .dijitArrowButtonInner {
+  border: none;
+}
+.claro .dijitDateTextBox .dijitArrowButton:before {
+  content: "\f073";
+}
+.claro select {
+  padding: 2px 8px 0;
+  border: 1px solid #7f8183;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.claro select option {
+  padding: 2px 8px 4px;
+}
+.claro .dijitSelectMenu td.dijitMenuItemIconCell,
+.claro .dijitSelectMenu td.dijitMenuArrowCell {
+/* so that arrow and icon cells from MenuItem are not displayed */
+  display: none;
+}
+
+.claro .dojoxCheckedMultiSelectFocused .dojoxCheckedMultiSelectWrapper {
+  border: 1px solid #b5bcc7;
+}
+
+.claro .dojoxCheckedMultiSelect .dojoxCheckedMultiSelectWrapper {
+  background-color: #222;
+}
+
+.claro .dojoxCheckedMultiSelectHover .dojoxCheckedMultiSelectWrapper {
+  background-color: #666;
+}

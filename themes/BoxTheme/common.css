@@ -1,0 +1,141 @@
+@import url("fonts/helvetica_neue/style.css");
+@import url("fonts/liberation_sans/style.css");
+@import url("panels/BoxPanel/style.css");
+body,
+html {
+  font-family: 'HelveticaNeue';
+  font-weight: normal;
+}
+
+strong {
+  font-family: 'HelveticaNeue';
+}
+/* Esri Jvascript API*/
+
+.esriControlsBR {
+  bottom: 10px;
+  left: 10px;
+  right: auto;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
+.jimu-rtl .esriControlsBR {
+  bottom: 10px;
+  right: 10px;
+  left: auto;
+  width: auto;
+  height: auto;
+  text-align: right;
+}
+
+.jimu-rtl .esriAttribution {
+  position: absolute;
+  margin: 0 5px 0;
+  text-align: right;
+  left: auto;
+  right: 0px;
+  bottom: 0;
+}
+
+.logo-med {
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+}
+
+.jimu-rtl .map .logo-med {
+  position: absolute;
+  right: 0px;
+  left: auto;
+  bottom: 15px;
+  float: none;
+}
+
+.jimu-widget-zoomslider {
+  width: 25px !important;
+  height: 51px !important;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 0px !important;
+}
+
+.jimu-widget-zoomslider .zoom {
+  width: 25px;
+  height: 25px;
+  border-radius: 0px !important;
+}
+
+.jimu-widget-zoomslider .zoom-in {
+  height: 26px;
+}
+.jimu-widget-zoomslider.vertical .zoom-in {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.jimu-widget-extent-navigate{
+  border-radius: 0 !important;
+}
+
+.jimu-widget-extent-navigate .operation{
+  width: 25px;
+  height: 25px;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 0 !important;
+}
+
+.jimu-widget-homebutton,
+.jimu-widget-mylocation,
+.jimu-widget-mylocation .place-holder,
+.HomeButton .home {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 0px !important;
+}
+
+.HomeButton .home,
+.place-holder {
+  background-color: transparent !important;
+}
+
+.jimu-widget-bookmark .add-section{
+  margin-top: 0 !important;
+}
+
+.jimu-widget-bookmark .jimu-state-error{
+  margin-top: 0 !important;
+}
+
+.jimu-widget-bookmark .play-section{
+  margin-top: 10px !important;
+}
+
+.bookmark-list.jimu-tile-container {
+  min-height: 80px !important;
+}
+
+.jimu-widget-bookmark .jimu-btn {
+  width: 100px !important;
+}
+
+.jimu-symbol-chooser {
+  width: 100% !important;
+}
+/* Media Specific - Mobile */
+
+@media only screen and (max-width: 500px) {
+  .jimu-widget-zoomslider {
+    display: none;
+  }
+  .jimu-widget-homebutton {
+    top: 10px !important;
+  }
+  .jimu-widget-mylocation {
+    top: 40px !important;
+  }
+  .jimu-widget-extent-navigate{
+    top: 74px !important;
+  }
+}

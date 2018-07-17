@@ -1,0 +1,8 @@
+.jimu-widget-geoprocessing .input-node>.input-label,
+.jimu-widget-geoprocessing .output-node>.output-label {
+  color: #FFF;
+}
+
+.jimu-widget-geoprocessing .jimu-gp-editor-selection {
+  background: #333;
+}

@@ -1,0 +1,92 @@
+<div>
+	<div class="groupContainer" data-dojo-attach-point="widgetIntro">
+		<div class="group-picker">
+			<table width="100%" cellspacing="0" cellpadding="0">
+				<tr>
+					<td class="groupHeader">${nls.labels.selectGroup}</td>
+					<td class="saveTD" data-dojo-attach-point="optionsIcon" id="saveTD" data-dojo-attach-event="click:toggleSaveFilter"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><div data-dojo-attach-point="groupPicker" id="groupPicker"></div></td>
+				</tr>
+				<tr>
+					<td colspan="2" id="groupDesc" data-dojo-attach-point="groupDesc"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="container" data-dojo-attach-point="filterBlock" id="filterBlock">
+		<div class="filter-block" data-dojo-attach-point="filterBlockInner" id="filterBlockInner">
+			<table id="tblPredicates" class="tableFormat" border=0 cellspacing="0" cellpadding="0"></table>
+		</div>
+	</div>
+
+	<div class="saveContainer" data-dojo-attach-point="saveBlock" id="saveBlock">
+		<div class="save-block" data-dojo-attach-point="saveBlockInner" id="saveBlockInner">
+			<table id="tblSave" class="tableFormat" border=0 cellspacing="0" cellpadding="0">
+				<tr class="rowHeader">
+					<td></td>
+					<td class="tdFirstLabel">${nls.labels.saveHeading}</td>
+					<td class="close-save" data-dojo-attach-event="click:toggleSaveFilter"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td class="tdData"><div class="jimu-btn saveFunction" data-dojo-attach-event="click:saveJsonToFile" >${nls.buttons.save}</div></td>
+					<td></td>
+				</tr>
+				<tr class="rowHeader">
+					<td></td>
+					<td class="tdLabel">${nls.labels.uploadHeading}</td>
+					<td></td>
+				</tr>
+				<tr class="rowHeader">
+					<td></td>
+					<td class="tdData"><input type="file" id="jsonFileInput" data-dojo-attach-point="jsonFileInput" data-dojo-attach-event="change:readJsonToConfig" accept=".json"></td>
+					<td class="loadProgressHeader" id="tdProgress"></td>
+				</tr>
+			</table>
+			<br>
+			<table id="tblFIlterOptions" class="tableFormat" border=0 cellspacing="0" cellpadding="0">
+				<tr class="rowHeader">
+					<td class="tdLabel">${nls.labels.layerOptionHeading}</td>
+				</tr>
+				<tr style="height:0px; display:none;">
+					<td class="tdData"><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkAppendToDef" data-dojo-props="value:true,checked:false"/> ${nls.labels.AppendDefHeading}
+						<select data-dojo-attach-point="slAppendChoice" data-dojo-type="dijit/form/Select">
+						    <option value="OR">${nls.inputs.optionOR}</option>
+						    <option value="AND">${nls.inputs.optionAND}</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td class="tdData"><input type="checkbox" data-dojo-type="dijit/form/CheckBox"  data-dojo-attach-point="chkPersistDef" data-dojo-props="value:true,checked:false"/> ${nls.labels.PersistDefHeading}</td>
+				</tr>
+				<tr class="rowHeader">
+					<td class="tdLabel">${nls.labels.RefreshHeading}</td>
+				</tr>
+				<tr>
+					<td class="tdData"><div data-dojo-attach-event="click:refreshData"><a class="refresh-icon" id="refreshDiv"></a> ${nls.labels.RefreshValueList}</div></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+	<div class="buttonContainer">
+		<table class="buttonContainerTable" border=0>
+			<tr>
+				<td class="filter-add-criteria"><div class="jimu-btn" data-dojo-attach-point="btnCriteria" data-dojo-attach-event="click:btnNewRowAction">${nls.buttons.addCriteria}</div></td>
+				<td>
+					<table class="buttonContainerSubtable" border=0>
+						<tr>
+							<td class="filter-button-apply"><div class="jimu-btn" data-dojo-attach-point="btnApply" data-dojo-attach-event="click:setFilterLayerDef">${nls.buttons.applyCriteria}</div></td>
+							<td class="filter-button-cancel"><div class="jimu-btn" data-dojo-attach-point="btnReset" data-dojo-attach-event="click:resetLayerDef">${nls.buttons.removeCriteria}</div></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</div>

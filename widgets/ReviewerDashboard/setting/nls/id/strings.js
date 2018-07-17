@@ -1,0 +1,22 @@
+define({
+  "drsSOEURL": "URL Server Peninjau Data",
+  "chartSection": "Jumlah Irisan/Bilah dalam grafik",
+  "selectByGeography": "Sertakan filter menurut geografi",
+  "selectUrl": "Layer layanan untuk filter menurut geografi",
+  "selectMapUrl": "Layanan untuk filter menurut geografi",
+  "geometryServiceURL": "URL layanan geometri",
+  "includeFieldNames": "Pilih Kolom",
+  "fieldNames": "Nama Kolom",
+  "lifecyclePhaseFieldName": "LIFECYCLEPHASE",
+  "setSource": "Atur",
+  "defaultFieldName": "keparahan",
+  "warning": "Input salah",
+  "includeDefaultFieldName": "Nama kolom default harus dipilih",
+  "selectFieldWarning": "Paling sedikit satu kolom harus terlihat",
+  "defaultFieldNotVisible": "Kolom default harus terlihat",
+  "batchJobCheckGroup": "batchjobcheckgroup",
+  "defaultColumn": "Default",
+  "visibleColumn": "Terlihat",
+  "fieldNameColumn": "Nama Kolom Dashboard",
+  "aliasColumn": "Alias"
+});

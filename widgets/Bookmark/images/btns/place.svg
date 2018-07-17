@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>place</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1187.000000, -958.000000)">
+        <g id="place" transform="translate(1187.000000, 958.000000)" fill="#999999" fill-rule="nonzero">
+            <path d="M7.6,0 C4.48,0 2,2.48 2,5.6 C2,9.76 7.6,16 7.6,16 C7.6,16 13.2,9.76 13.2,5.6 C13.2,2.48 10.72,0 7.6,0 Z M7.6,7.6 C6.48,7.6 5.6,6.72 5.6,5.6 C5.6,4.48 6.48,3.6 7.6,3.6 C8.72,3.6 9.6,4.48 9.6,5.6 C9.6,6.72 8.72,7.6 7.6,7.6 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

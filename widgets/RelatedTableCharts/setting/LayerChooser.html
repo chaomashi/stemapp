@@ -1,0 +1,37 @@
+﻿<div style="width: 100%; height: 100%;">
+    <div class="esriCTLayerSelectorDiv">
+        <div class="esriCTLayerChooserContainer row">
+            <div class="esriCTlabel esriCTLabelContainer" title="${nls.layerChooser.selectPolygonLayerLabel}">
+                ${nls.layerChooser.selectPolygonLayerLabel}
+            </div>
+            <div class="esriCTLayerField">
+                <div data-dojo-attach-point="itemSelectDiv">
+                </div>
+                <div class="esriCTHint">
+                    ${nls.layerChooser.selectPolygonLayerHintText}
+                </div>
+            </div>
+        </div>
+        <div class="esriCTLayerChooserContainer row">
+            <div class="esriCTlabel esriCTLabelContainer" title="${nls.layerChooser.selectRelatedTableLayerLabel}">
+                ${nls.layerChooser.selectRelatedTableLayerLabel}
+            </div>
+            <div class="esriCTLayerField">
+                <select data-dojo-attach-point="relationshipSelect" style="width: 232px;" data-dojo-type="dijit/form/Select">
+                </select>
+                <div class="esriCTHint">
+                    ${nls.layerChooser.selectRelatedTableLayerHintText}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-dojo-attach-point="buttonsDiv" class="buttonsDiv">
+        <div class="button-container button-container-absolute" style="padding: 0px;">
+            <div class="jimu-btn jimu-float-trailing jimu-leading-margin1" data-dojo-attach-point="cancelButton">
+                ${nls.cancel}</div>
+            <div class="jimu-btn jimu-float-trailing jimu-leading-margin1 jimu-state-disabled"
+                data-dojo-attach-point="okButton">
+                ${nls.ok}</div>
+        </div>
+    </div>
+</div>

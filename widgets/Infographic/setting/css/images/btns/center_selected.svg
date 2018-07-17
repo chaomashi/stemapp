@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>middle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI_SVG" transform="translate(-683.000000, -153.000000)">
+            <g id="Alignment_Selected" transform="translate(650.000000, 153.000000)">
+                <g id="middle" transform="translate(33.000000, 0.000000)">
+                    <g>
+                        <use fill-opacity="0.1" fill="#24B5CC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#24B5CC" stroke-width="1" x="0.5" y="0.5" width="29" height="29"></rect>
+                    </g>
+                    <g id="Group-8" transform="translate(7.000000, 8.000000)" fill="#999999">
+                        <rect id="Rectangle-3" x="2.625" y="0.4375" width="10.5" height="2.625"></rect>
+                        <rect id="Rectangle-3" x="3.9375" y="5.6875" width="7.875" height="2.625"></rect>
+                        <rect id="Rectangle-3" x="0" y="10.9375" width="15.75" height="2.625"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

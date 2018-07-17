@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="100px" viewBox="0 0 120 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>VerticalGauge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ChooseATemplate-UI" transform="translate(-585.000000, -319.000000)">
+            <g id="VerticalGauge" transform="translate(585.000000, 319.000000)">
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="0" y="0" width="120" height="100"></rect>
+                <g id="Group-15" transform="translate(22.000000, 23.000000)">
+                    <g id="Group-6">
+                        <rect id="Rectangle-5" fill="#DEDEDE" x="0" y="0" width="14" height="53.0181818"></rect>
+                        <rect id="Rectangle-5" fill="#24B5CC" x="0" y="22.5818182" width="14" height="31.4181818"></rect>
+                    </g>
+                    <g id="Group-7" transform="translate(26.000000, 9.000000)" fill="#DEDEDE">
+                        <path d="M7,0 L13,0 L13,6 L7,6 L7,0 Z M17,0 L23,0 L23,6 L17,6 L17,0 Z M27,0 L33,0 L33,6 L27,6 L27,0 Z M37,0 L43,0 L43,6 L37,6 L37,0 Z" id="Combined-Shape"></path>
+                        <path d="M0,28 L50,28 L50,30 L0,30 L0,28 Z M0,21 L50,21 L50,23 L0,23 L0,21 Z M0,35 L20,35 L20,37 L0,37 L0,35 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

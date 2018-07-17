@@ -1,0 +1,54 @@
+<div class="esriCTFullHeight" data-dojo-attach-point="mainNode">
+    <div class="esriCTFullHeight esriCTFullWidth" data-dojo-attach-point="widgetMainNode">
+        <!--Main Page Node-->
+        <div class="esirCTMainPage" data-dojo-attach-point="mainPageNode">
+            <div class="esriCTMainPageRow">
+                <div class="esriCTButtonLabel esriCTEllipsis" title="${nls.newTraverseButtonLabel}">
+                    ${nls.newTraverseButtonLabel}</div>
+                <div class="esriCTNewTraverseButton esriCTButtonIcon esriCTCursorPointer" title="${nls.newTraverseButtonLabel}" data-dojo-attach-point="newTraverseButton">
+                </div>
+            </div>
+            <div class="esriCTMainPageRow">
+                <div class="esriCTButtonLabel esriCTEllipsis" title="${nls.editTraverseButtonLabel}">
+                    ${nls.editTraverseButtonLabel}</div>
+                <div class="esriCTEditTraverseButton esriCTButtonIcon esriCTCursorPointer" title="${nls.editTraverseButtonLabel}" data-dojo-attach-point="editTraverseButton">
+                </div>
+            </div>
+            <div data-dojo-attach-point="newTraverseSelectMessageNodeWrapper" class="esriCTHidden">
+              <div class="esriCTMainPageRow esriCTAlignCenter" data-dojo-attach-point="newTraverseSelectMessageNode">
+              </div>
+              <!-- XYInput Widget get inserted here -->
+            </div>
+        </div>
+        <!--Traverse Page Node-->
+        <div class="esriCTFullHeight esriCTHidden" data-dojo-attach-point="traversePageNode">
+            <div class="esriCTFullWidth esriCTNewTraverseHeader">
+                <div class="esriCTBackButton esriCTCursorPointer" title="${nls.common.back}" data-dojo-attach-point="traversePanelBackButton">
+                    <div class="esriCTItemLeftArrow">
+                    </div>
+                </div>
+                <div class="esriCTTitleDiv esriCTEllipsis" title="${nls.newTraverseTitle}"  data-dojo-attach-point="traverseTitleNode">
+                    ${nls.newTraverseTitle}
+                </div>
+                <div class="esriCTPlanSettingsIcon esriCTCursorPointer" title="${nls.planSettings.planSettingsTitle}" data-dojo-attach-point="planSettingsButton">
+                </div>
+            </div>
+            <div class="esriCTTraverseNode" data-dojo-attach-point="traverseNode"></div>
+        </div>
+        <!--Plan Settings Node-->
+        <div class="esriCTHidden esriCTFullHeight" data-dojo-attach-point="planSettingsPageNode">
+            <div class="esriCTFullWidth esriCTPlanSettingHeader">
+                <div class="esriCTBackButton esriCTCursorPointer" title="${nls.common.back}" data-dojo-attach-point="planSettingsPanelBackButton">
+                    <div class="esriCTItemLeftArrow">
+                    </div>
+                </div>
+                <div class="esriCTTitleDiv esriCTEllipsis" title="${nls.planSettings.planSettingsTitle}">
+                    ${nls.planSettings.planSettingsTitle}
+                </div>
+            </div>
+            <div class="esriCTPlanSettingsNode" data-dojo-attach-point="planSettingsNode"></div>
+        </div>
+    </div>
+    <div class="esriCTWidgetErrorNode esriCTHidden" data-dojo-attach-point="widgetErrorNode">
+    </div>
+</div>

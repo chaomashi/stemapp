@@ -1,0 +1,346 @@
+.jimu-widget-map-filter {
+	width:100%;
+	height:100%;
+}
+
+.jimu-widget-map-filter .groupContainer {
+	display: block;
+}
+
+.jimu-widget-map-filter .container {
+	border-color: #e1e1e1;
+	border-top: 3px solid;
+	width: 100%;
+	height: 60%;
+	position:relative;
+	overflow-y: auto;
+	overflow-x: auto;
+	display: block;
+}
+
+.jimu-widget-map-filter .saveContainer {
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	overflow-y: auto;
+	overflow-x: auto;
+	display: none;
+}
+
+.jimu-widget-map-filter .save-block {
+	position: absolute;
+	left: 5px;
+}
+
+.jimu-widget-map-filter .close-save {
+	position:relative;
+	float: right;
+	content: url("../images/setting_default.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .close-save:after {
+	position:relative;
+	float: right;
+	content: url("../images/setting_default.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .headerTable {
+	width: 100%;
+}
+
+.jimu-widget-map-filter .groupHeader {
+	font-size: 10pt;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .saveTD {
+	content: url("../images/setting_disabled.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .saveTD:after {
+	content: url("../images/setting_disabled.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .saveTDClose {
+	content: url("../images/setting_default.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .saveTDClose:after {
+	content: url("../images/setting_default.png");
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .group-picker {
+	padding-bottom: 5px;
+}
+
+.jimu-widget-map-filter .filter-block {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+
+.jimu-widget-map-filter .filter-row {
+	position: relative;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .tableFormat {
+	table-layout: fixed;
+	width:100%;
+}
+
+.jimu-widget-map-filter .rowHeader {
+	color: #000000;
+}
+
+.jimu-widget-map-filter .saveFunction {
+	margin-top: 5px;
+}
+
+.jimu-widget-map-filter .tableRow {
+	background-color: #E3E3E3;
+}
+
+.jimu-widget-map-filter .tdOperatorHide {
+	display: block;
+	width: 75px;
+}
+
+.jimu-widget-map-filter .operatorSelect {
+
+}
+
+.jimu-widget-map-filter .tdValue {
+	width: 200px;
+	height: 20px;
+	padding-left: 5px;
+}
+
+.jimu-widget-map-filter .userInputNormal {
+	width: 95%;
+}
+
+.jimu-widget-map-filter .tdConjunction {
+	width: 75px;
+}
+
+.jimu-widget-map-filter .conjuncSelect {
+	width: 70px;
+}
+
+.jimu-widget-map-filter .tdRemove {
+	width: 16px;
+	text-align: right;
+}
+
+.jimu-widget-map-filter .tdFirstLabel {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .tdLabel {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+	padding-right: 5px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .tdData {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .tdUploadData {
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-right: 5px;
+	width: 100%;
+}
+
+
+
+.jimu-widget-map-filter .tdSave {
+	text-align: right;
+	padding-right: 5px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .loadProgressHeader {
+	display: none;
+	width: 16px;
+}
+
+.jimu-widget-map-filter .loadProgressShow {
+	content: url("../images/validating.gif");
+	display: none;
+	width: 16px;
+}
+
+.jimu-widget-map-filter .loadProgressShow:after {
+	content: url("../images/validating.gif");
+	display: none;
+	width: 16px;
+}
+
+.jimu-widget-map-filter .advModeOffset {
+    content: url("../images/setting_default.png");
+    padding-right: 10px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .advModeOffset:after {
+    content: url("../images/setting_default.png");
+    padding-right: 10px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .advModeClose {
+    content: url("../images/setting_disabled.png");
+    cursor: hand;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.jimu-widget-map-filter .advModeClose:after {
+    content: url("../images/setting_disabled.png");
+    cursor: hand;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.jimu-widget-map-filter .advModeOpen {
+	content: url("");
+    cursor: hand;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+}
+
+.jimu-widget-map-filter .deleteCell {
+    content: url("../images/delete.png");
+    width: 16px;
+    height: 16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .deleteCell:after {
+    content: url("../images/delete.png");
+    width: 16px;
+    height: 16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .deleteCell:hover {
+    content: url("../images/delete_hover.png");
+    width: 16px;
+    height: 16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .buttonContainer {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.jimu-widget-map-filter .buttonContainerTable {
+	width: 100%;
+}
+
+.jimu-widget-map-filter .buttonContainerSubtable {
+	float: right;
+}
+
+.jimu-widget-map-filter .filter-add-criteria {
+	text-align: left;
+}
+
+.jimu-widget-map-filter .filter-button-apply {
+	text-align: right;
+	padding-right: 5px;
+}
+
+.jimu-widget-map-filter .filter-button-cancel {
+	text-align: right;
+}
+
+.jimu-widget-map-filter .criteriaCellSize {
+	width: 90%;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+
+.jimu-widget-map-filter .deleteCellSize {
+	width: 20px;
+	text-align: right;
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.jimu-widget-map-filter .hide-items {
+	display: none;
+}
+
+.jimu-widget-map-filter .refresh-icon:after {
+    content: url("../images/refresh.png");
+    width: 16px;
+    height: 16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .refresh-done-icon:after {
+    content: url("../images/check.png");
+    width: 16px;
+    height: 16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.jimu-widget-map-filter .operator-class {
+
+}
+
+.jimu-widget-map-filter .value-class {
+
+}
+
+

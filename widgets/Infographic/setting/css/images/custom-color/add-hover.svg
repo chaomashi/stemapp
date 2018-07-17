@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>add_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-167.000000, -244.000000)">
+        <path d="M174,258 C170.134007,258 167,254.865993 167,251 C167,247.134007 170.134007,244 174,244 C177.865993,244 181,247.134007 181,251 C181,254.865993 177.865993,258 174,258 Z M173.28,246.5 L173.28,250.28 L169.5,250.28 L169.5,251.72 L173.28,251.72 L173.28,255.5 L174.72,255.5 L174.72,251.72 L178.5,251.72 L178.5,250.28 L174.72,250.28 L174.72,246.5 L173.28,246.5 Z" id="add_hover" fill="#0090A8"></path>
+    </g>
+</svg>

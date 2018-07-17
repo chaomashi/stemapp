@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>Edit_hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="specification" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spec" transform="translate(-541.000000, -424.000000)" fill="#000000">
+            <g id="Select" transform="translate(75.000000, 310.000000)">
+                <g id="Select_h" transform="translate(0.000000, 72.000000)">
+                    <path d="M466,54.6222222 L466,58 L469.377778,58 L479.155556,48.1333333 L475.777778,44.7555556 L466,54.6222222 L466,54.6222222 Z M481.733333,45.5555556 C482.088889,45.2 482.088889,44.6666667 481.733333,44.3111111 L479.688889,42.2666667 C479.333333,41.9111111 478.8,41.9111111 478.444444,42.2666667 L476.844444,43.8666667 L480.222222,47.2444444 L481.733333,45.5555556 L481.733333,45.5555556 Z" id="Edit_hover"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

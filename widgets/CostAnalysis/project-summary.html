@@ -1,0 +1,39 @@
+<div style="height: 100%; width: 100%">
+  <div class="esriCTContentSection">
+    <div class="esriCTCostEscalationTitle">
+      ${nls.costEscalation.costEscalationLabel}
+    </div>
+    <div class="esriCTCostEscalatioParent" data-dojo-attach-point="costEscalationTableNode"></div>
+    <div>
+      <!--Add/delete/reorder buttons-->
+      <div style="height: 30px;" class="esriCTStatisticsButtonParentDiv">
+        <div class="esriCTAddStatisticsIcon esriCTStatisticsButtons" data-dojo-attach-point="btnAddNode" title="${nls.costEscalation.addCostEscalationText}"></div>
+        <div class="esriCTDeleteStatisticsIconDisable esriCTStatisticsButtons" data-dojo-attach-point="btnCrossNode" title="${nls.costEscalation.deleteCostEscalationText}"></div>
+        <div class="esriCTStatisticsUpIconDisable esriCTStatisticsButtons" data-dojo-attach-point="btnUpNode" title="${nls.costEscalation.moveCostEscalationUpText}"></div>
+        <div class="esriCTStatisticsDownIconDisable esriCTStatisticsButtons" data-dojo-attach-point="btnDownNode" title="${nls.costEscalation.moveCostEscalationDownText}"></div>
+      </div>
+      <!--Project Total and Gross Cost table-->
+      <div class="esriCTBoldFont" data-dojo-attach-point="totalProjectCost">
+        <table class="esriCTProjectCostTable" style="width: 100%;">
+          <tbody>
+            <tr>
+              <td class="esriCTProjectSummaryTotalCostLabel" data-dojo-attach-point="totalCostLabel">${nls.projectOverview.totalCostLabel}</td>
+              <td class="esriCTProjectSummaryTotalCost" data-dojo-attach-point="totalCostDiv"></td>
+            </tr>
+            <tr>
+              <td class="esriCTProjectSummaryTotalGrossLabel" data-dojo-attach-point="grossCostLabel">${nls.projectOverview.grossCostLabel}</td>
+              <td class="esriCTProjectSummaryTotalGross" data-dojo-attach-point="grossCostDiv"></td>
+            </tr>
+            <tr>
+              <td style="font-weight: normal; font-style: italic;" colspan="2" data-dojo-attach-point="roundingLabel">${nls.projectOverview.roundingLabel}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="esriCTPageFooter">
+    <div class="jimu-btn esriCTEllipsis" data-dojo-attach-point="okButton">${nls.common.ok}</div>
+    <div class="jimu-btn esriCTEllipsis" data-dojo-attach-point="cancelButton">${nls.common.cancel}</div>
+  </div>
+</div>

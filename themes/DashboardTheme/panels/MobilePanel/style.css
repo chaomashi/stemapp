@@ -1,0 +1,142 @@
+.jimu-dnd-mobile-panel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.jimu-dnd-mobile-panel .map-area {
+  position: relative;
+}
+.jimu-dnd-mobile-panel .widget-area {
+  position: absolute;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header {
+  position: absolute;
+  top: 0;
+  height: 25px;
+  width: 100%;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header .label {
+  font-size: 14px;
+  margin: 0 auto;
+  line-height: 20px;
+  text-align: center;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header .previous-arrow {
+  width: 16px;
+  height: 16px;
+  background: url(./images/chevron-left.svg) no-repeat center;
+  background-size: 12px;
+  cursor: pointer;
+  margin: 2px 5px;
+}
+.jimu-rtl .jimu-dnd-mobile-panel .widget-area .panel-header .previous-arrow {
+  background: url(./images/chevron-right.svg) no-repeat center;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header .previous-arrow.disabled {
+  cursor: default;
+  background-image: url(./images/chevron-left-disable.svg);
+}
+.jimu-rtl .jimu-dnd-mobile-panel .widget-area .panel-header .previous-arrow.disabled {
+  background-image: url(./images/chevron-right-disable.svg);
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header .next-arrow {
+  width: 16px;
+  height: 16px;
+  background: url(./images/chevron-right.svg) no-repeat center;
+  background-size: 12px;
+  cursor: pointer;
+  margin: 2px 5px;
+}
+.jimu-rtl .jimu-dnd-mobile-panel .widget-area .panel-header .next-arrow {
+  background: url(./images/chevron-left.svg) no-repeat center;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-header .next-arrow.disabled {
+  cursor: default;
+  background-image: url(./images/chevron-right-disable.svg);
+}
+.jimu-rtl .jimu-dnd-mobile-panel .widget-area .panel-header .next-arrow.disabled {
+  background-image: url(./images/chevron-left-disable.svg);
+}
+.jimu-dnd-mobile-panel .widget-area .panel-footer {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  width: 100%;
+  background: transparent;
+  z-index: 110;
+  color: #FFF;
+}
+.jimu-dnd-mobile-panel .widget-area .panel-content {
+  top: 25px;
+  height: calc(100% - 25px);
+  width: 100%;
+  white-space: nowrap;
+  position: absolute;
+}
+.jimu-dnd-mobile-panel .widget-area .dnd-mobile-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  top: 0;
+  left: 0;
+}
+.jimu-dnd-mobile-panel .widget-area .dnd-mobile-container .jimu-panel {
+  height: 100%;
+  width: 100%;
+}
+.jimu-dnd-mobile-panel .splitter {
+  position: absolute;
+  background-color: gray;
+  cursor: pointer;
+  z-index: 110;
+}
+.jimu-dnd-mobile-panel .splitter .splitter_handler {
+  width: 16px;
+  height: 16px;
+  background: url(./images/moveup.svg) no-repeat center;
+}
+.jimu-dnd-mobile-panel.portrait .map-area {
+  width: 100%;
+  height: 60%;
+}
+.jimu-dnd-mobile-panel.portrait .splitter {
+  height: 10px;
+  width: 100%;
+  top: 60%;
+}
+.jimu-dnd-mobile-panel.portrait .splitter .splitter_handler {
+  margin: 0 auto;
+}
+.jimu-dnd-mobile-panel.portrait .widget-area {
+  width: 100%;
+  height: calc(40% - 10px);
+  bottom: 0;
+}
+.jimu-dnd-mobile-panel.landscape .map-area {
+  width: 70%;
+  height: 100%;
+  z-index: 110;
+}
+.jimu-dnd-mobile-panel.landscape .splitter {
+  height: 100%;
+  width: 16px;
+  left: 70%;
+  top: 0;
+}
+.jimu-dnd-mobile-panel.landscape .splitter .splitter_handler {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  transform: rotate(90deg);
+}
+.jimu-dnd-mobile-panel.landscape .widget-area {
+  height: 100%;
+  width: calc(30% - 10px);
+  right: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

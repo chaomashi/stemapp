@@ -1,0 +1,34 @@
+﻿<div>
+	<table style="table-layout:fixed;">
+		<colgroup>
+			<col width="auto"></col>
+			<col width="15px"></col>
+			<col width="auto"></col>
+		</colgroup>
+		<tbody>
+			<tr>
+				<td style="padding-bottom:5px;">${nls.defaultDistance}</td>
+				<td></td>
+				<td>${nls.defaultUnit}</td>
+			</tr>
+			<tr>
+				<td>
+					<input data-dojo-attach-point="numberTextBox" data-dojo-type="dijit/form/NumberTextBox"
+					 data-dojo-props='"required":true,intermediateChanges:true,constraints:{min:0,pattern:"#####0.##########"}'
+					 style="width:100%;" />
+				</td>
+				<td></td>
+				<td>
+					<select data-dojo-type="dijit/form/Select" class="restrict-select-width" data-dojo-attach-point="defaultUnitSelect" style="width:100%;">
+						<option value="MILES" selected>${nls.miles}</option>
+						<option value="KILOMETERS">${nls.kilometers}</option>
+						<option value="FEET">${nls.feet}</option>
+						<option value="METERS">${nls.meters}</option>
+						<option value="YARDS">${nls.yards}</option>
+						<option value="NAUTICAL_MILES">${nls.nauticalMiles}</option>
+					</select>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

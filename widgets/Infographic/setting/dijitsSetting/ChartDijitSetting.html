@@ -1,0 +1,159 @@
+<div>
+  <div class="flex-lc text-label" style="font-size: 14px;">${nls.chartSettings}</div>
+  <div class="section data-section padding-right-5" data-dojo-attach-point="dataSection">
+    <div class="section-item chart-mode-section-item feature-mode category-mode count-mode field-mode average-align">
+      <div>${nls.displayMode}</div>
+      <select data-dojo-attach-point="chartModeSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-event="change:_onChartModeChanged" class="restrict-select-width"></select>
+    </div>
+
+    <div class="section-item label-field-section-item feature-mode average-align">
+      <div>${nls.labelField}</div>
+      <select data-dojo-attach-point="labelFieldSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-event="change:_onLabelFieldChanged" class="restrict-select-width"></select>
+    </div>
+
+    <div class="section-item category-field-section-item category-mode count-mode average-align">
+      <div>${nls.categoryField}</div>
+      <select data-dojo-attach-point="categoryFieldSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-event="change:_onCategoryFieldChanged" class="restrict-select-width"></select>
+    </div>
+    
+    <div class="section-item category-mode count-mode">
+      <div class="average-align" data-dojo-attach-point="periodDiv">
+        <div>${nls.minPeriod}</div>
+        <select data-dojo-attach-point="periodSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-event="change:_onMinPeriodChanged" class="restrict-select-width">
+          <option value="automatic">${nls.automatic}</option>
+          <option value="year">${nls.year}</option>
+          <option value="month">${nls.month}</option>
+          <option value="day">${nls.day}</option>
+          <option value="hour">${nls.hour}</option>
+          <option value="minute">${nls.minute}</option>
+          <option value="second">${nls.second}</option>
+        </select>
+      </div>
+    </div>
+  
+    <div class="section-item category-mode count-mode">
+      <div style="height: auto; margin-top: 5px;margin-bottom: 5px;display: none;" class="average-align flexStart" data-dojo-attach-point="periodsRecordsDiv">
+        <div>${nls.periodsWithOutRecords}</div>
+        <div class="tb-radio-div">
+          <div class="lr-radio-label-div">
+            <input checked type="radio" name="periodswithoutrecords" data-dojo-attach-event="change:_onPeriodsWithOutRecords" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="showRadioBtn">
+            <label class="marginleft10 textOverFlow tb-radio-label" title="${nls.show}">${nls.show}</label>
+          </div>
+          <div style="margin-top: 10px;" class="lr-radio-label-div">
+            <input type="radio" name="periodswithoutrecords" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="hideRadioBtn">
+            <label class="marginleft10 textOverFlow tb-radio-label" title="${nls.hide}">${nls.hide}</label>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+    <div class="section-item operation-section-item category-mode field-mode average-align">
+      <div>${nls.operation}</div>
+      <select data-dojo-attach-point="operationSelect" data-dojo-type="dijit/form/Select" data-dojo-attach-event="change:_onOperationSelectChanged" class="restrict-select-width">
+        <option value="sum">${nls.sumOption}</option>
+        <option value="average">${nls.averageOption}</option>
+        <option value="min">${nls.minOption}</option>
+        <option value="max">${nls.maxOption}</option>
+      </select>
+    </div>
+
+    <div class="section-item category-mode field-mode">  
+      <div style="height: auto; margin-top: 5px;margin-bottom: 10px;" class="average-align flexStart" data-dojo-attach-point="nullValue">  
+        <div>${nls.nullValue}</div>  
+        <div class="tb-radio-div"> 
+          <div class="lr-radio-label-div"> 
+            <input checked type="radio" name="nullValue" data-dojo-attach-event="change:_onNullValueAsZeroChange" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="zeroRadioBtn"> 
+           <label class="marginleft10 textOverFlow tb-radio-label" title="${nls.calculatedAsZero}">${nls.calculatedAsZero}</label>  
+          </div> 
+          <div style="margin-top: 10px;" class="lr-radio-label-div"> 
+            <input type="radio" name="nullValue" data-dojo-type="dijit/form/RadioButton" data-dojo-attach-point="ignoreRadioBtn">  
+            <label class="marginleft10 textOverFlow tb-radio-label" title="${nls.ignored}">${nls.ignored}</label>  
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+
+    <div style="height: auto;" class="section-item value-fields-section-item feature-mode category-mode field-mode average-align">
+      <div>${nls.valueFields}</div>
+      <div>
+        <div data-dojo-attach-point="valueFields" data-dojo-type="jimu/dijit/_DataFields" data-dojo-attach-event="change:_onValueFieldsChanged"></div>
+      </div>
+    </div>
+
+    <div style="height: auto; margin-top: 10px" class="section-item feature-mode category-mode count-mode field-mode average-align flexStart">
+      <div>${nls.sortBy}</div>
+      <div data-dojo-attach-point="chartSort"></div>
+    </div>
+    
+    <div style="margin-top: 5px" class="section-item feature-mode category-mode count-mode field-mode average-align">
+      <div>${nls.maxCategories}</div>
+       <input data-dojo-attach-point="maxLabels" data-dojo-type="dijit/form/NumberSpinner"  data-dojo-props="intermediateChanges:true" data-dojo-attach-event="change:_onMaxLabelsChanged"
+      />
+    </div>
+
+  </div>
+
+  <div class="section display-section padding-right-5" data-dojo-attach-point="displaySection">
+    <div class="section-item column-type bar-type pie-type line-type average-align">
+      <div>${nls.backgroundColor}</div>
+      <div data-dojo-attach-point="bgColor" data-dojo-type="widgets/Infographic/setting/dijitsSetting/_dijits/ChartColorSetting" data-dojo-attach-event="change:_onBgColorChanged"></div>
+    </div>
+    
+    <div style="margin-bottom: 10px;" class="section-item pie-type average-align">
+      <div>${nls.hollowsize}</div>
+      <div data-dojo-attach-point="hollowSize">
+      </div>
+    </div>
+
+    <div data-dojo-attach-point="chartColorContainer" style="height: auto;margin: 10px auto 0 auto;" class="section-item column-type bar-type pie-type line-type average-align flexStart">
+    </div>
+
+    <div data-dojo-attach-point="legendTogglePocketContent">
+      <div class="average-align">
+        <div>${nls.textColor}</div>
+        <div data-dojo-attach-point="legendTextColor" data-dojo-type="widgets/Infographic/setting/dijitsSetting/_dijits/ChartColorSetting" data-dojo-attach-event="change:_onLegendTextColorChanged"></div>
+      </div>
+      <div class="average-align">
+        <div>${nls.textSize}</div>
+        <div data-dojo-attach-point="legendTextSize"></div>
+      </div>
+    </div>
+
+    <div data-dojo-attach-point="horTogglePocketContent">
+      <div class="average-align">
+        <div>${nls.textColor}</div>
+        <div data-dojo-attach-point="horTextColor" data-dojo-type="widgets/Infographic/setting/dijitsSetting/_dijits/ChartColorSetting" data-dojo-attach-event="change:_onHorColorChanged"></div>
+      </div>
+      <div class="average-align">
+        <div>${nls.textSize}</div>
+        <div data-dojo-attach-point="horTextSize"></div>
+      </div>
+    </div>
+
+    <div data-dojo-attach-point="verTogglePocketContent">
+      <div class="average-align">
+        <div>${nls.textColor}</div>
+        <div data-dojo-attach-point="verTextColor" data-dojo-type="widgets/Infographic/setting/dijitsSetting/_dijits/ChartColorSetting" data-dojo-attach-event="change:_onVerColorChanged"></div>
+      </div>
+      <div class="average-align">
+        <div>${nls.textSize}</div>
+        <div data-dojo-attach-point="verTextSize"></div>
+      </div>
+    </div>
+
+    <div data-dojo-attach-point="dataLabelTogglePocketContent">
+      <div class="average-align">
+        <div>${nls.textColor}</div>
+        <div data-dojo-attach-point="dataLabelTextColor" data-dojo-type="widgets/Infographic/setting/dijitsSetting/_dijits/ChartColorSetting" data-dojo-attach-event="change:_onDataLabelColorChanged"></div>
+      </div>
+      <div class="average-align">
+        <div>${nls.textSize}</div>
+        <div data-dojo-attach-point="dataLabelTextSize"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section indicator-section" data-dojo-attach-point="indicatorSection">
+  </div>
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props='hidden:true'></div>
+</div>

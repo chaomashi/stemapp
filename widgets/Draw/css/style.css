@@ -1,0 +1,161 @@
+.jimu-widget-draw{
+  width: 100%;
+  height: 100%;
+  min-width: 250px;
+  min-height: 192px;
+}
+
+.jimu-widget-draw .measure-section{
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.jimu-widget-draw .area-units-tip,
+.jimu-widget-draw .distance-units-tip{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 60px;
+  font-size: 13px;
+  font-family: 'Avenir Medium', Verdana, Geneva, sans-serif;
+}
+
+.jimu-rtl .jimu-widget-draw .area-units-tip{
+  padding-left: 0;
+  padding-right: 17px;
+}
+
+.jimu-rtl .jimu-widget-draw .distance-units-tip{
+  padding-left: 0;
+  padding-right: 17px;
+}
+
+.jimu-widget-draw .dijitArrowButtonContainer{
+  width: 40px;
+}
+
+.jimu-widget-draw .dijitSelect{
+  height: 40px;
+  width: 100%;
+}
+
+.jimu-widget-draw .dijitReset.dijitLeft.dijitButtonNode.dijitArrowButton.dijitDownArrowButton{
+  width: 100%;
+}
+
+.jimu-widget-draw .dijitReset.dijitLeft.dijitButtonNode.dijitArrowButton.dijitUpArrowButton{
+  width: 100%;
+}
+
+.jimu-widget-draw .dijitReset.dijitLeft.dijitButtonNode.dijitArrowButton.dijitDownArrowButton .dijitArrowButtonInner{
+  width: 100%;
+}
+
+.jimu-widget-draw .dijitReset.dijitLeft.dijitButtonNode.dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner{
+  width: 100%;
+}
+
+.jimu-widget-draw .operations{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.jimu-widget-draw .operations .jimu-btn{
+  padding: 0 18px;
+  height: 32px;
+  line-height: 33px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-width: 10px;
+}
+
+.jimu-rtl .jimu-widget-draw .operations .jimu-btn{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.jimu-widget-draw .operations .jimu-btn.last-btn{
+  margin-right: 0;
+}
+
+.jimu-rtl .jimu-widget-draw .operations .jimu-btn.last-btn{
+  margin-left: 0;
+}
+
+.jimu-widget-draw .draw-item{
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  overflow: hidden;
+  display: none;
+}
+
+.jimu-widget-draw .draw-item .header{
+  vertical-align: middle;
+  padding: 12px 0;
+  min-height: 40px;
+  cursor: pointer;
+  position: relative;
+}
+
+.jimu-widget-draw .draw-item .header>*{
+  display: inline-block;
+  vertical-align: middle;
+  word-break: break-word;
+}
+
+.jimu-widget-draw .draw-item .header .toggle-draw{
+  position: absolute;
+  top: 14px;
+  right: -12px;
+}
+
+.jimu-rtl .jimu-widget-draw .draw-item .header .toggle-draw{
+  left: -12px;
+  right: auto;
+}
+
+.jimu-widget-draw .draw-item .header .icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.jimu-widget-draw .draw-item .header>.icon{
+  vertical-align: top;
+}
+
+.jimu-widget-draw .draw-item .header .icon img{
+  width: 100%;
+  height: 100%;
+}
+
+.jimu-widget-draw .draw-item .header .arrow{
+  content: '';
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  text-indent: -9999em;
+  background: url(images/arrow_normal.svg) no-repeat center;
+  z-index: 10;
+}
+
+.jimu-widget-draw .draw-item .header .arrow:hover{
+  background: url(images/arrow_hover.svg) no-repeat center;
+}
+
+.jimu-widget-draw .draw-item .header.applied .arrow{
+  transform: rotate(90deg);
+}
+
+.jimu-widget-draw .draw-item .header .item-title{
+  font-size: 14px;
+  font-family: 'Avenir Medium', Verdana, Geneva, sans-serif;
+}
+
+.jimu-widget-draw .symbol-chooser{
+  width: auto!important;
+}

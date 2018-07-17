@@ -1,0 +1,56 @@
+<div>
+    <div id="activeWidgetSection" style="display:none">
+        <div id="sourceInputsSection">
+            <div>${nls.groupingLabels.searchHeaderText}</div>
+            <div class="section">
+                <div data-dojo-attach-point="searchNode" class="search-node searchDijitFillsContainer">
+                </div>
+                <div data-dojo-attach-point="searchResultsNode" class="searchResults arcgisSearch"></div>
+            </div>
+
+            <div class="section" data-dojo-attach-point="drawBoxDijit">
+                <div data-dojo-attach-point="drawBoxDiv">
+                </div>
+            </div>
+
+            <div class="section" data-dojo-attach-point="searchDistanceDijit" style="height:68px">
+                <div data-dojo-attach-point="searchDistanceDiv" class="section entryFullWidth">
+                </div>
+            </div>
+        </div>
+        <div id="sourceInputsSectionScrim" class='scrim hidden'></div>
+
+        <div id="addresseeSourceSection" class="section">
+            <div>${nls.groupingLabels.addresseeSource}</div>
+            <div class="entryFullWidth">
+                <select data-dojo-attach-point="addresseeSelect"
+                    data-dojo-type="dijit/form/Select"></select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div>${nls.groupingLabels.formatHeaderText}</div>
+            <div class="entryFullWidth">
+                <select data-dojo-attach-point="formatSelect"
+                    data-dojo-type="dijit/form/Select"></select>
+            </div>
+        </div>
+
+        <div class="section">
+            <div id="numAddresseesFound"></div>
+            <div tabindex="0" data-dojo-attach-point="downloadBtn"
+                data-dojo-attach-event="onclick:_onDownloadBtnClicked"
+                class="jimu-btn jimu-float-trailing focusableItem hidden"></div>
+        </div>
+
+        <div class="section">
+            <div data-dojo-type="dijit/ProgressBar" class="progressbar"
+                data-dojo-attach-point="indeterminateProgress" id="indeterminateProgress"></div>
+            <div data-dojo-type="dijit/ProgressBar" class="progressbar"
+                data-dojo-attach-point="determinateProgress" id="downloadProgress"></div>
+        </div>
+    </div>
+    <div id="nothingConfiguredSection" style="display:none">
+        <div>${nls.tooltips.nothingConfigured}</div>
+    </div>
+</div>

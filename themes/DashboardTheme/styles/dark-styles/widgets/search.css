@@ -1,0 +1,19 @@
+.jimu-widget-search .arcgisSearch .searchMenu li.active{
+	background-color: #666;
+  color: #FFF;
+}
+
+.jimu-widget-search .arcgisSearch .searchMenu li{
+  background-color: #333;
+  color: #FFF;
+}
+
+.jimu-widget-search .arcgisSearch .searchMenu li:hover,
+.jimu-widget-search .arcgisSearch .searchMenu li:focus {
+	background-color: #666;
+}
+
+.jimu-widget-search .arcgisSearch .searchBtn:hover,
+.jimu-widget-search .arcgisSearch .searchBtn:focus {
+  background-color: #333;
+}

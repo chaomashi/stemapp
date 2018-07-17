@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>B-s</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30"></rect>
+    </defs>
+    <g id="Setting-3New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI_SVG" transform="translate(-543.000000, -106.000000)">
+            <g id="BIU_Selected" transform="translate(543.000000, 106.000000)">
+                <g id="B-s">
+                    <g id="left">
+                        <use fill-opacity="0.1" fill="#000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#000" stroke-width="2" x="0.5" y="0.5" width="29" height="29"></rect>
+                    </g>
+                    <text id="B" font-family="AvenirNext-DemiBold, Avenir Next" font-size="16" font-weight="500" letter-spacing="0.444444418" fill="#727272">
+                        <tspan x="10" y="21">B</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

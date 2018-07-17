@@ -1,0 +1,72 @@
+﻿
+
+.jimu-widget-smartEditor .esriTemplatePicker * {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.jimu-widget-smartEditor .templatePicker * {
+    /*background-color: transparent !important;*/
+}
+
+.jimu-widget-smartEditor .ee-presetValueHeaderTable {
+    color: #ffffff !important;
+    background-color: darkgray !important;
+}
+
+.claro .dijitDateTextBox .dijitArrowButton:before {
+    content: none !important;
+}
+
+.jimu-widget-smartEditor .dijitEditorIFrameContainer {
+    background-color: transparent !important;
+}
+
+.jimu-widget-smartEditor .dijitEditorIFrame {
+    background-color: transparent !important;
+}
+
+.jimu-widget-smartEditor .attwarning {
+    color: brown;
+}
+
+.jimu-widget-sefilterEditor .flDropDown {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+    .jimu-widget-sefilterEditor .flDropDown option {
+        background-color: #4c4c4c !important;
+        color: white !important;
+    }
+
+.jimu-widget-sefilterEditor .searchtextbox {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.widgetIndicator {
+    left: -15px !important;
+    width: 125% !important;
+}
+/* dropdown */
+
+    .drawingOptionsDiv .dijitDropDownButton .dijitButtonNode {
+        
+        border: 1px solid #7EABCD!important;
+     
+    }
+
+/* Images for dart theme in white color */
+.jimu-widget-smartEditor .itemTitleUpArrow,
+.jimu-widget-smartEditor .itemTitleNextArrow {
+    background-image: url(../images/upArrow-white.png);
+}
+
+.jimu-widget-smartEditor .itemTitleDownArrow {
+    background-image: url(../images/downArrow-white.png);
+}
+
+.jimu-widget-smartEditor .itemTitleCreateNew {
+    background-image: url(../images/newFeature-white.png);
+}

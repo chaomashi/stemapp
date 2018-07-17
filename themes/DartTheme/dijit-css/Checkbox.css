@@ -1,0 +1,74 @@
+/* CheckBox
+ * 
+ * Styling CheckBox mainly includes:
+ * 
+ * 1. Containers
+ * 		.dijitCheckBox
+ * 
+ * 2. CheckBox within ToggleButton
+ * 		.dijitCheckBoxIcon
+ * 
+ * 3. States - Checked, Hover, Disabled.
+ *		.dijitCheckBoxChecked
+ * 		.dijitCheckBoxHover
+ * 		.dijitCheckBoxCheckedHover
+ * 		.dijitCheckBoxDisabled
+ *		.dijitCheckBoxCheckedDisabled
+ */
+.claro .dijitCheckBox {
+  background-color: #393939;
+  background-image: none;
+  border: 1px solid #7f8183;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+}
+.claro .dijitCheckBox input {
+  position: absolute;
+  top: 0;
+}
+.claro .dijitCheckBoxIcon,
+.claro .dijitCheckBoxChecked,
+.claro .dijitCheckBoxCheckedDisabled {
+  background-image: url("icons/Icon_Checkmark_16.png");
+  background-position: center center;
+}
+.claro .dijitCheckBoxIcon {
+  padding: 0;
+}
+.claro .dijitCheckBoxIcon:before {
+  color: #007ac2;
+}
+.claro .btn-alt .dijitCheckBoxIcon:before {
+  color: #fff;
+}
+.claro .dijitCheckBoxChecked {
+  background-color: #393939;
+  border: 1px solid #009ac2;
+}
+.claro .dijitCheckBoxHover {
+  background-color: #222;
+  border: 1px solid #007ac2;
+}
+.claro .dijitCheckBoxCheckedHover {
+  background-color: #393939;
+  border: 1px solid #009ac2;
+}
+.claro .dijitCheckBoxDisabled,
+.claro .dijitCheckBoxCheckedDisabled {
+  opacity: 0.65;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+  filter: alpha(opacity=65);
+}
+.claro .dijitCheckBoxInput {
+  width: 24px;
+  height: 24px;
+}

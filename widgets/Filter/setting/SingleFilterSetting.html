@@ -1,0 +1,35 @@
+<div>
+	<div class="layer-part">
+		<div class="title">${jimuNls.common.layer}</div>
+		<div style="margin-top: 5px" data-dojo-attach-point="layerTd"></div>
+	</div>
+	<div class="tab-part" style="margin-top: 20px">
+		<div data-dojo-attach-point="tabsNode" class="tabs-node">
+			<div data-dojo-attach-point="infoTabNode">
+				<div class="title" style="margin-top: 30px">${jimuNls.common.label}</div>
+				<div style="margin-top: 5px">
+					<div data-dojo-attach-point="nameTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-attach-event="change:_onNameTextBoxChanged" data-dojo-props='required:true,trim:true' style="width:100%;"></div>
+				</div>
+
+				<div class="title" style="margin-top: 20px">${jimuNls.common.icon}</div>
+				<div style="margin-top: 5px">
+					<div class="click-picker" data-dojo-attach-event="click:_onImageChooserDivClicked">
+						<div data-dojo-type="jimu/dijit/ImageChooser" data-dojo-attach-point="imageChooser" data-dojo-props="cropImage:true,showSelfImg:true,goldenWidth:16,goldenHeight:16,format:['image/gif','image/png','image/jpeg']" class="jimu-float-leading" style="width:16px;height:16px;"></div>
+						<div class="separator jimu-float-leading"></div>
+						<div class="jimu-icon jimu-icon-down-arrow-8 jimu-float-leading"></div>
+					</div>
+				</div>
+			</div>
+
+			<div data-dojo-attach-point="expressionsTabNode">
+				<div data-dojo-attach-point="filterDiv" class="filter-div" style="height: 100%"></div>
+			</div>
+
+			<div data-dojo-attach-point="optionsTabNode">
+				<div class="option-div" data-dojo-attach-point="useMapFilterNode"></div>
+				<div class="option-div" data-dojo-attach-point="autoApplyWhenWidgetOpenNode"></div>
+				<div class="option-div" data-dojo-attach-point="collapseFilterNode"></div>
+			</div>
+		</div>
+	</div>
+</div>

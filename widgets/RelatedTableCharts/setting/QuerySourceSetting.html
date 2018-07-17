@@ -1,0 +1,93 @@
+<div class="esriCTMainContainer" style="width: 100%; height: 100%;">
+  <!--Select geocoder url -->
+  <div class="esriCTSourceUrlSection">
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTURLWidthLabel esriCTlabel" title="${nls.layerSource}">
+        ${nls.layerSource}</div>
+      <div class="esriCTSearchSourceURLField">
+        <div class="esriCTSearchSourceLayer" data-dojo-attach-point="sourceUrl" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="required:true,trim:true,disabled:true,style:{width:'100%'}"></div>
+        <div class="esriCTURLSetButton jimu-btn jimu-float-trailing jimu-leading-margin1"
+        data-dojo-attach-point="setSourceBtnClickNode"  title="${nls.set}">${nls.set}</div>
+        <div data-dojo-attach-point="messageTr">
+          <div data-dojo-attach-point="messageNode" class="esriCTHint esriCTErrorMessage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Details section -->
+  <div class="esriCTSourceDetailsSection">
+    <!--Details section: Name -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.nameTitle}">
+        ${nls.nameTitle}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField ">
+       <div data-dojo-attach-point="sourceName" data-dojo-type="dijit/form/ValidationTextBox"
+       data-dojo-props="trim:true,required:true,style:{width:'100%'}"></div>
+      </div>
+    </div>
+    <!--Details section: Placeholder -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.placeholder}">
+        ${nls.placeholder}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-attach-point="placeholder" data-dojo-type="dijit/form/ValidationTextBox"
+          data-dojo-props="trim:true,style:{width:'100%'}"></div>
+      </div>
+    </div>
+    <!--Details section: searchFields -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.searchFields}">
+        ${nls.searchFields}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-attach-point="searchFields" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props="required:true,trim:true,disabled:true,style:{width:'95%'}"></div>
+        <div class="esriCTsearchFieldsSelector jimu-float-trailing" data-dojo-attach-point="fieldsSelectorNode"></div>
+      </div>
+    </div>
+    <!--Details section: displayField -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.displayField}">
+        ${nls.displayField}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-attach-point="displayField" data-dojo-type="dijit/form/Select" data-dojo-props='style:{width:"100%"}'></div>
+      </div>
+    </div>
+    <!--Details section: maxSuggestions -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.maxSuggestions}">
+        ${nls.maxSuggestions}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="esriCTHint" title="${nls.searchLayerTips}" data-dojo-attach-point="tipsNode">${nls.searchLayerTips}
+        </div>
+        <div data-dojo-attach-point="maxSuggestions" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1,places:0},style:{width:'100%'},value:6"></div>
+      </div>
+    </div>
+    <!--Details section: maxResult -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.maxResults}">
+        ${nls.maxResults}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div data-dojo-attach-point="maxResults" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1,places:0},style:{width:'100%'},value:6"></div>
+      </div>
+    </div>
+    <!--Details section: zoomScale -->
+    <div class="esriCTLayerContainer row" data-dojo-attach-point="zoomScaleTr">
+      <div class="esriCTSearchSourceLabel esriCTlabel" title="${nls.zoomScale}">
+        ${nls.zoomScale}</div>
+      <div class="esriCTSearchSourceLayerField esriCTLayerField">
+        <div class="jimu-float-leading esriCTSearchSourceLabelFont" style="line-height:30px;">1: </div>
+        <div class="jimu-float-trailing" data-dojo-attach-point="zoomScale" data-dojo-type="dijit/form/NumberTextBox" data-dojo-props="constraints:{min:1},style:{width:'96%'},value:50000"></div>
+      </div>
+    </div>
+    <!--Details section: exactMatch -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabelFont" data-dojo-attach-point="exactMatch"></div>
+    </div>
+    <!--Details section: search in current map extent -->
+    <div class="esriCTLayerContainer row">
+      <div class="esriCTSearchSourceLabelFont" data-dojo-attach-point="searchInCurrentMapExtent"></div>
+    </div>
+  </div>
+  <!--Details section: loading shelter -->
+  <div data-dojo-attach-point="shelter" data-dojo-type="jimu/dijit/LoadingShelter" data-dojo-props="hidden:true"></div>
+</div>

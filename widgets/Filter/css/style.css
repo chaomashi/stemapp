@@ -1,0 +1,285 @@
+.jimu-widget-filter {
+  position: relative;
+  width: auto;
+  height: 100%;
+  margin: -14px;
+}
+.jimu-widget-filter .filter-list{
+  height: 100%;
+  overflow-y: auto;
+}
+.jimu-widget-filter .filter-list,
+.jimu-widget-filter .filter-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.jimu-widget-filter .filter-list li {
+  list-style: none;
+}
+
+.jimu-widget-filter .filter-list .filter-item{
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters{
+  background-color: #f3f3f3;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters + .filter-item.config-parameters{
+  padding-top: 4px;
+  background-clip: content-box;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header{
+  vertical-align: middle;
+  padding: 12px 5px;
+  min-height: 40px;
+  cursor: pointer;
+  position: relative;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header:hover{
+  background-color: #eee;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters .header .item-title{
+  font-family: 'Avenir Medium', Verdana, Geneva, sans-serif;
+}
+
+.jimu-widget-filter .filter-list .filter-item .body{
+  display: none;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters .body{
+  display: block;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header>*{
+  display: inline-block;
+  vertical-align: middle;
+  word-break: break-word;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header>.icon{
+  vertical-align: top;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header:after{
+  content: "";
+  height: 100%;
+  min-height: 16px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.jimu-rtl .jimu-widget-filter .filter-list .filter-item .header .icon{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .icon img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.jimu-widget-filter .filter-list .filter-item .header .toggle-filter{
+  position: absolute;
+  top: 14px;
+  right: 0;
+}
+.jimu-rtl .jimu-widget-filter .filter-list .filter-item .header .toggle-filter{
+  left: 0;
+  right: auto;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .arrow{
+  content: '';
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  text-indent: -9999em;
+  background: url('./images/arrow_normal.svg') no-repeat center;
+  z-index: 10;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .arrow:hover{
+  background: url('./images/arrow_hover.svg') no-repeat center;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters .header .arrow{
+  transform: rotate(90deg);
+}
+
+.jimu-widget-filter .filter-list .filter-item.not-has-ask-for-value .header .arrow{
+  background: transparent !important;
+}
+
+.jimu-widget-filter .filter-list .filter-item .body .parameters{
+  margin: 0 30px;
+}
+
+.jimu-widget-filter .filter-list .filter-item .body .jimu-btn{
+  background: #fff;
+  border-radius: 0;
+  width: 82px;
+  border: 1px solid #c7c7c7;
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.jimu-widget-filter .filter-list .filter-item .body .jimu-btn:hover{
+  border: 1px solid #000;
+}
+
+.jimu-widget-filter .jimu-loading-shelter .loading-container{
+  width: auto;
+}
+
+.jimu-widget-filter.not-exist-ask-for-value .filter-list .filter-item .arrow{
+  display: none;
+}
+
+.jimu-widget-filter .show-custom{
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #333;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-image: url(images/custom_filter.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+  cursor: pointer;
+}
+.jimu-widget-filter .show-custom:hover{
+  background-color: #666;
+}
+.jimu-rtl .jimu-widget-filter .show-custom{
+  left: 20px;
+  right: auto;
+}
+
+.jimu-widget-filter .custom-filter{
+  display: none;
+  height: 100%;
+  position: relative;
+}
+
+.jimu-widget-filter .custom-filter .title-part{
+  text-align: center;
+  font-size: 16px;
+  height: 50px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.jimu-widget-filter .custom-filter .title-part span{
+  height: 50px;
+  line-height: 50px;
+}
+.jimu-widget-filter .custom-filter .title-part .back-list{
+  display: inline-block;
+  height: 20px;
+  width: 13px;
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  background: url(images/arrow_left_normal.svg);
+}
+.jimu-widget-filter .custom-filter .title-part .back-list:hover{
+  background: url(images/arrow_left_hover.svg);
+}
+.jimu-rtl .jimu-widget-filter .custom-filter .title-part .back-list{
+  right: 20px;
+  left: auto;
+  transform: rotate(180deg);
+}
+.jimu-widget-filter .custom-filter .custom-filter-node{
+  height: calc(100% - 100px);
+}
+
+.jimu-widget-filter .custom-filter .layer-part{
+  font-size: 14px;
+  position: relative;
+  margin: 10px 20px;
+  display: flex;
+}
+.jimu-widget-filter .custom-filter .layer-part .layer-title{
+  height: 30px;
+  line-height: 30px;
+  flex: 0 0 80px;
+  white-space: nowrap;
+}
+.jimu-widget-filter .custom-filter .layer-part .layer-select{
+  margin-left: 10px;
+}
+
+.jimu-widget-filter .custom-filter .toggle-filter{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+.jimu-rtl .jimu-widget-filter .custom-filter .toggle-filter{
+  left: 20px;
+  right: auto;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes load8 {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes load8 {
+  0% {
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

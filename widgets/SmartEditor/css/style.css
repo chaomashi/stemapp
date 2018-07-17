@@ -1,0 +1,687 @@
+@import url("SEFilterEditor.css");
+@import url("drawingTools.css");
+.processing-indicator-panel {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-position: center center;
+    background-image: url(../images/busy.gif);
+    background-repeat: no-repeat;
+}
+
+    .processing-indicator-panel.busy {
+        display: block;
+    }
+
+.jimu-widget-smartEditor {
+    position: relative;
+}
+.autoSaveOptionDiv {
+    display:none;
+}
+   .widgetIndicator {
+        height: 4px;
+        position:absolute;
+        top:0;
+        z-index:1;
+        width:100%;
+        overflow:hidden;
+        overflow-x: hidden;
+        /*width: 94%;
+        border-radius: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-left: 3%;
+        margin-right: 3%;*/
+    }
+
+        .widgetActive {
+            background: #73AD21;
+        }
+
+        .widgetNotActive {
+            background: red;
+        }
+    /*.jimu-widget-smartEditor .widgetActive {
+        width: 22px;
+        height: 22px;
+        background-position: center center;
+        background-image: url(../images/widgetActive.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+    }
+
+    .jimu-widget-smartEditor .widgetNotActive {
+        width: 22px;
+        height: 22px;
+        background-position: center center;
+        background-image: url(../images/widgetNotActive.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+    }*/
+
+    .jimu-widget-smartEditor .hideField {
+        display: none;
+    }
+    /***********about templatePicker**************/
+
+    .jimu-widget-smartEditor .templatePicker {
+        position: relative;
+        height: 296px;
+    }
+
+    .jimu-widget-smartEditor .grid {
+        height: 100% !important;
+    }
+
+    .jimu-widget-smartEditor .dojoxGridMasterHeader {
+        height: 0 !important;
+    }
+
+    .jimu-widget-smartEditor .dojoxGridContent {
+        width: 100% !important;
+    }
+
+        .jimu-widget-smartEditor .dojoxGridContent div[role=presentation] {
+            right: 0;
+        }
+
+    .jimu-widget-smartEditor .dojoxGridRowTable {
+        width: 100%;
+    }
+
+    .jimu-widget-smartEditor .dojoxGridRow {
+        width: 100%;
+    }
+
+    .jimu-widget-smartEditor .dojoxGridView {
+        width: 100% !important;
+    }
+
+    /********about attributeInspector*********/
+    .jimu-widget-smartEditor .esriAttributeInspector {
+        height: 20px;
+        width: 100%;
+    }
+
+        /*.jimu-widget-smartEditor .esriAttributeInspector .atiLabel {
+            color:midnightblue !important;
+        }*/
+        /*.jimu-widget-smartEditor .esriAttributeInspector .atiLabel {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            -ms-text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            width: 100%;
+        }*/
+
+        .jimu-widget-smartEditor .esriAttributeInspector td {
+            display: block;
+            clear: both;
+            height: auto;
+            width: 100%;
+            float: left;
+        }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+/* Hides from IE-mac \*/
+.clearfix {
+    display: block;
+}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*tr td {
+      padding: 20px 40px;
+      border: 1px solid black;
+      display: block;
+    }*/
+.jimu-widget-smartEditor .esriAttributeInspector .atiNavButtons {
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    top: -10px;
+}
+
+.jimu-widget-smartEditor .esriAttributeInspector .asteriskIndicator {
+    color: red !important;
+}
+
+
+.jimu-widget-smartEditor .esriAttributeInspector .saveButton {
+    float: right;
+    display: inline;
+    margin-bottom: 5px;
+}
+.jimu-rtl .jimu-widget-smartEditor .esriAttributeInspector .saveButton {
+    float: left;
+    display: inline;
+}
+    .jimu-widget-smartEditor .esriAttributeInspector .saveButton.hide {
+        display: none;
+    }
+
+.jimu-widget-smartEditor .esriAttributeInspector .deleteButton {
+    float: right;
+    margin-right: 20px;
+}
+.jimu-rtl .jimu-widget-smartEditor .esriAttributeInspector .deleteButton {
+    float: left;
+    margin-left: 20px;
+}
+/*********about preset values table*********/
+
+.jimu-widget-smartEditor .ee-presetValueTableDiv {
+    height: 100%;
+    width: 100%;
+}
+
+.jimu-widget-smartEditor .ee-presetValueHeaderTable {
+    color: #000000;
+    font-size: 14px;
+    padding: 8px;
+    background-color: #E3E3E3;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.jimu-widget-smartEditor .ee-presetValueBodyTable td {
+    display: block;
+    clear: both;
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.jimu-widget-smartEditor .ee-atiLabel {
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.jimu-widget-smartEditor .atiLabel {
+    width: 100%;
+    margin-top: 6px !important;
+    margin-bottom: 3px !important;
+}
+
+.jimu-widget-smartEditor .ee-presetValueBody {
+    vertical-align: top;
+}
+
+.jimu-widget-smartEditor .ee-presetValueBodyTable {
+    width: 100%;
+}
+
+.jimu-widget-smartEditor .ee-presetValue-label-header-field,
+.jimu-widget-smartEditor .field-alias-label {
+    width: 40%;
+}
+
+.jimu-widget-smartEditor .ee-presetValue-value-header-field,
+.jimu-widget-smartEditor .preset-value-editable {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.jimu-widget-smartEditor .ee-inputField {
+    width: 100%;
+}
+.jimu-widget-smartEditor .ee-inputFieldTextArea {
+    width: 100%!important;
+    resize: vertical;
+    overflow: auto;
+    font-family: inherit;
+    line-height: 20px !important;
+    font-size: 14px;
+    min-height: 70px;
+}
+.jimu-widget-smartEditor .ee-inputFieldRichText {
+    width: 100%!important;
+    margin: 5px auto;
+}
+.jimu-widget-smartEditor .spacer {
+    height: 12px;
+}
+
+.jimu-widget-smartEditor .spacerSmall {
+    height: 8px;
+}
+
+.jimu-widget-smartEditor .attributeInspectorDiv {
+    padding-top: 8px;
+}
+
+.jimu-widget-smartEditor .esriAttributeInspector .atiField {
+    width: 100%;
+}
+
+.jimu-widget-smartEditor .esriAttributeInspector .dijitTextBox {
+    width: 100%!important;
+}
+.jimu-widget-smartEditor .esriAttributeInspector .dijitTextArea {
+    width: 100%!important;
+    min-height: 70px;
+    resize: vertical;
+    overflow: auto;
+    font-family: inherit;
+    line-height: 20px !important;
+    font-size: 14px;
+}
+/*.jimu-widget-smartEditor .dijitTextBox {
+    height: 28px !important;
+}*/
+
+.jimu-widget-smartEditor div.atiAttributes table {
+    width: 98%;
+}
+
+.jimu-widget-smartEditor .processing-indicator {
+    display: none;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-image: url(../images/busy.gif);
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+    .jimu-widget-smartEditor .processing-indicator.busy {
+        display: inline;
+    }
+
+.jimu-widget-smartEditor .processing-indicator-panel {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-position: center center;
+    background-image: url(../images/busy.gif);
+    background-repeat: no-repeat;
+}
+
+    .jimu-widget-smartEditor .processing-indicator-panel.busy {
+        display: block;
+    }
+
+
+
+.jimu-widget-smartEditor .updateOnlyText {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.jimu-widget-smartEditor .attInput {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+.jimu-widget-smartEditor .deleteAttachment {
+    padding-right: 5px;
+    cursor: pointer;
+    color: red !important;
+    font-weight: bold;
+}
+
+.jimu-widget-smartEditor .atiNavMessage {
+    display: inline-block;
+    float: none;
+}
+
+.jimu-widget-smartEditor .dijitButtonHover .dijitButtonNode {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.jimu-widget-smartEditor .dijitButton .dijitButtonNode {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.jimu-widget-smartEditor .dijitButton {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+
+.dijitCalendarDateTemplate.dijitCalendarCurrentDate .dijitCalendarDateLabel {
+    color: red;
+    border-color: red;
+}
+
+/* hover */
+
+.dijitCalendarDateTemplate.dijitCalendarHoveredDate .dijitCalendarDateLabel,
+.dijitCalendarDateTemplate.dijitCalendarEnabledDate:hover .dijitCalendarDateLabel {
+    background-color: greenyellow;
+}
+
+/* active
+
+.dijitCalendarDateTemplate.dijitCalendarActiveDate .dijitCalendarDateLabel,
+.dijitCalendarDateTemplate.dijitCalendarEnabledDate:active .dijitCalendarDateLabel {
+    background-color: darkslategray;
+}
+*/
+/* selected */
+
+.dijitCalendarDateTemplate.dijitCalendarSelectedDate .dijitCalendarDateLabel,
+.dijitCalendarDateTemplate.dijitCalendarSelectedDate.dijitCalendarHoveredDate .dijitCalendarDateLabel {
+    background-color: cyan;
+}
+
+.jimu-widget-smartEditor .dijitComboBox > div.dijitArrowButton.dijitDownArrowButton {
+    width: 25px !important;
+}
+
+.jimu-widget-smartEditor .dijitTextBox .dijitInputField {
+    height: 100% !important;
+}
+
+.jimu-widget-smartEditor .dijitComboBox > div.dijitArrowButton.dijitDownArrowButton > input {
+    width: 100%;
+}
+
+.jimu-widget-smartEditor .attwarning {
+    margin-top: 2px;
+    color: brown;
+}
+
+.jimu-widget-smartEditor .presetFieldsTableDiv {
+    display: none;
+}
+
+
+/* Newly Added Classes*/
+
+.jimu-widget-smartEditor .footerButton {
+    text-align: center;
+    margin-top: 5px;
+}
+.jimu-widget-smartEditor  .esriAttributeInspector .atiLayerName {
+    display:none;
+}
+
+.jimu-widget-smartEditor .editDescription {
+    padding : 5px 0 5px 0;
+}
+/* Styles for Item List Widget */
+
+.jimu-widget-smartEditor .esriCTItemListContainer {
+    float: left;
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow-y: auto;
+    margin-bottom: 5px;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemTitleContainer {
+    background-color: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    display: inline-block;
+    float: left;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemTitle {
+    padding: 15px 5px 15px 5px;
+    text-align: left;
+    border: none;
+    outline: none;
+    width: calc(100% - 40px);
+    float: left;
+  }
+
+  .jimu-rtl .jimu-widget-smartEditor .esriCTItemTitle {
+      float: right;
+      text-align: right;
+  }
+  .jimu-rtl .jimu-widget-smartEditor .esriCTItemHighlighter {
+      float: right;
+  }
+  .jimu-widget-smartEditor .esriCTEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemContent {
+      height: 0px;
+      padding: 0 5px;
+      overflow: hidden;
+      border-right: 1px solid #d9d9d9;
+      border-left: 1px solid #d9d9d9;
+  }
+  .jimu-widget-smartEditor .esriCTRelatedItemContent {
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemContentActive {
+     height: auto;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemListImageLogo {
+    height: 24px;
+    width: 24px;
+    margin-top: 10px;
+    float: left;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    margin-left: 5px;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemListImageLogo {
+    float: right;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+
+  .jimu-widget-smartEditor .esriCTBorder {
+    border: 1px solid grey;
+  }
+
+
+  .jimu-widget-smartEditor .esriAttributeInspector .atiNavButtons {
+      float: none;
+  }
+
+  .jimu-widget-smartEditor .buttonContainer {
+      text-align: center;
+      margin-top: 5px;
+  }
+
+  .jimu-widget-smartEditor .attributeInspectorMainDiv {
+      height: 100%;
+  }
+
+  .jimu-widget-smartEditor .detailsContainer {
+    height:100%;
+  }
+
+  .jimu-widget-smartEditor .esriCTItemHighlighter {
+    height: 44px;
+    width: 5px;
+    float: left;
+  }
+
+  .jimu-widget-smartEditor .itemTitleArrowIcon {
+      height: 20px;
+      width: 20px;
+      background-size: 20px;
+      background-repeat: no-repeat;
+      background-position: center;
+      float: left;
+      margin-top: 13px;
+  }
+
+  .jimu-rtl .jimu-widget-smartEditor .itemTitleArrowIcon {
+    margin-left: 5px;
+  }
+  .jimu-widget-smartEditor .itemTitleUpArrow {
+    background-image: url(../images/upArrow.png);
+  }
+
+  .jimu-widget-smartEditor .itemTitleDownArrow {
+    background-image: url(../images/downArrow.png);
+  }
+
+  .jimu-widget-smartEditor .esriCTDisableToggling .esriCTItemTitleContainer {
+    cursor: default;
+  }
+
+  .jimu-widget-smartEditor .esriCTDisableToggling .itemTitleUpArrow {
+      background-image: none;
+  }
+
+
+
+  /* Tabels widget*/
+  .jimu-widget-smartEditor .relatedTablesContainer {
+    float: left;
+    margin: 3px;
+    width: 100%;
+  }
+
+  .jimu-rtl .jimu-widget-smartEditor .relatedTablesContainer {
+      float: right;
+  }
+  .jimu-widget-smartEditor .relatedTableTitleContainer {
+    padding: 7px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #d9d9d9;
+    cursor: pointer;
+}
+
+.jimu-widget-smartEditor .relatedTableTitle {
+    float: left;
+}
+
+.jimu-rtl .jimu-widget-smartEditor .relatedTableTitle {
+    float: right;
+}
+
+.jimu-widget-smartEditor .relatedTableIcons {
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 5px;
+}
+
+.jimu-widget-smartEditor .refreshAttributes {
+    height: 35px;
+    width: 35px;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    background-image: url(../images/refresh.png);
+    cursor: pointer;
+}
+
+.jimu-rtl .jimu-widget-smartEditor .refreshAttributes {
+    float: right;
+}
+
+.jimu-widget-smartEditor .itemTitleCreateNew {
+    background-image: url(../images/newFeature.png);
+}
+.jimu-rtl .jimu-widget-smartEditor .itemTitleCreateNew {
+    float: right;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.jimu-widget-smartEditor .itemTitleNextArrow {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-image: url(../images/upArrow.png);
+  }
+
+  .jimu-rtl .jimu-widget-smartEditor .itemTitleNextArrow {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+      margin-right: 5px;
+      margin-left: 0px;
+  }
+  .jimu-widget-smartEditor .hidden {
+      display: none;
+}
+  /* Tabels widget*/
+  /* Start dart theme*/
+.dart-panel .jimu-widget-smartEditor .esriCTItemTitleContainer:hover {
+    background-color: #808080;
+  }
+  .dart-panel .jimu-widget-smartEditor .esriCTItemListContainer {
+    border: 1px solid #808080;
+  }
+  .dart-panel .jimu-widget-smartEditor .esriCTItemTitleContainer {
+    background-color: #646464;
+    border-bottom: 1px solid #808080;
+  }
+  /* End of dart theme */
+
+  /* Style for tab theme */
+.esriCTOverridePanelStyle {
+    height: calc(100% - 20px) !important;
+  }
+
+  /* End of style for tab theme */

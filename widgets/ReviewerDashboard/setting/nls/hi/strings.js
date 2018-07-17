@@ -1,0 +1,22 @@
+define({
+  "drsSOEURL": "डेटा समीक्षक सर्वर का URL",
+  "chartSection": "चार्ट में स्लाइस/बारों की संख्या",
+  "selectByGeography": "भूगोल अनुसार फिल्टर शामिल करें",
+  "selectUrl": "भूगोल अनुसार फिल्टर के लिए सेवा लेयर",
+  "selectMapUrl": "भूगोल अनुसार फिल्टर के लिए सेवा",
+  "geometryServiceURL": "Geometry सेवा URL",
+  "includeFieldNames": "फील्ड्स का चयन करें",
+  "fieldNames": "फील्ड के नाम",
+  "lifecyclePhaseFieldName": "जीवनचक्र चरण",
+  "setSource": "सेट करें",
+  "defaultFieldName": "तीव्रता",
+  "warning": "गलत इनपुट",
+  "includeDefaultFieldName": "डिफ़ॉल्ट फील्ड का नाम चयनित किया जाना चाहिए",
+  "selectFieldWarning": "कम से कम एक फील्ड दिखाई देनी चाहिए",
+  "defaultFieldNotVisible": "डिफ़ॉल्ट फील्ड दिखाई देनी चाहिए",
+  "batchJobCheckGroup": "बैच जॉब जांच समूह",
+  "defaultColumn": "डिफॉल्ट",
+  "visibleColumn": "दृश्य",
+  "fieldNameColumn": "डैशबोर्ड फील्ड का नाम",
+  "aliasColumn": "उपनाम"
+});

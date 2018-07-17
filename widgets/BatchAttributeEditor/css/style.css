@@ -1,0 +1,233 @@
+@import url("customDrawBox.css");
+/*.esriPopupWrapper .title {
+    cursor: move;
+}*/
+.esriPopup .hidden {
+    display: none !important;
+}
+/*form*/
+.bae-attCombo {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/*********about attributeInspector**********/
+.jimu-widget-edit-infoWindow .esriAttributeInspector {
+    width: 100%;
+}
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .atiAttributes table {
+        width: 100%;
+    }
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitTextBox {
+        width: 100%;
+        /*height: 24px;*/
+    }
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitInputField {
+        /*line-height: 20px !important;*/
+        /*padding: 0 0 0 !important;*/
+    }
+
+   
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitTextBox .dijitInputInner {
+        /*height: 22px;
+        line-height: 22px !important;*/
+    }
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitTextBoxFocused {
+        border-color: #406b9b !important;
+        box-shadow: 0 0 0 #ffffff !important;
+    }
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitTextBoxHover {
+        background-color: #ffffff;
+        background-image: none;
+        border-color: #406b9b !important;
+    }
+    /*just for launch pad theme*/
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitArrowButton.dijitDownArrowButton.dijitArrowButtonContainer {
+        position: static !important;
+        /*height: 22px !important;*/
+    }
+
+    /*rich textbox*/
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .atiRichTextField {
+    }
+
+    .jimu-widget-edit-infoWindow .esriAttributeInspector div.dijitEditorIFrameContainer {
+        height: 78px;
+    }
+
+    /*textArea*/
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .dijitTextBox.dijitTextArea {
+        height: 32px;
+    }
+
+    /*new button in attributeInspector*/
+    .jimu-widget-edit-infoWindow .esriAttributeInspector .atiButton {
+        margin: 0 10px 0 0;
+        float: none;
+        width: auto;
+    }
+
+.jimu-rtl .jimu-widget-edit-infoWindow .esriAttributeInspector .atiButton {
+    margin: 0 0 0 45px;
+}
+/*********end attributeInspector**********/
+
+
+.solutions-widget-batcheditor .widget-draw-control {
+    margin: 10px 0px 0px 0px;
+}
+
+.solutions-widget-batcheditor .hide {
+    display: none;
+}
+
+.solutions-widget-batcheditor .widget-intro {
+    margin: 0px 5px 20px 5px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 150%;
+}
+
+/*shared*/
+.solutions-widget-batcheditor .widget-error {
+    font-size: 14px;
+    color: #8A0808;
+}
+
+.solutions-widget-batcheditor td.simple-table-td.normal-text-td.syncProcessing {
+    color: mediumorchid;
+}
+
+.solutions-widget-batcheditor td.simple-table-td.normal-text-td.syncComplete {
+    color: #777777;
+}
+
+.solutions-widget-batcheditor td.simple-table-td.normal-text-td.syncSkipped {
+    color: orange;
+}
+
+/*Layers Results*/
+.solutions-widget-batcheditor .widget-layers-table {
+    margin: 0px -14px 0px -14px;
+    font-size: 12px;
+}
+
+    .solutions-widget-batcheditor .widget-layers-table .selectioncount {
+        width: 50px;
+    }
+
+    .solutions-widget-batcheditor .widget-layers-table .layerLabel {
+        width: 185px;
+        -ms-text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+
+    .solutions-widget-batcheditor .widget-layers-table .isSelectable {
+        width: 30px;
+        padding-left: 5px;
+        padding-right: 0;
+    }
+
+.jimu-rtl .solutions-widget-batcheditor .widget-layers-table .isSelectable {
+    width: 30px;
+    padding-right: 5px !important;
+}
+
+.solutions-widget-batcheditor .widget-layers-table .actions {
+    width: 25px;
+}
+
+.solutions-widget-batcheditor .widget-layers-table .syncStatus {
+    width: auto;
+}
+
+.solutions-widget-batcheditor .widget-layers-table .maxRecordCount {
+    color: #8A0808 !important;
+    font-weight: bold !important;
+}
+.solutions-widget-batcheditor .widget-layers-table .errorSelecting {
+    color: #f3a911 !important;
+    font-weight: bold !important;
+}
+.solutions-widget-batcheditor .layerInIntro {
+    font-weight: bold;
+    color: #000000;
+}
+
+.solutions-widget-batcheditor .maxRecordInIntro {
+    color: #8A0808;
+    font-weight: bold;
+}
+/*Loading Message*/
+.solutions-widget-batcheditor .loading-indicator {
+    /* Loading status */
+    height: 100%;
+    width: 100%;
+    z-index: 500;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(128, 128, 128, 0.10);
+    background-position: center center;
+    background-image: url(../images/preloader.gif);
+    background-repeat: no-repeat;
+}
+
+/*Controls*/
+.solutions-widget-batcheditor .widget-controls {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.solutions-widget-batcheditor .clearBtn {
+    margin-right: 5px;
+    margin-left: 5px;
+    float: right !important;
+    display: inline-block !important;
+}
+
+.jimu-rtl .solutions-widget-batcheditor .clearBtn {
+    float: left !important;
+}
+
+.solutions-widget-batcheditor .widget-results {
+    font-size: 14px;
+    font-style: italic;
+    color: #777777;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.solutions-widget-batcheditor .filtered {
+    color: #000000;
+    font-weight: bold;
+}
+
+.jimu-simple-table .simple-table-title {
+    color: #000000;
+    font-weight: bold;
+    background-color: #E3E3E3;
+}
+
+.jimu-icon-edit {
+    background-image: url(../css/images/edit_gray_normal.png);
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+}
+
+    .jimu-icon-edit:hover {
+        background-image: url(../css/images/edit_gray_hover.png);
+        background-position: 0 0;
+        width: 16px;
+        height: 16px;
+    }

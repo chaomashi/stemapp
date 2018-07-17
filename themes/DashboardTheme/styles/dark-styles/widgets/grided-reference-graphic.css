@@ -1,0 +1,392 @@
+/* dropdown / select menus */
+.jimu-widget-GRGDrafter .dijitSelect .dijitArrowButton
+{
+    background-color: transparent;
+    border-color: #fafafc;
+}
+
+.jimu-widget-GRGDrafter .dijitSelect .dijitButtonContents
+{
+    background-color: transparent;
+}
+
+/* disabled input boxes */
+.jimu-widget-GRGDrafter .claro .dijitSelectHover,
+.jimu-widget-GRGDrafter .claro .dijitSelectFocused{
+  border: 1px solid #00f;
+}
+
+.jimu-widget-GRGDrafter .dijitTextBoxDisabled .dijitInputContainer  {
+     background-color: transparent; 
+}
+
+.claro .jimu-widget-GRGDrafter .dijitTextBoxHover {
+  background-color: #222;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitTextBoxFocused .dijitInputContainer {
+  background: #222;
+}
+
+/* button icons */
+
+.jimu-widget-GRGDrafter .settingBtn {
+    display: inline-block;
+    background: url('../images/GriddedReferenceGraphic/settings_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+
+.jimu-widget-GRGDrafter .settingBtn:hover {
+    background: url('../images/GriddedReferenceGraphic/settings_white_hover.png');
+}
+
+.jimu-widget-GRGDrafter .GRGNewRightButton:hover
+{
+    background: url("../images/GriddedReferenceGraphic/arrow-right_white_hover.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGNewDownButton:hover
+{
+    background: url("../images/GriddedReferenceGraphic/arrow-down_white_hover.png") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterItemLeftArrow:hover
+{
+    background-image: url('../images/GriddedReferenceGraphic/left-arrow_white.png');
+    float: left;
+    margin: 0px 5px 0px 0px;
+    width: 15px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsIcon
+{
+    height: 15px;
+    width: 15px;
+    background: url('../images/GriddedReferenceGraphic/settings_white.png');
+}
+
+.jimu-widget-GRGDrafter .GRGDrafterSettingsIcon:Hover
+{
+    background-image: url('../images/GriddedReferenceGraphic/settings_white_hover.png');
+    height: 15px;
+    width: 15px;
+    background-size: 15px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .settingsLocked
+{
+    background-image: url('../images/GriddedReferenceGraphic/settings_white_locked.png');
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    float: right;
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .editBtn {
+    float: right;
+    background: url('../images/GriddedReferenceGraphic/draw_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .editBtn:hover {
+    background: url('../images/GriddedReferenceGraphic/draw_white_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-edit-active {
+    background: url('../images/GriddedReferenceGraphic/draw_white_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .polygonBtn {
+    display: inline-block;
+    background: url('../images/GriddedReferenceGraphic/polygon_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .polygonBtn:hover {
+    background: url('../images/GriddedReferenceGraphic/polygon_white_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-polygon-active {
+    background: url('../images/GriddedReferenceGraphic/polygon_white_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .extentBtn {
+    display: inline-block;
+    background: url('../images/GriddedReferenceGraphic/extent_white.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.jimu-widget-GRGDrafter .extentBtn:hover {
+    background: url('../images/GriddedReferenceGraphic/extent_white_hover.png');
+    background-repeat: no-repeat;
+}
+
+.jimu-widget-GRGDrafter .jimu-extent-active {
+    background: url('../images/GriddedReferenceGraphic/extent_white_hover.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.jimu-widget-GRGDrafter .helpBtn:hover {
+    background: url('../images/GriddedReferenceGraphic/help_white_hover.png');
+}
+
+.jimu-widget-GRGDrafter .style-selector .bold {
+  background: url("../images/GriddedReferenceGraphic/font_B_white.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .bold.selected {
+  background: url("../images/GriddedReferenceGraphic/font_B_white_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .italic {
+  background: url("../images/GriddedReferenceGraphic/font_I_white.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .italic.selected {
+  background: url("../images/GriddedReferenceGraphic/font_I_white_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .underline {
+  background: url("../images/GriddedReferenceGraphic/font_U_white.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter .style-selector .underline.selected {
+  background: url("../images/GriddedReferenceGraphic/font_U_white_selected.svg") no-repeat;
+}
+
+.jimu-widget-GRGDrafter  .dijitSliderThumbHover{
+  background-image: url("../images/GriddedReferenceGraphic/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH {
+  background-image: url("../images/GriddedReferenceGraphic/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-GRGDrafter .dijitSliderImageHandle.dijitSliderImageHandleH.dojoMoveItem {
+  background-image: url("../images/GriddedReferenceGraphic/sliderball_white.svg");
+  background-position: 0 0;
+}
+
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderProgressBarH,
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderLeftBumper{
+  border-color: #fff;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: -o-linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+  background-image: linear-gradient(top, #fff 0px, #fff 1px, rgba(255, 255, 255, 0) 2px);
+}
+
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderRemainingBarH,
+.jimu-widget-GRGDrafter .dijitSlider .dijitSliderRightBumper{
+  border-color: #000;
+  background-color: #000;
+}
+
+.jimu-widget-GRGDrafter .jimu-tab>.control>.tab{
+	background-color: transparent !important;
+  border-bottom: 1px solid #dedede !important;
+}
+
+.jimu-widget-GRGDrafter .jimu-tab>.control>.tab.jimu-state-selected {
+	font-family: "Avenir Medium";
+  font-weight: bold;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #fff !important;
+	color: #fff;
+}
+
+/* dojo color picker */
+
+.jimu-widget-GRGDrafter .jimu-colorpalette {
+  background-color: #222;
+}
+
+.jimu-widget-GRGDrafter .jimu-color-picker-dialog .dijitTooltipContainer {
+  background-color: #222 !important;
+}
+
+.claro .jimu-widget-GRGDrafter .dojoxColorPicker {
+    background: #222;
+}
+
+/* dojo select */
+
+.claro .jimu-widget-GRGDrafter .dijitSelect{
+  background-color: #222;
+}
+.claro .jimu-widget-GRGDrafter .dijitSelectHover,
+.claro .jimu-widget-GRGDrafter .dijitSelectFocused{
+  border: 1px solid #999;
+}
+.claro .jimu-widget-GRGDrafter .dijitSelect .dijitArrowButton {
+  background-color: #222;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenu{
+  border:1px solid #999;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItem{
+  color: #fff;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItem,
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItem td{
+  background-color: #222;
+  border: 1px solid #222;
+  font-weight: normal;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItem:hover,
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItem:hover td
+ {
+  background: none;
+  background-color: #1e90ff;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenu .dijitMenuItemSelected td{
+  background: none;
+  background-color: #1e90ff;
+  font-weight: normal;
+  color: #fff;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenuItem .esriTravelModesTypeName{
+  color: #fff;
+}
+.claro .jimu-widget-GRGDrafter .dijitMenuItem .dijitMenuItemSelected td:hover .esriTravelModesTypeName{
+  color: #666;
+}
+
+/*dojo dialog box*/
+
+.claro .jimu-widget-GRGDrafter .dijitDialog {
+  background-color: #222;
+}
+.claro .jimu-widget-GRGDrafter .dijitDialogTitle {
+  color: #fff;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitDialogPaneActionBar {
+  background-color: #222;
+  border-top: none;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitDialogTitleBar {
+    border: 0px solid #222;
+    border-bottom: 1px solid #000;
+    background-color: #222;
+    background-image: none;    
+}
+.claro .jimu-widget-GRGDrafter .dijitTooltipContainer {
+    background-color: #222;
+    border: 1px solid #9a9a9a;
+    color: #fff;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitDialogPaneContent {
+    background-color: #222;
+    border: 0px solid #9a9a9a;
+    color: #fff;
+}
+.claro .jimu-widget-GRGDrafter .dijitDialogPaneContent  {
+  float: right;
+}
+
+/*tab*/
+
+.claro .jimu-widget-GRGDrafter .dijitTab{
+  background: #222;
+  color: white;
+}
+.claro .jimu-widget-GRGDrafter .dijitTabContainerTop-tabs .dijitTabChecked{
+  background: #333;
+}
+.claro .jimu-widget-GRGDrafter .dijitTabContainerTop-dijitContentPane{
+  background: #222;
+  color: white;
+}
+
+/*ComboBox*/
+
+.claro .jimu-widget-GRGDrafter .dijitComboBox .dijitButtonNode,
+.claro .jimu-widget-GRGDrafter .dijitSelect .dijitArrowButton {
+  background-image: none;
+  background-color: transparent;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitComboBox .dijitArrowButtonContainer,
+.claro .jimu-widget-GRGDrafter .dijitSelect .dijitArrowButtonContainer {
+  border-width: 0 !important;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitSelect .dijitButtonContents {
+  border-style: none;
+}
+
+/*Button*/
+
+.claro .jimu-widget-GRGDrafter .dijitButton .dijitButtonNode {
+    border: 0px solid #000000;
+    background-image: none;
+    background-color: #666;
+    padding: 5px 18px 8px 18px;
+    font-size: 14px;    
+}
+
+.claro .jimu-widget-GRGDrafter .dijitButtonHover  .dijitButtonNode {
+  background-color: #333;
+}
+
+/*tree*/
+
+.claro .jimu-widget-GRGDrafter .dijitTreeRow{
+  background-color: #333;
+  color: white;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitTabPaneWrapper, .claro .dijitToolbar{
+  background-color: #222;
+}
+
+.claro .jimu-widget-GRGDrafter .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode{
+  background-color: #666;
+}
+.claro .jimu-widget-GRGDrafter .dijitDropDownButton .dijitButtonNode,
+.claro .jimu-widget-GRGDrafter .dijitButton .dijitButtonNode,
+.claro .jimu-widget-GRGDrafter .dijitToggleButton .dijitButtonNode{
+  color: white;
+}
+.claro .jimu-widget-GRGDrafter .dijitButtonDisabled .dijitButtonNode{
+  color: #bbb;
+}
+
+.claro .jimu-widget-GRGDrafter .dgrid-header, .dgrid-header-row, .dgrid-footer {
+  background-color: #222;
+}

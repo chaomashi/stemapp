@@ -1,0 +1,66 @@
+﻿<div>
+    <div class="esriCTmainContainer">
+        <fieldset class="esriCTGeneralSettingFieldset">
+            <legend class="esriCTGeneralSettingLegend" title="${nls.legendGeneralSettingText}">
+                ${nls.legendGeneralSettingText} </legend>
+            <!-- All components of general setting -->
+            <div class="esriCTGeneralSettingComponentsDiv">
+                <!-- This part of html contains Label, Hint and icon for Graphic Location Symbol -->
+                <div class="esriCTGraphicLocationSymbolMainDiv">
+                    <div class="esriCTLocationSymbolLabelMainDiv">
+                        <div class="esriCTLocationSymbolLabel esriCTGeneralSettingLabel">
+                            ${nls.locationSymbolLabel}
+                        </div>
+                        <div class="esriCTLocationSymbolHint esriCTHint">
+                            ${nls.locationSymbolHintText}
+                        </div>
+                    </div>
+                    <!-- End of esriCTLocationSymbolLabelMainDiv -->
+                    <div class="esriCTLocationSymbolIconDiv">
+                        <div class="esriCTLocationSymbolIcon" data-dojo-attach-point="locationSymbolIconNode">
+                        </div>
+                    </div>
+                    <!-- End of esriCTLocationSymbolIconDiv -->
+                </div>
+                <!-- End of esriCTGraphicLocationSymbolMainDiv -->
+
+                <!-- This part of html contains Label, Hint and textbox for refresh interval -->
+                <div class="esriCTRefreshIntervalMainDiv">
+                    <div class="esriCTRefreshIntervalLabelMainDiv">
+                        <div class="esriCTRefreshIntervalLabel esriCTGeneralSettingLabel">
+                            ${nls.refreshIntervalLabel}
+                        </div>
+                        <div class="esriCTRefreshIntervalHint esriCTHint">
+                            ${nls.refreshIntervalHintText}
+                        </div>
+                    </div>
+                    <!-- End of esriCTRefreshIntervalLabelMainDiv -->
+                    <div class="esriCTRefreshIntervalTxtBxDiv">
+                        <input type="text" value="0"  data-dojo-attach-point="refreshIntervalTxtBx"
+                            data-dojo-type="dijit/form/NumberTextBox" trim="true" constraints="{min:0,max:1440}"
+                            data-dojo-attach-event="change:_onRefreshIntervalChanged" />
+                    </div>
+                    <!-- End of esriCTRefreshIntervalTxtBxDiv -->
+                </div>
+                <!-- End of esriCTRefreshIntervalMainDiv -->
+                
+                <!-- Show location tool -->
+                <div class="esriCTShowLocationMainDiv">
+                    <div class="esriCTShowLocationLabelMainDiv">
+                        <div class="esriCTGeneralSettingLabel">
+                            ${nls.showToolToSelectLabel}
+                        </div>
+                        <div class="esriCTHint">
+                            ${nls.showToolToSelectHintText}
+                        </div>
+                    </div>
+                    <div class="esriCTShowLocationChkBxDiv">
+                        <div class="esriCTCheckBox" checked="false" data-dojo-type="jimu/dijit/CheckBox"
+                                data-dojo-attach-point="setLocationCheckBoxNode">
+                    </div>
+                </div>
+            </div>
+            <!-- End of general setting components -->
+        </fieldset>
+    </div>
+</div>

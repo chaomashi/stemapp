@@ -1,0 +1,84 @@
+.jimu-widget-DistanceAndDirection .drawPointBtn {
+  background: url(../images/DistanceDirection/draw_white.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .drawPointBtn:hover {
+    background: url(../images/DistanceDirection/draw_white_hover.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .drawPointBtn-active{
+    background: url(../images/DistanceDirection/draw_white_hover.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .settingBtn {
+    background: url(../images/DistanceDirection/settings_white.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.jimu-widget-DistanceAndDirection .settingBtn:hover {
+    background: url('../images/DistanceDirection/settings_white_hover.png');
+}
+
+.jimu-widget-DistanceAndDirection .claro .dijitSelectDisabled, 
+.claro .dijitTextBoxDisabled, 
+.claro .dijitTextBoxDisabled .dijitInputContainer ,
+.claro .dijitTextBoxHover,
+.claro .dijitTitlePaneTitleOpen, 
+.claro .dijitTitlePaneTitleFixedOpen,
+.claro .dijitTitlePaneTitleOpen, 
+.claro .dijitTitlePaneTitleActive,
+.claro .dijitTitlePaneTitle {
+    background-color: #222;
+}
+
+.jimu-widget-DistanceAndDirection .label,
+.claro .dijitTitlePaneTitle {
+    color: #FFF;
+}
+
+.claro .dijitTitlePaneTitle {
+    background-color: #222;
+    background-image: -moz-linear-gradient(rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
+    background-image: -webkit-linear-gradient(rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
+    background-image: -o-linear-gradient(rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
+    background-image: linear-gradient(rgba(34, 34, 34, 0.7) 0%, rgba(34, 34, 34, 0) 100%);
+    color: #FFF;
+}
+
+.claro .dijitTooltipContainer {
+    border: 1px solid #999;
+}
+
+.claro .dijitTitlePane .dijitArrowNode, 
+.claro .dijitFieldset .dijitArrowNode {
+    background-image: url('../images/DistanceDirection/spriteArrows.png');
+}
+
+.claro .dijitSelect .dijitArrowButtonInner, 
+.claro .dijitComboBox .dijitArrowButtonInner {
+    background-image: url('../images/DistanceDirection/commonFormArrows.png');
+}
+
+.claro .dijitComboBox .dijitArrowButtonContainer, .claro .dijitSelect .dijitArrowButtonContainer {
+    border-left: 1px solid #999 !important;
+    border-right: 0px solid #999 !important;
+    border-top: 0px solid #999 !important;
+    border-bottom: 0px solid #999 !important;
+}
+
+
+ 
+
+ 
+
+
+
+ 
+

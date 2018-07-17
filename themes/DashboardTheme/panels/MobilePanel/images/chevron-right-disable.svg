@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-right-disable</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+        <g id="2" transform="translate(-349.000000, -465.000000)" fill="#FFFFFF">
+            <g id="chevron-right-disable" transform="translate(350.000000, 465.000000)">
+                <polygon id="Shape" points="1 0 -0.4 1.4 4.2 6 -0.4 10.6 1 12 7 6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

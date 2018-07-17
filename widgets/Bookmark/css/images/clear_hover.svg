@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Clear</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Editable-List" transform="translate(-1394.000000, -405.000000)" fill="#C21712">
+            <g id="Bookmark" transform="translate(1070.000000, 120.000000)">
+                <g id="Added-at-runtime" transform="translate(10.000000, 275.000000)">
+                    <g id="a">
+                        <g id="Clear" transform="translate(314.000000, 10.000000)">
+                            <polygon id="Shape" points="16 1.6 14.4 0 8 6.4 1.6 0 0 1.6 6.4 8 0 14.4 1.6 16 8 9.6 14.4 16 16 14.4 9.6 8"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

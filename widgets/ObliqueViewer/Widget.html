@@ -1,0 +1,27 @@
+<div class="obliqueViewerWidget">
+  <div class="obliqueViewerWidgetDiv">
+      <div id="ovMap" class="ovMap">
+        <!-- added or the overlay to show error message  -->
+        <div id="info" class="info" data-dojo-attach-point="infoDiv">
+          <div id="infoText" data-dojo-attach-point="infoDivText" >${nls.noImageNotification}</div>
+        </div>
+        <div class="obliqueRotationDivPassive" data-dojo-attach-point="rotationDivContainer">
+          <div data-dojo-attach-point="obliqueRotationDiv"></div>
+        </div>
+        <div data-dojo-attach-point="toolbar" class="toolbar">
+          <div data-dojo-attach-point="locateButtonContainer">
+          </div>   
+          <div data-dojo-attach-point="clearButtonContainer">
+          </div> 
+          <div data-dojo-attach-point="zoomButtonContainer">
+          </div>   
+          <div data-dojo-attach-point="syncButtonContainer">
+          </div>    
+          <div data-dojo-attach-point="listTitlePaneDiv" class="listDivTitlePane">     
+          </div>
+          <div data-dojo-attach-point='measureWidget' title="{nls.measureWidgetLabel}"></div>
+        </div>
+        <div class="azimuthChangeNotification" data-dojo-attach-point="notificationDiv">${nls.azimuthChangeNotification}</div>
+      </div>
+  </div>
+</div>

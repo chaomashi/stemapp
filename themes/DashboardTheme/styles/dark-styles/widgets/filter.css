@@ -1,0 +1,30 @@
+.jimu-widget-filter .filter-list .filter-item .header:hover{
+  background-color: #444;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .done{
+  background: url('../images/done.svg') no-repeat center;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .setting{
+  background: url('../images/settings_white.svg') no-repeat center;
+}
+
+.jimu-widget-filter .filter-list .filter-item .header .setting:hover{
+  background: url('../images/settings_white_hover.svg') no-repeat center;
+}
+
+.jimu-widget-filter .filter-list .filter-item{
+  border-bottom: 1px solid #444;
+}
+
+.jimu-widget-filter .filter-list .filter-item.config-parameters{
+  background-color: #000;
+}
+
+.jimu-widget-filter .custom-filter .title-part .back-list{
+  background: url(../images/arrow_left_normal.svg);
+}
+.jimu-widget-filter .custom-filter .title-part .back-list:hover{
+  background: url(../images/arrow_left_hover.svg);
+}

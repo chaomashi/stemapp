@@ -1,0 +1,22 @@
+define({
+  "_widgetLabel": "Dashboard Peninjau",
+  "spatialFilterSelection": "Filter hasil berdasarkan geografi",
+  "drawSelectionArea": "Gambarkan area pilihan hasil pada peta",
+  "currentSelection": "Tampilkan hasil hanya pada jangkauan peta saat ini",
+  "censusBlockGroup": "Tampilkan hasil berdasarkan geografi",
+  "noSpatialFilter": " Jangan gunakan filter spasial",
+  "reviewerSessionFilter": "Filter hasil berdasarkan Sesi Peninjau",
+  "selectAttributeFilters": "Pilih informasi untuk ditampilkan",
+  "phaseFieldName": "lifecyclephase",
+  "statusFieldName": "lifecyclestatus",
+  "allSessions": "Semua Sesi",
+  "dashboardTab": "Dashboard",
+  "filtersTab": "Pengaturan",
+  "noResults": "Tidak Ada Hasil yang Ditemukan",
+  "resultsBy": "Hasil berdasarkan: ",
+  "reviewed": "Tinjau",
+  "corrected": "Perbaikan",
+  "verified": "Verifikasi",
+  "OtherCategory": "Lainnya",
+  "backButton": "Kembali"
+});

@@ -1,0 +1,34 @@
+<div>
+  <span class="title">${nls.presetDestinations}</span>
+  <table style="width:100%;" cellspacing="0">
+    <tbody>
+    <tr>
+      <td style="width:50%;">
+        <table style="width:100%;" cellspacing="0">
+          <tbody>
+          <tr>
+            <td style="width:200px;">
+              <span class="impedance-attribute jimu-ellipsis">${nls.startPoint}</span>
+            </td>
+            <td style="width:auto;">
+              <span data-dojo-attach-point="startSearchDom" style="width:220px;"></span>
+              <div data-dojo-attach-point="startSearchResultsNode" class="searchResults arcgisSearch"></div>
+              <!--<div data-dojo-attach-point="startSearchError" class="hide preset-des-error">No Results</div>-->
+            </td>
+
+            <td style="width:200px;">
+              <span class="impedance-attribute jimu-ellipsis">${nls.endPoint}</span>
+            </td>
+            <td style="width:auto;">
+              <span data-dojo-attach-point="endSearchDom" class="end-search" style="width:220px;"></span>
+              <div data-dojo-attach-point="endSearchResultsNode" class="searchResults arcgisSearch"></div>
+              <!--<div data-dojo-attach-point="endSearchError" class="hide preset-des-error">No Results</div>-->
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
