@@ -206,13 +206,6 @@
         "url": "http://218.2.231.245/mapjs2/rest/services/MapJS/js_yxzj_2016/MapServer",
         "visible": false,
         "icon": ""
-      },
-      {
-        "label": "土地利用现状2016",
-        "type": "tiled",
-        "url": "http://172.24.19.181:6080/arcgis/rest/services/TDLY/TDLY_2016_2K/MapServer",
-        "visible": false,
-        "icon": ""
       }
     ]
   },
